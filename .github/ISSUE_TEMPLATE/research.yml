@@ -1,0 +1,25 @@
+name: Research source proposal
+description: Propose a first-party source or catalog expansion
+title: "[Research] "
+labels: ["research"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Canonical first-party URL
+    validations:
+      required: true
+  - type: textarea
+    id: value
+    attributes:
+      label: Expected value
+      description: What new verified information would this add?
+    validations:
+      required: true
+  - type: checkboxes
+    id: safety
+    attributes:
+      label: Safety confirmation
+      options:
+        - label: This proposal does not request automatic execution, installation, activation, or secret access.
+          required: true
