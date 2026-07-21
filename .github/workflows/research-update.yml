@@ -1,6 +1,10 @@
-name: Read-only research update
+name: Repository quality and read-only research policy
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
   schedule:
     - cron: "43 6 * * 1,4"
   workflow_dispatch:
@@ -8,25 +12,27 @@ on:
 permissions:
   contents: read
 
+concurrency:
+  group: quality-${{ github.repository }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
-  inventory:
+  validate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 5
     steps:
       - name: Checkout metadata repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
         with:
           persist-credentials: false
-      - name: Validate policy and release baseline
+      - name: Run deterministic offline quality gate
+        run: python scripts/check_repository_quality.py
+      - name: Validate research boundaries
         shell: bash
         run: |
           set -euo pipefail
           test -f sources/official.yml
-          test -f releases/baseline.yml
-          test -f SECURITy.md
+          test -f SECURITY.md\n          test -f releases/baseline.yml
           grep -q "execute_discovered_code: false" sources/official.yml
           grep -q "install_discovered_code: false" sources/official.yml
-      - name: Record scope
-        run: |
-          echo "This workflow performs validation only."
-          echo "It does not execute or install discovered upstream code."
+          echo "Validation only: discovered upstream code is not executed or installed."
