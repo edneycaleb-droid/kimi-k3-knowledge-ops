@@ -1,0 +1,29 @@
+name: Catalog or validation defect
+description: Report incorrect provenance, catalog data, or validation behavior
+title: "[Defect] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include secrets or undisclosed vulnerabilities. Use SECURITY.md for private reporting.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What is incorrect and where?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Canonical source
+      description: First-party URL supporting the correction
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Deterministic reproduction
+      description: Commands or file checks that reproduce the defect
+    validations:
+      required: true
