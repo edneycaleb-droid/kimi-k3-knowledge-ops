@@ -1,0 +1,23 @@
+schema_version: 1
+project: kimi-k3
+milestones:
+  - id: launch
+    date: 2026-07-16
+    status: announced
+    provenance:
+      - https://www.kimi.com/en
+      - https://www.kimi.com/blog/
+  - id: weights
+    date: 2026-07-27
+    status: scheduled
+    provenance:
+      - https://www.kimi.com/blog/
+availability:
+  as_of: 2026-07-16
+  surfaces:
+    - Kimi
+    - Kimi Work
+    - Kimi Code
+    - API
+notes:
+  - Scheduled dates are tracked as claims until independently revalidated after the date.
