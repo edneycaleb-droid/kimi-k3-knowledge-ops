@@ -1,0 +1,28 @@
+schema_version: 1
+project: kimi-k3
+policy: official-first
+sources:
+  - id: kimi-product
+    type: web
+    url: https://www.kimi.com/en
+    authority: official
+  - id: kimi-research
+    type: web
+    url: https://www.kimi.com/blog/
+    authority: official
+  - id: kimi-code
+    type: git
+    url: https://github.com/MoonshotAI/kimi-code
+    authority: official
+claims:
+  launch_date: 2026-07-16
+  weights_scheduled_date: 2026-07-27
+  availability:
+    - Kimi
+    - Kimi Work
+    - Kimi Code
+    - API
+automation:
+  mode: read-only
+  execute_discovered_code: false
+  install_discovered_code: false
