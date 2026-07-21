@@ -1,0 +1,32 @@
+name: Read-only research update
+
+on:
+  schedule:
+    - cron: "43 6 * * 1,4"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout metadata repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Validate policy and release baseline
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f sources/official.yml
+          test -f releases/baseline.yml
+          test -f SECURITy.md
+          grep -q "execute_discovered_code: false" sources/official.yml
+          grep -q "install_discovered_code: false" sources/official.yml
+      - name: Record scope
+        run: |
+          echo "This workflow performs validation only."
+          echo "It does not execute or install discovered upstream code."
