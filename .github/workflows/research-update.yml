@@ -32,7 +32,8 @@ jobs:
         run: |
           set -euo pipefail
           test -f sources/official.yml
-          test -f SECURITY.md\n          test -f releases/baseline.yml
+          test -f SECURITY.md
+          test -f releases/baseline.yml
           grep -q "execute_discovered_code: false" sources/official.yml
           grep -q "install_discovered_code: false" sources/official.yml
           echo "Validation only: discovered upstream code is not executed or installed."
