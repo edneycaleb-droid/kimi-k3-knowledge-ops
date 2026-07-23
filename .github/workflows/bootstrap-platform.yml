@@ -13,9 +13,7 @@ jobs:
         with:
           python-version: "3.12"
       - name: Materialize tested platform
-        run: |
-          python .bootstrap/repair.py
-          python .bootstrap/materialize.py
+        run: python .bootstrap/materialize.py
       - name: Verify exact materialized tree
         env:
           PYTHONPATH: src
