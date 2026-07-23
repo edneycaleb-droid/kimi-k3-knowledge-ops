@@ -1,4 +1,3 @@
-
 """Incrementally load official GitHub repository events with dlt's verified source.
 
 Bootstrap once in a clean working tree:
@@ -29,6 +28,22 @@ def split_repository(full_name: str) -> tuple[str, str]:
     return owner, name
 
 
+def _emit_github_error(exc: Exception, secret: str | None = None) -> None:
+    message = f"{type(exc).__name__}: {exc}"
+    if secret:
+        message = message.replace(secret, "***")
+    message = (
+        message.replace("%", "%25")
+        .replace("\r", "%0D")
+        .replace("\n", "%0A")
+    )
+    print(
+        f"::error file=pipelines/github_verified_pipeline.py,line=1,"
+        f"title=dlt verified GitHub load::{message}",
+        flush=True,
+    )
+
+
 def main() -> None:
     try:
         import dlt
@@ -40,9 +55,15 @@ def main() -> None:
         ) from exc
 
     config = load_project_config(os.getenv("KNOWLEDGE_OPS_CONFIG", "config/project.json"))
-    destination = os.getenv("DLT_DESTINATION", "duckdb")
+    destination_name = os.getenv("DLT_DESTINATION", "duckdb")
     dataset_name = os.getenv("DLT_DATASET_NAME", config["dataset_name"])
     access_token = os.getenv("GITHUB_TOKEN") or os.getenv("SOURCES__GITHUB__ACCESS_TOKEN")
+    if destination_name == "duckdb":
+        destination: Any = dlt.destinations.duckdb(
+            credentials=os.getenv("DLT_DUCKDB_PATH", "knowledge_ops.duckdb")
+        )
+    else:
+        destination = destination_name
     pipeline = dlt.pipeline(
         pipeline_name=f"{config['project_id'].replace('-', '_')}_github_events",
         destination=destination,
@@ -56,4 +77,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as error:
+        _emit_github_error(
+            error,
+            os.getenv("GITHUB_TOKEN") or os.getenv("SOURCES__GITHUB__ACCESS_TOKEN"),
+        )
+        raise
