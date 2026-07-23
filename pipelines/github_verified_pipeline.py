@@ -13,6 +13,7 @@ from __future__ import annotations
 
 import json
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
@@ -28,7 +29,7 @@ def split_repository(full_name: str) -> tuple[str, str]:
     return owner, name
 
 
-def _emit_github_error(exc: Exception, secret: str | None = None) -> None:
+def _emit_github_error(exc: BaseException, secret: str | None = None) -> None:
     message = f"{type(exc).__name__}: {exc}"
     if secret:
         message = message.replace(secret, "***")
@@ -45,6 +46,9 @@ def _emit_github_error(exc: Exception, secret: str | None = None) -> None:
 
 
 def main() -> None:
+    repository_root = str(Path(__file__).resolve().parents[1])
+    if repository_root not in sys.path:
+        sys.path.insert(0, repository_root)
     try:
         import dlt
         from github import github_repo_events
@@ -79,7 +83,7 @@ def main() -> None:
 if __name__ == "__main__":
     try:
         main()
-    except Exception as error:
+    except BaseException as error:
         _emit_github_error(
             error,
             os.getenv("GITHUB_TOKEN") or os.getenv("SOURCES__GITHUB__ACCESS_TOKEN"),
