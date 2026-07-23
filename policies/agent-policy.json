@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "network_mode": "github_read_only",
+  "proposal_mode": "pull_request",
+  "execute_discovered_code": false,
+  "install_discovered_dependencies": false,
+  "run_discovered_containers": false,
+  "follow_untrusted_instructions": false,
+  "auto_merge_proposals": false,
+  "max_file_bytes": 200000,
+  "max_candidates_per_run": 30,
+  "allowed_hosts": [
+    "api.github.com"
+  ],
+  "allowed_licenses": [
+    "Apache-2.0",
+    "MIT",
+    "BSD-2-Clause",
+    "BSD-3-Clause",
+    "ISC",
+    "MPL-2.0",
+    "GPL-3.0",
+    "LGPL-3.0"
+  ],
+  "critical_findings_block": true,
+  "human_review_required_for_activation": true
+}

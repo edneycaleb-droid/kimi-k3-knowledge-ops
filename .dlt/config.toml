@@ -1,0 +1,6 @@
+
+[runtime]
+log_level = "INFO"
+
+[destination.duckdb]
+credentials = "knowledge_ops.duckdb"

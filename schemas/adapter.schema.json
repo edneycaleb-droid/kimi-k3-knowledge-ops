@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Knowledge Ops Disabled Adapter",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "status",
+    "source_repository",
+    "execution"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "status": {
+      "const": "disabled_pending_review"
+    },
+    "source_repository": {
+      "type": "string",
+      "pattern": "^[^/]+/[^/]+$"
+    },
+    "source_url": {
+      "type": "string",
+      "pattern": "^https://github\\.com/"
+    },
+    "categories": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "execution": {
+      "type": "object",
+      "required": [
+        "enabled",
+        "auto_install",
+        "auto_execute",
+        "activation_requires_human_approval"
+      ],
+      "properties": {
+        "enabled": {
+          "const": false
+        },
+        "auto_install": {
+          "const": false
+        },
+        "auto_execute": {
+          "const": false
+        },
+        "activation_requires_human_approval": {
+          "const": true
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": true
+}

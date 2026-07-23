@@ -1,0 +1,32 @@
+{
+  "candidate_quality_score": 80,
+  "compatibility_targets": [
+    "kimi-k3",
+    "kimi-code",
+    "mcp",
+    "python",
+    "typescript",
+    "openai-compatible"
+  ],
+  "createos_unique_name": "kimi-k3-knowledge-ops",
+  "dataset_name": "kimi_k3_github_intelligence",
+  "display_name": "Kimi K3 Knowledge Ops",
+  "max_results_per_query": 6,
+  "min_quality_score": 60,
+  "project_id": "kimi-k3",
+  "schema_version": 1,
+  "search_queries": [
+    "\"Kimi K3\" in:name,description,readme",
+    "\"Kimi Code\" in:name,description,readme",
+    "\"model context protocol\" kimi in:name,description,readme",
+    "topic:mcp-server language:python stars:>10",
+    "topic:mcp-server language:typescript stars:>10",
+    "\"agent skill\" topic:ai-agent stars:>10"
+  ],
+  "seed_repositories": [
+    "MoonshotAI/kimi-code"
+  ],
+  "trusted_owners": [
+    "MoonshotAI"
+  ]
+}

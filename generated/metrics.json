@@ -1,0 +1,9 @@
+{
+  "status": "awaiting_first_run",
+  "agents": {},
+  "safety": {
+    "executed_discovered_code": false,
+    "installed_discovered_dependencies": false,
+    "auto_merged": false
+  }
+}

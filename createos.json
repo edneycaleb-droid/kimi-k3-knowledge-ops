@@ -1,0 +1,22 @@
+{
+  "type": "vcs",
+  "settings": {
+    "runtime": "python:3.12",
+    "port": 3000,
+    "directoryPath": ".",
+    "installCommand": "python -m pip install --no-cache-dir -e .",
+    "buildCommand": "python -m compileall -q src && python scripts/quality_gate.py && python scripts/security_gate.py",
+    "runCommand": "python -m knowledge_ops.service",
+    "hasDockerfile": true,
+    "useBuildAI": false
+  },
+  "health": {
+    "path": "/health",
+    "readinessPath": "/ready"
+  },
+  "security": {
+    "enabledSecurityScan": true
+  },
+  "uniqueName": "kimi-k3-knowledge-ops",
+  "displayName": "Kimi K3 Knowledge Ops"
+}
