@@ -1,0 +1,37 @@
+name: Bootstrap tested agent platform
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - name: Materialize tested platform
+        run: |
+          python .bootstrap/repair.py
+          python .bootstrap/materialize.py
+      - name: Verify exact materialized tree
+        env:
+          PYTHONPATH: src
+        run: |
+          python -m compileall -q src pipelines scripts tests
+          python -m unittest discover -s tests -v
+          python scripts/quality_gate.py
+          python scripts/security_gate.py
+      - name: Commit verified platform core
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "knowledge-ops[bot]"
+          git config user.email "knowledge-ops[bot]@users.noreply.github.com"
+          git checkout HEAD -- .github/workflows/bootstrap-platform.yml
+          git add -A
+          git restore --staged             .github/workflows/agent-platform.yml             .github/workflows/autonomous-research.yml             .github/workflows/dlt-ingestion.yml
+          git commit -m "feat: build autonomous knowledge-ops agent platform core"
+          git push origin HEAD:main
