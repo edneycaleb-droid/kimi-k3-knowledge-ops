@@ -1,0 +1,65 @@
+name: Autonomous review-gated research
+
+on:
+  schedule:
+    - cron: \"7,37 * * * *\"
+  workflow_dispatch:
+
+concurrency:
+  group: autonomous-research
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7.0.1
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v6
+        with:
+          python-version: \"3.12\"
+          cache: pip
+      - name: Install platform
+        run: python -m pip install -e .
+      - name: Run all eleven agents
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python -m knowledge_ops --output generated
+      - name: Re-run safety and quality gates
+        run: |
+          python -m unittest discover -s tests -v
+          python scripts/quality_gate.py
+          python scripts/security_gate.py
+      - name: Create or refresh review pull request
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- generated && [ -z \"$(git status --porcelain -- generated)\" ]; then
+            echo \"No knowledge changes.\"
+            exit 0
+          fi
+          branch=\"automation/knowledge-research\"
+          git config user.name \"knowledge-ops[bot]\"
+          git config user.email \"knowledge-ops[bot]@users.noreply.github.com\"
+          git checkout -B \"$branch\"
+          git add generated
+          git commit -m \"chore: refresh review-gated knowledge proposals\"
+          git push --force origin \"HEAD:$branch\"
+          existing=\"$(gh pr list --head \"$branch\" --state open --json number --jq '.[0].number // empty')\"
+          if [ -z \"$existing\" ]; then
+            gh pr create \\\
+              --base main \\\
+              --head \"$branch\" \\\
+              --title \"chore: refresh review-gated knowledge proposals\" \\\
+              --body \"Automated GitHub discovery and static analysis. No discovered code was installed or executed. Every adapter remains disabled pending human review.\"
+          else
+            gh pr comment \"$existing\" --body \"Research outputs refreshed. Safety invariants remain enforced.\"
+          fi
