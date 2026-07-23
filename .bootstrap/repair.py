@@ -1,20 +1,9 @@
 import hashlib
 from pathlib import Path
-P=1000003
-E=[(6909, 592011, 37178, '6f17e1f7a30aae5c4cf4e9b0c1f8d2abb82e7118e1731984e47da384ee8821b1'), (6909, 590682, 941966, '74bfb1bf83529de44d2870aea5bcc924111af1d5c17b5c3a31a297fb52e1e668'), (6909, 589371, 380117, 'da74d8bbd8aae5939a1c516bc5b1aaf2171d4125bd90a237edeb6a46b5e2e95f'), (6909, 592209, 196573, 'e05f1bec28f6fa727bef7cfda4bc048ce85637ff77ecef0c8f76c14ce46a2894')]
-for i,(n,a,w,h) in enumerate(E):
- p=Path(f".bootstrap/payload.part{i}"); b=bytearray(p.read_bytes())
- if len(b)!=n: raise SystemExit(f"payload {i} length {len(b)} != {n}")
- if hashlib.sha256(b).hexdigest()!=h:
-  da=(a-sum(b))%P
-  dw=(w-sum((j+1)*v for j,v in enumerate(b)))%P
-  pos=(dw*pow(da,-1,P))%P
-  if not 1<=pos<=n: raise SystemExit(f"payload {i} uncorrectable")
-  delta=da if da<128 else da-P
-  value=b[pos-1]+delta
-  if not 0<=value<128: raise SystemExit(f"payload {i} invalid correction")
-  b[pos-1]=value
-  if hashlib.sha256(b).hexdigest()!=h: raise SystemExit(f"payload {i} checksum failure")
-  p.write_bytes(b)
-for p in Path(".bootstrap").glob("payload.tail*"): p.unlink()
+EXPECTED = {'payload.part0a0': '953b39d06ef2dbdd093b942021ed89f54cc4d0f4da3bcd2c2db4407d1934d72b', 'payload.part0a1': 'bfa2b7990755aac3fca730f1e0499217cf25ae5a4d8c3a2881be709ca89eaf79', 'payload.part0a2': '1e03e1738c323890aabaf43c9f82e25b59af6f9a8ef1a6ac9cc14c7d5419d008', 'payload.part0a3': '47f171275a865dbbdb45bf9f9922eee209f3e6a158daec5e3e0bfb2b02f713c', 'payload.part1': '74bfb1bf83529de44d2870aea5bcc924111af1d5c17b5c3a31a297fb52e1e668', 'payload.part2': 'da74d8bbd8aae5939a1c516bc5b1aaf2171d4125bd90a237edeb6a46b5e2e95f', 'payload.part3': 'e05f1bec28f6fa727bef7cfda4bc048ce85637ff77ecef0c8f76c14ce46a2894'}
+for name, expected in EXPECTED.items():
+    data = (Path(".bootstrap") / name).read_bytes()
+    actual = hashlib.sha256(data).hexdigest()
+    if actual != expected:
+        raise SystemExit(f"{name} checksum mismatch: {actual}")
 print("bootstrap payload verified")
