@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/skill-repo-skill",
+  "canonical_repository": "netresearch/skill-repo-skill",
+  "canonical_url": "https://github.com/netresearch/skill-repo-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:07:21.549284Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "40565d3d7bbb88fd405268a5cbbaf3dee1c4224c4275bc04e60d1852dff79d4c",
+  "sampled_file_digests": {
+    "README.md": "151717ef7651061c16dd43b25123bb150e4abf8e9b098d3cab48cc68d6aa3eb8",
+    "package.json": "ce024ac608c60b371e41b79a8b47d844c96708c2bf05a35867b41011be644019"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

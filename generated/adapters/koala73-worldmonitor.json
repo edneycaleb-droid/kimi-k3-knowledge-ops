@@ -1,0 +1,120 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date",
+    "https://api.star-history.com/svg?repos=koala73/worldmonitor&type=Date&theme=dark",
+    "https://api.worldmonitor.app",
+    "https://commodity.worldmonitor.app",
+    "https://contrib.rocks/image?repo=koala73/worldmonitor",
+    "https://energy.worldmonitor.app",
+    "https://finance.worldmonitor.app",
+    "https://fsf.org/",
+    "https://github.com/koala73)",
+    "https://github.com/koala73/worldmonitor",
+    "https://github.com/koala73/worldmonitor.git",
+    "https://github.com/koala73/worldmonitor/graphs/contributors",
+    "https://github.com/koala73/worldmonitor/issues)",
+    "https://github.com/koala73/worldmonitor/releases/latest",
+    "https://happy.worldmonitor.app",
+    "https://img.shields.io/badge/CLI-npx%20worldmonitor-CB3837?style=for-the-badge&logo=npm&logoColor=white",
+    "https://img.shields.io/badge/Commodity_Variant-commodity.worldmonitor.app-b45309?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/Discord-Join-5865F2?style=flat&logo=discord&logoColor=white)](https://discord.gg/re63kWKxaz)",
+    "https://img.shields.io/badge/Download-Linux_(.AppImage)-FCC624?style=for-the-badge&logo=linux&logoColor=black",
+    "https://img.shields.io/badge/Download-Windows_(.exe)-0078D4?style=for-the-badge&logo=windows&logoColor=white",
+    "https://img.shields.io/badge/Download-macOS_Apple_Silicon-000000?style=for-the-badge&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/Download-macOS_Intel-555555?style=for-the-badge&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/Energy_Variant-energy.worldmonitor.app-eab308?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/Finance_Variant-finance.worldmonitor.app-059669?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/Happy_Variant-happy.worldmonitor.app-f59e0b?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/License-AGPL%20v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)",
+    "https://img.shields.io/badge/Tech_Variant-tech.worldmonitor.app-0891b2?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)",
+    "https://img.shields.io/badge/Web_App-worldmonitor.app-blue?style=for-the-badge&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/badge/go%20get-sdk%2Fgo-00ADD8?style=for-the-badge&logo=go&logoColor=white",
+    "https://img.shields.io/gem/v/worldmonitor?style=for-the-badge&logo=rubygems&logoColor=white&label=gem%20install%20worldmonitor&color=E9573F",
+    "https://img.shields.io/github/last-commit/koala73/worldmonitor)](https://github.com/koala73/worldmonitor/commits/main)",
+    "https://img.shields.io/github/stars/koala73/worldmonitor?style=social)](https://github.com/koala73/worldmonitor/stargazers)",
+    "https://img.shields.io/github/v/release/koala73/worldmonitor?style=flat)](https://github.com/koala73/worldmonitor/releases/latest)",
+    "https://img.shields.io/npm/v/worldmonitor?logo=npm&label=npm)](https://www.npmjs.com/package/worldmonitor)",
+    "https://img.shields.io/npm/v/worldmonitor?style=for-the-badge&logo=npm&logoColor=white&label=npm%20i%20worldmonitor&color=CB3837",
+    "https://img.shields.io/pypi/v/worldmonitor-sdk?style=for-the-badge&logo=pypi&logoColor=white&label=pip%20install%20worldmonitor-sdk&color=3775A9",
+    "https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go",
+    "https://pkg.go.dev/github.com/koala73/worldmonitor/sdk/go)",
+    "https://pypi.org/project/worldmonitor-sdk/"
+  ],
+  "environment_variable_names": [
+    "ACLED_ACCESS_TOKEN",
+    "AISSTREAM_API_KEY",
+    "CLOUDFLARE_API_TOKEN",
+    "DEV_PORT",
+    "EIA_API_KEY",
+    "FINNHUB_API_KEY",
+    "FRED_API_KEY",
+    "GH_TOKEN",
+    "GROQ_API_KEY",
+    "LLM_API_KEY",
+    "LLM_API_URL",
+    "LOCAL_API_PORT",
+    "NASA_FIRMS_API_KEY",
+    "OPENROUTER_API_KEY",
+    "PORT",
+    "REDIS_TOKEN",
+    "SELF_HOSTING",
+    "SRH_TOKEN",
+    "TRAVELPAYOUTS_API_TOKEN",
+    "UCDP_ACCESS_TOKEN",
+    "UPSTASH_REDIS_REST_TOKEN",
+    "UPSTASH_REDIS_REST_URL",
+    "WM_PORT",
+    "WS_RELAY_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Live global intelligence: real-time markets, conflicts, country risk, chokepoints, energy. 39 tools.",
+      "name": "app.worldmonitor/mcp",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://worldmonitor.app/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/koala73/worldmonitor"
+      },
+      "title": "World Monitor",
+      "version": "1.15.0",
+      "websiteUrl": "https://www.worldmonitor.app"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/koala73-worldmonitor.json",
+  "schema_version": 1,
+  "source_repository": "koala73/worldmonitor",
+  "source_url": "https://github.com/koala73/worldmonitor",
+  "status": "disabled_pending_review"
+}

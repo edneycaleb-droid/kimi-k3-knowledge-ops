@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Arikazei/context-mode-app",
+  "canonical_repository": "Arikazei/context-mode-app",
+  "canonical_url": "https://github.com/Arikazei/context-mode-app",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:35.417194Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1364c51ebc2035a1a570024b5a3bd0b99a085af64f9c59b8bafc0c2bee254f2d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e036684e82d00e6f612fdf1dded8ed687fb16e2c3af2ce289562db3de4b8f55e",
+    "LICENSE": "92f11a867c41c9e575ccb978ff205ae2011c244a14aa3c576e914e537105caa0",
+    "README.md": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+    "package.json": "f0a96c5affd66f5334f2f4cd5a1270e65018a0b83317b4e752cd6f60cdba8680"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

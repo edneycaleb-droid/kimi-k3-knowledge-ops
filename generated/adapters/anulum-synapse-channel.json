@@ -1,0 +1,119 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent.example.com/a2a/v1",
+    "https://anulum.github.io/synapse-channel",
+    "https://anulum.github.io/synapse-channel/",
+    "https://anulum.github.io/synapse-channel/comparison/)",
+    "https://anulum.github.io/synapse-channel/faq/)",
+    "https://anulum.github.io/synapse-channel/glossary/)",
+    "https://anulum.github.io/synapse-channel/paranoid-mode/)",
+    "https://anulum.github.io/synapse-channel/troubleshooting/)",
+    "https://anulum.github.io/synapse-channel/use-cases/)",
+    "https://anulum.github.io/synapse-channel/wasm-sandbox-getting-started/).",
+    "https://api.reuse.software/badge/github.com/anulum/synapse-channel",
+    "https://api.reuse.software/info/github.com/anulum/synapse-channel",
+    "https://api.securityscorecards.dev/projects/github.com/anulum/synapse-channel/badge",
+    "https://buymeacoffee.com/anulum",
+    "https://buymeacoffee.com/anulum)",
+    "https://codecov.io/gh/anulum/synapse-channel",
+    "https://codecov.io/gh/anulum/synapse-channel/branch/main/graph/badge.svg",
+    "https://doi.org/10.5281/zenodo.20801559",
+    "https://fsf.org/",
+    "https://github.com/anulum/synapse-channel",
+    "https://github.com/anulum/synapse-channel/actions/workflows/ci.yml",
+    "https://github.com/anulum/synapse-channel/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/anulum/synapse-channel/actions/workflows/clients-cockpit.yml",
+    "https://github.com/anulum/synapse-channel/actions/workflows/clients-cockpit.yml/badge.svg",
+    "https://github.com/anulum/synapse-channel/actions/workflows/codeql.yml",
+    "https://github.com/anulum/synapse-channel/actions/workflows/codeql.yml/badge.svg",
+    "https://github.com/anulum/synapse-channel/actions/workflows/fuzz.yml",
+    "https://github.com/anulum/synapse-channel/actions/workflows/fuzz.yml/badge.svg",
+    "https://github.com/anulum/synapse-channel/actions/workflows/link-check.yml",
+    "https://github.com/anulum/synapse-channel/actions/workflows/link-check.yml/badge.svg",
+    "https://github.com/anulum/synapse-channel/blob/main/CHANGELOG.md",
+    "https://github.com/anulum/synapse-channel/issues",
+    "https://github.com/astral-sh/ruff",
+    "https://github.com/sponsors/anulum)",
+    "https://go.twint.ch/1/e/tw?tw=acq.lJTAypb8SL2s8vPg7fL0ubi2C220ajOH0BEQn1aKfEJIiIakLpt8jlEv8XdQ9tCp.)",
+    "https://img.shields.io/badge/License-AGPL%20v3-blue.svg",
+    "https://img.shields.io/badge/View_plans_%26_buy-remanentia.com%2Fsynapse-0a7d3c?style=for-the-badge",
+    "https://img.shields.io/badge/commercial%20licence-available-0a7d3c",
+    "https://img.shields.io/badge/python-3.10%2B-blue",
+    "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json"
+  ],
+  "environment_variable_names": [
+    "CODECOV_TOKEN",
+    "HOST",
+    "SYNAPSE_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Local-first multi-agent coordination for messages, leases, shared plans, status, and resources.",
+      "name": "io.github.anulum/synapse-channel",
+      "packages": [
+        {
+          "identifier": "synapse-channel",
+          "registryType": "pypi",
+          "runtimeArguments": [
+            {
+              "name": "--with",
+              "type": "named",
+              "value": "mcp>=1.28.0"
+            }
+          ],
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.99.13"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/anulum/synapse-channel"
+      },
+      "title": "SYNAPSE CHANNEL",
+      "version": "0.99.13",
+      "websiteUrl": "https://anulum.github.io/synapse-channel/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/anulum-synapse-channel.json",
+  "schema_version": 1,
+  "source_repository": "anulum/synapse-channel",
+  "source_url": "https://github.com/anulum/synapse-channel",
+  "status": "disabled_pending_review"
+}

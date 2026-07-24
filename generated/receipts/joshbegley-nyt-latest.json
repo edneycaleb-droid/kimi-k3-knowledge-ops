@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/joshbegley/nyt-latest",
+  "canonical_repository": "joshbegley/nyt-latest",
+  "canonical_url": "https://github.com/joshbegley/nyt-latest",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:16.892074Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "48bfeb05ace34340fc54cd778c7ffa16fa5893c4856cbdada01e5354754519bf",
+  "sampled_file_digests": {
+    "README.md": "6af86b5a16f5f17f233c31f69d54eafbba7f58340e743157e64501ae961030d7"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

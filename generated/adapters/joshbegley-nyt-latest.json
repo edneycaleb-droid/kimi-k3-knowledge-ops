@@ -1,0 +1,71 @@
+{
+  "categories": [
+    "uncategorized"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://www.nytimes.com/2026/07/24/arts/music/conor-oberst-bright-eyes-interview-popcast.html",
+    "https://www.nytimes.com/2026/07/24/briefing/a-big-day-for-math.html",
+    "https://www.nytimes.com/2026/07/24/business/china-europe-rare-earths.html",
+    "https://www.nytimes.com/2026/07/24/business/credit-card-debt-collection-lawsuits.html",
+    "https://www.nytimes.com/2026/07/24/business/dealbook/trump-trade-war-economy.html",
+    "https://www.nytimes.com/2026/07/24/business/investing-stocks-trump-politics.html",
+    "https://www.nytimes.com/2026/07/24/business/iran-war-tariffs-economy.html",
+    "https://www.nytimes.com/2026/07/24/business/russian-lng-european-union.html",
+    "https://www.nytimes.com/2026/07/24/business/tour-de-france-amaury-aso.html",
+    "https://www.nytimes.com/2026/07/24/business/trump-interest-rates-bonds.html",
+    "https://www.nytimes.com/2026/07/24/crosswords/connections-companion-1140.html",
+    "https://www.nytimes.com/2026/07/24/crosswords/strands-sidekick-874.html",
+    "https://www.nytimes.com/2026/07/24/crosswords/wordle-review-1862.html",
+    "https://www.nytimes.com/2026/07/24/learning/summer-reading-contest-week-8-what-got-your-attention-in-the-times-this-week.html",
+    "https://www.nytimes.com/2026/07/24/nyregion/food-stamp-restrictions-affect-more-than-22000-new-yorkers.html",
+    "https://www.nytimes.com/2026/07/24/nyregion/nyc-climate-change-mamdani.html",
+    "https://www.nytimes.com/2026/07/24/opinion/elon-musk-odyssey-ai.html",
+    "https://www.nytimes.com/2026/07/24/opinion/ezra-klein-podcast-morris-katz.html",
+    "https://www.nytimes.com/2026/07/24/opinion/native-american-land-acknowledgment.html",
+    "https://www.nytimes.com/2026/07/24/pageoneplus/corrections-july-24-2026.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/best-books-so-far.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/hardfork-hugging-face-openai.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/the-daily/trump-accounts.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/the-headlines/the-headlines-news-quiz-jul-24-2026.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/the-headlines/trump-new-tariffs-popcorn-bucket.html",
+    "https://www.nytimes.com/2026/07/24/podcasts/the-odyssey-wesley-morris-cannonball.html",
+    "https://www.nytimes.com/2026/07/24/realestate/for-profit-affordable-housing-ascent.html",
+    "https://www.nytimes.com/2026/07/24/technology/meta-facebook-marketplace-seller.html",
+    "https://www.nytimes.com/2026/07/24/theater/debra-winger-arliss-howard-gin-game.html",
+    "https://www.nytimes.com/2026/07/24/us/colt-gray-apalachee-high-school-shooting-guilty-plea.html",
+    "https://www.nytimes.com/2026/07/24/us/nolan-wells-black-parents-concerns.html",
+    "https://www.nytimes.com/2026/07/24/us/politics/democrats-trump-election-interference.html",
+    "https://www.nytimes.com/2026/07/24/us/politics/merck-hiv-pill.html",
+    "https://www.nytimes.com/2026/07/24/us/politics/trump-lindsey-graham-sister-darline-senate.html",
+    "https://www.nytimes.com/2026/07/24/us/spiderman-wheelchair-jonesboro-arkansas.html",
+    "https://www.nytimes.com/2026/07/24/well/hate-summer-tips.html",
+    "https://www.nytimes.com/2026/07/24/world/asia/bangladesh-president-resigns.html",
+    "https://www.nytimes.com/2026/07/24/world/asia/india-cockroach-party-cjp-protest-memes.html",
+    "https://www.nytimes.com/2026/07/24/world/asia/korea-chey-tae-won-sk-hynix-divorce.html",
+    "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/joshbegley-nyt-latest.json",
+  "schema_version": 1,
+  "source_repository": "joshbegley/nyt-latest",
+  "source_url": "https://github.com/joshbegley/nyt-latest",
+  "status": "disabled_pending_review"
+}

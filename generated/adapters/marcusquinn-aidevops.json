@@ -1,0 +1,87 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io)",
+    "https://agentskills.io/)",
+    "https://agentskills.io/specification)",
+    "https://agentskills.io/specification).",
+    "https://agno.com/)**:",
+    "https://ahrefs.com/api)",
+    "https://aidevops.sh",
+    "https://aidevops.sh)**",
+    "https://aidevops.sh/install)",
+    "https://alacritty.org/),",
+    "https://animejs.com)",
+    "https://animejs.com/)**:",
+    "https://app.codacy.com/project/badge/Grade/2b1adbd66c454dae92234341e801b984)](https://app.codacy.com/gh/marcusquinn/aidevops/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade)",
+    "https://aws.amazon.com/)**:",
+    "https://aws.amazon.com/route53/)**:",
+    "https://chromedevtools.github.io/devtools-protocol/)",
+    "https://claude.ai/)",
+    "https://claude.ai/)**",
+    "https://clawdhub.com)",
+    "https://clawdhub.com/Asleep123/caldav-calendar)",
+    "https://clawdhub.com/mSarheed/proxmox-full)",
+    "https://clawdhub.com/owner/slug",
+    "https://closte.com/)**:",
+    "https://cloud.google.com/gemini/docs/codeassist/overview)**:",
+    "https://cmux.dev/),",
+    "https://coderabbit.ai/)**:",
+    "https://context7.com/)",
+    "https://context7.io/)**:",
+    "https://coolify.io/)**",
+    "https://crewai.com/)**:",
+    "https://dataforseo.com/)",
+    "https://developer.chrome.com/docs/lighthouse/)**:",
+    "https://developers.cloudflare.com/browser-rendering/)",
+    "https://developers.google.com/analytics)",
+    "https://developers.google.com/speed/docs/insights/v5/get-started)",
+    "https://developers.google.com/webmaster-tools)",
+    "https://developers.hostinger.com/)",
+    "https://docs.augmentcode.com/context-services/mcp/overview)",
+    "https://docs.augmentcode.com/context-services/mcp/overview)**:",
+    "https://docs.docker.com/ai/mcp-catalog/)"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "GITHUB_TOKEN",
+    "GOOGLE_OAUTH_ACCESS_TOKEN",
+    "OPENAI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/marcusquinn-aidevops.json",
+  "schema_version": 1,
+  "source_repository": "marcusquinn/aidevops",
+  "source_url": "https://github.com/marcusquinn/aidevops",
+  "status": "disabled_pending_review"
+}

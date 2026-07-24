@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ratel-ai/ratel",
+  "canonical_repository": "ratel-ai/ratel",
+  "canonical_url": "https://github.com/ratel-ai/ratel",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:07:06.861798Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1fa46ef3fdaec64f0c508e067c8809c1e8d69ecbe1f8b677682b9c0398b4b828",
+  "sampled_file_digests": {
+    "LICENSE.md": "3ef3ca44f4ee681c4df1b28efdb599a77668dc915164ec85b30ba538d303f6b3",
+    "README.md": "344caba8f75449250c0fa60aabbf3417e5316c6fa17a717d2d98720ee4e6f047",
+    "package.json": "8e17987e7ec679f32ddac8c255542a389b0de9707386ceaa6a8fcd8b7b25d759"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/wallmage/repo-scout",
+  "canonical_repository": "wallmage/repo-scout",
+  "canonical_url": "https://github.com/wallmage/repo-scout",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:27.881837Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5079ecceb866127e2940a74298508c5037e47bd939eacf6bb28bf0865446e24b",
+  "sampled_file_digests": {
+    "LICENSE": "d6d312a838725b1edea967f43dddbd7b693ce12f7ae886a23c20741542de7dbb",
+    "README.md": "a90a81be4c89ec1615b3a69a5a6da4d3a51b7c6dfa5bfdef53699c5b32d29a01"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

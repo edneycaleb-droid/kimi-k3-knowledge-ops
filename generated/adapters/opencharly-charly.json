@@ -1,0 +1,41 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/opencharly/charly.git",
+    "https://taskfile.dev)):"
+  ],
+  "environment_variable_names": [
+    "CHARLY_HOST",
+    "HOST_PORT",
+    "K3S_CLUSTER_TOKEN",
+    "OLLAMA_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/opencharly-charly.json",
+  "schema_version": 1,
+  "source_repository": "opencharly/charly",
+  "source_url": "https://github.com/opencharly/charly",
+  "status": "disabled_pending_review"
+}

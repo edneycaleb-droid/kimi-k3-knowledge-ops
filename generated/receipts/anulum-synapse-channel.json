@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/anulum/synapse-channel",
+  "canonical_repository": "anulum/synapse-channel",
+  "canonical_url": "https://github.com/anulum/synapse-channel",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:37.824283Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4c0f215da2042f148ae1c4d5d823a798948745944a8108b4dbd0fb60db109579",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2056a0667268daf97ad853f575adc0c681e65e81c4aae98a7d7dfa2f12975155",
+    "Dockerfile": "0aae61e3e627a8e246adae0bc08f56276dea339731678c8758728aab835c60b0",
+    "LICENSE": "e0eedba615d5cd1b986afb6c5b3a4b1ae33713e7e9dc74d19daec5e3221f9d2e",
+    "README.md": "ea08c32cf556f23fc6084a7246329ccfbacea52dfcf8722d535be6f7f0290b6d",
+    "docker-compose.yml": "896eb6a511458fd657fa9946d5f7957377cefffc3206c7f15c8f7f14207967ca",
+    "pyproject.toml": "a4adefe8e00840d4f4e899598fc8c4a86e8a9e621f47e3bfcef8093b71fbc94a",
+    "requirements.txt": "8fb4c6f80988476ee9cecb2cc9b0a6a44d9138a67a6a97dcb1f7f80ffd4ed83a",
+    "server.json": "f14e879cbcd54d05fa50d0798080a1aab6d74baaaf99eab85422e990d11f544d"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

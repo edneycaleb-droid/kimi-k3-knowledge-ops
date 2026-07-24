@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Analliseamicable382/bbc-skill)",
+    "https://github.com/Aperivue/medsci-skills)",
+    "https://github.com/Ford-1/postgresql-mcp-connector)",
+    "https://github.com/Free-Soul/MemDreamer)",
+    "https://github.com/Glad-oboedacaccia408/design.md)",
+    "https://github.com/Hampto7114/detect-skill)",
+    "https://github.com/Highlydeveloped-trowel635/context-graph-compressor)",
+    "https://github.com/Ikramahmadmemon13/grant-thinking-skill)",
+    "https://github.com/JBSag/pm-artisan)",
+    "https://github.com/Lasting-mademoiselle566/better-than-claude-skills)",
+    "https://github.com/Ocean1346/bigquery-expert)",
+    "https://github.com/Palmerbeetling15/Council)",
+    "https://github.com/Speckledrattlesnakeinoculant470/claude-for-researchers)",
+    "https://github.com/Tiroleansculptor548/nano-world-model)",
+    "https://github.com/Videoa7917/ClaudeSec)",
+    "https://github.com/Wang-Cankun/cankun-skills)",
+    "https://github.com/Wang-Cankun/known-unknowns)",
+    "https://github.com/Wyattputrescent882/ai-code-governance-skill)",
+    "https://github.com/adlaiponderous700/claude-skill-cinematic-prompt)",
+    "https://github.com/ajayfastfooted329/claude-linkedin-post-creator)",
+    "https://github.com/alfonsosagacious5877/awesome-claude-design)",
+    "https://github.com/arnoldalberto007-sys/Swift-UIKit-Components)",
+    "https://github.com/batterfried-philosophy172/Agent-Startup-Skills)",
+    "https://github.com/felipedeso7za4444/scientific-thinking-general)",
+    "https://github.com/flakey-caster542/superseo-skills)",
+    "https://github.com/gaia-react/gaia)",
+    "https://github.com/houseunlimited/hinge-auto)",
+    "https://github.com/ivuorinen/skills)",
+    "https://github.com/jajupmochi/agent-harness)",
+    "https://github.com/jesusda3699/claude-rtl-persian)",
+    "https://github.com/kabirnarang39/skillci)",
+    "https://github.com/kierstenicy452/anti-ai-writing)",
+    "https://github.com/konglong87/superPM)",
+    "https://github.com/kongma1891/microsoft-style-skill)",
+    "https://github.com/lindneutral977/claude-mythos-ai-anthropic-desktop-app)",
+    "https://github.com/linny006/agent-eval-harness)",
+    "https://github.com/linny006/agent-framework-radar)",
+    "https://github.com/linny006/awesome-agent-skills)",
+    "https://github.com/linny006/claude-code-plugin-tracker)",
+    "https://github.com/linny006/cursor-rules-live)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/linny006-trending-claude-skills.json",
+  "schema_version": 1,
+  "source_repository": "linny006/trending-claude-skills",
+  "source_url": "https://github.com/linny006/trending-claude-skills",
+  "status": "disabled_pending_review"
+}

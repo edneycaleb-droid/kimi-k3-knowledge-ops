@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io)",
+    "https://agentskills.io)-compatible",
+    "https://github.com/netresearch/agent-harness-skill)",
+    "https://github.com/netresearch/agent-rules-skill)",
+    "https://github.com/netresearch/claude-code-marketplace)",
+    "https://github.com/netresearch/composer-agent-skill-plugin).",
+    "https://github.com/netresearch/node-agent-skill-coordinator),",
+    "https://github.com/netresearch/skill-repo-skill",
+    "https://github.com/netresearch/skill-repo-skill.git",
+    "https://github.com/netresearch/skill-repo-skill/issues",
+    "https://github.com/netresearch/skill-repo-skill/releases/latest)",
+    "https://skills.sh))",
+    "https://www.netresearch.de/)",
+    "https://www.netresearch.de/)**",
+    "https://www.netresearch.de/)."
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/netresearch-skill-repo-skill.json",
+  "schema_version": 1,
+  "source_repository": "netresearch/skill-repo-skill",
+  "source_url": "https://github.com/netresearch/skill-repo-skill",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/bianchunshan/ai-daily-v3",
+  "canonical_repository": "bianchunshan/ai-daily-v3",
+  "canonical_url": "https://github.com/bianchunshan/ai-daily-v3",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:30.254045Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "52a663fc6973d2a07a3c67fb00230b2d0ebe686f308e29ffd9881e34fb1e3b26",
+  "sampled_file_digests": {
+    "README.md": "6a0b0a65a490109462e46f1d4f3c27714495f0c5e53495b40fee8c1448445575",
+    "package.json": "a963952881e8885faff5295d257bbb222c8be8ca438dbfc8ab20a0e700d7a9f7"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

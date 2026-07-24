@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/lobehub/lobe-icons",
+  "canonical_repository": "lobehub/lobe-icons",
+  "canonical_url": "https://github.com/lobehub/lobe-icons",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:40.492833Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7771a512117a3fd64ed9c399b88cdd2af6c545a2b1fad9d8333e3cd5e939f517",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "cb9b5c39516a44f2ecf8829eeb615e1f59dfb13f73389a5e8c454dd51e017953",
+    "LICENSE": "add9d7531d1b21646317a8958e38fc727506fa39d24bdecb44154d943c82753a",
+    "README.md": "592d33a75f8272866150edbe9d551ceb01e9f7d26f7adf1df7d7582890b53a20",
+    "package.json": "efea1c49281c3e354c43e4fbc0351276c434c247959b8686ef7bef5d998cdd58"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

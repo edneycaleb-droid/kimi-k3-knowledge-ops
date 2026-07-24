@@ -1,5 +1,56 @@
 {
-  "entries": [
+  "agent_metrics": {
+    "agents": {
+      "classification": {
+        "status": "completed"
+      },
+      "compatibility": {
+        "status": "completed"
+      },
+      "decision": {
+        "status": "completed"
+      },
+      "deduplication": {
+        "inputs": 29,
+        "outputs": 29,
+        "removed": 0
+      },
+      "discovery": {
+        "outputs": 29
+      },
+      "extraction": {
+        "status": "completed"
+      },
+      "learning": {
+        "status": "completed"
+      },
+      "proposal": {
+        "status": "completed"
+      },
+      "provenance": {
+        "status": "completed"
+      },
+      "quality": {
+        "status": "completed"
+      },
+      "security": {
+        "status": "completed"
+      }
+    },
+    "decisions": {
+      "blocked": 5,
+      "candidate": 6,
+      "rejected": 1,
+      "review": 17
+    },
+    "safety": {
+      "auto_merged": false,
+      "executed_discovered_code": false,
+      "installed_discovered_dependencies": false,
+      "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431"
+    }
+  },
+  "assessments": [
     {
       "adapter_path": "generated/adapters/0xsline-openchatcut.json",
       "categories": [
@@ -6373,7 +6424,13 @@
       "security_findings": []
     }
   ],
-  "generated_at": "2026-07-24T14:07:22.653234Z",
+  "blocked": 5,
+  "candidates_discovered": 29,
+  "candidates_unique": 29,
+  "finished_at": "2026-07-24T14:07:22.673543Z",
+  "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431",
   "project_id": "kimi-k3",
-  "schema_version": 1
+  "proposals_created": 23,
+  "run_id": "2026-07-24-ddd4d26096",
+  "started_at": "2026-07-24T14:06:03.028005Z"
 }

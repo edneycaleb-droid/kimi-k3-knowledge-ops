@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ai-sdk.dev/)",
+    "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1201995&amp;theme=light&amp;t=1784645557617",
+    "https://api.star-history.com/chart?repos=0xsline/OpenChatCut&type=date&legend=top-left&sealed_token=KKfeYtGGCjyG1QN9_Ev6Tvyyrcp5LW6bzOT8ZKED1EE0qNRqM3KrThzzbXWdcP6K-sr3vKbmoFZYDviSMtf8SI5UqAPYQf9v8qXCpM04S2C4LQTAKPbexT66SI3Q8pcHJJoMT7VCZnGp93LqIXZchAyYfTMmKy_y_LFOJ-_ruEq8GP1kVESXshaFzJfC",
+    "https://api.star-history.com/chart?repos=0xsline/OpenChatCut&type=date&theme=dark&legend=top-left&sealed_token=KKfeYtGGCjyG1QN9_Ev6Tvyyrcp5LW6bzOT8ZKED1EE0qNRqM3KrThzzbXWdcP6K-sr3vKbmoFZYDviSMtf8SI5UqAPYQf9v8qXCpM04S2C4LQTAKPbexT66SI3Q8pcHJJoMT7VCZnGp93LqIXZchAyYfTMmKy_y_LFOJ-_ruEq8GP1kVESXshaFzJfC",
+    "https://discord.gg/JActyWMjms",
+    "https://fsf.org/",
+    "https://github.com/0xsline/OpenChatCut",
+    "https://github.com/0xsline/OpenChatCut.git",
+    "https://github.com/0xsline/OpenChatCut/issues)",
+    "https://github.com/0xsline/OpenChatCut/releases).",
+    "https://github.com/0xsline/OpenChatCut/releases);",
+    "https://github.com/0xsline/OpenChatCut/releases/latest).",
+    "https://github.com/ChatCut-Inc/agent-plugin)",
+    "https://github.com/tt-a1i/archify)",
+    "https://img.shields.io/badge/Discord-Join_Community-5865F2?style=flat&logo=discord&logoColor=white",
+    "https://img.shields.io/badge/Electron-43-47848F?style=flat&logo=electron&logoColor=white",
+    "https://img.shields.io/badge/GitHub-Repository-181717?style=flat&logo=github",
+    "https://img.shields.io/badge/MCP-Agent_native-7C3AED?style=flat",
+    "https://img.shields.io/badge/React-19-149ECA?style=flat&logo=react&logoColor=white",
+    "https://img.shields.io/badge/Remotion-4-0B84F3?style=flat",
+    "https://img.shields.io/badge/TypeScript-6-3178C6?style=flat&logo=typescript&logoColor=white",
+    "https://img.shields.io/badge/data-local_first-111827?style=flat",
+    "https://img.shields.io/badge/status-active_development-FF8A3D?style=flat",
+    "https://modelcontextprotocol.io/)",
+    "https://openchatcut.com",
+    "https://openchatcut.com/blog/chatcut-vs-openchatcut](https://openchatcut.com/blog/chatcut-vs-openchatcut)",
+    "https://openchatcut.com/blog/open-source-chatcut-alternative](https://openchatcut.com/blog/open-source-chatcut-alternative)",
+    "https://openchatcut.com](https://openchatcut.com)",
+    "https://www.gnu.org/licenses/",
+    "https://www.producthunt.com/products/openchatcut?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-openchatcut",
+    "https://www.remotion.dev/)",
+    "https://www.star-history.com/?type=date&repos=0xsline%2FOpenChatCut",
+    "https://your-editor.example.com"
+  ],
+  "environment_variable_names": [
+    "OPENCHATCUT_EDITOR_URL",
+    "OPENCHATCUT_MAX_ACTIVE_EXPORTS",
+    "OPENCHATCUT_MCP_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "openchatcut": {
+          "headers": {
+            "x-openchatcut-mcp-client": "claude-code",
+            "x-openchatcut-mcp-surface": "external"
+          },
+          "type": "http",
+          "url": "http://localhost:5199/api/external-mcp/mcp"
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/0xsline-openchatcut.json",
+  "schema_version": 1,
+  "source_repository": "0xsline/OpenChatCut",
+  "source_url": "https://github.com/0xsline/OpenChatCut",
+  "status": "disabled_pending_review"
+}

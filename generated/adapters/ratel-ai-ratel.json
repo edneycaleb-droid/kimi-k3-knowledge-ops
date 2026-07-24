@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://benchmark.ratel.sh)",
+    "https://benchmark.ratel.sh).",
+    "https://crates.io/crates/ratel-ai-core",
+    "https://discord.gg/75vAPdjYqT",
+    "https://docs.astral.sh/uv/).",
+    "https://docs.ratel.sh",
+    "https://docs.ratel.sh)",
+    "https://docs.ratel.sh/docs/quickstart)",
+    "https://docs.ratel.sh/docs/sdks/python)",
+    "https://docs.ratel.sh/docs/sdks/typescript)",
+    "https://github.com/ratel-ai/ratel-bench)",
+    "https://github.com/ratel-ai/ratel-mcp)",
+    "https://github.com/ratel-ai/ratel/stargazers",
+    "https://github.com/ratel-ai/skills",
+    "https://img.shields.io/badge/license-Apache--2.0%20%26%20MIT-blue",
+    "https://img.shields.io/crates/v/ratel-ai-core?label=crates.io&color=e57300",
+    "https://img.shields.io/discord/1478702964003705015?label=Discord&logo=discord&logoColor=white&color=5865F2",
+    "https://img.shields.io/github/stars/ratel-ai/ratel?style=social",
+    "https://img.shields.io/npm/v/@ratel-ai/sdk?label=npm&color=cb3837",
+    "https://img.shields.io/pypi/v/ratel-ai?label=PyPI&color=3775a9",
+    "https://pypi.org/project/ratel-ai/",
+    "https://www.npmjs.com/package/@ratel-ai/sdk"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ratel-ai-ratel.json",
+  "schema_version": 1,
+  "source_repository": "ratel-ai/ratel",
+  "source_url": "https://github.com/ratel-ai/ratel",
+  "status": "disabled_pending_review"
+}
