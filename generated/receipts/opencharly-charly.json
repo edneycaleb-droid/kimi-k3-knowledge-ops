@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/opencharly/charly",
+  "canonical_repository": "opencharly/charly",
+  "canonical_url": "https://github.com/opencharly/charly",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:45.279595Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "64545ccad5d60c0ee511eaa541ff989ae124de6b1906f6f0f3509a5ba2fc039f",
+  "sampled_file_digests": {
+    "LICENSE": "bdcd6626a3f5a9578af11321973b152b149e7a8fd53887d5e81f9fcbf7e09cc1",
+    "README.md": "467c6beef8c104446f00cc740269a695644d083eadfd873d5a58acd4a94451c3"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

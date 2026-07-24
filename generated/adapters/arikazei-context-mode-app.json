@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.kilo.ai/config.json",
+    "https://context-mode.com/insight))",
+    "https://cursor.com/marketplace),",
+    "https://docs.openclaw.ai/tools/plugin)",
+    "https://docs.openclaw.ai/tools/plugin).",
+    "https://forum.cursor.com/t/native-posttooluse-hooks-accept-and-log-additional-context-successfully-but-the-injected-context-is-not-surfaced-to-the-model/155689)).",
+    "https://forum.cursor.com/t/unknown-hook-type-sessionstart/149566)),",
+    "https://forum.cursor.com/t/unknown-hook-type-sessionstart/149566)).",
+    "https://github.com/WiseLibs/better-sqlite3)",
+    "https://github.com/anomalyco/opencode/issues/20258))",
+    "https://github.com/can1357/oh-my-pi/blob/main/packages/coding-agent/src/extensibility/hooks/types.ts),",
+    "https://github.com/can1357/oh-my-pi/blob/main/packages/coding-agent/src/extensibility/plugins/loader.ts)",
+    "https://github.com/can1357/oh-my-pi/blob/main/packages/coding-agent/src/extensibility/plugins/loader.ts)).",
+    "https://github.com/facebook/react",
+    "https://github.com/mksglu/context-mode",
+    "https://github.com/mksglu/context-mode#readme",
+    "https://github.com/mksglu/context-mode.git",
+    "https://github.com/mksglu/context-mode/issues",
+    "https://github.com/mksglu/context-mode/issues/158),",
+    "https://github.com/mksglu/context-mode/issues/164)).",
+    "https://github.com/mksglu/context-mode/issues/473)",
+    "https://github.com/mksglu/context-mode/issues/473)).",
+    "https://github.com/mksglu/context-mode/issues/485)",
+    "https://github.com/mksglu/context-mode/issues/564))",
+    "https://github.com/mksglu/context-mode/issues/567)",
+    "https://github.com/mksglu/context-mode/issues/677)).",
+    "https://github.com/mksglu/context-mode/issues/774)).",
+    "https://github.com/mksglu/context-mode/issues/775).",
+    "https://github.com/mksglu/context-mode/issues/852)",
+    "https://github.com/mksglu/context-mode/pull/489).",
+    "https://github.com/mksglu/context-mode/pull/529))",
+    "https://github.com/mksglu/context-mode/tree/main/configs/antigravity-cli",
+    "https://github.com/modelcontextprotocol/servers",
+    "https://github.com/nodejs/node/issues/62515)",
+    "https://github.com/openai/codex/issues/18491)).",
+    "https://github.com/openai/codex/issues/18491).",
+    "https://github.com/openclaw)",
+    "https://github.com/openclaw/openclaw/pull/9761)),",
+    "https://github.com/openclaw/openclaw/pull/9761).",
+    "https://github.com/sst/opencode/issues/14808),"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/arikazei-context-mode-app.json",
+  "schema_version": 1,
+  "source_repository": "Arikazei/context-mode-app",
+  "source_url": "https://github.com/Arikazei/context-mode-app",
+  "status": "disabled_pending_review"
+}

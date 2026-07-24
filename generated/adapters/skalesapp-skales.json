@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=skalesapp/skales&type=Date",
+    "https://apps.apple.com/us/app/skales/id6763328966",
+    "https://apps.apple.com/us/app/skales/id6763328966).",
+    "https://crafter.run)",
+    "https://docs.skales.app",
+    "https://feed.skales.app)",
+    "https://getskales.app",
+    "https://github.com/1Hackoon",
+    "https://github.com/1Hackoon.png",
+    "https://github.com/Derrick-xn",
+    "https://github.com/Derrick-xn.png",
+    "https://github.com/Kombowz",
+    "https://github.com/Kombowz.png",
+    "https://github.com/LLen",
+    "https://github.com/LLen.png",
+    "https://github.com/NikiKeyz",
+    "https://github.com/NikiKeyz.png",
+    "https://github.com/SohaibKhaliq",
+    "https://github.com/SohaibKhaliq.png",
+    "https://github.com/VladB-evs",
+    "https://github.com/VladB-evs.png",
+    "https://github.com/VoltAgent/awesome-agent-skills).",
+    "https://github.com/anthonytrance",
+    "https://github.com/anthonytrance.png",
+    "https://github.com/bmp-jaller",
+    "https://github.com/bmp-jaller.png",
+    "https://github.com/btafoya",
+    "https://github.com/btafoya.png",
+    "https://github.com/cheahjs/free-llm-api-resources)**.",
+    "https://github.com/henk717",
+    "https://github.com/henk717.png",
+    "https://github.com/jarbcs1-prog",
+    "https://github.com/jarbcs1-prog.png",
+    "https://github.com/jazzroutine",
+    "https://github.com/jazzroutine.png",
+    "https://github.com/karelrokk-droid",
+    "https://github.com/karelrokk-droid.png",
+    "https://github.com/mclaudiopt",
+    "https://github.com/mclaudiopt.png",
+    "https://github.com/saagnik23"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/skalesapp-skales.json",
+  "schema_version": 1,
+  "source_repository": "skalesapp/skales",
+  "source_url": "https://github.com/skalesapp/skales",
+  "status": "disabled_pending_review"
+}

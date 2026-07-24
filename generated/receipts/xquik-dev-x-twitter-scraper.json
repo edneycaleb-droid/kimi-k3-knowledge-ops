@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Xquik-dev/x-twitter-scraper",
+  "canonical_repository": "Xquik-dev/x-twitter-scraper",
+  "canonical_url": "https://github.com/Xquik-dev/x-twitter-scraper",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:07:12.109438Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2a5dc7ad71a2d74ed28f6c04a2ceb537b058e51e0f654613b9b893dd2cf1c7c0",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "077468faab7f5e53e5a4d15f23cf9e016416e76bfc15933be6aa213f0e6f1f81",
+    ".mcp.json": "225bffb98fdf05ae7db894f2f00f42af02ec1e0c8a91407f486a8adb7a85804f",
+    "LICENSE": "591a93ca295f08caf49f4417eef0a085bb64d4b208ba8f186e0f0f027aebd4b5",
+    "README.md": "28904071b6e0bfe33da9f7a3f104421ba861b0fc59f067a94aa369f1075efe26",
+    "package.json": "0d3e6bd6bd3e0a30c048a62fcdfadefe2aa1460de77aab561b7f49a009671d5f",
+    "server.json": "3b374bef78cf3b1abfa683a3dc8931aab711f28bf759dce54af2fd54b749edc7"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

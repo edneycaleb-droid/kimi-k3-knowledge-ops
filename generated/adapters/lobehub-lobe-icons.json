@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1047110&theme=light&t=1765199661410",
+    "https://app.fossa.com/api/projects/git%2Bgithub.com%2Flobehub%2Flobe-icons.svg?type=large",
+    "https://app.fossa.com/projects/git%2Bgithub.com%2Flobehub%2Flobe-icons",
+    "https://charts.lobehub.com)**",
+    "https://codespaces.new/lobehub/lobe-icons",
+    "https://contrib.rocks/image?repo=lobehub/icons",
+    "https://discord.gg/AYFPHvv2jT",
+    "https://github.com/actions/workflows/lobehub/lobe-icons/release.yml",
+    "https://github.com/actions/workflows/lobehub/lobe-icons/test.yml",
+    "https://github.com/codespaces/badge.svg",
+    "https://github.com/lobehub",
+    "https://github.com/lobehub/.github/blob/main/static/sponsor-dark.png?raw=true",
+    "https://github.com/lobehub/.github/blob/main/static/sponsor-light.png?raw=true",
+    "https://github.com/lobehub/lobe-cli-toolbox/blob/master/packages/lobe-i18n)**",
+    "https://github.com/lobehub/lobe-icons",
+    "https://github.com/lobehub/lobe-icons.git",
+    "https://github.com/lobehub/lobe-icons/assets/17870709/7e2c56d2-d7ea-4cb8-842b-22de162d6486)",
+    "https://github.com/lobehub/lobe-icons/blob/master/LICENSE",
+    "https://github.com/lobehub/lobe-icons/graphs/contributors",
+    "https://github.com/lobehub/lobe-icons/issues",
+    "https://github.com/lobehub/lobe-icons/issues/new",
+    "https://github.com/lobehub/lobe-icons/network/members",
+    "https://github.com/lobehub/lobe-icons/network/stargazers",
+    "https://github.com/lobehub/lobe-icons/pulls",
+    "https://github.com/lobehub/lobe-icons/releases",
+    "https://github.com/lobehub/lobe-icons/tree/master/packages/react-native)",
+    "https://github.com/lobehub/lobe-icons/tree/master/packages/static-avatar)",
+    "https://github.com/lobehub/lobe-icons/tree/master/packages/static-png)",
+    "https://github.com/lobehub/lobe-icons/tree/master/packages/static-svg)",
+    "https://github.com/lobehub/lobe-icons/tree/master/packages/static-webp)",
+    "https://github.com/lobehub/lobe-icons/tree/master/src)",
+    "https://github.com/lobehub/lobe-vidol)**",
+    "https://github.com/lobehub/lobehub)**",
+    "https://github.com/lobehub/sd-webui-lobe-theme)**",
+    "https://github.com/user-attachments/assets/411f5124-9460-43dc-9d91-3d3c3da05b30",
+    "https://github.com/user-attachments/assets/6a0ce456-ab14-437c-93ec-2c05fecbb454",
+    "https://github.com/user-attachments/assets/bd610e9d-290e-4a60-a945-e9c5f84be962",
+    "https://github.com/user-attachments/assets/d06378b5-46eb-4154-836d-b792d04ee3dd",
+    "https://github.com/user-attachments/assets/f2ee638a-b02c-447d-bcb2-4455688b1438",
+    "https://gw.alipayobjects.com/zos/kitchen/qJ3l3EPsdW/split.svg"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/lobehub-lobe-icons.json",
+  "schema_version": 1,
+  "source_repository": "lobehub/lobe-icons",
+  "source_url": "https://github.com/lobehub/lobe-icons",
+  "status": "disabled_pending_review"
+}

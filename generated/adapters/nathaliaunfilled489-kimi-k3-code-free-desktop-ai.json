@@ -1,0 +1,36 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "kimi-code",
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://img.shields.io/badge/Download-Release-blue)](https://nathaliaunfilled489.github.io)",
+    "https://nathaliaunfilled489.github.io)."
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/nathaliaunfilled489-kimi-k3-code-free-desktop-ai.json",
+  "schema_version": 1,
+  "source_repository": "nathaliaunfilled489/Kimi-K3-Code-Free-Desktop-AI",
+  "source_url": "https://github.com/nathaliaunfilled489/Kimi-K3-Code-Free-Desktop-AI",
+  "status": "disabled_pending_review"
+}

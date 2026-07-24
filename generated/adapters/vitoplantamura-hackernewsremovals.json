@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://alexalejandre.com/interviews/interview-with-matheus-moreira/)",
+    "https://alganet.github.io/terminal/?p=post:2026-07-21-00-Bash-for-Browser-Frontend&lang=en)",
+    "https://artificialanalysis.ai/articles/kimi-k3-agentic-knowledge-benchmark)",
+    "https://avivcarmi.com/saas-is-dead/)",
+    "https://blog.cloudflare.com/dnssec-nta-ede-33/)",
+    "https://brianbell-x.github.io/weight-compression/)",
+    "https://buildwithtract.com/)",
+    "https://codeberg.org/Codeberg/org/pulls/1253)",
+    "https://colossus.com/article/sarah-guo-conviction/)",
+    "https://discuss.ai.google.dev/t/google-illegally-retains-customer-data-and-i-am-taking-legal-action-against-them/175294)",
+    "https://doi.org/10.1007/s11869-026-01918-5)",
+    "https://duely-44998.bubbleapps.io/)",
+    "https://english.elpais.com/sports/2026-07-19/spain-beat-argentina-to-win-the-world-cup.html)",
+    "https://esigna.app)",
+    "https://extensionranker.com/blog/chrome-extension-title-changes-rankings)",
+    "https://finterm.ai/blog/big-tech-hidden-debt-fact-check.html)",
+    "https://gagliardoni.net/#20260724_codeberg_drama)",
+    "https://garzed.com)",
+    "https://github.com/CaviraOSS/Akashic)",
+    "https://github.com/HackerNews/API),",
+    "https://github.com/Pedroshakoor/grok-build-ios)",
+    "https://github.com/bitmonky/BorgIOS)",
+    "https://github.com/holland202/Principia-Artificialis)",
+    "https://github.com/matheuzgomes/decoreba)",
+    "https://github.com/rejourneyco/rejourney)",
+    "https://github.com/saineshnakra/automated-data-analyst)",
+    "https://github.com/skorotkiewicz/signal-in-the-dark)",
+    "https://hackernewstitles.netlify.app/)",
+    "https://hermit-tech.com/blog/ai-mania-is-eviscerating-global-decisionmaking)",
+    "https://imaxxing.io/)",
+    "https://interconnected.org/home/2026/07/17/frozen)",
+    "https://kickoffreport.com/how-our-prediction-model-works/)",
+    "https://markwrites.io/mullvad-and-daniel-berntssons-failed-cleanup/)",
+    "https://medium.com/@Koukyosyumei/what-i-learned-from-reimplementing-40-multi-agent-llm-papers-bd6b574f5659)",
+    "https://meuarcanopessoal.net/)",
+    "https://native-sdk.dev/)",
+    "https://news.social-protocols.org)",
+    "https://news.social-protocols.org/stats?id=48882993)",
+    "https://news.social-protocols.org/stats?id=48901918)",
+    "https://news.social-protocols.org/stats?id=48903490)"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vitoplantamura-hackernewsremovals.json",
+  "schema_version": 1,
+  "source_repository": "vitoplantamura/HackerNewsRemovals",
+  "source_url": "https://github.com/vitoplantamura/HackerNewsRemovals",
+  "status": "disabled_pending_review"
+}

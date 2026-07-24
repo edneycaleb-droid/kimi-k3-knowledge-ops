@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/vitoplantamura/HackerNewsRemovals",
+  "canonical_repository": "vitoplantamura/HackerNewsRemovals",
+  "canonical_url": "https://github.com/vitoplantamura/HackerNewsRemovals",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:25.148544Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a4c19796ce4a4cb57a1fcd9fc5373e1dc740e1c22dc3db75ce5bce811ec6465a",
+  "sampled_file_digests": {
+    "README.md": "d0468cf7aa0290f3c18d68434c65e2c622e46b5e53a34528192c76287076fbe3"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/0xsline/OpenChatCut",
+  "canonical_repository": "0xsline/OpenChatCut",
+  "canonical_url": "https://github.com/0xsline/OpenChatCut",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:07:19.345695Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6a848e3e02a5e030362307404fb85c7fe0ab741022182cab85aee5fe28e501e4",
+  "sampled_file_digests": {
+    ".mcp.json": "eb15a5caf8be1bbfe8e9b25855cb9c3187094eaf9898bf5b9cf2f6482dfd88bd",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "870c0f6e521c1bd16c53a0df934e672e633f1be06601ee3776efd83f1e162a68",
+    "package.json": "6b0d93b4e0f3ddd2eaa4fb746e4f98e19763b9841d39e940c6cc50e924c31cc2"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/AustinJunyuLi/fable-ringer",
+  "canonical_repository": "AustinJunyuLi/fable-ringer",
+  "canonical_url": "https://github.com/AustinJunyuLi/fable-ringer",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:20.053619Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "57434b4bc7caddcee3dcc4033b74d3d55394af770f2892cc7fb2c435d5a496a8",
+  "sampled_file_digests": {
+    "LICENSE.md": "65489dec95ee5b13fb23217e575a61adaff71b2b9b384e9dbafa6988abde8265",
+    "README.md": "ef8e2f11d17eb021f4d5c066de03556f8b5f1fc6564ddb7403f56aae9155311c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

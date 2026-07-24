@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/marcusquinn/aidevops",
+  "canonical_repository": "marcusquinn/aidevops",
+  "canonical_url": "https://github.com/marcusquinn/aidevops",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:43.003559Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "787625ef7eca9081475900f7dfbf98ff69a30c60fa3085900dae29d0170f03e8",
+  "sampled_file_digests": {
+    "LICENSE": "ec3a1ade2ea9a0bb7e4296332975418e7f6d3f2e3591df41e7099355902fdad9",
+    "README.md": "d8afb084be0fa790f44b63699f95ce58bbb882c2ba74c90e09652d1d0b4fc8cc",
+    "package.json": "6d1bdc97a023c419f27ff5d577929b74f41f482aef6550b1d4b861acadd2396b",
+    "requirements.txt": "b2012ecd6102c6a4427e48326fb7fce5a921ab2ad66f9b75a125fdc4812f74cb"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

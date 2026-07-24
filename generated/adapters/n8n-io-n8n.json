@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.n8n.cloud/login),",
+    "https://community.n8n.io)",
+    "https://community.n8n.io/c/tutorials/28)",
+    "https://docs.n8n.io)",
+    "https://docs.n8n.io/advanced-ai/)",
+    "https://docs.n8n.io/hosting/installation/docker/):",
+    "https://docs.n8n.io/hosting/installation/npm/)",
+    "https://docs.n8n.io/sustainable-use-license/).",
+    "https://faircode.io)",
+    "https://github.com/n8n-io/n8n/blob/master/CONTRIBUTING.md)",
+    "https://github.com/n8n-io/n8n/blob/master/LICENSE.md)",
+    "https://github.com/n8n-io/n8n/blob/master/LICENSE_EE.md).",
+    "https://n8n.io/careers)",
+    "https://n8n.io/integrations)",
+    "https://n8n.io/workflows)",
+    "https://nodejs.org/en/)):",
+    "https://raw.githubusercontent.com/n8n-io/n8n/master/assets/n8n-screenshot-readme.png)",
+    "https://user-images.githubusercontent.com/10284570/173569848-c624317f-42b1-45a6-ab09-f0ea3c247648.png)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/n8n-io-n8n.json",
+  "schema_version": 1,
+  "source_repository": "n8n-io/n8n",
+  "source_url": "https://github.com/n8n-io/n8n",
+  "status": "disabled_pending_review"
+}

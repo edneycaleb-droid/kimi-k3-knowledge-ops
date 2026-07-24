@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/nathaliaunfilled489/Kimi-K3-Code-Free-Desktop-AI",
+  "canonical_repository": "nathaliaunfilled489/Kimi-K3-Code-Free-Desktop-AI",
+  "canonical_url": "https://github.com/nathaliaunfilled489/Kimi-K3-Code-Free-Desktop-AI",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:22.667697Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "771bcb31b12ad845a2093afdea670a0d6f09472863b06d8d5f616b8c7b2334ea",
+  "sampled_file_digests": {
+    "README.md": "47f00231826c48f344450df88d7bb146f0bec182316d463ba449ad650596d2ef"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,134 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://apify.com/actor-badge?actor=xquik/x-tweet-scraper)](https://apify.com/xquik/x-tweet-scraper)",
+    "https://docs.xquik.com",
+    "https://docs.xquik.com)",
+    "https://docs.xquik.com/api-reference/overview)",
+    "https://docs.xquik.com/guides/composio-migration)",
+    "https://docs.xquik.com/guides/crewai),",
+    "https://docs.xquik.com/guides/google-adk),",
+    "https://docs.xquik.com/guides/langchain),",
+    "https://docs.xquik.com/guides/make),",
+    "https://docs.xquik.com/guides/mastra),",
+    "https://docs.xquik.com/guides/microsoft-agent-framework),",
+    "https://docs.xquik.com/guides/n8n),",
+    "https://docs.xquik.com/guides/pipedream),",
+    "https://docs.xquik.com/guides/pydantic-ai),",
+    "https://docs.xquik.com/guides/troubleshooting#codex-oauth-issuer-validation-error)",
+    "https://docs.xquik.com/guides/zapier),",
+    "https://docs.xquik.com/mcp/overview",
+    "https://docs.xquik.com/mcp/overview#client-compatibility).",
+    "https://docs.xquik.com/mcp/overview)",
+    "https://github.com/Xquik-dev/.github/blob/main/CONTRIBUTING.md)",
+    "https://github.com/Xquik-dev/.github/blob/main/SECURITY.md)",
+    "https://github.com/Xquik-dev/.github/blob/main/SUPPORT.md)",
+    "https://github.com/Xquik-dev/terraform-provider-x-twitter-scraper)",
+    "https://github.com/Xquik-dev/terraform-provider-x-twitter-scraper/releases))",
+    "https://github.com/Xquik-dev/x-twitter-scraper",
+    "https://github.com/Xquik-dev/x-twitter-scraper-cli)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-csharp)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-go)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-java)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-kotlin)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-php)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-python)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-ruby)",
+    "https://github.com/Xquik-dev/x-twitter-scraper-typescript)",
+    "https://github.com/Xquik-dev/x-twitter-scraper.git",
+    "https://github.com/Xquik-dev/x-twitter-scraper/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/Xquik-dev/x-twitter-scraper/actions/workflows/ci.yml)",
+    "https://github.com/Xquik-dev/x-twitter-scraper/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/Xquik-dev/x-twitter-scraper/actions/workflows/codeql.yml)",
+    "https://github.com/Xquik-dev/x-twitter-scraper/issues",
+    "https://github.com/openai/codex/issues/31573).",
+    "https://img.shields.io/npm/dm/x-developer?style=for-the-badge&logo=npm&label=downloads%2Fmonth)](https://www.npmjs.com/package/x-developer)"
+  ],
+  "environment_variable_names": [
+    "SUPPORT",
+    "XQUIK_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "xquik": {
+          "type": "http",
+          "url": "https://xquik.com/mcp"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "127 REST operations. 119 MCP routes; 118 JSON/text ops. OAuth 2.1. Not affiliated with X Corp.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "src": "https://xquik.com/icons/mcp/xquik.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "48x48",
+            "96x96"
+          ],
+          "src": "https://xquik.com/logo-square.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/svg+xml",
+          "src": "https://xquik.com/logo-dark-square-flat.svg",
+          "theme": "dark"
+        }
+      ],
+      "name": "com.xquik/mcp",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://xquik.com/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Xquik-dev/x-twitter-scraper"
+      },
+      "title": "Xquik MCP Server",
+      "version": "2.5.6",
+      "websiteUrl": "https://docs.xquik.com/mcp/overview"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/xquik-dev-x-twitter-scraper.json",
+  "schema_version": 1,
+  "source_repository": "Xquik-dev/x-twitter-scraper",
+  "source_url": "https://github.com/Xquik-dev/x-twitter-scraper",
+  "status": "disabled_pending_review"
+}

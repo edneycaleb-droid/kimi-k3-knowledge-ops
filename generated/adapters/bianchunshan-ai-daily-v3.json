@@ -1,0 +1,39 @@
+{
+  "categories": [
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://ai-daily-v3.vercel.app"
+  ],
+  "environment_variable_names": [
+    "CHAT_TOKEN",
+    "KIMI_KEY",
+    "QWEN_KEY",
+    "URL",
+    "VERCEL_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/bianchunshan-ai-daily-v3.json",
+  "schema_version": 1,
+  "source_repository": "bianchunshan/ai-daily-v3",
+  "source_url": "https://github.com/bianchunshan/ai-daily-v3",
+  "status": "disabled_pending_review"
+}

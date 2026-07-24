@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "mcp_server",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://discord.gg/fWNMDKcd5P",
+    "https://discord.gg/fWNMDKcd5P)",
+    "https://doi.org/10.5281/zenodo.21351225",
+    "https://github.com/ai4s-research/open-science",
+    "https://github.com/ai4s-research/open-science)",
+    "https://github.com/ai4s-research/open-science/releases/latest).",
+    "https://img.shields.io/badge/%F0%9F%8F%86%20%231-ResearchClawBench-FFB300",
+    "https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21351225-1682D4",
+    "https://img.shields.io/badge/Join-Discord-5865F2",
+    "https://img.shields.io/badge/Join-linux.do-orange",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+    "https://img.shields.io/badge/built%20with-Tauri%202%20%2B%20React-24C8DB",
+    "https://img.shields.io/badge/i18n-7%20languages-5B8DEF",
+    "https://img.shields.io/badge/platform-macOS%20%7C%20Windows%20%7C%20Linux-blue",
+    "https://img.shields.io/badge/runtime-OpenCode-success",
+    "https://internscience.github.io/ResearchClawBench-Home/",
+    "https://internscience.github.io/ResearchClawBench-Home/),",
+    "https://linux.do",
+    "https://linux.do)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ai4s-research-open-science.json",
+  "schema_version": 1,
+  "source_repository": "ai4s-research/open-science",
+  "source_url": "https://github.com/ai4s-research/open-science",
+  "status": "disabled_pending_review"
+}

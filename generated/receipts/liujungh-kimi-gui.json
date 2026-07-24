@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/liujunGH/kimi-gui",
+  "canonical_repository": "liujunGH/kimi-gui",
+  "canonical_url": "https://github.com/liujunGH/kimi-gui",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:06:32.541690Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "35b10d2d19d678b744900efc7395d07aad26de3bc0c74c97e5c0ff6fd10b34bd",
+  "sampled_file_digests": {
+    "README.md": "e2af881899c8f53a1812e2320eeeb65c8981a7466187d7ba7e5db6cddf1a0bcf",
+    "package.json": "e9be0aff5484945c49773d90355478a2d84d0e84d30cf3e64967351a3aa74df9"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/n8n-io/n8n",
+  "canonical_repository": "n8n-io/n8n",
+  "canonical_url": "https://github.com/n8n-io/n8n",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-24T14:07:04.610737Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1a054b294a79fde4c48c8a6c0aca138923bc256eb0e71825f5432dc5019cd823",
+  "sampled_file_digests": {
+    "LICENSE.md": "d2f621f59aa4c10eab79b6333e59d9d3d5b53307dcfd16dbd75e40e679e84965",
+    "README.md": "9af8818267836df37f8d58cbb1db8c02c83cbd110118361811f4910d4de59eca",
+    "package.json": "fb1ef6dfa5e1b831399e35770f310813632dc4d4663d8f1f76836d8c9a372a23"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

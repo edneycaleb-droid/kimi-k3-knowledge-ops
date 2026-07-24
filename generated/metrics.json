@@ -1,9 +1,51 @@
 {
-  "status": "awaiting_first_run",
-  "agents": {},
+  "agents": {
+    "classification": {
+      "status": "completed"
+    },
+    "compatibility": {
+      "status": "completed"
+    },
+    "decision": {
+      "status": "completed"
+    },
+    "deduplication": {
+      "inputs": 29,
+      "outputs": 29,
+      "removed": 0
+    },
+    "discovery": {
+      "outputs": 29
+    },
+    "extraction": {
+      "status": "completed"
+    },
+    "learning": {
+      "status": "completed"
+    },
+    "proposal": {
+      "status": "completed"
+    },
+    "provenance": {
+      "status": "completed"
+    },
+    "quality": {
+      "status": "completed"
+    },
+    "security": {
+      "status": "completed"
+    }
+  },
+  "decisions": {
+    "blocked": 5,
+    "candidate": 6,
+    "rejected": 1,
+    "review": 17
+  },
   "safety": {
+    "auto_merged": false,
     "executed_discovered_code": false,
     "installed_discovered_dependencies": false,
-    "auto_merged": false
+    "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431"
   }
 }

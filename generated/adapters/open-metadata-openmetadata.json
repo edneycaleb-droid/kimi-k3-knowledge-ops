@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://blog.open-metadata.org/)",
+    "https://docs.open-metadata.org/)",
+    "https://docs.open-metadata.org/latest/connectors/pipeline/openlineage)",
+    "https://docs.open-metadata.org/latest/how-to-guides/mcp)",
+    "https://docs.open-metadata.org/latest/quick-start)",
+    "https://docs.open-metadata.org/v1.12.x/developers/contribute)",
+    "https://docs.open-metadata.org/v1.12.x/developers/contribute/build-code-and-run-tests)",
+    "https://docs.open-metadata.org/v1.12.x/developers/contribute/development-environment-setup)",
+    "https://github.com/open-metadata/OpenMetadata.git",
+    "https://img.shields.io/github/commit-activity/m/open-metadata/OpenMetadata?style=for-the-badge)",
+    "https://img.shields.io/github/release/open-metadata/OpenMetadata/all.svg?style=for-the-badge)](https://github.com/open-metadata/OpenMetadata/releases)",
+    "https://open-metadata.org/)",
+    "https://openmetadatastandards.org/)",
+    "https://sandbox.open-metadata.org)",
+    "https://slack.open-metadata.org/)",
+    "https://www.getcollate.io/)",
+    "https://www.getcollate.io/collate-ai)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/open-metadata-openmetadata.json",
+  "schema_version": 1,
+  "source_repository": "open-metadata/OpenMetadata",
+  "source_url": "https://github.com/open-metadata/OpenMetadata",
+  "status": "disabled_pending_review"
+}
