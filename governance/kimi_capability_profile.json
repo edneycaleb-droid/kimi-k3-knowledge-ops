@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "profile": "kimi-k3-knowledge-ops",
+  "canonical_forge": {
+    "repository": "edneycaleb-droid/hermes-ai-knowledge-ops",
+    "commit": "34227704e8861cc8fde0cb5fffe326aa84586c6a",
+    "registry_path": "governance/unified_capability_forge.json",
+    "mode": "pinned_read_only_reference"
+  },
+  "hard_invariants": [
+    "OpenRouter is disabled unless explicitly re-approved.",
+    "No discovered upstream code is installed or executed during discovery.",
+    "Kimi provider claims require protocol-level evidence from the currently pinned version.",
+    "Benchmark claims require reproducible fixtures, warm-up disclosure, hardware identity, and raw results.",
+    "Tool-call and MCP compatibility are tested independently from text-generation quality.",
+    "No capability promotes itself or silently rewrites shared skills.",
+    "Every autonomous evaluation loop has finite time, attempt, cost, and no-progress limits."
+  ],
+  "evaluation_lanes": [
+    {
+      "id": "protocol-parity",
+      "purpose": "Compare OpenAI-compatible, Anthropic-compatible, and Kimi-native request/response behavior.",
+      "required_evidence": ["request fixture", "raw response", "stream transcript", "error contract", "version identity"]
+    },
+    {
+      "id": "tool-conformance",
+      "purpose": "Test function calling, MCP tool loops, argument fidelity, bounded retries, and unsupported parameters.",
+      "required_evidence": ["tool schema", "call trace", "termination reason", "side-effect inventory", "negative test"]
+    },
+    {
+      "id": "long-context",
+      "purpose": "Measure retrieval, instruction retention, contradiction handling, and context compression under increasing load.",
+      "required_evidence": ["corpus digest", "needle set", "token budget", "miss analysis", "latency and cost"]
+    },
+    {
+      "id": "hardware-portability",
+      "purpose": "Benchmark Windows/Ollama now and preserve a future Apple-Silicon/Rapid-MLX lane without adding a current dependency.",
+      "required_evidence": ["hardware manifest", "runtime version", "model digest", "quantization", "throughput and quality"]
+    },
+    {
+      "id": "research-integrity",
+      "purpose": "Separate current facts, repository claims, inferred conclusions, and unresolved uncertainty.",
+      "required_evidence": ["primary sources", "retrieval date", "claim ledger", "independent reviewer", "allowed wording"]
+    }
+  ],
+  "approved_patterns": [
+    "Ferro-style model aliasing and provider capability matrices",
+    "Loopy-style bounded evaluation cycles",
+    "AI2 Tango-style cached reproducible steps",
+    "Repo Task Proof Loop evidence receipts",
+    "OpenViking-style tiered context retrieval",
+    "Skill Seekers draft generation with mandatory review",
+    "SkillClaw candidate diffs without silent production mutation",
+    "Rapid-MLX as a future Apple-hardware benchmark only"
+  ],
+  "blocked_patterns": [
+    "unbounded research while the user sleeps",
+    "automatic provider credential connection",
+    "silent shared-skill mutation",
+    "benchmark conclusions without raw fixtures",
+    "provider routing based only on advertised model names",
+    "anti-detection browser or CAPTCHA bypass behavior",
+    "trading execution or wallet access"
+  ]
+}
