@@ -78,3 +78,26 @@ CreateOS auto-deploys on push after the repository is connected.
 
 `scripts/quality_gate.py` requires all ten platform controls to pass. The score is a
 verifiable repository gate, not a claim that unknown third-party software is perfect.
+
+## Kimi capability consumer profile
+
+This repository consumes the Unified Capability Forge through a pinned, read-only
+reference rather than cloning every reviewed skill or framework. The local profile adds
+Kimi-specific evaluation lanes for protocol parity, tool conformance, long-context
+retention, hardware portability, and research integrity.
+
+- Profile: `governance/kimi_capability_profile.json`
+- Validator: `scripts/validate_kimi_capability_profile.py`
+- Tests: `tests/test_kimi_capability_profile.py`
+- Workflow: `.github/workflows/kimi-capability-profile.yml`
+- Skills: `.agents/skills/`
+
+The current skill pack includes:
+
+1. `kimi-protocol-parity-lab`
+2. `kimi-tool-conformance-auditor`
+3. `long-context-retention-lab`
+4. `inference-portability-benchmark`
+
+Rapid-MLX remains a future Apple-Silicon benchmark lane, not a dependency on the current
+Windows/Ollama host. OpenRouter remains disabled unless Caleb separately approves it.
