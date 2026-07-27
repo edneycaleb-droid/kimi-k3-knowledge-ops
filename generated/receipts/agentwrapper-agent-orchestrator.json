@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/AgentWrapper/agent-orchestrator",
+  "canonical_repository": "AgentWrapper/agent-orchestrator",
+  "canonical_url": "https://github.com/AgentWrapper/agent-orchestrator",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:12.585405Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8c952cf7e3335a1714930fad6e91d9f579d245d307ae8089077145360ecfa6a8",
+  "sampled_file_digests": {
+    "LICENSE": "1a2219722b7ef58364065e9073a2cb2831891eb147a785742a31431c9cddad1d",
+    "README.md": "d62e441bbb4e7fd8955f6d0818d08452a9a451b15ade3190da6d85e4abf03f8c",
+    "package.json": "47b948b82b423e93aa9f82bc0d669797ad29a0ee9415e27a987b31e3e215ce20"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

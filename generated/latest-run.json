@@ -1,5 +1,56 @@
 {
-  "entries": [
+  "agent_metrics": {
+    "agents": {
+      "classification": {
+        "status": "completed"
+      },
+      "compatibility": {
+        "status": "completed"
+      },
+      "decision": {
+        "status": "completed"
+      },
+      "deduplication": {
+        "inputs": 30,
+        "outputs": 30,
+        "removed": 0
+      },
+      "discovery": {
+        "outputs": 30
+      },
+      "extraction": {
+        "status": "completed"
+      },
+      "learning": {
+        "status": "completed"
+      },
+      "proposal": {
+        "status": "completed"
+      },
+      "provenance": {
+        "status": "completed"
+      },
+      "quality": {
+        "status": "completed"
+      },
+      "security": {
+        "status": "completed"
+      }
+    },
+    "decisions": {
+      "blocked": 8,
+      "candidate": 7,
+      "rejected": 1,
+      "review": 14
+    },
+    "safety": {
+      "auto_merged": false,
+      "executed_discovered_code": false,
+      "installed_discovered_dependencies": false,
+      "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431"
+    }
+  },
+  "assessments": [
     {
       "adapter_path": "generated/adapters/activepieces-activepieces.json",
       "categories": [
@@ -6541,7 +6592,13 @@
       ]
     }
   ],
-  "generated_at": "2026-07-27T11:37:42.707792Z",
+  "blocked": 8,
+  "candidates_discovered": 30,
+  "candidates_unique": 30,
+  "finished_at": "2026-07-27T11:37:42.722867Z",
+  "policy_digest": "65d023018ef0f7b460b2244d315f5d497a7b11a33e56e5be7b405ad0d118f431",
   "project_id": "kimi-k3",
-  "schema_version": 1
+  "proposals_created": 21,
+  "run_id": "2026-07-27-1d31066533",
+  "started_at": "2026-07-27T11:35:37.546901Z"
 }

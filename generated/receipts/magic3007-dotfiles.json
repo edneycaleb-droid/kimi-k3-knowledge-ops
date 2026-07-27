@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/magic3007/dotfiles",
+  "canonical_repository": "magic3007/dotfiles",
+  "canonical_url": "https://github.com/magic3007/dotfiles",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:20.745013Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5a87556fc4ebe870239907b0629b06b831be37ed88bc96ddcd1f534ad3328681",
+  "sampled_file_digests": {
+    "LICENSE": "6deee66e693e118ba6bc23160b77e9b887e18790ce8041492fafda18cfefcfb1",
+    "README.md": "c3988c11bbc6864030c4ea25d67774d98ef35b4d30448aa3390456298e8f8541"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

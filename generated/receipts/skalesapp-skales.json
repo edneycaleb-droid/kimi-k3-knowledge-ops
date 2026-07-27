@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/skalesapp/skales",
+  "canonical_repository": "skalesapp/skales",
+  "canonical_url": "https://github.com/skalesapp/skales",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:37:34.246594Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d67cec90ff118a97c799d7e4b2d4ee34c97eb0317634d9dc8b95f278a50a0b54",
+  "sampled_file_digests": {
+    "LICENSE": "1a22c10158c857bb4b3ab10a98fcfe713d0af6886c6f562561972efac04e5ba2",
+    "README.md": "b63778a2abc0c0719eb7d2a822058f1610940839d320b393cee314e52c107c7b",
+    "package.json": "c21da9b2519acd18c01a21724b7c6c5f0d603f36af3cb15b4a454c1984362b14"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

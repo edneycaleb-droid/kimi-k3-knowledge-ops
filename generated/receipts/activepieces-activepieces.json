@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/activepieces/activepieces",
+  "canonical_repository": "activepieces/activepieces",
+  "canonical_url": "https://github.com/activepieces/activepieces",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:37:25.961612Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "82c4284ac6135c2270a48deb4475a1ed624eb49baea71675e9ef57db5093b439",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "97210b8027402033c56613a15e910b1f419b60feedda73206a26874efe1b2eab",
+    "Dockerfile": "530e4ee80af5920b7160f4888805b86bffe02d4ca0b75407de5e9a7da4e88122",
+    "LICENSE": "d490fc48488c4f5a721d354f0a5cce0972c7e3de768ac3e0c5851c3de79f3c9b",
+    "README.md": "cd713ed6ae78214e2a54266541df2b8c1de6163312dd499a83d59a930065ed1b",
+    "docker-compose.yml": "f2c02a5b4eac7364a09f094737eb38510e88df0abbdf2477e8e0a49fd9c43e11",
+    "package.json": "497ea35a097a50f70f9271be3e9baf32f0f4c461767491b1cc0760eb4d69f77b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

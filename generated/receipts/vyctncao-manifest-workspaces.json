@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/vyctncao/manifest-workspaces",
+  "canonical_repository": "vyctncao/manifest-workspaces",
+  "canonical_url": "https://github.com/vyctncao/manifest-workspaces",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:08.417735Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d84d2caef77f9bd3a34a72b7a4d730491287ad1c4b7c0afd40fbc3b4a40b7d36",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "17d485ca1b0649999c4f86616f7d22168de2f6bfcd3a0e2fb686f41da900e812",
+    "LICENSE": "09fb5107f8c2e48ca04aa3812ab97c4dc38054ccaa8cf53e3d35a53872be2072",
+    "README.md": "5257f380bccfd8c5d6ebac5645b69b7bb1a4f7cf81f31247eec9828448cdfc4f",
+    "package.json": "93600d95e6319345d2c848d0f2cff3bb08fa849a9e3a2930bef60963a8e71947"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

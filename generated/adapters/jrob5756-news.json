@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://astral.sh/blog/ruff-v0.16.0)**",
+    "https://developers.googleblog.com/en/building-scalable-ai-agents-with-modular-prompt-transpilation/)**",
+    "https://developers.googleblog.com/en/expanding-choice-in-gemini-enterprise-agent-platform-introducing-grounding-with-parallel-web-search/)**",
+    "https://dzone.com/articles/api-testing-frameworks)**",
+    "https://dzone.com/articles/architecting-cleaner-java)**",
+    "https://dzone.com/articles/lift-and-shift-vs-modernize-enterprise-workloads)**",
+    "https://dzone.com/articles/overautomation-pitfalls-software-development)**",
+    "https://dzone.com/articles/production-agentic-systems-pipeline)**",
+    "https://github.blog/ai-and-ml/github-copilot/copilot-vs-raw-api-access-what-are-you-actually-paying-for/)**",
+    "https://github.com/SignalPilot-Labs/AutoFyn/blob/main/results/imo-2026/autofyn-beyond-model-imo26-report.pdf)**",
+    "https://github.com/faizannraza/wattage)**",
+    "https://github.com/vercel-labs/scriptc)**",
+    "https://hackernoon.com/agentic-test-creation-vs-ai-test-generation-whats-the-difference)**",
+    "https://hackernoon.com/vibe-orchestration-will-get-you-killed-i-rebuilt-my-coding-agent-harness-on-army-doctrine)**",
+    "https://huggingface.co/moonshotai/Kimi-K3)**",
+    "https://openai.com/index/health-in-chatgpt)**",
+    "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work)**",
+    "https://www.bloomberg.com/news/articles/2026-07-27/multiverse-raising-funds-at-1-7-billion-value-to-cut-ai-costs)**",
+    "https://www.cnn.com/2026/07/26/business/video/gps-0726-microsoft-interview-satya-nadella)**",
+    "https://www.engadget.com/2223796/nvidia-launches-open-securte-ai-alliance-initiative-to-improve-cyber-defense/)**",
+    "https://www.ft.com/content/e23e8b1c-693b-48b5-85b3-5852ebf70b02)**",
+    "https://www.theinformation.com/articles/microsoft-cloud-providers-tighten-grip-gpus-pressuring-ai-customers)**",
+    "https://www.wsj.com/business/china-us-ai-model-costs-53a12e96)**",
+    "https://www.wsj.com/tech/ai/nvidia-in-talks-with-openai-to-guarantee-250-billion-financing-for-data-center-3dd6eae3)**",
+    "https://www.wsj.com/tech/google-fined-1-02-billion-under-eus-tech-antitrust-rules-7e8ae1fb)**"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jrob5756-news.json",
+  "schema_version": 1,
+  "source_repository": "jrob5756/news",
+  "source_url": "https://github.com/jrob5756/news",
+  "status": "disabled_pending_review"
+}

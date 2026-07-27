@@ -1,0 +1,87 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aboudzein.github.io",
+    "https://about.me/cyril_duchon_doris",
+    "https://about.me/veverkap",
+    "https://activepieces.com",
+    "https://alexandrudanpop.dev/",
+    "https://allcontributors.org)",
+    "https://avatars.githubusercontent.com/u/10000339?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/10012140?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/100678833?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/101547635?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/102361544?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/103899034?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/10613140?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/106555838?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/10667346?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/109973520?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/110456120?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/11055414?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/11228024?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/112286458?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/11240307?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/113296626?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/114051448?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/11466949?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/116744368?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/116841234?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/11836793?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/118493739?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/119039046?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/119303?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/119448495?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/122645579?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/122938302?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/123538138?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/12458706?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/124846022?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/1257083?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/12627658?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/127273427?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/129386740?v=4?s=100"
+  ],
+  "environment_variable_names": [
+    "AP_PORT",
+    "AP_POSTGRES_HOST",
+    "AP_POSTGRES_PORT",
+    "SENTRY_AUTH_TOKEN",
+    "TURBO_CACHE_S3_ACCESS_KEY_ID",
+    "TURBO_CACHE_S3_SECRET_ACCESS_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/activepieces-activepieces.json",
+  "schema_version": 1,
+  "source_repository": "activepieces/activepieces",
+  "source_url": "https://github.com/activepieces/activepieces",
+  "status": "disabled_pending_review"
+}
