@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/zpratt/lousy-agents",
+  "canonical_repository": "zpratt/lousy-agents",
+  "canonical_url": "https://github.com/zpratt/lousy-agents",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:37:17.761762Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b6a4921ff75394e53d4b01c82e4b26643c52ecf0205ea78d5342c283ea675a54",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9925c3f34eb0ddfefd75c3138dbe900ff48d16b7f5de7baf7308957d72fb998c",
+    "LICENSE": "e8fb56f54458b2cb7365cc54803291ef535fd579de97f01427adfb749ab4acca",
+    "README.md": "74d822ef03bbe0ab4084ab17289844a3399906dd0784c57cf456ccbbfca6e50d",
+    "package.json": "b72040e2c14bdb117f1fc756d25feaa4534410694f2e05982e5d138464aea4e6"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

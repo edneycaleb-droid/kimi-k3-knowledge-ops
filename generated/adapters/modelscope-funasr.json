@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=modelscope/FunASR&type=Date",
+    "https://api.star-history.com/svg?repos=modelscope/FunASR&type=Date&theme=dark",
+    "https://arxiv.org/abs/2407.04051)",
+    "https://arxiv.org/abs/2407.04051),",
+    "https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/modelscope/FunASR/blob/main/examples/colab/funasr_quickstart.ipynb)",
+    "https://github.com/QwenAudio/Fun-ASR)",
+    "https://github.com/QwenAudio/SenseVoice)",
+    "https://github.com/ggml-org/whisper.cpp)",
+    "https://github.com/modelscope/FunASR",
+    "https://github.com/modelscope/FunASR.git",
+    "https://github.com/modelscope/FunASR/discussions)",
+    "https://github.com/modelscope/FunASR/issues)",
+    "https://github.com/modelscope/FunASR/releases)",
+    "https://github.com/modelscope/FunASR/releases/download/runtime-llamacpp-v0.1.9/funasr-llamacpp-linux-x64-vulkan.tar.gz)",
+    "https://github.com/modelscope/FunASR/releases/download/runtime-llamacpp-v0.1.9/funasr-llamacpp-windows-x64-cuda.zip)",
+    "https://github.com/modelscope/FunASR/releases/download/runtime-llamacpp-v0.1.9/funasr-llamacpp-windows-x64-vulkan.zip)",
+    "https://github.com/modelscope/FunASR/releases/tag/runtime-llamacpp-v0.1.7)",
+    "https://github.com/modelscope/FunASR/releases/tag/runtime-llamacpp-v0.1.8)",
+    "https://github.com/modelscope/FunASR/releases/tag/runtime-llamacpp-v0.1.9)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.18)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.19)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.20)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.21)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.22)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.23)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.24)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.25)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.26)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.27)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.28)",
+    "https://github.com/modelscope/FunASR/releases/tag/v1.3.29)",
+    "https://huggingface.co/FunAudioLLM)",
+    "https://huggingface.co/FunAudioLLM/Fun-ASR-MLT-Nano-2512)",
+    "https://huggingface.co/FunAudioLLM/Fun-ASR-MLT-Nano-2512).",
+    "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-2512)",
+    "https://huggingface.co/FunAudioLLM/Fun-ASR-Nano-GGUF)",
+    "https://huggingface.co/FunAudioLLM/SenseVoiceSmall)",
+    "https://huggingface.co/FunAudioLLM/SenseVoiceSmall),",
+    "https://huggingface.co/FunAudioLLM/SenseVoiceSmall-GGUF)",
+    "https://huggingface.co/FunAudioLLM/SenseVoiceSmall-GGUF)."
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/modelscope-funasr.json",
+  "schema_version": 1,
+  "source_repository": "modelscope/FunASR",
+  "source_url": "https://github.com/modelscope/FunASR",
+  "status": "disabled_pending_review"
+}

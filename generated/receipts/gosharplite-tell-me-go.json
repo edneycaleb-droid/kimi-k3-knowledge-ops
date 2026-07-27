@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/gosharplite/tell-me-go",
+  "canonical_repository": "gosharplite/tell-me-go",
+  "canonical_url": "https://github.com/gosharplite/tell-me-go",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:03.586095Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3980946b9de87f9f439392942885fd1af109f239deb5c7a58ae0354c3a053143",
+  "sampled_file_digests": {
+    "LICENSE": "7705a9ac9e74ce921385f0ce28adbb622610fdca4984daae18db777c1f221a25",
+    "README.md": "74bb4c283da380567e27acccf10c6b8b6181caa2a8d24936f0e3683dba6ad910"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

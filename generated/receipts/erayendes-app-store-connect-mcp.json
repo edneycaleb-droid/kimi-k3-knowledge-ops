@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/erayendes/app-store-connect-mcp",
+  "canonical_repository": "erayendes/app-store-connect-mcp",
+  "canonical_url": "https://github.com/erayendes/app-store-connect-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:37:13.723584Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "61923657915ce57d5c758cff53600d8ed813de7962f84ad47d2c5c7b4506fff1",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "1d51b6b780b30c51bf5279c8f01727dfd2dc2e8c0ee439906a5984ecd6f24fd0",
+    "Dockerfile": "e8993ed68c76af699df4fe3826acbb90599c48b85ec3b22dce27a96cef8d52e8",
+    "LICENSE": "da0e8a8d0575d70bc9905c53c68383241149fe3a864af24fb45bc8e44c83bdee",
+    "README.md": "395e4f4f855d5af0f217a4c0a4b2110aad89b7ad13de75ea75e2b28ccaad1106",
+    "package.json": "c5cee97e80ab1561044b07e41726752e69d27179cb9f38933aab4078b05b100c",
+    "server.json": "e025bbbaa8918cb4772bb3007396922c8bf67d4861cf25a72e16495394a02ded"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

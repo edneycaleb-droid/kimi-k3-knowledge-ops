@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/ThelbertD/madeea-os",
+  "canonical_repository": "ThelbertD/madeea-os",
+  "canonical_url": "https://github.com/ThelbertD/madeea-os",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:24.613326Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "597f80e79e4498557bb21eed5259597298706bba21d14efe3f332ac0081dc9b2",
+  "sampled_file_digests": {
+    "README.md": "d219a60d10c144f61a1f3f9f98f3f0cd48a46c8dbf2fc6331d3c9c82e890c2ac"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

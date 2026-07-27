@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/justjavac/minecraft-web",
+  "canonical_repository": "justjavac/minecraft-web",
+  "canonical_url": "https://github.com/justjavac/minecraft-web",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:51.481912Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6ad91f8dd32ad5aa3eebf107d5f307e6796369834239a2478907ac7449400a79",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "52ac3b281755210f50ef650b6e97f681562a5c7e9e5717bef32e22b425ae18c3",
+    "README.md": "00efd0ddce224c7f988c7988637759e9c957e90021e7793d0e965daf3b1cf130",
+    "package.json": "c035e31c5f303acdf0fc397b7624df405c90c6187ddff0796af2cb7201c1261c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

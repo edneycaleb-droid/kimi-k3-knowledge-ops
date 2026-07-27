@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/zendev-sh/goai",
+  "canonical_repository": "zendev-sh/goai",
+  "canonical_url": "https://github.com/zendev-sh/goai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:33.021991Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4b63a2b854d98b3f3d1b240c5536f2d987142004701f02c2ce3b616534f65bfd",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "385b3fe0b60d316f5909bf3a100b5263999d7950f424d34ab8da741bafa49feb",
+    "LICENSE": "f95fef07dc506b207f48c5124c044b8752b43b62d27b5bc4316ae26376137511",
+    "README.md": "cb79f1e61abce220b1a29a72315a4cbf4eb1a3f9ee429e7411c5c7fe777f05e2",
+    "package.json": "741d9f21963e9fbd8bcd977b227c6703dc386eeb2f6545469ccb163a0f28a549"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

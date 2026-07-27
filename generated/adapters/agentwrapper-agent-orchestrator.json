@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://aoagents.dev/docs/installation)",
+    "https://aoagents.dev/docs/plugins/agents",
+    "https://aoagents.dev/docs/plugins/agents/aider",
+    "https://aoagents.dev/docs/plugins/agents/claude-code",
+    "https://aoagents.dev/docs/plugins/agents/codex",
+    "https://aoagents.dev/docs/plugins/agents/cursor",
+    "https://aoagents.dev/docs/plugins/agents/opencode",
+    "https://github.com/AgentWrapper/agent-orchestrator/releases/latest/download/agent-orchestrator-darwin-arm64.zip)",
+    "https://github.com/AgentWrapper/agent-orchestrator/releases/latest/download/agent-orchestrator-darwin-x64.zip)",
+    "https://github.com/AgentWrapper/agent-orchestrator/releases/latest/download/agent-orchestrator-linux-x64.AppImage)",
+    "https://github.com/AgentWrapper/agent-orchestrator/releases/latest/download/agent-orchestrator-win32-x64.exe)",
+    "https://img.shields.io/badge/Discord-join%20the%20community-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/UZv7JjxbwG)",
+    "https://img.shields.io/badge/License-Apache--2.0-blue.svg)](LICENSE)",
+    "https://img.shields.io/badge/Twitter-1DA1F2?logo=twitter&logoColor=white)](https://x.com/aoagents)",
+    "https://img.shields.io/github/contributors/AgentWrapper/agent-orchestrator)](https://github.com/AgentWrapper/agent-orchestrator/graphs/contributors)",
+    "https://img.shields.io/github/stars/AgentWrapper/agent-orchestrator)](https://github.com/AgentWrapper/agent-orchestrator/stargazers)",
+    "https://x.com/agent_wrapper/status/2025986105485733945",
+    "https://x.com/agent_wrapper/status/2026329204405723180"
+  ],
+  "environment_variable_names": [
+    "VITE_AO_POSTHOG_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/agentwrapper-agent-orchestrator.json",
+  "schema_version": 1,
+  "source_repository": "AgentWrapper/agent-orchestrator",
+  "source_url": "https://github.com/AgentWrapper/agent-orchestrator",
+  "status": "disabled_pending_review"
+}

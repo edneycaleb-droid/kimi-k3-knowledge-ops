@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ai.google.dev/)",
+    "https://app.cline.bot/)",
+    "https://app.codecov.io/gh/mnfst/manifest",
+    "https://app.manifest.build)",
+    "https://aws.amazon.com/bedrock/)",
+    "https://build.nvidia.com/)",
+    "https://commandcode.ai/studio)",
+    "https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=manifest&amp;templateURL=https%3A%2F%2Fmnfst-manifest-deploy-templates.s3.us-east-1.amazonaws.com%2Fmanifest.yaml",
+    "https://discord.com/invite/FepAked3W7)",
+    "https://discord.gg/FepAked3W7",
+    "https://fireworks.ai/)",
+    "https://github.com/features/copilot)",
+    "https://github.com/ggml-org/llama.cpp)",
+    "https://github.com/mnfst/manifest",
+    "https://github.com/mnfst/manifest)",
+    "https://github.com/mnfst/manifest/actions/workflows/ci.yml",
+    "https://github.com/mnfst/manifest/discussions)",
+    "https://github.com/mnfst/manifest/issues",
+    "https://github.com/mnfst/manifest/stargazers",
+    "https://github.com/user-attachments/assets/7dd74fc2-f7d6-4558-a95a-014ed754a125)",
+    "https://groq.com/)",
+    "https://hub.docker.com/r/manifestdotbuild/manifest",
+    "https://hub.docker.com/r/manifestdotbuild/manifest).",
+    "https://hub.docker.com/r/manifestdotbuild/manifest/tags",
+    "https://img.shields.io/badge/Deploy%20on-AWS-232F3E?style=for-the-badge&amp;logo=amazonwebservices&amp;logoColor=white",
+    "https://img.shields.io/badge/Deploy%20on-GCP-4285F4?style=for-the-badge&amp;logo=googlecloud&amp;logoColor=white",
+    "https://img.shields.io/badge/Deploy%20on-Railway-0B0D0E?style=for-the-badge&amp;logo=railway&amp;logoColor=white",
+    "https://img.shields.io/badge/Deploy%20on-Render-46E3B7?style=for-the-badge&amp;logo=render&amp;logoColor=white",
+    "https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white",
+    "https://img.shields.io/badge/status-beta-yellow",
+    "https://img.shields.io/codecov/c/github/mnfst/manifest?label=coverage",
+    "https://img.shields.io/docker/image-size/manifestdotbuild/manifest/latest?color=2496ED&label=image%20size",
+    "https://img.shields.io/docker/pulls/manifestdotbuild/manifest?color=2496ED&label=docker%20pulls",
+    "https://img.shields.io/github/actions/workflow/status/mnfst/manifest/ci.yml?branch=main&label=CI",
+    "https://img.shields.io/github/license/mnfst/manifest?color=blue",
+    "https://img.shields.io/github/stars/mnfst/manifest?style=flat",
+    "https://kilo.ai/)",
+    "https://kimi.ai/)",
+    "https://kiro.dev/)",
+    "https://lmstudio.ai/)"
+  ],
+  "environment_variable_names": [
+    "BETTER_AUTH_SECRET",
+    "CODECOV_TOKEN",
+    "DATABASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vyctncao-manifest-workspaces.json",
+  "schema_version": 1,
+  "source_repository": "vyctncao/manifest-workspaces",
+  "source_url": "https://github.com/vyctncao/manifest-workspaces",
+  "status": "disabled_pending_review"
+}

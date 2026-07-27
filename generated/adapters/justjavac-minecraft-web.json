@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "uncategorized"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://creativecommons.org/licenses/by-sa/3.0/)",
+    "https://faithfulpack.net/",
+    "https://github.com/IdreesInc/Monocraft)",
+    "https://github.com/TakWolf/fusion-pixel-font)",
+    "https://github.com/luanti-org/minetest_game)",
+    "https://openfontlicense.org/)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/justjavac-minecraft-web.json",
+  "schema_version": 1,
+  "source_repository": "justjavac/minecraft-web",
+  "source_url": "https://github.com/justjavac/minecraft-web",
+  "status": "disabled_pending_review"
+}

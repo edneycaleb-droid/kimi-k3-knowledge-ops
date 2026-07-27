@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/enapt/SwarmLLM",
+  "canonical_repository": "enapt/SwarmLLM",
+  "canonical_url": "https://github.com/enapt/SwarmLLM",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:36.914044Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0131beb397603f47a1c63ad8fee7e452b2351336211fd45011bb98f019a18ccc",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "27b14279429a2147f604b5db3d0aba3cafc639e3f564f36a65196044741baa77",
+    "Dockerfile": "509b749d7e149c878f6e561085958e4eae9b0c2b2ac915b7f09459bcdcc35a1f",
+    "README.md": "b0caa07367107aec6e87d756221f3a914bb222950066be6f8523a85261772001",
+    "docker-compose.yml": "618939675f37975fd9f3993c1a1db70e44ccfe8ef087279a5347f5ba47e7b5db"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

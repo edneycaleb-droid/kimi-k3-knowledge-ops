@@ -1,0 +1,101 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/zendev-sh/goai/releases)",
+    "https://github.com/zendev-sh/zenflow",
+    "https://github.com/zendev-sh/zenflow)",
+    "https://github.com/zendev-sh/zenflow)**",
+    "https://goai.sh",
+    "https://goai.sh/architecture",
+    "https://goai.sh/concepts/mcp)",
+    "https://goai.sh/concepts/observability)",
+    "https://goai.sh/examples",
+    "https://goai.sh/getting-started/installation",
+    "https://goai.sh/providers/",
+    "https://goai.sh/providers/requesty)",
+    "https://img.shields.io/badge/cold_start-24x_faster-brightgreen",
+    "https://img.shields.io/badge/memory-3.1x_less-brightgreen",
+    "https://img.shields.io/badge/streaming-1.1x_faster-brightgreen",
+    "https://langfuse.com)",
+    "https://my-api.example.com/v1",
+    "https://my-resource.openai.azure.com",
+    "https://opentelemetry.io)",
+    "https://sdk.vercel.ai)."
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "ANTHROPIC_BASE_URL",
+    "AWS_ACCESS_KEY_ID",
+    "AWS_BEARER_TOKEN_BEDROCK",
+    "AWS_BEDROCK_BASE_URL",
+    "AWS_SECRET_ACCESS_KEY",
+    "AZURE_OPENAI_API_KEY",
+    "CEREBRAS_API_KEY",
+    "CLOUDFLARE_API_TOKEN",
+    "CLOUDFLARE_BASE_URL",
+    "CODECOV_TOKEN",
+    "COHERE_API_KEY",
+    "DEEPINFRA_API_KEY",
+    "DEEPSEEK_API_KEY",
+    "FIREWORKS_API_KEY",
+    "FPT_API_KEY",
+    "FPT_BASE_URL",
+    "GEMINI_API_KEY",
+    "GOOGLE_API_KEY",
+    "GOOGLE_GENERATIVE_AI_API_KEY",
+    "GROQ_API_KEY",
+    "LANGFUSE_HOST",
+    "LANGFUSE_PUBLIC_KEY",
+    "LANGFUSE_SECRET_KEY",
+    "MINIMAX_API_KEY",
+    "MINIMAX_BASE_URL",
+    "MISTRAL_API_KEY",
+    "NVIDIA_API_KEY",
+    "NVIDIA_BASE_URL",
+    "OPENAI_API_KEY",
+    "OPENAI_BASE_URL",
+    "OPENROUTER_API_KEY",
+    "PERPLEXITY_API_KEY",
+    "REQUESTY_API_KEY",
+    "REQUESTY_BASE_URL",
+    "RUNPOD_API_KEY",
+    "TOGETHER_AI_API_KEY",
+    "TOGETHER_API_KEY",
+    "URL",
+    "XAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/zendev-sh-goai.json",
+  "schema_version": 1,
+  "source_repository": "zendev-sh/goai",
+  "source_url": "https://github.com/zendev-sh/goai",
+  "status": "disabled_pending_review"
+}

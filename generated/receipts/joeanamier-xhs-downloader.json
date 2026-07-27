@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/JoeanAmier/XHS-Downloader",
+  "canonical_repository": "JoeanAmier/XHS-Downloader",
+  "canonical_url": "https://github.com/JoeanAmier/XHS-Downloader",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:37:01.415568Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1da431c72686622dd92a65568aa0338623546729922e689176eed536a8f19731",
+  "sampled_file_digests": {
+    "Dockerfile": "23f1f92f0a5e6b83a028018af6cf10230f08215567ac7e233a79a8c1f0fd888b",
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "e12128490e3069ac67ace1ceea91907243059136061c65db7f5ee87f27c99238",
+    "pyproject.toml": "f1596e26874b6fb37ba01401e4463f423d840e9462b8ecd4df58330a06f51d46",
+    "requirements.txt": "137e41f7a8395da3c022608bcf784eda51e058c127e3077a1a3fefddd09811fa"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

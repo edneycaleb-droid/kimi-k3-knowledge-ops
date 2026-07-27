@@ -1,0 +1,78 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=JoeanAmier/XHS-Downloader&amp;type=Timeline",
+    "https://bloome.im/app?ref=KUyJQU6F&utm_medium=github&utm_source=JoeanAmier-XHS-Downloader-ivor-202606",
+    "https://dartnode.com",
+    "https://discord.com/invite/ZYtmgKud9Y",
+    "https://fsf.org/",
+    "https://github.com/JoeanAmier/KS-Downloader",
+    "https://github.com/JoeanAmier/TikTokDownloader",
+    "https://github.com/JoeanAmier/XHS-Downloader",
+    "https://github.com/JoeanAmier/XHS-Downloader/actions",
+    "https://github.com/JoeanAmier/XHS-Downloader/blob/master/LICENSE",
+    "https://github.com/JoeanAmier/XHS-Downloader/blob/master/static/QQ%E7%BE%A4%E8%81%8A%E4%BA%8C%E7%BB%B4%E7%A0%81.png",
+    "https://github.com/JoeanAmier/XHS-Downloader/issues)",
+    "https://github.com/JoeanAmier/XHS-Downloader/releases/latest",
+    "https://github.com/Tinche/aiofiles",
+    "https://github.com/asweigart/pyperclip",
+    "https://github.com/carpedm20/emoji/",
+    "https://github.com/encode/httpx/",
+    "https://github.com/encode/uvicorn",
+    "https://github.com/jlowin/fastmcp",
+    "https://github.com/lxml/lxml",
+    "https://github.com/omnilib/aiosqlite",
+    "https://github.com/pallets/click/",
+    "https://github.com/pyinstaller/pyinstaller",
+    "https://github.com/textualize/textual/",
+    "https://github.com/tiangolo/fastapi",
+    "https://github.com/yaml/pyyaml",
+    "https://github.com/your-username/this-repo",
+    "https://github.com/zbowling/beartype-pyinstaller-repro",
+    "https://img.shields.io/badge/Docker-badc58?style=flat-square&logo=docker",
+    "https://img.shields.io/badge/Python-3.12-b8e994?style=flat-square&logo=python&labelColor=3dc1d3",
+    "https://img.shields.io/badge/Sourcery-enabled-884898?style=flat-square&color=1890ff",
+    "https://img.shields.io/badge/UserScript-ffec3d?style=flat-square&logo=tampermonkey&logoColor=%2300485B",
+    "https://img.shields.io/github/downloads/JoeanAmier/XHS-Downloader/total?style=flat-square&color=ffdd59",
+    "https://img.shields.io/github/forks/JoeanAmier/XHS-Downloader?style=flat-square&color=55efc4",
+    "https://img.shields.io/github/languages/code-size/JoeanAmier/XHS-Downloader?style=flat-square&color=a29bfe",
+    "https://img.shields.io/github/license/JoeanAmier/XHS-Downloader?style=flat-square",
+    "https://img.shields.io/github/stars/JoeanAmier/XHS-Downloader?style=flat-square&color=fda7df",
+    "https://img.shields.io/github/v/release/JoeanAmier/XHS-Downloader?style=flat-square&color=48dbfb",
+    "https://learn.microsoft.com/zh-cn/windows/terminal/install",
+    "https://mirrors.ustc.edu.cn/pypi/simple"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/joeanamier-xhs-downloader.json",
+  "schema_version": 1,
+  "source_repository": "JoeanAmier/XHS-Downloader",
+  "source_url": "https://github.com/JoeanAmier/XHS-Downloader",
+  "status": "disabled_pending_review"
+}

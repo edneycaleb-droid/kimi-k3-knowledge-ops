@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/jrob5756/news",
+  "canonical_repository": "jrob5756/news",
+  "canonical_url": "https://github.com/jrob5756/news",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:35:47.261795Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "73cdb398a7eb944572e81c79a4a73bd14a4cd1e6d94865c13537c131c87f2acd",
+  "sampled_file_digests": {
+    "README.md": "8d8d4c74674707c5910bf71cfad5cc59ee73ae0dcc6dfc075627235f4aed7052"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

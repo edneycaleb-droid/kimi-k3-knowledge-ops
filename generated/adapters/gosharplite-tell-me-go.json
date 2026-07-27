@@ -1,0 +1,56 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aiplatform.googleapis.com/v1/projects/$",
+    "https://aiplatform.googleapis.com/v1beta1/projects/$",
+    "https://api.anthropic.com/v1",
+    "https://api.deepseek.com",
+    "https://api.openai.com/v1",
+    "https://github.com/gosharplite/tell-me-go/releases).",
+    "https://github.com/gosharplite/tell-me-go/releases):",
+    "https://github.com/gosharplite/tell-me-go/releases/latest/download/tell-me-go-darwin-amd64.tar.gz",
+    "https://github.com/gosharplite/tell-me-go/releases/latest/download/tell-me-go-darwin-arm64.tar.gz",
+    "https://github.com/gosharplite/tell-me-go/releases/latest/download/tell-me-go-linux-amd64.tar.gz",
+    "https://github.com/gosharplite/tell-me-go/releases/latest/download/tell-me-go-windows-amd64.zip",
+    "https://github.com/stacklok/modelith),",
+    "https://stacklok.com)."
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "API_KEY",
+    "DEEPSEEK_API_KEY",
+    "MAX_HISTORY_TOKENS",
+    "MAX_TOKENS",
+    "OPENAI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/gosharplite-tell-me-go.json",
+  "schema_version": 1,
+  "source_repository": "gosharplite/tell-me-go",
+  "source_url": "https://github.com/gosharplite/tell-me-go",
+  "status": "disabled_pending_review"
+}

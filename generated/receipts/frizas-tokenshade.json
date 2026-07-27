@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/frizas/tokenshade",
+  "canonical_repository": "frizas/tokenshade",
+  "canonical_url": "https://github.com/frizas/tokenshade",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:16.501610Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1eeb7cb86121da1d613070fa1681a8af78af4c674124cf5116bcba010f533aac",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a043259aff4381fb57a56dabddeabce338e21868225140c214adb91618611c2a",
+    "LICENSE": "ef66e5935aa4db8fdb04505a9bd9f74dd9258c87906642adcf27d0ba0b8a6315",
+    "README.md": "3b7d4a240665fa2cd1bf9d21115a432bb75b477d1b8c9b50c19bf2b275de12e1",
+    "package.json": "1080c497190a938d7b010fed9b1fddd043d93f2847d37e7b4700a586f314540d"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

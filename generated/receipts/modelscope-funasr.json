@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/modelscope/FunASR",
+  "canonical_repository": "modelscope/FunASR",
+  "canonical_url": "https://github.com/modelscope/FunASR",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-27T11:36:57.298877Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "71f1963dc243d14b162678293264e6554bfa8aebc4d161e92664a79827598af6",
+  "sampled_file_digests": {
+    "LICENSE": "f382b62dcc61fc566b9215b1e3b604b539bfd96ed52ae1eeff5090f6dc176057",
+    "README.md": "9670ab26e80742ff0fa1133072c4be9d638d7e4ab63d4f46035fa41b42a6e14c",
+    "pyproject.toml": "56448ba123cc7731295d538502a498ccb80c019106357147374974a53b4317c1"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
