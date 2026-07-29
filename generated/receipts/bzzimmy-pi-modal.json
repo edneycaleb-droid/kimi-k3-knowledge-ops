@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/bzzimmy/pi-modal",
+  "canonical_repository": "bzzimmy/pi-modal",
+  "canonical_url": "https://github.com/bzzimmy/pi-modal",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:51.039765Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2a41e113d8a8fc983b7c3ecd4e7727ad9e92bf1770a8945778b9aaf408a5cc7d",
+  "sampled_file_digests": {
+    "README.md": "b968522e08066da685e3816b741cfd614c80e0721cacb00fd5c04cfe8e3373c8",
+    "package.json": "4c8155e48b41de9f2f46f26e50a6e3b0ef4339a3b57903fef29b3dc653c3cbee"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

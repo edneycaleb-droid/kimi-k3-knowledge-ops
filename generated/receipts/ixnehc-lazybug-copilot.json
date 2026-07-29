@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/ixnehc/LazyBug-Copilot",
+  "canonical_repository": "ixnehc/LazyBug-Copilot",
+  "canonical_url": "https://github.com/ixnehc/LazyBug-Copilot",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:17.610255Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "20c8fc363827da733acaaf54841ca9987a8859868ed31e6d7aa394f32a633147",
+  "sampled_file_digests": {
+    "LICENSE": "aa9024470fb1bb74749acd616982675bc22ef20020cfa911651b8ceffaa6a3eb"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/dinglebear-ai/unraid",
+  "canonical_repository": "dinglebear-ai/unraid",
+  "canonical_url": "https://github.com/dinglebear-ai/unraid",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:31.487609Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c957d1f5b07be80aac258c46daf9137c19061246585da7a56af0a70cec9c0b22",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8c5cca091f0a2eb2ddcb4b7390ea2adab34deae1eb68212b9c900cc981b1e2fd",
+    "LICENSE": "4eb564fed852e01c5a62f7fab881e7a435a91c39b82d70bf5f29c7e8a1710e48",
+    "README.md": "b612ee7834d7b6c5bec8760f02c0b08958425177ca2b2c93b8b84ab17b2458f2"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

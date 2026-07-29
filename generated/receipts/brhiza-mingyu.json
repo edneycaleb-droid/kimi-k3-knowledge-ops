@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/Brhiza/mingyu",
+  "canonical_repository": "Brhiza/mingyu",
+  "canonical_url": "https://github.com/Brhiza/mingyu",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:53.041428Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e776bac048abe3c66f9edbf023ba9eaa9d7d0e962507b03369f5f52f4646ae8e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "47396b56d3586a8794d6a7479605512fd6b8bddafa67a01136cb8d31dd1c5e7d",
+    "Dockerfile": "9b7fa424edf5ae1ddc2a342758006916600c345b7c1026b8d2b2c783750649c4",
+    "README.md": "984c439252e7bd091f24a23d3bc81c878e02d5cdf0203e8c711eb8ca7b689421",
+    "docker-compose.yml": "20da6888ad7e9a9de185a83f1cafe45dd27f64af35d39ff6147f199662b24d41",
+    "package.json": "dfba6bd2587db9c5c352123fe0a3e160708d178aed7c37b4c0123c29dd2bd737"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

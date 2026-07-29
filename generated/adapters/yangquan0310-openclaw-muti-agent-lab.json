@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://clawhub.ai/user/heyanming)",
+    "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)",
+    "https://github.com/yangquan0310/agent-self-development",
+    "https://img.shields.io/badge/Agents-10%20",
+    "https://img.shields.io/badge/License-MIT-green.svg)",
+    "https://img.shields.io/badge/OpenClaw-2026.7.20-blue.svg)",
+    "https://img.shields.io/badge/Skills-20%2B-yellow.svg)",
+    "https://img.shields.io/badge/Status-"
+  ],
+  "environment_variable_names": [
+    "JINA_API_KEY",
+    "KIMICODE_API_KEY",
+    "TENCENTTOKENPLAN_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/yangquan0310-openclaw-muti-agent-lab.json",
+  "schema_version": 1,
+  "source_repository": "yangquan0310/openclaw_muti_agent_lab",
+  "source_url": "https://github.com/yangquan0310/openclaw_muti_agent_lab",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://asale.ai)",
+    "https://asale.ai/dl/linux-appimage)",
+    "https://asale.ai/dl/linux-deb)",
+    "https://asale.ai/dl/mac)",
+    "https://asale.ai/dl/windows)",
+    "https://asale.ai/en),",
+    "https://asale.ai/en/distribution)",
+    "https://asale.ai/en/market)",
+    "https://asale.ai/en/records).",
+    "https://asale.ai/en/wallet)",
+    "https://github.com/asale-ai/asale/releases)",
+    "https://img.shields.io/github/v/release/asale-ai/asale?label=latest&color=2f7d4f)](https://github.com/asale-ai/asale/releases/latest)"
+  ],
+  "environment_variable_names": [
+    "ASALE_PROXY_PORT",
+    "ASALE_QUOTA_PUBKEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/asale-ai-asale.json",
+  "schema_version": 1,
+  "source_repository": "asale-ai/asale",
+  "source_url": "https://github.com/asale-ai/asale",
+  "status": "disabled_pending_review"
+}

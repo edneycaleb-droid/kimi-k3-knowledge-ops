@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Prometheus-AGS/prometheus-skill-system",
+  "canonical_repository": "Prometheus-AGS/prometheus-skill-system",
+  "canonical_url": "https://github.com/Prometheus-AGS/prometheus-skill-system",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:11.888158Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "66eb111d740b7e60fbef2cb5a415203c5efeb6e00d4dd48dd3aa44f04d0ba7da",
+  "sampled_file_digests": {
+    ".mcp.json": "fbab9d87ade2b02265c754e06f8b6e35847a9825f076951dbf5c1f0ffeadbec1",
+    "LICENSE": "b164a95706dd6b691be8419873b721f5ac5ee38db381ebda1759ea8b0f71091d",
+    "README.md": "f83b30f55a8ed60911412b3218260104129673df571ee787927647b009253800",
+    "package.json": "23e25caa82e25dabc72b2baa0541e053e415ba4f3db63cb7c42a0a1b7bd81472"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

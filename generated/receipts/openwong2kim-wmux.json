@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/openwong2kim/wmux",
+  "canonical_repository": "openwong2kim/wmux",
+  "canonical_url": "https://github.com/openwong2kim/wmux",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:47.603289Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4112766b54e97dc6d0dbe1af4468bb6fe7d93ea2c06fb29ea14b14fcc2f78701",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8962e98f97f4b0643a3b668aabecf596be0a58016be180919b3221b08807b398",
+    "LICENSE": "d27559e23aea5e7e1f64bd1ba7e254656c90d87ab0e6d8dc3f9e3104fd1aa4d2",
+    "README.md": "b54f1a0371f86d30044c538f0b21751416acbdcf86a62e832386ec5ac16386fc",
+    "package.json": "bbaacb094f76533984ce3363989f80918fc446c7ec41423f520e7612c500aa49"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,64 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://gitee.com/Travisun/Opptrix",
+    "https://github.com/Travisun/Opptrix",
+    "https://github.com/Travisun/Opptrix)",
+    "https://github.com/Travisun/Opptrix.git",
+    "https://github.com/Travisun/Opptrix/issues",
+    "https://github.com/Travisun/Opptrix/issues)",
+    "https://github.com/Travisun/Opptrix/releases",
+    "https://github.com/Travisun/Opptrix/releases)",
+    "https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD-v1.2.0-2ea44f",
+    "https://img.shields.io/badge/Born%20in-LINUX.DO-009185",
+    "https://img.shields.io/badge/GitHub-%E4%BB%93%E5%BA%93-181717?logo=github&logoColor=white",
+    "https://img.shields.io/badge/Gitee-%E4%BB%93%E5%BA%93-C71D23?logo=gitee&logoColor=white",
+    "https://img.shields.io/badge/License-Apache%202.0-blue.svg",
+    "https://img.shields.io/badge/TypeScript-5.7-blue",
+    "https://img.shields.io/badge/node-%3E%3D24-brightgreen",
+    "https://linux.do",
+    "https://linux.do?ref=seal-click",
+    "https://linuxdo-seal.cuishushu.com/seals/seal-born-in.svg",
+    "https://nodejs.org/",
+    "https://opptrix.org/images/wechat-group-qr.jpg",
+    "https://www.opptrix.org",
+    "https://www.typescriptlang.org/"
+  ],
+  "environment_variable_names": [
+    "LLM_API_KEY",
+    "STOCK_RESEARCH_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/travisun-opptrix.json",
+  "schema_version": 1,
+  "source_repository": "Travisun/Opptrix",
+  "source_url": "https://github.com/Travisun/Opptrix",
+  "status": "disabled_pending_review"
+}

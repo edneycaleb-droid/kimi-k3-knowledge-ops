@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Travisun/Opptrix",
+  "canonical_repository": "Travisun/Opptrix",
+  "canonical_url": "https://github.com/Travisun/Opptrix",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:50.270996Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d6c3ffc77fd400e0577298f2922045011f070eae8f6b2e9c14d9f480316d7b36",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8e03b763ecbee743600930d065a2f713498681c59f70e7ffca2096c9c2ce1c8f",
+    "LICENSE": "e6cea79d1e2a572ff8da15bb7b56ddd6b2d943109b483649740d4e0b56a525ac",
+    "README.md": "90100c4e1e7b52418b88bb6c0eabeb8a7fb952636609addb3080ac8876008c1b",
+    "package.json": "55dcbf78a7f196e165b92621137458dffa82a5c91e91a8c6670aa659e06786ea"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://deepwiki.com/badge.svg)](https://deepwiki.com/Nekzus/npm-sentinel-mcp)",
+    "https://github.com/Nekzus",
+    "https://github.com/Nekzus/npm-sentinel-mcp",
+    "https://github.com/Nekzus/npm-sentinel-mcp#readme",
+    "https://github.com/Nekzus/npm-sentinel-mcp.git",
+    "https://github.com/Nekzus/npm-sentinel-mcp/issues",
+    "https://github.com/nekzus)",
+    "https://github.com/nekzus/NPM-Sentinel-MCP/actions/workflows/publish.yml/badge.svg?event=push)](https://github.com/Nekzus/npm-sentinel-mcp/actions/workflows/publish.yml)",
+    "https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/maseortega)",
+    "https://img.shields.io/docker/pulls/mcp/npm-sentinel.svg?label=Docker%20Hub)](https://hub.docker.com/r/mcp/npm-sentinel)",
+    "https://img.shields.io/npm/dm/@nekzus/mcp-server.svg)](https://www.npmjs.com/package/@nekzus/mcp-server)",
+    "https://img.shields.io/npm/dt/@nekzus/mcp-server.svg?style=flat)](https://www.npmjs.com/package/@nekzus/mcp-server)",
+    "https://img.shields.io/npm/v/@nekzus/mcp-server.svg)](https://www.npmjs.com/package/@nekzus/mcp-server)",
+    "https://registry.npmjs.org",
+    "https://registry.npmjs.org/",
+    "https://smithery.ai/badge/@Nekzus/npm-sentinel-mcp)](https://smithery.ai/server/@Nekzus/npm-sentinel-mcp)",
+    "https://smithery.ai/server/@Nekzus/npm-sentinel-mcp",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "NPM_REGISTRY_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Advanced NPM analysis: Recursive security scanning, ecosystem awareness, and deep insights.",
+      "name": "io.github.Nekzus/npm-sentinel-mcp",
+      "packages": [
+        {
+          "identifier": "@nekzus/mcp-server",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "{{VERSION}}"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Nekzus/npm-sentinel-mcp"
+      },
+      "version": "{{VERSION}}"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/nekzus-npm-sentinel-mcp.json",
+  "schema_version": 1,
+  "source_repository": "Nekzus/npm-sentinel-mcp",
+  "source_url": "https://github.com/Nekzus/npm-sentinel-mcp",
+  "status": "disabled_pending_review"
+}

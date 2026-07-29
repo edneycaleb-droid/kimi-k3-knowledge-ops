@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/claudio-labs/claudin",
+  "canonical_repository": "claudio-labs/claudin",
+  "canonical_url": "https://github.com/claudio-labs/claudin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:09.037311Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "65b9c42bfbbe7ea8abea252faf3a862c94488aeda55cab8a2c1e6755beafa965",
+  "sampled_file_digests": {
+    "Dockerfile": "de5f9738f6ecc7720be37261fe8fdddcf956d10b3d364c7c870edf2ab37a8093",
+    "LICENSE": "41560f65310a9f719d4f3bca335d12a85ea0055000870ee62569f10bb5951211",
+    "README.md": "94382de5adbe0690bd921a4c7b0fe6e4d13aa2ab38b34ff3320b40bd5bb9e3ae",
+    "package.json": "834bc199b1e5f0e20dfb43fde8bb4482e2c7b3be8b9f76ad447c743a51209175"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}
