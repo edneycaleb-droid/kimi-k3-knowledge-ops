@@ -1,0 +1,69 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bailian.aliyun.com/cli/install.md)),",
+    "https://bailian.console.aliyun.com/cli?source_channel=cli_github&)",
+    "https://bailian.console.aliyun.com/cn-beijing/?source_channel=key_github&tab=app#/api-key)",
+    "https://github.com/GPTtang/skill-atlas)",
+    "https://github.com/JohnKeating1997/spark-video)",
+    "https://github.com/Shanyin-ai/shanyin-screenwriting-master)",
+    "https://github.com/affaan-m/everything-claude-code)",
+    "https://github.com/anthropics/skills)",
+    "https://github.com/blacktwist/social-media-skills)",
+    "https://github.com/ceoniuer/shaoqi-marketplace)",
+    "https://github.com/davila7/claude-code-templates)",
+    "https://github.com/diao10/skills_repository)",
+    "https://github.com/digoal/blog/tree/master/skills)",
+    "https://github.com/donghuixin/AI-Vibe-Writing-Skills)",
+    "https://github.com/gogf/skills)",
+    "https://github.com/gonelake/multi-agent)",
+    "https://github.com/google-labs-code/stitch-skills)",
+    "https://github.com/gushuaialan1/marketing-writer)",
+    "https://github.com/huangserva/servasyy_skills)",
+    "https://github.com/louis030195/gptzero-mcp)",
+    "https://github.com/modelstudioai/cli)",
+    "https://github.com/modelstudioai/cli);",
+    "https://github.com/mwpgxl/ai-toolkit)",
+    "https://github.com/skills-mcp/skills-mcp)",
+    "https://github.com/vercel-labs/skills)",
+    "https://help.aliyun.com/zh/model-studio/)",
+    "https://img.alicdn.com/imgextra/i4/O1CN01VWH9Nq1SfXnTTVTCw_!!6000000002274-2-tps-1915-821.png",
+    "https://img.shields.io/badge/Agent%20Skills-compatible-brightgreen.svg)](https://agentskills.io)",
+    "https://img.shields.io/badge/license-Apache%202.0-blue)](LICENSE)",
+    "https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)",
+    "https://modelstudioai.github.io/guide/)**",
+    "https://www.npmjs.com/package/bailian-cli)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/modelstudioai-skills.json",
+  "schema_version": 1,
+  "source_repository": "modelstudioai/skills",
+  "source_url": "https://github.com/modelstudioai/skills",
+  "status": "disabled_pending_review"
+}

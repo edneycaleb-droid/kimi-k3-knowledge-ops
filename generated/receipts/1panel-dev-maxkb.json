@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/1Panel-dev/MaxKB",
+  "canonical_repository": "1Panel-dev/MaxKB",
+  "canonical_url": "https://github.com/1Panel-dev/MaxKB",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "v2",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:39.010061Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "21e79ed06d1bb437b2e8a5413bd17d29d84aafd3f4b375bfe6518e3811dbdd86",
+  "sampled_file_digests": {
+    "LICENSE": "8b1ba204bb69a0ade2bfcf65ef294a920f6bb361b317dba43c7ef29d96332b9b",
+    "README.md": "fd69afd3e40a9343e2fad0e5c015deaa2244c3ba95e9b10a0c6fea1226bef97c",
+    "pyproject.toml": "78fbdb0a8bef37a5e2d19012138cbb5653eab7573b9093ea371c6a2844e8a483"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

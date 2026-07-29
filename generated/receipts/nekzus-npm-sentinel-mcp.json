@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/Nekzus/npm-sentinel-mcp",
+  "canonical_repository": "Nekzus/npm-sentinel-mcp",
+  "canonical_url": "https://github.com/Nekzus/npm-sentinel-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:42.132421Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1a6bd076deab19efd7baa684c7c50d3c7b2e420b8cb6efbff41a531d0a2c9446",
+  "sampled_file_digests": {
+    "Dockerfile": "a8a16ba5802c7023e2fcf5edaa8adf2344294fe73f6464f2997c186afb72f65e",
+    "LICENSE": "a0fd5e3973f4f82825cbc62e7bd5f2e45557b29f8f66c0718c5281fc001f967c",
+    "README.md": "860f287ee2302ab9284e1cf5a30a0272ec379486928209a3cdb2f7081932cdfc",
+    "package.json": "9466bd4de365fabc63b6bfacb61e577ddfdad890d09f0e4bd6123b0cd10a4401",
+    "server.json": "f64d56f7154f2bf86fba50284ebd524371dbbb472d44bc498a96f4bef1180583"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

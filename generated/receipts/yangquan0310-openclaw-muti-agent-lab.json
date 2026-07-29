@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/yangquan0310/openclaw_muti_agent_lab",
+  "canonical_repository": "yangquan0310/openclaw_muti_agent_lab",
+  "canonical_url": "https://github.com/yangquan0310/openclaw_muti_agent_lab",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:05.787191Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c970e55964905b94cb1a0faf7715dcaa6ce9bd6ebbe83e1fd38877be557264e4",
+  "sampled_file_digests": {
+    "README.md": "6f8879ba6a9396d430600ff5b92ea2d8cd6531ad4cb12ea2f565edbc5abe7baf",
+    "requirements.txt": "20b9c3794946ef9c748c8e52b663db7a89e3e889c0622cad95eb82657068ff72"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

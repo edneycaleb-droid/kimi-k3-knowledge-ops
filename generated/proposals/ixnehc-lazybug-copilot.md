@@ -1,14 +1,14 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: ixnehc/LazyBug-Copilot
 
 ## Decision
 
-**REVIEW** — quality 69/100; bounded learning adjustment +0.
+**REVIEW** — quality 62/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, api, mcp_server, memory, plugin, skill, tool, workflow
-- License: unverified
+- Repository: https://github.com/ixnehc/LazyBug-Copilot
+- Categories: uncategorized
+- License: MIT
 - Default branch: `master`
 - Collected via: GitHub REST API GET only
 
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 14714
-- license: **0/10** — SPDX missing
+- documentation: **1/10** — README length 0
+- license: **10/10** — SPDX MIT
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
-- interoperability: **9/10** — Compatibility target matches
+- interoperability: **3/10** — Compatibility target matches
 - reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 18 stars
+- adoption: **2/10** — 0 stars
 
 ## Static security review
 
@@ -31,7 +31,7 @@
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/ixnehc-lazybug-copilot.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

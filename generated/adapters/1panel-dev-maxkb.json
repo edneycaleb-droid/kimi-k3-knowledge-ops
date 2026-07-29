@@ -1,0 +1,64 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=1Panel-dev/MaxKB&type=Date)](https://star-history.com/#1Panel-dev/MaxKB&Date)",
+    "https://download.pytorch.org/whl",
+    "https://download.pytorch.org/whl/cpu",
+    "https://fsf.org/",
+    "https://github.com/1Panel-dev/maxkb",
+    "https://github.com/1Panel-dev/maxkb/assets/52996290/c0694996-0eed-40d8-b369-322bf2a380bf",
+    "https://github.com/1Panel-dev/maxkb/releases/latest",
+    "https://github.com/user-attachments/assets/c927474a-9a23-4830-822f-5db26025c9b2",
+    "https://github.com/user-attachments/assets/e6268996-a46d-4e58-9f30-31139df78ad2",
+    "https://github.com/user-attachments/assets/eb285512-a66a-4752-8941-c65ed1592238",
+    "https://github.com/user-attachments/assets/f732f1f5-472c-4fd2-93c1-a277eda83d04",
+    "https://hub.docker.com/r/1panel/maxkb",
+    "https://img.shields.io/docker/pulls/1panel/maxkb?label=downloads",
+    "https://img.shields.io/github/license/1Panel-dev/maxkb?color=%231890FF",
+    "https://img.shields.io/github/stars/1Panel-dev/maxkb?color=%231890FF&style=flat-square",
+    "https://img.shields.io/github/v/release/1Panel-dev/maxkb",
+    "https://maxkb.cn/docs/v2/installation/offline_installtion/)",
+    "https://trendshift.io/api/badge/repositories/9113",
+    "https://trendshift.io/repositories/9113",
+    "https://vuejs.org/)",
+    "https://www.djangoproject.com/)",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/gpl-3.0.html",
+    "https://www.gnu.org/licenses/gpl-3.0.html#license-text",
+    "https://www.gnu.org/licenses/why-not-lgpl.html",
+    "https://www.langchain.com/)",
+    "https://www.postgresql.org/)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/1panel-dev-maxkb.json",
+  "schema_version": 1,
+  "source_repository": "1Panel-dev/MaxKB",
+  "source_url": "https://github.com/1Panel-dev/MaxKB",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/asale-ai/asale",
+  "canonical_repository": "asale-ai/asale",
+  "canonical_url": "https://github.com/asale-ai/asale",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:00.208472Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e6aa108c3a568e52b6f4a261a807b2dcf08722b96a28f0f4c7ff91e4308d099a",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "68b9619c71c1ed479e11033cea438b2c551d31f2aeed0b6cee4b81b6fe58cec5",
+    "package.json": "0115048b63f4c4926283a50a8471b33ebccf4dc98088e7569cd312f4dd328761"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

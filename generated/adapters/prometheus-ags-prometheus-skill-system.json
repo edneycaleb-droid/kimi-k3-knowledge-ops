@@ -1,0 +1,110 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Prometheus-AGS/prometheus-skill-system.git",
+    "https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml/badge.svg)](https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml)",
+    "https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml/badge.svg?job=bdd-test)](https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml)",
+    "https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml/badge.svg?job=forge-rs-test)](https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml)",
+    "https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml/badge.svg?job=secret-scan)](https://github.com/Prometheus-AGS/prometheus-skill-system/actions/workflows/validate.yml)",
+    "https://prometheus-ags.github.io/prometheus-skill-system/",
+    "https://travisjames.ai"
+  ],
+  "environment_variable_names": [
+    "FORGE_MCP_TOKEN",
+    "FORGE_MCP_URL",
+    "PK_MCP_URL",
+    "SURREAL_MEMORY_URL",
+    "TAVILY_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "forge-rs": {
+          "description": "Layer 4 code-enrichment engine \u2014 forge_enrich, forge_reflect, forge_drift, forge_validate",
+          "headers": {
+            "Authorization": "Bearer ${FORGE_MCP_TOKEN:-forge-mcp-local-dev-30dfefcc32263a0813ffdbd2}"
+          },
+          "type": "http",
+          "url": "${FORGE_MCP_URL:-http://localhost:8943/mcp}"
+        },
+        "liter-llm": {
+          "args": [
+            "mcp",
+            "--transport",
+            "stdio",
+            "--config",
+            "${LITER_LLM_CONFIG:-/Users/gqadonis/.config/liter-llm/liter-llm-proxy.toml}"
+          ],
+          "command": "liter-llm",
+          "description": "Multi-model routing proxy \u2014 22 MCP tools across 140+ providers with per-phase model class routing (default config routes through the local openai-proxy at :8181)"
+        },
+        "prometheus-knowledge": {
+          "description": "Karpathy LLM Knowledge Base \u2014 knowledge_ingest, knowledge_focus, knowledge_search, knowledge_lint, knowledge_get",
+          "type": "http",
+          "url": "${PK_MCP_URL:-http://localhost:8942/mcp}"
+        },
+        "sequential-thinking": {
+          "args": [
+            "-y",
+            "@modelcontextprotocol/server-sequential-thinking"
+          ],
+          "command": "npx"
+        },
+        "surreal-memory": {
+          "description": "Global distributed memory state server \u2014 knowledge graph, scoped memory, TaskStreams, mindmaps, Graph-RAG traversal, hybrid search",
+          "type": "sse",
+          "url": "${SURREAL_MEMORY_URL:-http://localhost:23001/mcp/sse}"
+        },
+        "sycophancy-correction": {
+          "command": "sycophancy-correction",
+          "description": "Detect and correct sycophantic patterns (S-01 through S-08) in prompts, completions, agent descriptors, and PMPO reflect outputs"
+        },
+        "tavily": {
+          "args": [
+            "-y",
+            "tavily-mcp"
+          ],
+          "command": "npx",
+          "env": {
+            "TAVILY_API_KEY": "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"
+          }
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/prometheus-ags-prometheus-skill-system.json",
+  "schema_version": 1,
+  "source_repository": "Prometheus-AGS/prometheus-skill-system",
+  "source_url": "https://github.com/Prometheus-AGS/prometheus-skill-system",
+  "status": "disabled_pending_review"
+}

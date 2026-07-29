@@ -1,15 +1,15 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: WANG5294/Yuanshen
 
 ## Decision
 
-**REVIEW** — quality 69/100; bounded learning adjustment +0.
+**REVIEW** — quality 70/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, api, mcp_server, memory, plugin, skill, tool, workflow
+- Repository: https://github.com/WANG5294/Yuanshen
+- Categories: tool
 - License: unverified
-- Default branch: `master`
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 14714
+- documentation: **10/10** — README length 5032
 - license: **0/10** — SPDX missing
 - testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- security: **8/10** — 0 critical, 0 high findings
 - interoperability: **9/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 18 stars
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **2/10** — 2 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/wang5294-yuanshen.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

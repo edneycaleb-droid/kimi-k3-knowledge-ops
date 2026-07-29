@@ -1,0 +1,45 @@
+{
+  "categories": [
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "openai-compatible",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.modal.com/v1",
+    "https://github.com/earendil-works/pi)",
+    "https://modal.com)"
+  ],
+  "environment_variable_names": [
+    "MODAL_API_KEY",
+    "MODAL_BASE_URL",
+    "MODAL_KEY",
+    "MODAL_SECRET",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/bzzimmy-pi-modal.json",
+  "schema_version": 1,
+  "source_repository": "bzzimmy/pi-modal",
+  "source_url": "https://github.com/bzzimmy/pi-modal",
+  "status": "disabled_pending_review"
+}

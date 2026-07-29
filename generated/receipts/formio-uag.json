@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/formio/uag",
+  "canonical_repository": "formio/uag",
+  "canonical_url": "https://github.com/formio/uag",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:44.779053Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a6408136f372ee8095e82b63a5e92e6c5a7f56dc480bc7c289a749c226766202",
+  "sampled_file_digests": {
+    "Dockerfile": "5a3cd192531600d43d20779a4450a6c1ff52308f04c1f73f09cb062d0c7c63cc",
+    "README.md": "0a78c6cd8ab862e3827102672ef37450d8e4065e6259481d91d5f3d27327de93",
+    "package.json": "41daa9edd77859ba5a1cf238963bba184b477473ccb59841d6bfccf5001d159d",
+    "server.json": "1869bc6dd13a3bedd861f8f0d195ad3db64c0cf094ca7be915cda060b70339ca"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,83 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/benseverndev-oss/goldenmatch/badge)](https://scorecard.dev/viewer/?uri=github.com/benseverndev-oss/goldenmatch)",
+    "https://bensevern.dev)**.",
+    "https://codecov.io/gh/benseverndev-oss/goldenmatch/graph/badge.svg)](https://codecov.io/gh/benseverndev-oss/goldenmatch)",
+    "https://docs.bensevern.dev/concepts/cross-language-parity).",
+    "https://docs.bensevern.dev/goldenmatch/config-suggestions).",
+    "https://docs.bensevern.dev/goldenmatch/documents)",
+    "https://github.com/benseverndev-oss/goldenmatch-sanctions-reconciliation)**",
+    "https://github.com/benseverndev-oss/goldenmatch-shell-company-network)**",
+    "https://github.com/benseverndev-oss/goldenmatch-vuln-attribution)**",
+    "https://github.com/benseverndev-oss/goldenmatch/actions/workflows/ci.yml/badge.svg)](https://github.com/benseverndev-oss/goldenmatch/actions/workflows/ci.yml)",
+    "https://github.com/benseverndev-oss/goldenmatch/wiki/ER-Agent)",
+    "https://github.com/benseverndev-oss/goldenmatch/wiki/Web-UI",
+    "https://github.com/benseverndev-oss/goldenmatch/wiki/Web-UI)",
+    "https://goldenmatch-mcp-production.up.railway.app/mcp/",
+    "https://img.shields.io/badge/DBLP--ACM%20F1-96.4%25-d4a017)](packages/python/goldenmatch/README.md#benchmarks)",
+    "https://img.shields.io/badge/Fellegi--Sunter-beats%20hand--rolled%20Splink-d4a017)](docs/benchmarks/2026-06-09-splink-bakeoff.md)",
+    "https://img.shields.io/badge/MCP-smithery-6e40c9)](https://smithery.ai/servers/benzsevern/goldenmatch)",
+    "https://img.shields.io/badge/docs-docs.bensevern.dev-d4a017)](https://docs.bensevern.dev/)",
+    "https://img.shields.io/badge/license-MIT-green)](LICENSE)",
+    "https://img.shields.io/badge/node-%3E%3D20-5fa04e?logo=nodedotjs&logoColor=white)](https://nodejs.org)",
+    "https://img.shields.io/badge/python-3.11%2B-3776ab?logo=python&logoColor=white)](https://python.org)",
+    "https://img.shields.io/badge/web%20ui-FastAPI%20%2B%20React-d4a017?logo=react&logoColor=white)](https://github.com/benseverndev-oss/goldenmatch/wiki/Web-UI)",
+    "https://img.shields.io/badge/wiki-github-d4a017)](https://github.com/benseverndev-oss/goldenmatch/wiki)",
+    "https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbenseverndev-oss%2Fgoldenmatch%2Fbadges%2Fnpm-downloads.json)](https://www.npmjs.com/~benzsevern)",
+    "https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbenseverndev-oss%2Fgoldenmatch%2Fbadges%2Fpypi-downloads.json)](https://pepy.tech/projects?q=goldenmatch+goldencheck+goldenpipe+goldenflow+goldenanalysis+infermap+goldencheck-types+goldensuite-mcp+goldenfuzz+goldenmatch-duckdb+goldenmatch-native+goldenflow-native+goldencheck-native+goldenanalysis-native+goldengraph-native+goldenmatch-embed+golden-suite)",
+    "https://img.shields.io/github/last-commit/benseverndev-oss/goldenmatch?color=d4a017&label=last%20commit)](https://github.com/benseverndev-oss/goldenmatch/commits/main)",
+    "https://img.shields.io/github/stars/benseverndev-oss/goldenmatch?style=flat&color=d4a017&logo=github)](https://github.com/benseverndev-oss/goldenmatch/stargazers)",
+    "https://img.shields.io/npm/v/goldenmatch?color=cb3837&label=npm%3Agoldenmatch&logo=npm&logoColor=white)](https://www.npmjs.com/package/goldenmatch)",
+    "https://img.shields.io/pypi/v/goldenmatch?color=d4a017&label=pypi%3Agoldenmatch&logo=pypi&logoColor=white)](https://pypi.org/project/goldenmatch/)",
+    "https://smithery.ai/servers/benzsevern/goldenmatch)"
+  ],
+  "environment_variable_names": [
+    "FS_SUPPORTS_NE"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "codebase-memory": {
+          "args": [],
+          "command": "codebase-memory-mcp"
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/benseverndev-oss-goldenmatch.json",
+  "schema_version": 1,
+  "source_repository": "benseverndev-oss/goldenmatch",
+  "source_url": "https://github.com/benseverndev-oss/goldenmatch",
+  "status": "disabled_pending_review"
+}

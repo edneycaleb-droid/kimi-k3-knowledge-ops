@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/gaofeng21cn/opl-aion-shell",
+  "canonical_repository": "gaofeng21cn/opl-aion-shell",
+  "canonical_url": "https://github.com/gaofeng21cn/opl-aion-shell",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:35:26.012089Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "17e17c7d32c0703e72065159b23690c26077a7b565b8771f34db8ab40de7f86e",
+  "sampled_file_digests": {
+    "Dockerfile": "e26fdf1a6beebaca98ac539176bfd6ad3c41477f2b69da9d135f056d837f8dda",
+    "LICENSE": "a515d5a76da6c082f0d3d33a597bf82e32ecdac8841ed1783ac081ebd6d62ebf",
+    "package.json": "bb19a18a8638ef11d971c2c5b6707d31411a89ec4cef2a1e85e06b2baec1764c"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

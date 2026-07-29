@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Tairitsua/Monica",
+  "canonical_repository": "Tairitsua/Monica",
+  "canonical_url": "https://github.com/Tairitsua/Monica",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "dev",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:36:04.139048Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "be2f120d0a3418f2effb6999221dcbddbdfff75199b611f2b6a508aac71c1e64",
+  "sampled_file_digests": {
+    ".mcp.json": "8dfc2416a24f8af61d7ba82f545c500b808bc4b243ddc65dd3d690d7fdfc23f4",
+    "README.md": "d09920ac219632a6bb385595840d89989003e2e564916e437caca45f3ef4c739"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/WANG5294/Yuanshen",
+  "canonical_repository": "WANG5294/Yuanshen",
+  "canonical_url": "https://github.com/WANG5294/Yuanshen",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-29T03:34:48.244058Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9778957012566eb576395d337fa8a21d75d03169b87e959c81807985c8323ed2",
+  "sampled_file_digests": {
+    "README.md": "1fa7e3b7c2adf80ac5b02bce00bc8808f46ecf80089b0464cdbe7514a0eebf3a",
+    "package.json": "cbb0bd52ce9b692f5ebf908548e6fc9f0f888ddaa69eb49c72e8c91fb8ba7f55",
+    "requirements.txt": "c3bd0bf1ae60b8869207f6edff53a82e34294b83805cfe6b06c5b7177d117c75"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
