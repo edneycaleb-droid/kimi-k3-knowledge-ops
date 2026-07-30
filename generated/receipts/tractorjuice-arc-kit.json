@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/tractorjuice/arc-kit",
+  "canonical_repository": "tractorjuice/arc-kit",
+  "canonical_url": "https://github.com/tractorjuice/arc-kit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:51.485927Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "55ca7b9af03269e28fcf25863f8689f7fce371e142400bebc7b579ed9bd76cc1",
+  "sampled_file_digests": {
+    "LICENSE": "a84e9128d923888456fabd0b24204008fd7c8d08507a944a70233ececcf5ac18",
+    "README.md": "22170f3cdf2c56011c6bc0516d2432d69edb41512d33bb49ed33ead03cb29982",
+    "package.json": "1aeaa1c0337334f3d83bbd732799b70074042e83305e5c264b4671f025e3d556",
+    "pyproject.toml": "f0599deb951caa73dde2727ed3918497222fdffa37a89bed6cea64dacc9dbce5"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

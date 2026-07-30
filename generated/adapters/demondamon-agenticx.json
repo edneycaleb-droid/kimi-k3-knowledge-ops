@@ -1,0 +1,85 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agenticx.ai/docs",
+    "https://api.star-history.com/svg?repos=DemonDamon/AgenticX&type=Date)](https://star-history.com/#DemonDamon/AgenticX&Date)",
+    "https://deepwiki.com/badge.svg)](https://deepwiki.com/DemonDamon/AgenticX)",
+    "https://github.com/AsyncFuncAI/deepwiki-open)",
+    "https://github.com/CherryHQ/cherry-studio)",
+    "https://github.com/DemonDamon/AgenticX",
+    "https://github.com/DemonDamon/AgenticX)",
+    "https://github.com/DemonDamon/AgenticX.git",
+    "https://github.com/DemonDamon/AgenticX/discussions",
+    "https://github.com/DemonDamon/AgenticX/discussions)",
+    "https://github.com/DemonDamon/AgenticX/issues",
+    "https://github.com/Dimillian/CodexMonitor)",
+    "https://github.com/HKUDS/CLI-Anything)",
+    "https://github.com/HKUDS/ClawTeam)",
+    "https://github.com/IPADS-SAI/MobiAgent)",
+    "https://github.com/KKKKhazix/Khazix-Skills)",
+    "https://github.com/NVIDIA/NemoClaw)",
+    "https://github.com/NVIDIA/OpenShell)",
+    "https://github.com/OpenBMB/AgentCPM-GUI)",
+    "https://github.com/SWE-agent/SWE-agent)",
+    "https://github.com/Serverless-Devs/Serverless-Devs)",
+    "https://github.com/Serverless-Devs/agentrun-sdk-python)",
+    "https://github.com/Tongyi-MAI/MAI-UI)",
+    "https://github.com/X-PLUG/MobileAgent)",
+    "https://github.com/a2aproject/A2A)",
+    "https://github.com/ag-ui-protocol/ag-ui)",
+    "https://github.com/agentscope-ai/agentscope)",
+    "https://github.com/agno-agi/agno)",
+    "https://github.com/alibaba/OpenSandbox)",
+    "https://github.com/alibaba/loongsuite-python-agent)",
+    "https://github.com/anthropics/claude-code)",
+    "https://github.com/anthropics/skills)",
+    "https://github.com/browser-use/browser-use)",
+    "https://github.com/bytedance/deer-flow)",
+    "https://github.com/camel-ai/camel)",
+    "https://github.com/camel-ai/owl)",
+    "https://github.com/crewAIInc/crewAI)",
+    "https://github.com/eigent-ai/eigent)",
+    "https://github.com/google/adk-python)",
+    "https://github.com/jd-opensource/joyagent-jdgenie)"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "OPENAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/demondamon-agenticx.json",
+  "schema_version": 1,
+  "source_repository": "DemonDamon/AgenticX",
+  "source_url": "https://github.com/DemonDamon/AgenticX",
+  "status": "disabled_pending_review"
+}

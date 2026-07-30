@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/dalmasluca/omarchy-ai-usage",
+  "canonical_repository": "dalmasluca/omarchy-ai-usage",
+  "canonical_url": "https://github.com/dalmasluca/omarchy-ai-usage",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:44.792110Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "06357a570334eb2b1e324bf7928c323030f2566a97412f5f40e3ef6c1017282b",
+  "sampled_file_digests": {
+    "LICENSE": "5eda60c63e8033059fd6f48080addddcf235a24f125fd194a0f885debb766d01",
+    "README.md": "ad6511ea24e4ae0b6737d78eb0ba12f6adc4af5218d67afe0c64d1feb3e0d7ac"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

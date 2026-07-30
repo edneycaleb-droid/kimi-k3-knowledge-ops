@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/DemonDamon/AgenticX",
+  "canonical_repository": "DemonDamon/AgenticX",
+  "canonical_url": "https://github.com/DemonDamon/AgenticX",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:49.786423Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "bf1c54c4c8c607fa40fa669930509c9b3f4477a0010eb989e4581c9c009c8cc1",
+  "sampled_file_digests": {
+    "LICENSE": "8f8c946b17dad5918f8ffb8ba1825255e74af05578313a810cd86eb080a5d3f9",
+    "README.md": "626187bc60e63fd241379e2556af02f80119b590afc09499f7b738f1bbaf574a",
+    "pyproject.toml": "472c6dbb4774ee2e2feb4f12d13341725f70a919140f47fc84d6d2e4d0669286",
+    "requirements.txt": "b3ac43886b1ce1188453d932095d3b28a9d8b193039dc4af7260ecf93326303d"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

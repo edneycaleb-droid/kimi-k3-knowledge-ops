@@ -1,0 +1,70 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/SeemSeam/agent-roles-spec),",
+    "https://github.com/SeemSeam/claude_codex_bridge#readme",
+    "https://github.com/SeemSeam/claude_codex_bridge.git",
+    "https://github.com/SeemSeam/claude_codex_bridge/issues",
+    "https://github.com/SeemSeam/claude_codex_bridge/releases),",
+    "https://github.com/SeemSeam/claude_codex_bridge/releases/download/v8.5.2/ccb-mobile-v8.5.2.apk)",
+    "https://github.com/hiroppy/tmux-agent-sidebar)",
+    "https://img.shields.io/badge/Antigravity-6D5EF6?style=flat-square&logo=google&logoColor=white",
+    "https://img.shields.io/badge/Claude-D97757?style=flat-square&logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/Codex-111111?style=flat-square&logo=openai&logoColor=white",
+    "https://img.shields.io/badge/Copilot-111111?style=flat-square&logo=githubcopilot&logoColor=white",
+    "https://img.shields.io/badge/Crush-FF5A5F?style=flat-square",
+    "https://img.shields.io/badge/Cursor-111111?style=flat-square",
+    "https://img.shields.io/badge/Droid-3DDC84?style=flat-square&logo=android&logoColor=white",
+    "https://img.shields.io/badge/Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white",
+    "https://img.shields.io/badge/Grok-000000?style=flat-square&logo=x&logoColor=white",
+    "https://img.shields.io/badge/Kimi-111111?style=flat-square&logo=moonshotai&logoColor=white",
+    "https://img.shields.io/badge/Kiro-6D5EF6?style=flat-square",
+    "https://img.shields.io/badge/MiMo-FF6900?style=flat-square&logo=xiaomi&logoColor=white",
+    "https://img.shields.io/badge/OpenCode-111111?style=flat-square",
+    "https://img.shields.io/badge/Pi-111111?style=flat-square",
+    "https://img.shields.io/badge/Qwen-6A5CFF?style=flat-square",
+    "https://img.shields.io/badge/Z.ai-111111?style=flat-square",
+    "https://img.shields.io/badge/platform-Linux%20%7C%20macOS%20%7C%20WSL-lightgrey.svg",
+    "https://img.shields.io/badge/providers-17%20CLI%20families-0B7285.svg",
+    "https://img.shields.io/badge/version-8.5.2-orange.svg",
+    "https://linux.do)",
+    "https://sh.rustup.rs",
+    "https://t.me/+BKn03v8I_ehmYzRk)",
+    "https://www.gnu.org/licenses/agpl-3.0.txt"
+  ],
+  "environment_variable_names": [
+    "CCB_CONFIG_UI_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/seemseam-claude-codex-bridge.json",
+  "schema_version": 1,
+  "source_repository": "SeemSeam/claude_codex_bridge",
+  "source_url": "https://github.com/SeemSeam/claude_codex_bridge",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api-docs.deepseek.com/quick_start/pricing/)",
+    "https://apnews.com/article/fe95fe57dfa9b4a9917d68df5dcfe0e3)",
+    "https://apnews.com/article/stocks-markets-ai-iran-trump-rates-65449e9565fba441a617f9517e097f5a)",
+    "https://app.dealroom.co/news/note/china-s-hyperscalers-trail-us-ai-capex-roughly-8-to-1-goldman-sachs-estimates)",
+    "https://artificialanalysis.ai/)",
+    "https://artificialanalysis.ai/leaderboards/models)",
+    "https://arxiv.org/abs/2201.11903)",
+    "https://arxiv.org/abs/2211.17192))",
+    "https://arxiv.org/abs/2305.13245)",
+    "https://arxiv.org/abs/2305.13245),",
+    "https://arxiv.org/abs/2308.16369)",
+    "https://arxiv.org/abs/2401.09670)(OSDI'24)",
+    "https://arxiv.org/abs/2401.10774)",
+    "https://arxiv.org/abs/2403.02310)",
+    "https://arxiv.org/abs/2404.00456)",
+    "https://arxiv.org/abs/2405.04434)",
+    "https://arxiv.org/abs/2408.03314)",
+    "https://arxiv.org/abs/2412.19437)",
+    "https://arxiv.org/abs/2502.02617)",
+    "https://arxiv.org/abs/2502.02617)):",
+    "https://arxiv.org/abs/2504.19874)",
+    "https://arxiv.org/abs/2504.19874),",
+    "https://arxiv.org/abs/2602.06036)",
+    "https://arxiv.org/abs/2602.06036),",
+    "https://arxiv.org/abs/2602.15763)",
+    "https://arxiv.org/abs/2603.12201)",
+    "https://arxiv.org/abs/2603.12201))",
+    "https://arxiv.org/abs/2603.15031)",
+    "https://arxiv.org/abs/2603.15031))",
+    "https://arxiv.org/abs/2605.19775)",
+    "https://arxiv.org/abs/2607.05147)",
+    "https://benchlm.ai/benchmarks/artificialAnalysis)",
+    "https://claude.com/platform/api)",
+    "https://content.spacex.com/cms-assets/FINAL_Documents%20and%20Updates/SpaceX%20-%20EU%20Prospectus%20%28Approved%20by%20Bafin%29%20-%20June%205%2C%202026.pdf)",
+    "https://developer.nvidia.com/blog/introducing-nvfp4-for-efficient-and-accurate-low-precision-inference/)",
+    "https://developer.nvidia.com/blog/introducing-nvidia-bluefield-4-powered-inference-context-memory-storage-platform-for-the-next-frontier-of-ai/)",
+    "https://developers.openai.com/api/docs/pricing)",
+    "https://docs.nvidia.com/dynamo/dev/recipes/glm-5-2)",
+    "https://docs.sglang.io/advanced_features/speculative_decoding.html)",
+    "https://docs.sglang.io/cookbook/autoregressive/GLM/GLM-5)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hojin12312-compute-resource.json",
+  "schema_version": 1,
+  "source_repository": "hojin12312/compute-resource",
+  "source_url": "https://github.com/hojin12312/compute-resource",
+  "status": "disabled_pending_review"
+}

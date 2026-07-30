@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Haitao-Lee/BrachyBot",
+  "canonical_repository": "Haitao-Lee/BrachyBot",
+  "canonical_url": "https://github.com/Haitao-Lee/BrachyBot",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:55.159787Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "aa3a089c7d57912c06608900582b70d867a1f54758a5bd9313da38e56e9b598c",
+  "sampled_file_digests": {
+    "LICENSE": "2e7956fa68b4ebd6b665b64809ba1bbec49078561b271a4e3cb0fcbee52dcba9",
+    "README.md": "698081545bed43d2ecf4423ab7648320617917b71e1a6f4255946f3be3126caf",
+    "requirements.txt": "64f9bf4b5396a75c32b40fd2be40d26f6483890a533b42d5c4f231e6eed3cb56"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

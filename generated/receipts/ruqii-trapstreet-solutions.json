@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Ruqii/trapstreet-solutions",
+  "canonical_repository": "Ruqii/trapstreet-solutions",
+  "canonical_url": "https://github.com/Ruqii/trapstreet-solutions",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:36.610263Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5d3cdaf1acb371ae0dae1687fb0adcb5dd237881bf02087b9aae4d8beedf3be1",
+  "sampled_file_digests": {
+    "README.md": "4a162914a532a5874ebfa6f7fcd9ddb8ea3e2ba52163394207712dc249acda40"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

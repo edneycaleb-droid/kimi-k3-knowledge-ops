@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/chrisdoc/hevy-mcp",
+  "canonical_repository": "chrisdoc/hevy-mcp",
+  "canonical_url": "https://github.com/chrisdoc/hevy-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:17.490782Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "deb73a55b3d09428bd4f9bf832ac774c89b773b5549eddd79cf5bb6f93cbe05f",
+  "sampled_file_digests": {
+    "Dockerfile": "f91365fd7b658e8bb35c0e6608d2e759d069c052a52d6111eab54ea0dbe12053",
+    "LICENSE": "8fcb07a27657617f01470a22d7abf240a5978b89ec5bb78b25d4897551957899",
+    "README.md": "03b8363874e157689d1f845335c7240ea873bcd72f79ce568634c84ad26277bf",
+    "package.json": "e5318544cbcb8f56016847101b1322eaa4343d9329b9345db287582692d12008",
+    "server.json": "0232fb0b704de9cef039e9598b9354a95640fdfb94098abf91c8755b0ad9bbf0"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,87 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/).",
+    "https://docs.claude.com/en/docs/claude-code/plugins)",
+    "https://docs.docker.com/engine/install/).",
+    "https://github.com/26zl/cybersec-toolkit.git",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/ci.yml)",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/integration.yml)",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/security.yml)",
+    "https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml/badge.svg)](https://github.com/26zl/cybersec-toolkit/actions/workflows/uv-update.yml)",
+    "https://github.com/SnailSploit/Claude-Red)",
+    "https://github.com/mark3labs/kit))",
+    "https://github.com/mukul975/Anthropic-Cybersecurity-Skills)",
+    "https://github.com/multica-ai/andrej-karpathy-skills)",
+    "https://github.com/settings/tokens)",
+    "https://github.com/shuvonsec/claude-bug-bounty)",
+    "https://github.com/trailofbits/skills)",
+    "https://github.com/transilienceai/communitytools)",
+    "https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)",
+    "https://img.shields.io/badge/status-under%20active%20development-blue)",
+    "https://modelcontextprotocol.io/)",
+    "https://wiki.debian.org/AptCacherNg)"
+  ],
+  "environment_variable_names": [
+    "GITHUB_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "cybersec-tools": {
+          "args": [
+            "run",
+            "--directory",
+            "mcp_server",
+            "fastmcp",
+            "run",
+            "server.py",
+            "--transport",
+            "stdio",
+            "--no-banner"
+          ],
+          "command": "uv",
+          "env": {
+            "CYBERSEC_MCP_ALLOW_EXTERNAL": "0",
+            "CYBERSEC_MCP_ALLOW_SCRIPTS": "0"
+          }
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/26zl-cybersec-toolkit.json",
+  "schema_version": 1,
+  "source_repository": "26zl/cybersec-toolkit",
+  "source_url": "https://github.com/26zl/cybersec-toolkit",
+  "status": "disabled_pending_review"
+}

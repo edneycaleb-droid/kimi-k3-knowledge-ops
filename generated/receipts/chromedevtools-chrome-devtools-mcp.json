@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ChromeDevTools/chrome-devtools-mcp",
+  "canonical_repository": "ChromeDevTools/chrome-devtools-mcp",
+  "canonical_url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:14.789051Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8955b2b564982b98d4e2b702c2bcdbf002d23cc248a9c23e62603cdf596b57f5",
+  "sampled_file_digests": {
+    "LICENSE": "58d1e17ffe5109a7ae296caafcadfdbe6a7d176f0bc4ab01e12a689b0499d8bd",
+    "README.md": "e10f0ebd1ad068fe50a5827c4df6828d27498db13342aece947e0295415c204b",
+    "package.json": "d53c667ca3543b18c198b6023584cc37678c02e5970aaf06ac2c6084dd664b37",
+    "server.json": "42d0cbd3e74de44d1f9769253bb8e28f79379acc5f4e4f39fc7e66c85cc5bb0e"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

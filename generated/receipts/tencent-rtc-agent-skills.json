@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Tencent-RTC/agent-skills",
+  "canonical_repository": "Tencent-RTC/agent-skills",
+  "canonical_url": "https://github.com/Tencent-RTC/agent-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:27.643981Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ad00c2e36a1cf08fb50d92a8fd0c28c906696246a1516ecea904f4453b6c3c55",
+  "sampled_file_digests": {
+    "LICENSE": "cb177342f780ec7449d8eb3d04414e30685dc6835668b50758edbc10c7f0c7a0",
+    "README.md": "ad148f0bc4b3674b986e8c6cf0094db68f6db6258f16b298c00dc55940813edb",
+    "package.json": "21a9d15b2bd64e026b3bab282960ef93dd57ead965204b0b238ffe798bcc7316"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/26zl/cybersec-toolkit",
+  "canonical_repository": "26zl/cybersec-toolkit",
+  "canonical_url": "https://github.com/26zl/cybersec-toolkit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:21.791062Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a74074f5bdba5b6fb969d0e2d4a256dda58eab58ac3d327fb0e69b7b5e7cd4e7",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b7f2c0e6e8a2135fdbe02db035fb6e539d2e69402c55d561748562c51d415958",
+    ".mcp.json": "8d332479adcc2e61d8b3111b2182a6d02024e32a2671de1617480cebf9eb7e5a",
+    "Dockerfile": "a76297795a3e1442fbf285501282f93d5251e10afd52d1c7f06045c16d5be334",
+    "LICENSE": "e4d66745aba2f9defa0834e298b5e4ff1a7ca2a7979034ba2a7fce28a30676dc",
+    "README.md": "6c8a6b8a6e136c6b9cff6531657e4745d6a8bc7d248426c1eb1390a4ecf21f39",
+    "docker-compose.yml": "f10d26f33176f96486ce36d3020ceb4a4fac95137e718919fae6b90341e9fadf"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/SeemSeam/claude_codex_bridge",
+  "canonical_repository": "SeemSeam/claude_codex_bridge",
+  "canonical_url": "https://github.com/SeemSeam/claude_codex_bridge",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:43.153702Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f3256f26d9bae389d0a15e6d68bbe342d0bb1bbb3af3445a72a579bcdda72245",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "608714ed8400a8ef3a3119b98a6763c141bddc5ddaa99e7fa2a916dae766c48c",
+    "LICENSE": "d2cbd80a0bd6a7a739038a2766bfda38cf4c6eca3f2acfce9326f2ff09d2ad1c",
+    "README.md": "1430b63d59cc3cd03181d0e36b622978609114703b865862c21d83ed9b086f52",
+    "package.json": "bf59607c605a830e61c1232aded057963dde404044356d8f23b15882070ca2e2"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

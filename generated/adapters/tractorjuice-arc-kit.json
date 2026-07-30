@@ -1,0 +1,90 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&legend=top-left&v=20260420",
+    "https://api.star-history.com/chart?repos=tractorjuice/arc-kit&type=date&theme=dark&legend=top-left&v=20260420",
+    "https://awslabs.github.io/mcp/servers/aws-knowledge-mcp-server)",
+    "https://chatgpt.com/features/codex)",
+    "https://create.wardleymaps.ai](https://create.wardleymaps.ai)",
+    "https://ddat-capability-framework.service.gov.uk/)",
+    "https://deepwiki.com/badge.svg)](https://deepwiki.com/tractorjuice/arc-kit)",
+    "https://developerknowledge.googleapis.com/mcp)",
+    "https://docs.astral.sh/uv/)",
+    "https://git-scm.com/downloads/win)",
+    "https://github.com/MHCLG/govreposcrape-mcp)",
+    "https://github.com/features/copilot)",
+    "https://github.com/github/spec-kit)",
+    "https://github.com/github/spec-kit),",
+    "https://github.com/google-gemini/gemini-cli)",
+    "https://github.com/pacharanero))",
+    "https://github.com/pacharanero/SAFETY.md)",
+    "https://github.com/thomas-jardinet);",
+    "https://github.com/tractorjuice/arc-kit",
+    "https://github.com/tractorjuice/arc-kit.git",
+    "https://github.com/tractorjuice/arc-kit/blob/main/README.md",
+    "https://github.com/tractorjuice/arc-kit/issues",
+    "https://github.com/tractorjuice/arc-kit/issues)",
+    "https://github.com/tractorjuice/arc-kit/releases)",
+    "https://github.com/tractorjuice/arc-kit/releases/tag/v6.7.5)",
+    "https://github.com/tractorjuice/arckit-gemini",
+    "https://github.com/tractorjuice/arckit-kimi.git",
+    "https://github.com/tractorjuice/arckit-test-project-v1-m365)",
+    "https://github.com/tractorjuice/arckit-test-project-v1-m365):",
+    "https://github.com/tractorjuice/arckit-test-project-v10-training-marketplace)",
+    "https://github.com/tractorjuice/arckit-test-project-v10-training-marketplace):",
+    "https://github.com/tractorjuice/arckit-test-project-v11-national-highways-data)",
+    "https://github.com/tractorjuice/arckit-test-project-v11-national-highways-data):",
+    "https://github.com/tractorjuice/arckit-test-project-v14-scottish-courts)",
+    "https://github.com/tractorjuice/arckit-test-project-v14-scottish-courts):",
+    "https://github.com/tractorjuice/arckit-test-project-v16-doctors-appointment)",
+    "https://github.com/tractorjuice/arckit-test-project-v16-doctors-appointment):",
+    "https://github.com/tractorjuice/arckit-test-project-v17-fuel-prices)",
+    "https://github.com/tractorjuice/arckit-test-project-v17-fuel-prices):",
+    "https://github.com/tractorjuice/arckit-test-project-v18-smart-meter)"
+  ],
+  "environment_variable_names": [
+    "CLAUDE_CODE_MAX_OUTPUT_TOKENS",
+    "GOOGLE_API_KEY",
+    "IMPORTANT",
+    "REPORT",
+    "SECRET",
+    "TOKEN",
+    "TRELLO_API_KEY",
+    "TRELLO_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tractorjuice-arc-kit.json",
+  "schema_version": 1,
+  "source_repository": "tractorjuice/arc-kit",
+  "source_url": "https://github.com/tractorjuice/arc-kit",
+  "status": "disabled_pending_review"
+}

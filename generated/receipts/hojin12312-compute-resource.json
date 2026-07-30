@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/hojin12312/compute-resource",
+  "canonical_repository": "hojin12312/compute-resource",
+  "canonical_url": "https://github.com/hojin12312/compute-resource",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:32.827742Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d888ba4fd42539077738f4103de6a304b1aee024309ba3d692082712d216bc19",
+  "sampled_file_digests": {
+    "README.md": "4f1bc3f3b4aee7c7f6a10e669ed297d471a5d009072af03798c1ac5374819062"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
