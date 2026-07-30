@@ -204,7 +204,10 @@ class ExtractionAgent:
     name = "extraction"
 
     ENV_PATTERN = re.compile(r"\b([A-Z][A-Z0-9_]{2,})\b")
-    URL_PATTERN = re.compile(r"https://[A-Za-z0-9._~:/?#\[\]@!$&'()*+,;=%-]+")
+    # Deliberately exclude Markdown delimiters. They are legal in a generic URI,
+    # but accepting them here makes constructs such as ``[label](https://...)``
+    # and linked badges bleed into the extracted endpoint.
+    URL_PATTERN = re.compile(r"https://[A-Za-z0-9._~:/?#@!$&*+,;=%-]+")
 
     def run(self, repository: RepositorySnapshot, categories: list[str]) -> dict[str, Any]:
         text = "\n".join(repository.sampled_files.values())
@@ -215,7 +218,13 @@ class ExtractionAgent:
                 if any(token in name for token in ("KEY", "TOKEN", "URL", "HOST", "PORT", "SECRET"))
             }
         )[:40]
-        endpoints = sorted(set(self.URL_PATTERN.findall(text)))[:40]
+        endpoints = sorted(
+            {
+                endpoint.rstrip(".,;:!?")
+                for endpoint in self.URL_PATTERN.findall(text)
+                if endpoint.rstrip(".,;:!?")
+            }
+        )[:40]
         package_json = self._json_file(repository, "package.json")
         mcp_manifests = {
             path: self._safe_json(content)
