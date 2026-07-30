@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/brycewang-stanford/Auto-Empirical-Research-Skills",
+  "canonical_repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+  "canonical_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:25.643206Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "daac50581a250cc9ce1ab66441c627f28241219af4825b7819d71799506a0b36",
+  "sampled_file_digests": {
+    "LICENSE": "22401c14e67fc2f4b5bc4987a5ee367e52e833066901b94ad798d46eaf7917f8",
+    "README.md": "d5051090ed595440182777b9b14a8f66dd20273cc5e9757e71e79c3389a9cd65",
+    "requirements.txt": "3c3e1f5b822d486f432eb9ad9d84d4ef40ad8128c2ea2e071ca68b0a311434d5"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

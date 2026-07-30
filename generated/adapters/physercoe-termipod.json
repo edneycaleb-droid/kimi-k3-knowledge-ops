@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://code.claude.com/docs/en/remote-control)",
+    "https://github.com/launch52-ai/claude-telegram-notify)",
+    "https://github.com/moezakura)",
+    "https://github.com/moezakura/mux-pod)",
+    "https://github.com/physercoe/termipod.git",
+    "https://github.com/physercoe/termipod/issues)",
+    "https://github.com/physercoe/termipod/releases",
+    "https://github.com/physercoe/termipod/releases)",
+    "https://happy.engineering/).",
+    "https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=white",
+    "https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black",
+    "https://img.shields.io/badge/Windows-0078D6?style=flat-square&logo=windows&logoColor=white",
+    "https://img.shields.io/badge/iOS-000000?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/iPadOS-000000?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/badge/macOS-000000?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/github/license/physercoe/termipod?style=flat-square",
+    "https://img.shields.io/github/v/release/physercoe/termipod?style=flat-square&color=00c0d1"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/physercoe-termipod.json",
+  "schema_version": 1,
+  "source_repository": "physercoe/termipod",
+  "source_url": "https://github.com/physercoe/termipod",
+  "status": "disabled_pending_review"
+}

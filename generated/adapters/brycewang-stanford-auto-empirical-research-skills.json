@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/brycewang-stanford/Auto-Empirical-Research-Skills/badge)](https://scorecard.dev/viewer/?uri=github.com/brycewang-stanford/Auto-Empirical-Research-Skills)",
+    "https://awesome.re/badge.svg)](https://awesome.re)",
+    "https://copaper.ai",
+    "https://creativecommons.org/licenses/by-sa/4.0/legalcode",
+    "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/actions/workflows/validate-catalog.yml/badge.svg)](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills/actions/workflows/validate-catalog.yml)",
+    "https://github.com/brycewang-stanford/StatsPAI",
+    "https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)",
+    "https://img.shields.io/badge/powered%20by-StatsPAI-orange)](https://github.com/brycewang-stanford/StatsPAI)",
+    "https://img.shields.io/badge/security%20audit-baseline%2052%2F52%20CLEAN-brightgreen)](SECURITY-SCAN-REPORT.md)",
+    "https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fbrycewang-stanford%2FAuto-Empirical-Research-Skills%2Fmain%2Fdocs%2Fbadges%2Frigor-coverage.json)](docs/RIGOR_COVERAGE.md)",
+    "https://img.shields.io/github/stars/brycewang-stanford/Auto-Empirical-Research-Skills?style=social)](https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills)"
+  ],
+  "environment_variable_names": [
+    "REPORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/brycewang-stanford-auto-empirical-research-skills.json",
+  "schema_version": 1,
+  "source_repository": "brycewang-stanford/Auto-Empirical-Research-Skills",
+  "source_url": "https://github.com/brycewang-stanford/Auto-Empirical-Research-Skills",
+  "status": "disabled_pending_review"
+}

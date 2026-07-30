@@ -1,0 +1,96 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2303.11366)**",
+    "https://arxiv.org/abs/2605.06614)**",
+    "https://clinicaltrials.gov/)**",
+    "https://europepmc.org/)**",
+    "https://evoskills.net/)**",
+    "https://github.com/Haitao-Lee/BrachyBot",
+    "https://github.com/Haitao-Lee/BrachyBot.git",
+    "https://github.com/Haitao-Lee/BrachyBot/discussions)",
+    "https://github.com/Haitao-Lee/BrachyBot/issues)",
+    "https://github.com/Luffy03/Large-Scale-Medical)",
+    "https://github.com/Luffy03/Large-Scale-Medical)**",
+    "https://github.com/MAGIC-AI4Med/DeepRare)**",
+    "https://github.com/MIC-DKFZ/nnUNet)**",
+    "https://github.com/NousResearch/hermes-agent)**",
+    "https://github.com/Panniantong/Agent-Reach)**",
+    "https://github.com/chubin/wttr.in)**",
+    "https://github.com/epiral/bb-browser)**",
+    "https://github.com/eze-is/web-access)**",
+    "https://github.com/higress-group/higress)**",
+    "https://github.com/jinlab-imvr/MedAgent-Pro)**",
+    "https://github.com/lapisrocks/LanguageAgentTreeSearch)**",
+    "https://github.com/lsdefine/GenericAgent)**",
+    "https://github.com/wasserth/TotalSegmentator)**",
+    "https://img.shields.io/badge/Architecture-Self--Evolving-purple.svg)",
+    "https://img.shields.io/badge/License-MIT-green.svg)",
+    "https://img.shields.io/badge/Python-3.10+-blue.svg)",
+    "https://img.shields.io/badge/Status-Active%20Development-orange.svg)",
+    "https://jina.ai/reader)**",
+    "https://modelcontextprotocol.io)**",
+    "https://openalex.org/)**",
+    "https://www.crossref.org/)**",
+    "https://www.ncbi.nlm.nih.gov/books/NBK25500/)**",
+    "https://www.semanticscholar.org/)**"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "BRACHYBOT_API_KEY",
+    "BRACHYBOT_LLM_API_KEY",
+    "BRACHYBOT_REQUIRE_API_KEY",
+    "BRACHYBOT_SECRET_KEY",
+    "BRACHY_HOST",
+    "BRACHY_PORT",
+    "DEEPSEEK_API_KEY",
+    "GEMINI_API_KEY",
+    "GLM_API_KEY",
+    "GROK_API_KEY",
+    "GROQ_API_KEY",
+    "KIMI_API_KEY",
+    "MIMO_API_KEY",
+    "MINIMAX_API_KEY",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "QWEN_API_KEY",
+    "REPORT_CONTEXT_ENHANCEMENT_2026",
+    "TENCENT_API_KEY",
+    "UI_CONTROL_MANUAL_TRAINING_REPORT_2026"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/haitao-lee-brachybot.json",
+  "schema_version": 1,
+  "source_repository": "Haitao-Lee/BrachyBot",
+  "source_url": "https://github.com/Haitao-Lee/BrachyBot",
+  "status": "disabled_pending_review"
+}

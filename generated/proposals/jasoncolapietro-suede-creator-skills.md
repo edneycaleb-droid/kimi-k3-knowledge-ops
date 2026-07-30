@@ -1,15 +1,15 @@
-# Integration proposal: n8n-io/n8n
+# Integration proposal: JasonColapietro/suede-creator-skills
 
 ## Decision
 
-**REVIEW** — quality 75/100; bounded learning adjustment +0.
+**CANDIDATE** — quality 86/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/n8n-io/n8n
-- Categories: agent, api, mcp_server, plugin, tool, workflow
-- License: NOASSERTION
-- Default branch: `master`
+- Repository: https://github.com/JasonColapietro/suede-creator-skills
+- Categories: agent, mcp_server, plugin, skill, tool, workflow
+- License: MIT
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **8/10** — README length 3994
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 17515
+- license: **10/10** — SPDX MIT
 - testing: **4/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
+- security: **10/10** — 0 critical, 0 high findings
 - interoperability: **9/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 198686 stars
+- adoption: **6/10** — 165 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
+- No sampled static-security indicators.
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/n8n-io-n8n.json`.
+A disabled metadata adapter was generated at `generated/adapters/jasoncolapietro-suede-creator-skills.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

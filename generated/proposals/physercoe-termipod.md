@@ -1,15 +1,15 @@
-# Integration proposal: n8n-io/n8n
+# Integration proposal: physercoe/termipod
 
 ## Decision
 
-**REVIEW** — quality 75/100; bounded learning adjustment +0.
+**REVIEW** — quality 79/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/n8n-io/n8n
-- Categories: agent, api, mcp_server, plugin, tool, workflow
-- License: NOASSERTION
-- Default branch: `master`
+- Repository: https://github.com/physercoe/termipod
+- Categories: agent, api, memory, plugin, skill, tool, workflow
+- License: Apache-2.0
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **8/10** — README length 3994
-- license: **4/10** — SPDX NOASSERTION
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
-- interoperability: **9/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 198686 stars
+- documentation: **10/10** — README length 32767
+- license: **10/10** — SPDX Apache-2.0
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **10/10** — 0 critical, 0 high findings
+- interoperability: **5/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **2/10** — 6 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
+- No sampled static-security indicators.
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/n8n-io-n8n.json`.
+A disabled metadata adapter was generated at `generated/adapters/physercoe-termipod.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/diegosouzapw/OmniRoute",
+  "canonical_repository": "diegosouzapw/OmniRoute",
+  "canonical_url": "https://github.com/diegosouzapw/OmniRoute",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "release/v3.8.50",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:38.526252Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2add8719e0bfb597c24ff5d03b467afcab8b6c17cb3192eb743157d65936fa47",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "19aa5e009c597dfd52e05d2219f3c793038605f82af51f385f67bae30cc8624c",
+    "Dockerfile": "ee1e9e71e42e02faab810119b2be7a3855af93a7404fd294c1a57d3303b5cdc3",
+    "LICENSE": "5f3caa52b2c2ce5dfb40c85404a370d23b6dc3e26a1447d17dc7e56f773b91de",
+    "README.md": "b6dab9a2104371730ac112851da75f151ad31275cf13eb5612d716f9884f699c",
+    "docker-compose.yml": "1cea4b473ce4ed5aa000772fff644b4f2594e44944c8c6f470e1dd584551f124",
+    "package.json": "feda174239b29bb4d3f13fb0385e97bc2681582393987ff491c62e83181cd9ea"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

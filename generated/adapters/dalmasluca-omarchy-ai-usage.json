@@ -1,0 +1,33 @@
+{
+  "categories": [
+    "memory",
+    "plugin"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/dalmasluca/omarchy-ai-usage.git",
+    "https://github.com/omarchy)",
+    "https://github.com/ryoppippi/ccusage)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/dalmasluca-omarchy-ai-usage.json",
+  "schema_version": 1,
+  "source_repository": "dalmasluca/omarchy-ai-usage",
+  "source_url": "https://github.com/dalmasluca/omarchy-ai-usage",
+  "status": "disabled_pending_review"
+}

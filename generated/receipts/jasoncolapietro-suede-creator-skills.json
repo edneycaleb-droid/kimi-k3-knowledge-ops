@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/JasonColapietro/suede-creator-skills",
+  "canonical_repository": "JasonColapietro/suede-creator-skills",
+  "canonical_url": "https://github.com/JasonColapietro/suede-creator-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:01.533342Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e78ce2b11c8ee9008ca761f4182edf29eb300eafa96f54dcf72a71347a4930c4",
+  "sampled_file_digests": {
+    ".mcp.json": "a66fc34741de22565155716760c683fa0521c99ca19414db9a701dfdadddee07",
+    "LICENSE": "14fd9c2c7341f4baa182dbd75393a29c1a91a032452e974a15f086e6a1369d4d",
+    "README.md": "796340707dc82f4a8a6b59dc557c45da666e0c9a3845df0efbdce0049928aefe",
+    "package.json": "0ae7e0f53e8777fb23d2ee193551f47b9d11f1fdc1a11bb88cebf6ba1fa04c3c"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/physercoe/termipod",
+  "canonical_repository": "physercoe/termipod",
+  "canonical_url": "https://github.com/physercoe/termipod",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:40.667371Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "708f8f7ec4fd8f26d44133bc42f9c8e33383f8161e9696002399c02be428b9b0",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "08c42358240ada2e1ef24ea06b9b2c9e12296c732b8763f02b705f92efd6db26",
+    "LICENSE": "34a871e5bbc6ca261525fe278420d50238655a1ec68dbaf6c4b46c364aa9abdd",
+    "README.md": "849810c4386af2cedb39b17a2de1489ce4461f2f3c4486018054b93c2995d36c"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

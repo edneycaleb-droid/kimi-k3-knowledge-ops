@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/chuspeeism/dashi-ppt-skill",
+  "canonical_repository": "chuspeeism/dashi-ppt-skill",
+  "canonical_url": "https://github.com/chuspeeism/dashi-ppt-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:23.511464Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "09a838ed6b91907461ddbc23bf58eef6bea799a3532c032953e59567f8e84406",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "418744f5347bebb39e2a652604dafc4007c77328cdb411b1f53ff81ae8ea7a36"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

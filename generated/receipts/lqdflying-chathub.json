@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/lqdflying/chathub",
+  "canonical_repository": "lqdflying/chathub",
+  "canonical_url": "https://github.com/lqdflying/chathub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:34.834709Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f8e345c21ec1426e078feb1b59b91dd1b56272b930b6fffd5971f35b57767939",
+  "sampled_file_digests": {
+    "Dockerfile": "820fa4c00987d689ae939e148701c2ca5d1fb5bae9b16e76167f2eee8a32a131",
+    "LICENSE": "790a8c42f10beb4f5e9122e05a8e65d5522de49f89ac69cd31063c0f2be93ea4",
+    "README.md": "2444f2ec627ef72e571fb004be4e1bda13df65f16fcc7e44948fbf354cb5688a",
+    "package.json": "193a3f5f8642dfe697f60aa049201ef2b856dc691b3ff4f8c8bea3b8772681ae"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

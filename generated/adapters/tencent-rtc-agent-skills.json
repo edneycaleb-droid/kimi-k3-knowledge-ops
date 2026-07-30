@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://console.cloud.tencent.com)",
+    "https://console.trtc.io)",
+    "https://git.woa.com/jackyixue/trtc-ai-integration",
+    "https://github.com/Tencent-RTC/agent-skills/issues)",
+    "https://trtc.io",
+    "https://trtc.io/?utm_source=github&utm_medium=skill&utm_campaign=Twitter%20AI%20%E4%B8%93%E9%A1%B9%20-%20AI%20Oral%20Coach&_channel_track_key=HIzH2eVJ)",
+    "https://trtc.io/contact)",
+    "https://trtc.io/document)"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tencent-rtc-agent-skills.json",
+  "schema_version": 1,
+  "source_repository": "Tencent-RTC/agent-skills",
+  "source_url": "https://github.com/Tencent-RTC/agent-skills",
+  "status": "disabled_pending_review"
+}

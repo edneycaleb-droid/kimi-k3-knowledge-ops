@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/CoCoCoDeDeDe/d3-project-agent-skills",
+  "canonical_repository": "CoCoCoDeDeDe/d3-project-agent-skills",
+  "canonical_url": "https://github.com/CoCoCoDeDeDe/d3-project-agent-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:47.469330Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d362d962f02a24fa77c770f6427152123159e92d375690ff8b7dae2c9d3a5e55",
+  "sampled_file_digests": {
+    "LICENSE": "3df9403f63ff1b430eb434b0c0118f92b4bf54f6439a3597c6f3fcc48db4bd27",
+    "README.md": "449a7188aeef49408a4fbea3bcfa5e7afb12b5445aac4c80d8faaf2ada3684fe"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

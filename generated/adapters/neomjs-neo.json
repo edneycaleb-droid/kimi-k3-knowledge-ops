@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://discord.gg/6p8paPq",
+    "https://discord.gg/6p8paPq)**",
+    "https://github.com/neo-fable)",
+    "https://github.com/neo-fable-clio)",
+    "https://github.com/neo-gemini-pro)",
+    "https://github.com/neo-gpt)",
+    "https://github.com/neo-gpt-emmy)",
+    "https://github.com/neo-kimi-iris)",
+    "https://github.com/neo-kimi-phoebe)",
+    "https://github.com/neo-opus-ada)",
+    "https://github.com/neo-opus-grace)",
+    "https://github.com/neo-opus-vega)",
+    "https://github.com/neomjs/neo.git",
+    "https://github.com/neomjs/neo/issues",
+    "https://github.com/neomjs/neo/issues/10291)",
+    "https://github.com/neomjs/neo/issues/10291)**",
+    "https://github.com/neomjs/neo/issues/13012)",
+    "https://github.com/orgs/neomjs/discussions/10119)",
+    "https://github.com/orgs/neomjs/discussions/10119)**",
+    "https://github.com/orgs/neomjs/discussions/10119).",
+    "https://github.com/orgs/neomjs/discussions/10137)",
+    "https://github.com/orgs/neomjs/discussions/10137)**",
+    "https://github.com/orgs/neomjs/discussions/10137).",
+    "https://github.com/orgs/neomjs/discussions/10137):",
+    "https://github.com/sponsors/tobiu",
+    "https://github.com/tobiu)",
+    "https://img.shields.io/badge/PRs-welcome-green.svg?logo=GitHub&logoColor=white",
+    "https://img.shields.io/badge/Slack-Neo.mjs-brightgreen.svg?logo=slack",
+    "https://img.shields.io/discord/656620537514164249?label=Discord&logo=discord&logoColor=white",
+    "https://img.shields.io/npm/dm/neo.mjs.svg?label=Downloads",
+    "https://img.shields.io/npm/l/neo.mjs.svg?label=License",
+    "https://img.shields.io/npm/v/neo.mjs.svg?logo=npm",
+    "https://join.slack.com/t/neomjs/shared_invite/zt-6c50ueeu-3E1~M4T9xkNnb~M_prEEOA",
+    "https://join.slack.com/t/neomjs/shared_invite/zt-6c50ueeu-3E1~M4T9xkNnb~M_prEEOA)**",
+    "https://neomjs.com/",
+    "https://neomjs.com/#/learn)**",
+    "https://neomjs.com/#/learn/agentos/OwnAgentTeam)**",
+    "https://neomjs.com/#/learn/benefits/Introduction)**",
+    "https://neomjs.com/#/learn/gettingstarted/Setup)**",
+    "https://npmcharts.com/compare/neo.mjs?minimal=true"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/neomjs-neo.json",
+  "schema_version": 1,
+  "source_repository": "neomjs/neo",
+  "source_url": "https://github.com/neomjs/neo",
+  "status": "disabled_pending_review"
+}

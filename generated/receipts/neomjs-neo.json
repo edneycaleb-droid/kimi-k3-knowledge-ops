@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/neomjs/neo",
+  "canonical_repository": "neomjs/neo",
+  "canonical_url": "https://github.com/neomjs/neo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "dev",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:30.787928Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "63a4e48f9219f66797b49c4477ca867e06d07e49a44ae90820d6e6918109029e",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "63f322ff145b3799a040f814fc66e3dd87fb9c612eb26ab9c5d4d15e63e610e0",
+    "LICENSE": "ad6e0c591c496afd4a877ea51654a7ca14fd256bbedaccdf1f8cd97f61effe2c",
+    "README.md": "1cffa03ef64719289debaf16000778b770a5f587b263aac003359de669efc04a",
+    "package.json": "5e01005c4e0a0636a9e7c227651d7341962bae3ae8efe6e9dd3dfc871ccb709b"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

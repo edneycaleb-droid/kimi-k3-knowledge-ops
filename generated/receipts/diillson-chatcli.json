@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/diillson/chatcli",
+  "canonical_repository": "diillson/chatcli",
+  "canonical_url": "https://github.com/diillson/chatcli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:11:53.176609Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4fb8f93de975f72de5e1b6d3432a68c84984cbc351162daafe60fe29929fb42d",
+  "sampled_file_digests": {
+    "Dockerfile": "5f4e9c444c01e98e1b6f52b89a415d1e139b23b68b74225ddcc7cf658321c118",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "6451622fe88e46492e9b03572bccac69907fa4334af58d2ed576e8d05125fa4a",
+    "docker-compose.yml": "17449ec376d513f1dd60f2eed009c7de51e900b7c73707b396c65f417113b5ab"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

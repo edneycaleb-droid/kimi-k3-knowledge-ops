@@ -1,15 +1,15 @@
-# Integration proposal: n8n-io/n8n
+# Integration proposal: lqdflying/chathub
 
 ## Decision
 
-**REVIEW** — quality 75/100; bounded learning adjustment +0.
+**REVIEW** — quality 70/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/n8n-io/n8n
-- Categories: agent, api, mcp_server, plugin, tool, workflow
+- Repository: https://github.com/lqdflying/chathub
+- Categories: api, memory, plugin, tool, workflow
 - License: NOASSERTION
-- Default branch: `master`
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **8/10** — README length 3994
+- documentation: **10/10** — README length 7424
 - license: **4/10** — SPDX NOASSERTION
 - testing: **4/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
-- interoperability: **9/10** — Compatibility target matches
+- security: **3/10** — 0 critical, 2 high findings
+- interoperability: **10/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **10/10** — 198686 stars
+- adoption: **2/10** — 0 stars
 
 ## Static security review
 
-- `high` `SEC007` in `package.json`: Package installation lifecycle hook
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `high` `SEC006` in `Dockerfile`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/n8n-io-n8n.json`.
+A disabled metadata adapter was generated at `generated/adapters/lqdflying-chathub.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

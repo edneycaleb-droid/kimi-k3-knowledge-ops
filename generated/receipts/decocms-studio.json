@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/decocms/studio",
+  "canonical_repository": "decocms/studio",
+  "canonical_url": "https://github.com/decocms/studio",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-30T13:12:12.044859Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "508bc3c9bd34731b315a7e71a5f32db8c7c00c98e18e8b663d7b9daf598b3d06",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "efb94bd5b21a0232633419303ee9b3ed7ebe25208e6c91a1ec524e98fa51fb7e",
+    "LICENSE.md": "3138f6e1a3f2a3909538128ed3537f4b22baabe08160dac23c7b8ca3b05ce053",
+    "README.md": "4b7c1fd55e019f7f74be7b9a7c384c52414f212d22e8860aa0b3a6f22800038a",
+    "package.json": "c8feefd64268a1ff5dc564e6465b3bb15b80d7b4d9df36b854343592d6dd8b35"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
