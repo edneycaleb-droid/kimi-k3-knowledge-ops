@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/bmarti44/frontier-at-home",
+  "canonical_repository": "bmarti44/frontier-at-home",
+  "canonical_url": "https://github.com/bmarti44/frontier-at-home",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:08:57.518596Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "920e8b14f7a4ef9af32dc8ff560bced6d2bb668d1a13aaf79af1440a9611257f",
+  "sampled_file_digests": {
+    "LICENSE": "ee91e8a75a44c608989c4ae562cf9c5b0b9a1642276105ff19dd85938b5525a8",
+    "README.md": "879e40227a955b33137fbfdc6c1cb934ecd8e4074ea3537dfe136d3cb3f73f58"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

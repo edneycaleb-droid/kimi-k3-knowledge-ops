@@ -1,0 +1,56 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://clawhub.ai",
+    "https://cursor.com/docs/cli/overview",
+    "https://docs.anthropic.com/en/docs/claude-code/getting-started",
+    "https://docs.cline.bot/getting-started/quick-start#cli",
+    "https://docs.github.com/en/copilot/how-tos/set-up/install-copilot-in-the-cli",
+    "https://docs.openclaw.ai/start/getting-started",
+    "https://docs.qoder.com/cli/quick-start",
+    "https://factory.ai/",
+    "https://formulae.brew.sh/cask/antigravity",
+    "https://formulae.brew.sh/cask/trae",
+    "https://formulae.brew.sh/cask/windsurf",
+    "https://github.com/beautyfree/skiller",
+    "https://github.com/beautyfree/skiller/releases/latest",
+    "https://google-gemini.github.io/gemini-cli/docs/get-started/",
+    "https://help.openai.com/en/articles/11096431-openai-codex-cli-getting-started",
+    "https://kiro.dev/downloads/",
+    "https://opencode.ai/docs/",
+    "https://skills.sh",
+    "https://www.codebuddy.ai/docs/cli/installation",
+    "https://www.electron.build/auto-update",
+    "https://www.warp.dev/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/beautyfree-skiller.json",
+  "schema_version": 1,
+  "source_repository": "beautyfree/skiller",
+  "source_url": "https://github.com/beautyfree/skiller",
+  "status": "disabled_pending_review"
+}

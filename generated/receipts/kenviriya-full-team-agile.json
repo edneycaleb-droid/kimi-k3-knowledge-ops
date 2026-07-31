@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/kenviriya/Full-team-AGILE",
+  "canonical_repository": "kenviriya/Full-team-AGILE",
+  "canonical_url": "https://github.com/kenviriya/Full-team-AGILE",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:03.943535Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f89f33f374057eac729070fd56ccfef5733d9024077d11a0b4a2b8dfab643b19",
+  "sampled_file_digests": {
+    "LICENSE": "3287e3b51f0af39da248a7ad5329c1a8a024cdbb7aa53255762b4cace2372c9d",
+    "README.md": "792c4d2cdbac29f4b25f56dedf84d925466edd9923357fb054e4ed022439efd9"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

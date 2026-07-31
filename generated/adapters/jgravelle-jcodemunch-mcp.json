@@ -1,0 +1,120 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://YOUR_JCODEMUNCH_URL",
+    "https://api.groq.com/openai/v1",
+    "https://astral.sh/uv/install.ps1",
+    "https://docs.astral.sh/uv/",
+    "https://doi.org/10.5281/zenodo.20102349",
+    "https://geminicli.com/docs/tools/mcp-server/",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/NousResearch/hermes-agent/pull/10413",
+    "https://github.com/autohandai/code-cli/",
+    "https://github.com/jgravelle",
+    "https://github.com/jgravelle/jcodemunch-mcp",
+    "https://github.com/jgravelle/jcodemunch-mcp.git",
+    "https://github.com/jgravelle/jcodemunch-mcp/blob/main/QUICKSTART.md",
+    "https://github.com/jgravelle/jcodemunch-mcp/issues",
+    "https://github.com/jgravelle/jcodemunch-mcp/releases/tag/v1.108.168",
+    "https://github.com/jgravelle/jcodemunch-mcp/releases/tag/v1.108.169",
+    "https://github.com/jgravelle/jcodemunch-mcp/releases/tag/v1.108.170",
+    "https://github.com/jgravelle/jmunch-console",
+    "https://github.com/openai/codex",
+    "https://github.com/pewdiepie-archdaemon/odysseus",
+    "https://groq.com",
+    "https://img.shields.io/badge/Claude_Code-CLI_install-D97757?style=for-the-badge&logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/Codex_CLI-Config_install-10a37f?style=for-the-badge&logo=openai&logoColor=white",
+    "https://img.shields.io/badge/Cursor-Install_jCodeMunch-122122?style=for-the-badge&logo=cursor&logoColor=white",
+    "https://img.shields.io/badge/MCP-compatible-purple",
+    "https://img.shields.io/badge/VS_Code-Install_jCodeMunch-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=for-the-badge&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/jMRI-Full-blueviolet",
+    "https://img.shields.io/badge/license-dual--use-blue",
+    "https://img.shields.io/badge/local--first-yes-brightgreen",
+    "https://img.shields.io/badge/parsing-tree--sitter-9cf",
+    "https://img.shields.io/pypi/pyversions/jcodemunch-mcp",
+    "https://img.shields.io/pypi/v/jcodemunch-mcp",
+    "https://j.gravelle.us/jCodeMunch/descriptions.php",
+    "https://jcodemunch.com/",
+    "https://jcodemunch.com/#pricing",
+    "https://jcodemunch.com/?utm_source=github&utm_medium=readme&utm_campaign=jcm_readme_top#pricing",
+    "https://jcodemunch.com/descriptions.php#builder",
+    "https://jcodemunch.com/descriptions.php#platform",
+    "https://jcodemunch.com/descriptions.php#studio"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "GOOGLE_API_KEY",
+    "GROQ_API_KEY",
+    "JCODEMUNCH_HOST",
+    "JCODEMUNCH_HTTP_TOKEN",
+    "JCODEMUNCH_PORT",
+    "JCODEMUNCH_TELEMETRY_URL",
+    "JCODEMUNCH_TRANSPORT",
+    "KEY",
+    "LANGUAGE_SUPPORT",
+    "MINIMAX_API_KEY",
+    "TOKEN_SAVINGS",
+    "URL",
+    "YOUR_GROQ_KEY",
+    "YOUR_JCODEMUNCH_URL",
+    "YOUR_TOKEN",
+    "ZHIPUAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Token-efficient code exploration via tree-sitter AST parsing. 70+ languages, 95%+ token savings.",
+      "name": "io.github.jgravelle/jcodemunch-mcp",
+      "packages": [
+        {
+          "identifier": "jcodemunch-mcp",
+          "registryType": "pypi",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.44.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/jgravelle/jcodemunch-mcp"
+      },
+      "title": "jCodemunch MCP",
+      "version": "1.44.0"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jgravelle-jcodemunch-mcp.json",
+  "schema_version": 1,
+  "source_repository": "jgravelle/jcodemunch-mcp",
+  "source_url": "https://github.com/jgravelle/jcodemunch-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/yokingma/one-search-mcp",
+  "canonical_repository": "yokingma/one-search-mcp",
+  "canonical_url": "https://github.com/yokingma/one-search-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:23.606084Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5d2b51526b733b576480c1ae9df45fdfcbb8cb996194c93d68b031a18a4cc6b6",
+  "sampled_file_digests": {
+    "Dockerfile": "58edc96d54024652c94bcd9cf16c796be2b1df9d969b5f8051aa098e07aa3cb9",
+    "LICENSE": "72867adcd0bf724d22bccc44929715396a045f826d8910f37961469c383d8004",
+    "README.md": "772677eea025bb857c004c1d2d3228e78c2c8a9cde537a572074b0af310a97e2",
+    "package.json": "8c60807885874ee6f91a4a6775362cf08dfa55d78f912747a764f14f66d4ae01",
+    "server.json": "50a9926c6f8e8d78d16747dd1099b12284e686cdcf0c75ef99454ff1cd515e04"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

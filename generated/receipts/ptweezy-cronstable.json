@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/ptweezy/cronstable",
+  "canonical_repository": "ptweezy/cronstable",
+  "canonical_url": "https://github.com/ptweezy/cronstable",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "develop",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:12.138985Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9b1ed00708ac9bd619caa3424a8a1039422b2c4db0068d626cee0ce3b056b980",
+  "sampled_file_digests": {
+    "Dockerfile": "0cf77af90ff9dbefbb92543004e45be51cd91b655d8a68f1f6b0158ca088e242",
+    "LICENSE": "9241d47c049b68a38340566a12980c92e29e3f5c99c203944fdc78937eabe7d1",
+    "README.md": "1d6181dcc6fbdf484620c1590c61f28b5de44488976ae3aac3a427201ef8b020",
+    "docker-compose.yml": "037ae0bdca3bb988618db000bd23612ce81a9f7b2120df130511748a96d92e0d",
+    "pyproject.toml": "91e8cd9c1b5f8ab539499c22d85b88e1b889136c052adb574040f24679f8e0fb"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

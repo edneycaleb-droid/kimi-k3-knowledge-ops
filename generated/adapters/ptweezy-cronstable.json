@@ -1,0 +1,91 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://0.0.0.0:8443",
+    "https://127.0.0.1:8443",
+    "https://codecov.io/gh/ptweezy/cronstable",
+    "https://developer.mozilla.org/docs/Web/API/Server-sent_events",
+    "https://docs.python.org/3/library/logging.config.html#dictionary-schema-details",
+    "https://flake8.pycqa.org/en/latest/user/error-codes.html",
+    "https://github.com/etsy/statsd",
+    "https://github.com/giampaolo/psutil",
+    "https://github.com/gjcarneiro/yacron",
+    "https://github.com/microsoft/winget-pkgs/tree/master/manifests/p/ptweezy/cronstable",
+    "https://github.com/pipxproject/pipx",
+    "https://github.com/ptweezy/cronstable",
+    "https://github.com/ptweezy/cronstable#readme",
+    "https://github.com/ptweezy/cronstable/actions/workflows/release.yml",
+    "https://github.com/ptweezy/cronstable/actions/workflows/release.yml/badge.svg",
+    "https://github.com/ptweezy/cronstable/issues",
+    "https://github.com/ptweezy/cronstable/pkgs/container/cronstable",
+    "https://github.com/ptweezy/cronstable/releases",
+    "https://github.com/ptweezy/cronstable/releases/latest",
+    "https://github.com/ptweezy/cronstable/releases/latest/download/cronstable-linux-amd64",
+    "https://github.com/ptweezy/cronstable/wiki",
+    "https://github.com/ptweezy/cronstable/wiki/Architecture-and-Internals",
+    "https://github.com/ptweezy/cronstable/wiki/Business-Day-Schedules",
+    "https://github.com/ptweezy/cronstable/wiki/CLI-Reference",
+    "https://github.com/ptweezy/cronstable/wiki/Calendar-Export",
+    "https://github.com/ptweezy/cronstable/wiki/Classic-Crontabs",
+    "https://github.com/ptweezy/cronstable/wiki/Clustering-and-Leader-Election",
+    "https://github.com/ptweezy/cronstable/wiki/Commands-and-Environment",
+    "https://github.com/ptweezy/cronstable/wiki/Concurrency-and-Timeouts",
+    "https://github.com/ptweezy/cronstable/wiki/Configuration-Reference",
+    "https://github.com/ptweezy/cronstable/wiki/Contributing-and-Releasing",
+    "https://github.com/ptweezy/cronstable/wiki/Duplicate-Schedule-Detection",
+    "https://github.com/ptweezy/cronstable/wiki/Durable-State",
+    "https://github.com/ptweezy/cronstable/wiki/Environment-Variable-Interpolation",
+    "https://github.com/ptweezy/cronstable/wiki/Failure-Detection-and-Retries",
+    "https://github.com/ptweezy/cronstable/wiki/HTTP-API",
+    "https://github.com/ptweezy/cronstable/wiki/Hashed-Schedules",
+    "https://github.com/ptweezy/cronstable/wiki/Includes-and-Defaults",
+    "https://github.com/ptweezy/cronstable/wiki/Installation",
+    "https://github.com/ptweezy/cronstable/wiki/Job-Set-ID"
+  ],
+  "environment_variable_names": [
+    "CRONSTABLE_WEB_CLIENT_KEY",
+    "CRONSTABLE_WEB_TOKEN",
+    "HOSTNAME",
+    "KEY",
+    "OPT_SORT_KEYS",
+    "SLACK_WEBHOOK_URL",
+    "TOKEN",
+    "URL",
+    "WEB_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ptweezy-cronstable.json",
+  "schema_version": 1,
+  "source_repository": "ptweezy/cronstable",
+  "source_url": "https://github.com/ptweezy/cronstable",
+  "status": "disabled_pending_review"
+}

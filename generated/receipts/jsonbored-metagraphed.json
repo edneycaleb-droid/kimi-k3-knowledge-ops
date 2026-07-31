@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/JSONbored/metagraphed",
+  "canonical_repository": "JSONbored/metagraphed",
+  "canonical_url": "https://github.com/JSONbored/metagraphed",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:22.086843Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "63b071eefd33e071bed4efd0c0dd5e36fd41b4f51933a3337e3645d79d21caee",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "b242f3db896e497f28198e5e6d817ac9b273417f96ee226648bbc9cd5a5d9869",
+    "package.json": "35043c8757dc4efe627a10e3ffaf927e834e063a0702a5487bb26f4569fafe10",
+    "server.json": "cfe891cff11250999ae0ca2ee20e55e0f39eb85d76fd37f34859dd17571bb7e3"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/beautyfree/skiller",
+  "canonical_repository": "beautyfree/skiller",
+  "canonical_url": "https://github.com/beautyfree/skiller",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:28.424455Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8a3324f85e84e304f9aefc9ca80133027b8c892cab7a1e8c49dbb5f7570f636f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "78a52011d19170a1b137fad5a00d3d799188c9083f3faa7403daa7f4bd524daa",
+    "LICENSE": "0dbd2bb9fcea10f2f26d75cd002ccffef1049400db7a85c50bef5e5d7d2230bf",
+    "README.md": "ebbc0bae9bbeb14aceb8ae0f15bea6c9b36a50d89d99df71b2a86bc0a607331b",
+    "package.json": "99d334ae34aac7757c432d39296c310dc9e790e00e92a0ba4cffc940403f355c"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

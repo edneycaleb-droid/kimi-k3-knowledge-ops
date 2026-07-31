@@ -1,0 +1,50 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.vinny.io",
+    "https://claude.com/claude-code",
+    "https://gsd.vinny.dev",
+    "https://gsd.vinny.dev/install.html",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/npm/dm/gsd-mcp-server.svg",
+    "https://img.shields.io/npm/v/gsd-mcp-server.svg",
+    "https://localhost",
+    "https://mseep.ai/app/vscarpenter-gsd-task-manager",
+    "https://mseep.net/pr/vscarpenter-gsd-task-manager-badge.png",
+    "https://opensource.org/licenses/MIT",
+    "https://www.npmjs.com/package/gsd-mcp-server"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vscarpenter-gsd-task-manager.json",
+  "schema_version": 1,
+  "source_repository": "vscarpenter/gsd-task-manager",
+  "source_url": "https://github.com/vscarpenter/gsd-task-manager",
+  "status": "disabled_pending_review"
+}

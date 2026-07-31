@@ -1,15 +1,15 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: marcusquinn/aidevops
 
 ## Decision
 
-**REVIEW** — quality 69/100; bounded learning adjustment +0.
+**REVIEW** — quality 79/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, mcp_server, memory, plugin, skill, tool, workflow
-- License: unverified
-- Default branch: `master`
+- Repository: https://github.com/marcusquinn/aidevops
+- Categories: agent, api, mcp_server, memory, plugin, skill, tool, workflow
+- License: MIT
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,23 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 14748
-- license: **0/10** — SPDX missing
+- documentation: **10/10** — README length 163245
+- license: **10/10** — SPDX MIT
 - testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **9/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 19 stars
+- security: **3/10** — 0 critical, 2 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **8/10** — 348 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
+- `high` `SEC007` in `package.json`: Package installation lifecycle hook
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/marcusquinn-aidevops.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

@@ -1,15 +1,15 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: JSONbored/metagraphed
 
 ## Decision
 
-**REVIEW** — quality 69/100; bounded learning adjustment +0.
+**REVIEW** — quality 78/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, mcp_server, memory, plugin, skill, tool, workflow
-- License: unverified
-- Default branch: `master`
+- Repository: https://github.com/JSONbored/metagraphed
+- Categories: agent, api, mcp_server, memory, skill, tool, workflow
+- License: AGPL-3.0
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 14748
-- license: **0/10** — SPDX missing
+- documentation: **10/10** — README length 34054
+- license: **4/10** — SPDX AGPL-3.0
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
 - interoperability: **9/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 19 stars
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **4/10** — 12 stars
 
 ## Static security review
 
@@ -31,7 +31,7 @@
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/jsonbored-metagraphed.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist
