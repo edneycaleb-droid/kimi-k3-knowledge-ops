@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/hugohe3/ppt-master",
+  "canonical_repository": "hugohe3/ppt-master",
+  "canonical_url": "https://github.com/hugohe3/ppt-master",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:08:54.285706Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7ede54113ac90aa58e035ab74d8cb8f849f164ebca963af38b2b00741098f412",
+  "sampled_file_digests": {
+    "LICENSE": "80cefc234c1ec12a8cece4344f16300c634fa03df7891686fcf979e3828f0921",
+    "README.md": "144ff38d0b336f226bfe8ea69d40f81d4875f0704e4edfbe7101f079e10ebcd9",
+    "requirements.txt": "5b9c025632edafb19a53db251b3608b687b3c4387f55416f7f40ed4aa41b934e"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

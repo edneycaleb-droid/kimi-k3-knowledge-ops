@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/jjang-ai/vmlx",
+  "canonical_repository": "jjang-ai/vmlx",
+  "canonical_url": "https://github.com/jjang-ai/vmlx",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:15.524115Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c8991bb7c0b0b82babad07b415e6430ae84b1581660f9883f9fac3c4be257a3d",
+  "sampled_file_digests": {
+    "LICENSE": "47e3d4086335484a5c751fbfae668442c2a7ad9eb9f7454359805484b988e61d",
+    "README.md": "5239d6a338515c1ba639868968492c62031e14af8f0b4bdcccac2fc099c80ccd",
+    "pyproject.toml": "d8c45797848db79954e85e504034e16c63c271445507d7b4e952b80ce600cad5"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,34 @@
+{
+  "categories": [
+    "uncategorized"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [
+    "AUTH_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/smile213908-rag.json",
+  "schema_version": 1,
+  "source_repository": "Smile213908/rag",
+  "source_url": "https://github.com/Smile213908/rag",
+  "status": "disabled_pending_review"
+}

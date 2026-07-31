@@ -1,0 +1,40 @@
+{
+  "categories": [
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://gateway.example"
+  ],
+  "environment_variable_names": [
+    "OPENAI_API_KEY",
+    "OPENAI_BASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/kenviriya-full-team-agile.json",
+  "schema_version": 1,
+  "source_repository": "kenviriya/Full-team-AGILE",
+  "source_url": "https://github.com/kenviriya/Full-team-AGILE",
+  "status": "disabled_pending_review"
+}

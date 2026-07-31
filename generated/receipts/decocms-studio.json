@@ -5,9 +5,9 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:12:12.044859Z",
+  "fetched_at": "2026-07-31T01:09:20.570682Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "508bc3c9bd34731b315a7e71a5f32db8c7c00c98e18e8b663d7b9daf598b3d06",
+  "metadata_digest": "64c7170ff0d117f161ae64bcb1239076fc6961ea44266d35f64a26e69b14bad9",
   "sampled_file_digests": {
     ".github/workflows/test.yml": "efb94bd5b21a0232633419303ee9b3ed7ebe25208e6c91a1ec524e98fa51fb7e",
     "LICENSE.md": "3138f6e1a3f2a3909538128ed3537f4b22baabe08160dac23c7b8ca3b05ce053",

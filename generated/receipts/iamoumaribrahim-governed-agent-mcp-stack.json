@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/IamOumarIbrahim/governed-agent-mcp-stack",
+  "canonical_repository": "IamOumarIbrahim/governed-agent-mcp-stack",
+  "canonical_url": "https://github.com/IamOumarIbrahim/governed-agent-mcp-stack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:05.893161Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "760356fbfdbcfacb24a99087230e44b4038b12c820146692e32955f2d9eef69f",
+  "sampled_file_digests": {
+    "LICENSE": "a238534af410a53c67ec79d89205aa1aa81dd1c141b9ee8d6432e8017a5a28f5",
+    "README.md": "1fd4f348aaf5ca4b22d5e4980f5a3797b5e5d2c88bc53662275032f5dbb1fffd",
+    "pyproject.toml": "279a2c89285e4bef9a0e4a80480e57f6bf9499efe045d08b4c76051d3edbbfde"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

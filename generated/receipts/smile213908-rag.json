@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Smile213908/rag",
+  "canonical_repository": "Smile213908/rag",
+  "canonical_url": "https://github.com/Smile213908/rag",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:08:55.942728Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6cf6316f8f11a93d5bb9f13b6a088b8436d468e4ff2feb6b0835c55dc507069a",
+  "sampled_file_digests": {
+    "README.md": "b4326eebdbe843b088ce2fb693f16d2e55f71f451102843aa2ae82b14c6716e7"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

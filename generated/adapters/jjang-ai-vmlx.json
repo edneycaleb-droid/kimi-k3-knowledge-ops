@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Anemll/flash-moe",
+    "https://github.com/filipstrand/mflux",
+    "https://github.com/jjang-ai",
+    "https://github.com/jjang-ai/mlxstudio/releases",
+    "https://github.com/jjang-ai/mlxstudio/releases/latest",
+    "https://github.com/jjang-ai/vmlx",
+    "https://github.com/jjang-ai/vmlx#readme",
+    "https://github.com/jjang-ai/vmlx.git",
+    "https://github.com/jjang-ai/vmlx/blob/main/LICENSE",
+    "https://github.com/jjang-ai/vmlx/issues",
+    "https://huggingface.co/JANGQ-AI",
+    "https://huggingface.co/JANGQ-AI/MiniMax-M2.5-JANG_2L",
+    "https://huggingface.co/mlx-community",
+    "https://img.shields.io/badge/Apple_Silicon-M1%2FM2%2FM3%2FM4-black?logo=apple",
+    "https://img.shields.io/badge/Electron-28-47848F?logo=electron&logoColor=white",
+    "https://img.shields.io/badge/License-Apache_2.0-green?logo=apache",
+    "https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white",
+    "https://img.shields.io/badge/Support-Ko--fi-FF5E5B?logo=ko-fi&logoColor=white",
+    "https://img.shields.io/github/stars/jjang-ai/vmlx?style=social",
+    "https://img.shields.io/pypi/v/vmlx?color=%234B8BBE&label=PyPI&logo=python&logoColor=white",
+    "https://jangq.ai",
+    "https://ko-fi.com/jangml",
+    "https://osaurus.ai",
+    "https://pypi.org/project/vmlx/",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/agentic-chat.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/anthropic-api.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/chat-tab.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/gguf-to-mlx.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/image-edit-tab.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/logo-wide-dark.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/logo-wide-light.png",
+    "https://raw.githubusercontent.com/jjang-ai/vmlx/main/assets/menu-bar.png"
+  ],
+  "environment_variable_names": [
+    "OLLAMA_HOST",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jjang-ai-vmlx.json",
+  "schema_version": 1,
+  "source_repository": "jjang-ai/vmlx",
+  "source_url": "https://github.com/jjang-ai/vmlx",
+  "status": "disabled_pending_review"
+}

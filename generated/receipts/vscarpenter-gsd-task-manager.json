@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/vscarpenter/gsd-task-manager",
+  "canonical_repository": "vscarpenter/gsd-task-manager",
+  "canonical_url": "https://github.com/vscarpenter/gsd-task-manager",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:26.631582Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f687293de9f73c59ae54040afbe89518d3e0a158e2079b65a1ac2db2ea90a084",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "057f445579426f6fc33f06dbd6632fe01fdd1028ac6e41132996e1006e7667fc",
+    "LICENSE": "f873ecb427ed2934800e9dc90817034437e74cc8f27b03b25fa5ca5f2dcb31b9",
+    "README.md": "68469538d5fe2b3d284a1168e697c67ec12b319825d790e38da4d679ccdd64bb",
+    "package.json": "9c7323a5c6c1cdad701b52e531c7c064033c3c6f1f1e144254da32845dbbe44f"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

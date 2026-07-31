@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Humphrey4data/tableau-to-hex-skill",
+  "canonical_repository": "Humphrey4data/tableau-to-hex-skill",
+  "canonical_url": "https://github.com/Humphrey4data/tableau-to-hex-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:31.529352Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b93517875342bc9689a81d477d9b5d94fa9322a78e6c4fcca91f9ce039ed8d9d",
+  "sampled_file_digests": {
+    "LICENSE": "ffa92de6caa440f33aed112f9bdfdcae5f4212adbc8674d67fc4069508ec0b17",
+    "README.md": "05776896bf02ae00135598708a1128c68e4dd92a48edf9166665c746f608dc03"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

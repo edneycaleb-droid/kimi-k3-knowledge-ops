@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/MCPJam/inspector",
+  "canonical_repository": "MCPJam/inspector",
+  "canonical_url": "https://github.com/MCPJam/inspector",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-07-31T01:09:25.063584Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5b21c99f49edd257fdcc383572d3e51acc635a8c4651d81a1524de1d7cc0b036",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "b3790e6850c6cf55385535b05355093f881ad35237fc76713752dc5bad1418c4",
+    "LICENSE": "73be571fb2abb3449669b851c9b75db38c5df52d6bc233ef8bb99eb6f7b74141",
+    "README.md": "dad03f4a9ce21523f63508eeee4708e472aaae8cb41036cde226960eab81f716",
+    "package.json": "de0ad050cc6223169348bb6ed62beef1a69cccc5574ff607caf261583f63560c"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

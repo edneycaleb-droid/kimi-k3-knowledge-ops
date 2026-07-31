@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/IamOumarIbrahim",
+    "https://github.com/IamOumarIbrahim/governed-agent-mcp-stack.git",
+    "https://img.shields.io/badge/AgentPulse-Fleet_Observability-3b82f6?style=flat-square",
+    "https://img.shields.io/badge/Interlock-CAD%2FEDA%2FSPICE-a855f7?style=flat-square",
+    "https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square",
+    "https://img.shields.io/badge/Protocol-MCP-orange.svg?style=flat-square",
+    "https://img.shields.io/badge/Python-3.10%2B-blue.svg?style=flat-square&logo=python&logoColor=white",
+    "https://img.shields.io/badge/SpectraMCP-RF%2FSDR%2FRadar-3146B5?style=flat-square",
+    "https://modelcontextprotocol.io/",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/iamoumaribrahim-governed-agent-mcp-stack.json",
+  "schema_version": 1,
+  "source_repository": "IamOumarIbrahim/governed-agent-mcp-stack",
+  "source_url": "https://github.com/IamOumarIbrahim/governed-agent-mcp-stack",
+  "status": "disabled_pending_review"
+}

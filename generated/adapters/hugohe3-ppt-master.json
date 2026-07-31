@@ -1,0 +1,84 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aka.ms/ResearchStudio",
+    "https://apikey.fun/register?aff=PPT-MASTER",
+    "https://arxiv.org/abs/2607.04438",
+    "https://atomgit.com/hugohe3/ppt-master",
+    "https://atomgit.com/hugohe3/ppt-master/star/badge.svg",
+    "https://claude.ai/code",
+    "https://cline.bot/",
+    "https://code.claude.com/docs/en/plugin-marketplaces",
+    "https://code.visualstudio.com/",
+    "https://codeium.com/windsurf",
+    "https://cursor.sh/",
+    "https://en.wikipedia.org/wiki/Robin_Williams_",
+    "https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-en.png",
+    "https://git-scm.com/downloads",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/features/copilot",
+    "https://github.com/hugohe3/ppt-master",
+    "https://github.com/hugohe3/ppt-master.git",
+    "https://github.com/hugohe3/ppt-master/discussions",
+    "https://github.com/hugohe3/ppt-master/issues",
+    "https://github.com/hugohe3/ppt-master/releases",
+    "https://github.com/hugohe3/ppt-master/stargazers",
+    "https://github.com/microsoft/ResearchStudio",
+    "https://github.com/openai/codex",
+    "https://github.com/phosphor-icons/core",
+    "https://github.com/simple-icons/simple-icons",
+    "https://github.com/tabler/tabler-icons",
+    "https://hugohe3.github.io/ppt-master/",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_glassmorphism_demo",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_global_ai_capital_2026",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_indie_bookstore_zine_guide",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_pritzker_2026",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_sugar_rush_memphis",
+    "https://hugohe3.github.io/ppt-master/viewer.html?project=ppt169_swiss_grid_systems",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/PayPal-Sponsor-00457C?style=for-the-badge&logo=paypal&logoColor=white",
+    "https://img.shields.io/github/stars/hugohe3/ppt-master.svg",
+    "https://img.shields.io/github/v/release/hugohe3/ppt-master?label=version&color=blue",
+    "https://m.do.co/c/547f129aabe1",
+    "https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg"
+  ],
+  "environment_variable_names": [
+    "APIKEY",
+    "GEMINI_API_KEY",
+    "IMPORTANT",
+    "OPENAI_API_KEY",
+    "PEXELS_API_KEY",
+    "PIXABAY_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hugohe3-ppt-master.json",
+  "schema_version": 1,
+  "source_repository": "hugohe3/ppt-master",
+  "source_url": "https://github.com/hugohe3/ppt-master",
+  "status": "disabled_pending_review"
+}
