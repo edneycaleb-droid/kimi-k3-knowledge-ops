@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskillexchange.com/",
+    "https://agentskillexchange.com/browse-skills/",
+    "https://agentskillexchange.com/create-skill/",
+    "https://github.com/agentskillexchange/skills.git",
+    "https://img.shields.io/badge/categories-17-0ea5e9?style=for-the-badge",
+    "https://img.shields.io/badge/industry--collections-15-14b8a6?style=for-the-badge",
+    "https://img.shields.io/badge/license-MIT-f59e0b?style=for-the-badge",
+    "https://img.shields.io/badge/published-2%2C874-6366f1?style=for-the-badge",
+    "https://img.shields.io/badge/security--reviewed-2%2C454-10b981?style=for-the-badge"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/agentskillexchange-skills.json",
+  "schema_version": 1,
+  "source_repository": "agentskillexchange/skills",
+  "source_url": "https://github.com/agentskillexchange/skills",
+  "status": "disabled_pending_review"
+}

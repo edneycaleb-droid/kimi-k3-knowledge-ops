@@ -1,0 +1,68 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api-docs.deepseek.com/guides/kv_cache",
+    "https://api-docs.deepseek.com/guides/thinking_mode",
+    "https://api-docs.deepseek.com/zh-cn/guides/responses_api/#tools",
+    "https://api.deepseek.com",
+    "https://ark.cn-beijing.volces.com/api/coding/v3",
+    "https://avatars.githubusercontent.com/u/118287711?s=200&v=4",
+    "https://deepcode.vegamo.cn/",
+    "https://github.com/lessweb/deepcode",
+    "https://github.com/lessweb/deepcode-cli",
+    "https://github.com/lessweb/deepcode-cli.git",
+    "https://github.com/lessweb/deepcode-cli/blob/main/LICENSE",
+    "https://github.com/lessweb/deepcode-cli/graphs/contributors",
+    "https://github.com/lessweb/deepcode-cli/issues",
+    "https://github.com/lessweb/deepcode-cli/network/members",
+    "https://github.com/lessweb/deepcode-cli/network/stargazers",
+    "https://github.com/lessweb/deepcode-cli/pulls",
+    "https://github.com/qorzj/deepcode-qrcode-benchmark",
+    "https://github.com/qorzj/web_search_cli",
+    "https://img.shields.io/github/contributors/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/github/forks/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/github/issues-pr/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/github/issues/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/github/license/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/github/stars/lessweb/deepcode-cli?color=4d6BFE&labelColor=black&style=flat-square&cacheSeconds=1800",
+    "https://img.shields.io/npm/dt/@vegamo/deepcode-cli?labelColor=black&style=flat-square&color=4d6BFE&cacheSeconds=1800",
+    "https://img.shields.io/npm/v/@vegamo/deepcode-cli?color=4d6BFE&labelColor=black&logo=npm&logoColor=white&style=flat-square&cacheSeconds=1800",
+    "https://lucumr.pocoo.org/2026/7/4/better-models-worse-tools/",
+    "https://marketplace.visualstudio.com/items?itemName=vegamo.deepcode-vscode",
+    "https://www.npmjs.com/package/@vegamo/deepcode-cli"
+  ],
+  "environment_variable_names": [
+    "API_KEY",
+    "BASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/lessweb-deepcode-cli.json",
+  "schema_version": 1,
+  "source_repository": "lessweb/deepcode-cli",
+  "source_url": "https://github.com/lessweb/deepcode-cli",
+  "status": "disabled_pending_review"
+}

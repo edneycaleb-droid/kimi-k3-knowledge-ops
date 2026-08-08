@@ -5,13 +5,13 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-27T11:36:36.914044Z",
+  "fetched_at": "2026-08-08T19:38:53.681824Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "0131beb397603f47a1c63ad8fee7e452b2351336211fd45011bb98f019a18ccc",
+  "metadata_digest": "9e9fd1ddbf9110fec78193ad9f7ff32bc33f73218bd3439ba30368fe669c6826",
   "sampled_file_digests": {
-    ".github/workflows/ci.yml": "27b14279429a2147f604b5db3d0aba3cafc639e3f564f36a65196044741baa77",
+    ".github/workflows/ci.yml": "83ee45b60f0f5d841c596e106d924e84a0f8df4169b49efb65e40329155234b0",
     "Dockerfile": "509b749d7e149c878f6e561085958e4eae9b0c2b2ac915b7f09459bcdcc35a1f",
-    "README.md": "b0caa07367107aec6e87d756221f3a914bb222950066be6f8523a85261772001",
+    "README.md": "b617bd8978f70dfad9dda3082f1be21419455d2ecb280c6cad39c31af5dfd203",
     "docker-compose.yml": "618939675f37975fd9f3993c1a1db70e44ccfe8ef087279a5347f5ba47e7b5db"
   },
   "source_query": "\"model context protocol\" kimi in:name,description,readme"

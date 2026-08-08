@@ -1,0 +1,53 @@
+{
+  "categories": [
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://crates.io/crates/cortiq-cli",
+    "https://crates.io/crates/cortiq-core",
+    "https://docs.rs/cortiq-core",
+    "https://github.com/infosave2007/cmf/actions/workflows/ci.yml",
+    "https://github.com/infosave2007/cmf/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/infosave2007/cmf/blob/master/LICENSE",
+    "https://github.com/infosave2007/cmf/issues",
+    "https://github.com/infosave2007/cmf/releases/latest",
+    "https://github.com/infosave2007/vmf",
+    "https://huggingface.co/Alpha-VLLM/Lumina-Image-2.0",
+    "https://huggingface.co/infosave/MiniMax-H3-Turbo-cmf",
+    "https://huggingface.co/infosave/MiniMax-H3-Turbo-cmf/tree/main/samples",
+    "https://huggingface.co/spaces/infosave/cmf-animate",
+    "https://huggingface.co/spaces/infosave/cmf-converter",
+    "https://huggingface.co/spaces/infosave/cmf-imagine",
+    "https://img.shields.io/badge/license-Apache--2.0-blue.svg",
+    "https://img.shields.io/crates/d/cortiq-cli.svg",
+    "https://img.shields.io/crates/v/cortiq-core.svg",
+    "https://img.shields.io/docsrs/cortiq-core",
+    "https://termux.dev"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/infosave2007-cmf.json",
+  "schema_version": 1,
+  "source_repository": "infosave2007/cmf",
+  "source_url": "https://github.com/infosave2007/cmf",
+  "status": "disabled_pending_review"
+}

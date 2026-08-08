@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/infosave2007/cmf",
+  "canonical_repository": "infosave2007/cmf",
+  "canonical_url": "https://github.com/infosave2007/cmf",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:33.494446Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8398597d40eae80d800366e0480927d889a603716b338ccdc5fb5478e4ccef7b",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "70946133afdadec685fcd0ece8180007b5a7b6b754b613456653578c0d918140",
+    "LICENSE": "0bf59d136536dea5dcf80ce96c5988e46522ce69f3ae817666c7f5d10ded6618",
+    "README.md": "69d13c25e95a73efd402c0b3269d843a885cf874f3fa307e72878ae0cbf43ea2"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

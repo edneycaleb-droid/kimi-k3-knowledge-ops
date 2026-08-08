@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/chwzr/super-skills",
+  "canonical_repository": "chwzr/super-skills",
+  "canonical_url": "https://github.com/chwzr/super-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:44.998761Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "dbc2cf3aa2cb79ed545d638e2f881f3b77bc44018bb9193bc61b475031a05903",
+  "sampled_file_digests": {
+    "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    "README.md": "598d843ef7681719935ba9ddc5b1a012064a9a43f585cf3d08fa8d34dfd3e405",
+    "package.json": "e17503bed2e4f6e4df5c4116c3b6ee69917795c4e2000ff064ddd445c10c2ed1"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

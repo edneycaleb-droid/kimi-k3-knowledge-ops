@@ -1,0 +1,138 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cappyeo.github.io/discord-mcp/",
+    "https://cappyeo.github.io/discord-mcp/architecture/",
+    "https://cappyeo.github.io/discord-mcp/migrate/",
+    "https://cappyeo.github.io/discord-mcp/operations/",
+    "https://cappyeo.github.io/discord-mcp/operations/openai/",
+    "https://cappyeo.github.io/discord-mcp/recipes/",
+    "https://cappyeo.github.io/discord-mcp/reference/changelog/",
+    "https://cappyeo.github.io/discord-mcp/reference/cli/",
+    "https://cappyeo.github.io/discord-mcp/reference/v1-readiness/",
+    "https://cappyeo.github.io/discord-mcp/showcase/live-gaming-server/",
+    "https://cappyeo.github.io/discord-mcp/start/installation/",
+    "https://cappyeo.github.io/discord-mcp/start/quickstart/",
+    "https://cappyeo.github.io/discord-mcp/tools/",
+    "https://github.com/cappyeo/discord-mcp",
+    "https://github.com/cappyeo/discord-mcp/actions/workflows/ci.yml",
+    "https://github.com/cappyeo/discord-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/modelcontextprotocol/inspector",
+    "https://img.shields.io/github/license/cappyeo/discord-mcp",
+    "https://img.shields.io/node/v/%40discord-mcp%2Fcli",
+    "https://img.shields.io/npm/v/%40discord-mcp%2Fcli?label=npm",
+    "https://raw.githubusercontent.com/cappyeo/discord-mcp/main/.github/assets/discord-mcp-banner.jpg",
+    "https://raw.githubusercontent.com/cappyeo/discord-mcp/main/.github/assets/discord-mcp-workflow.jpg",
+    "https://raw.githubusercontent.com/cappyeo/discord-mcp/main/site/public/demo/live-gaming-server-build.webp",
+    "https://raw.githubusercontent.com/cappyeo/discord-mcp/v0.16.11/site/src/assets/discord-mcp-logo-dark.png",
+    "https://raw.githubusercontent.com/cappyeo/discord-mcp/v0.16.11/site/src/assets/discord-mcp-logo-light.png",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.npmjs.com/package/@discord-mcp/cli",
+    "https://www.npmjs.com/package/@discord-mcp/core"
+  ],
+  "environment_variable_names": [
+    "DISCORD_MCP_ACCESS_TOKEN",
+    "DISCORD_TOKEN",
+    "YOUR_DISCORD_BOT_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Connect AI clients to a caller-owned Discord bot with 201 tools over stdio or authenticated HTTP.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ],
+          "src": "https://raw.githubusercontent.com/cappyeo/discord-mcp/v0.16.11/site/src/assets/discord-mcp-logo-light.png",
+          "theme": "light"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ],
+          "src": "https://raw.githubusercontent.com/cappyeo/discord-mcp/v0.16.11/site/src/assets/discord-mcp-logo-dark.png",
+          "theme": "dark"
+        }
+      ],
+      "name": "io.github.cappyeo/discord-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Discord bot token. The optional Bot prefix is accepted.",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "DISCORD_TOKEN"
+            },
+            {
+              "description": "Expected Discord bot ID. Startup fails if the token belongs to another bot.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "DISCORD_EXPECTED_BOT_ID"
+            },
+            {
+              "description": "Comma-separated Discord guild IDs this deployment may operate against.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "ALLOWED_GUILDS"
+            }
+          ],
+          "identifier": "@discord-mcp/cli",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.16.11"
+        }
+      ],
+      "repository": {
+        "id": "1223078565",
+        "source": "github",
+        "subfolder": "packages/mcp-server",
+        "url": "https://github.com/cappyeo/discord-mcp"
+      },
+      "title": "Discord MCP",
+      "version": "0.16.11",
+      "websiteUrl": "https://cappyeo.github.io/discord-mcp/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/cappyeo-discord-mcp.json",
+  "schema_version": 1,
+  "source_repository": "cappyeo/discord-mcp",
+  "source_url": "https://github.com/cappyeo/discord-mcp",
+  "status": "disabled_pending_review"
+}

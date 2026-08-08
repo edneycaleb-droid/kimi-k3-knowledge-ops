@@ -1,0 +1,133 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://astral.sh/uv",
+    "https://example.com/hook",
+    "https://fsf.org/",
+    "https://github.com/codeofaxel/Kiln",
+    "https://github.com/codeofaxel/Kiln.git",
+    "https://github.com/codeofaxel/Kiln/blob/main/LICENSE",
+    "https://github.com/codeofaxel/Kiln/blob/main/policies/SIGNING.md",
+    "https://glama.ai/mcp/servers/codeofaxel/kiln",
+    "https://glama.ai/mcp/servers/codeofaxel/kiln/badge?v=2",
+    "https://img.shields.io/badge/verified%20by-sigstore%20%2B%20SLSA-0f6fdc?logo=sigstore&logoColor=white",
+    "https://img.shields.io/github/license/codeofaxel/Kiln",
+    "https://img.shields.io/pepy/dt/kiln3d",
+    "https://img.shields.io/pypi/pyversions/kiln3d",
+    "https://img.shields.io/pypi/v/kiln3d",
+    "https://kiln3d.com/?utm_source=github&utm_medium=readme",
+    "https://kiln3d.com/?utm_source=github&utm_medium=readme#demo",
+    "https://kiln3d.com/?utm_source=mcp-registry&utm_medium=listing",
+    "https://kiln3d.com/install?utm_source=github&utm_medium=readme",
+    "https://kiln3d.com/pricing?utm_source=github&utm_medium=readme",
+    "https://kiln3d.com/printers?utm_source=github&utm_medium=readme",
+    "https://openscad.org/downloads#snapshots",
+    "https://pepy.tech/projects/kiln3d",
+    "https://pypi.org/project/kiln3d/",
+    "https://smithery.ai/servers/codeofaxel/kiln",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.gnu.org/licenses/",
+    "https://www.prusa3d.com/prusaslicer/"
+  ],
+  "environment_variable_names": [
+    "KILN_AUTH_KEY",
+    "KILN_CRAFTCLOUD_API_KEY",
+    "KILN_CULTS3D_API_KEY",
+    "KILN_GEMINI_API_KEY",
+    "KILN_MCP_AUTH_TOKEN",
+    "KILN_MESHY_API_KEY",
+    "KILN_MMF_API_KEY",
+    "KILN_OPENROUTER_KEY",
+    "KILN_PRINTER_API_KEY",
+    "KILN_PRINTER_HOST",
+    "KILN_STABILITY_API_KEY",
+    "KILN_TRIPO3D_API_KEY",
+    "SUPPORTED",
+    "URL",
+    "YOUR_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Kiln MCP server for agents: design, slice, print, monitor, and recover physical objects safely.",
+      "name": "io.github.codeofaxel/kiln",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "URL of your 3D printer (OctoPrint, Moonraker, Creality, or Prusa Link)",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "KILN_PRINTER_HOST"
+            },
+            {
+              "description": "API key for your printer's REST API",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "KILN_PRINTER_API_KEY"
+            },
+            {
+              "description": "Printer type: octoprint, moonraker, creality, bambu, prusalink, elegoo, or serial",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "KILN_PRINTER_TYPE"
+            }
+          ],
+          "identifier": "kiln3d",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "serve"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.3.2"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/codeofaxel/Kiln"
+      },
+      "title": "Kiln",
+      "version": "1.3.2",
+      "websiteUrl": "https://kiln3d.com/?utm_source=mcp-registry&utm_medium=listing"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/codeofaxel-kiln.json",
+  "schema_version": 1,
+  "source_repository": "codeofaxel/Kiln",
+  "source_url": "https://github.com/codeofaxel/Kiln",
+  "status": "disabled_pending_review"
+}

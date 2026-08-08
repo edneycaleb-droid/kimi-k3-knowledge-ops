@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/cappyeo/discord-mcp",
+  "canonical_repository": "cappyeo/discord-mcp",
+  "canonical_url": "https://github.com/cappyeo/discord-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:39:11.505564Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5307bee700495ea25fbc923299e8e60d972343f58e170c62e0ddf790c5c1695a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b4d71082e016b394add47b935780d3b41d8d51e04580c2e97c403cd78164a5f0",
+    "LICENSE": "05c05f6ab3735e93f70512129e2e99505c9300cfe7a7139cbc064a5b9d3bb1a7",
+    "README.md": "d4a927de6c8b317cb6f1e9949807d7bf66403df85af4c8a18aa4fc6a08dded57",
+    "package.json": "0d5fbcef8fb8f41afbff15beaac5c4f818955130399d0069fcbbf84398662c00",
+    "server.json": "3edbc58fa4d68e2e3597fc562eb927e6a40eb44f6fc40b77e01649f541916954"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/DmitriiSednev/DmitriiSednev",
+  "canonical_repository": "DmitriiSednev/DmitriiSednev",
+  "canonical_url": "https://github.com/DmitriiSednev/DmitriiSednev",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:37.326388Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "463297754c4592e6ec9bdcadaae65cf7cc0763b25f89eeb95479003a9e7d03e3",
+  "sampled_file_digests": {
+    "README.md": "0d7f4a3d157b2003a7c3b828e52b2c182fe1dc01eafb87c2853246eadae0e729"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

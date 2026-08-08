@@ -18,21 +18,19 @@
     ]
   },
   "documented_https_endpoints": [
-    "https://agentskills.io)",
-    "https://agentskills.io)-compatible",
-    "https://github.com/netresearch/agent-harness-skill)",
-    "https://github.com/netresearch/agent-rules-skill)",
-    "https://github.com/netresearch/claude-code-marketplace)",
-    "https://github.com/netresearch/composer-agent-skill-plugin).",
-    "https://github.com/netresearch/node-agent-skill-coordinator),",
+    "https://agent-plugins.org",
+    "https://agentskills.io",
+    "https://github.com/netresearch/agent-harness-skill",
+    "https://github.com/netresearch/agent-rules-skill",
+    "https://github.com/netresearch/claude-code-marketplace",
+    "https://github.com/netresearch/composer-agent-skill-plugin",
+    "https://github.com/netresearch/node-agent-skill-coordinator",
     "https://github.com/netresearch/skill-repo-skill",
     "https://github.com/netresearch/skill-repo-skill.git",
     "https://github.com/netresearch/skill-repo-skill/issues",
-    "https://github.com/netresearch/skill-repo-skill/releases/latest)",
-    "https://skills.sh))",
-    "https://www.netresearch.de/)",
-    "https://www.netresearch.de/)**",
-    "https://www.netresearch.de/)."
+    "https://github.com/netresearch/skill-repo-skill/releases/latest",
+    "https://skills.sh",
+    "https://www.netresearch.de/"
   ],
   "environment_variable_names": [],
   "execution": {

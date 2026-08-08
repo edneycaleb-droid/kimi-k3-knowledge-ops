@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/tobocop2/lilbee",
+  "canonical_repository": "tobocop2/lilbee",
+  "canonical_url": "https://github.com/tobocop2/lilbee",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:59.171985Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4c883d400e91cba97b8eeea5f4ec3c55b29b05d23dcf3e75dfba7274a812c3c8",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2fe28229588db50d6172842a6e13fc55aa00ac3a752deb46ab8b132002d653d8",
+    "LICENSE": "df2a5baeb62316859c54212b7e6e437bdbc67933104ebfaa7010238bd785aafb",
+    "README.md": "6c6a2351dd6f5bb05cc4a9c7822ef131d79ad9000a66279ca921586e746b20dd",
+    "pyproject.toml": "a7d692bed701252744cceaf22235caab39296c987ec5a7d6c71c928d785de561"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Fractera/Agent-Engineering-Infrastructure",
+  "canonical_repository": "Fractera/Agent-Engineering-Infrastructure",
+  "canonical_url": "https://github.com/Fractera/Agent-Engineering-Infrastructure",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:46.656084Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "53e05ed12ec843c8fcc162ae5f70b92a0c5d4a05128d67aa6204cb53516089d3",
+  "sampled_file_digests": {
+    ".mcp.json": "556cc5b071e5382b495af1fe09d85ce739d15545473d7575ac3c08168f3249c2",
+    "LICENSE": "2dafd4ead3b0ffbbb3f6665e115ae706f79ac92afee09b80c4c6860403ee85f7",
+    "README.md": "648d4c5dfd37c277f428be1d190632c3aca21a276143926d169e241ea00495f0",
+    "package.json": "3e85ca62b2a5b5360db13fa74421e6c6596840c279cd85e0f78a240c4f1db454"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}
