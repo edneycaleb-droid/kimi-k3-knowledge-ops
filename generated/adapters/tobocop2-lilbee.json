@@ -1,0 +1,85 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aur.archlinux.org/packages/lilbee",
+    "https://community.obsidian.md/plugins/lilbee",
+    "https://docs.ollama.com/",
+    "https://docs.ollama.com/faq",
+    "https://docs.pydantic.dev",
+    "https://docs.vllm.ai/en/latest/serving/parallelism_scaling.html",
+    "https://docs.vllm.ai/en/stable/getting_started/installation/gpu/",
+    "https://docs.vllm.ai/en/stable/serving/openai_compatible_server/",
+    "https://en.wikipedia.org/wiki/Advanced_Vector_Extensions#Advanced_Vector_Extensions_2",
+    "https://en.wikipedia.org/wiki/Encarta",
+    "https://en.wikipedia.org/wiki/X86-64#Microarchitecture_levels",
+    "https://flathub.org/setup",
+    "https://github.com/AsyncFuncAI/deepwiki-open",
+    "https://github.com/BerriAI/litellm",
+    "https://github.com/Goldziher/tree-sitter-language-pack",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/astral-sh/ruff",
+    "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://github.com/gpustack/gguf-parser-go",
+    "https://github.com/gpustack/gguf-parser-go.git",
+    "https://github.com/huggingface/huggingface_hub",
+    "https://github.com/lance-format/lance/pull/6630",
+    "https://github.com/microsoft/graphrag",
+    "https://github.com/modelcontextprotocol/python-sdk",
+    "https://github.com/mostlygeek/llama-swap",
+    "https://github.com/mostlygeek/llama-swap.git",
+    "https://github.com/ollama/ollama/releases",
+    "https://github.com/ollama/ollama/releases/download/v$",
+    "https://github.com/ollama/ollama/releases/download/v$env:OLLAMA_PIN/ollama-windows-amd64.zip",
+    "https://github.com/stanford-oval/storm",
+    "https://github.com/tesseract-ocr/tesseract",
+    "https://github.com/tobocop2/homebrew-lilbee",
+    "https://github.com/tobocop2/lance",
+    "https://github.com/tobocop2/lilbee",
+    "https://github.com/tobocop2/lilbee#install",
+    "https://github.com/tobocop2/lilbee/actions/workflows/ci.yml",
+    "https://github.com/tobocop2/lilbee/blob/main/TROUBLESHOOTING.md",
+    "https://github.com/tobocop2/lilbee/issues",
+    "https://github.com/tobocop2/lilbee/pkgs/container/lilbee"
+  ],
+  "environment_variable_names": [
+    "GH_TOKEN",
+    "HF_TOKEN",
+    "OLLAMA_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tobocop2-lilbee.json",
+  "schema_version": 1,
+  "source_repository": "tobocop2/lilbee",
+  "source_url": "https://github.com/tobocop2/lilbee",
+  "status": "disabled_pending_review"
+}

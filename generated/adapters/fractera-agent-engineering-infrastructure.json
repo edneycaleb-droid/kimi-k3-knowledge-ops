@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fractera.ai",
+    "https://github.com/Fractera/Agent-Engineering-Infrastructure/blob/main/LICENSE",
+    "https://github.com/Fractera/Agent-Engineering-Infrastructure/fork",
+    "https://github.com/Fractera/Agent-Engineering-Infrastructure/stargazers",
+    "https://img.shields.io/badge/90--94%25-2ea44f?style=for-the-badge",
+    "https://img.shields.io/badge/Agent--Engineering-a%20deterministic%20industrial%20approach%20to%20autonomous%20systems-FF8C00?style=for-the-badge",
+    "https://img.shields.io/badge/Agent_Engineering-Infrastructure-FF8C00?style=flat-square",
+    "https://img.shields.io/badge/Auth-NextAuth_v5-ef4444?style=flat-square",
+    "https://img.shields.io/badge/Claude_Code-Anthropic-d4a017?style=flat-square",
+    "https://img.shields.io/badge/Codex-OpenAI-412991?style=flat-square",
+    "https://img.shields.io/badge/Fork-1a1a2e?style=for-the-badge&logo=github",
+    "https://img.shields.io/badge/Gemini_CLI-Google-4285F4?style=flat-square",
+    "https://img.shields.io/badge/Hermes-Orchestrator-6e40c9?style=flat-square",
+    "https://img.shields.io/badge/ISR_Revalidation-50ms-6e40c9?style=for-the-badge",
+    "https://img.shields.io/badge/Kimi_Code-Moonshot-00C6FF?style=flat-square",
+    "https://img.shields.io/badge/License-PolyForm_Small_Business-FF8C00?style=for-the-badge",
+    "https://img.shields.io/badge/LightRAG-Memory-22c55e?style=flat-square",
+    "https://img.shields.io/badge/NEAR--ZERO%20TOKEN%20COST-2ea44f?style=for-the-badge",
+    "https://img.shields.io/badge/Qwen_Code-Alibaba-FF6A00?style=flat-square",
+    "https://img.shields.io/badge/SQLite-WAL_Mode-003B57?style=flat-square",
+    "https://img.shields.io/badge/Server-Private_VPS-000000?style=flat-square",
+    "https://img.shields.io/github/stars/Fractera/Agent-Engineering-Infrastructure?style=for-the-badge&logo=github&color=black&labelColor=1a1a2e",
+    "https://polyformproject.org/licenses/small-business/1.0.0",
+    "https://smithery.ai/badge/admin-add5/fractera",
+    "https://smithery.ai/servers/admin-add5/fractera",
+    "https://www.fractera.ai",
+    "https://www.fractera.ai/Fractera-Development-Loop.jpg",
+    "https://www.fractera.ai/Fractera-Web-Architect.jpg",
+    "https://www.fractera.ai/Fractera-ai-workspace-screenshot.png",
+    "https://www.fractera.ai/ai-development-loop",
+    "https://www.fractera.ai/ai-workspace-architect",
+    "https://www.fractera.ai/api/mcp",
+    "https://www.fractera.ai/en/news",
+    "https://www.fractera.ai/favicon-32x32.png",
+    "https://www.fractera.ai/framework-icons/angular.svg",
+    "https://www.fractera.ai/framework-icons/astro-dark.svg",
+    "https://www.fractera.ai/framework-icons/django-dark.svg",
+    "https://www.fractera.ai/framework-icons/dotnet.svg",
+    "https://www.fractera.ai/framework-icons/eleventy.svg",
+    "https://www.fractera.ai/framework-icons/ember.svg"
+  ],
+  "environment_variable_names": [
+    "TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "fractera": {
+          "url": "https://www.fractera.ai/api/mcp"
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/fractera-agent-engineering-infrastructure.json",
+  "schema_version": 1,
+  "source_repository": "Fractera/Agent-Engineering-Infrastructure",
+  "source_url": "https://github.com/Fractera/Agent-Engineering-Infrastructure",
+  "status": "disabled_pending_review"
+}

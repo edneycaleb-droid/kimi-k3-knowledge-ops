@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/ArtSabintsev/everquest1-mcp",
+    "https://github.com/Baraa-Suliman/codebase-mapper",
+    "https://github.com/BuyWhere/buywhere",
+    "https://github.com/DaniiN2/idea-anvil",
+    "https://github.com/EtanHey/brainlayer",
+    "https://github.com/Fractera/Agent-Engineering-Infrastructure",
+    "https://github.com/Isaac1909/site-soul-action",
+    "https://github.com/JuanSPZ/agent-ready-index",
+    "https://github.com/Kemetra/Seshat-BI",
+    "https://github.com/Noveum/orbit",
+    "https://github.com/PerpetualSoftware/pad",
+    "https://github.com/PranavGS2006/agent-thinktank-stack",
+    "https://github.com/SHENG5411/grimoire-of-tools",
+    "https://github.com/SidCorp-co/forge",
+    "https://github.com/TheurgicDuke771/DataQ",
+    "https://github.com/Umerfarooq1973/base-batch-builder-mcp",
+    "https://github.com/albinati/home-energy-manager",
+    "https://github.com/ali-ulu/huqan",
+    "https://github.com/amit491k-del/webasyst-ai-workbench",
+    "https://github.com/benwold-lgtm/MCP-Gateway",
+    "https://github.com/bokyostudio/pg-practice-knowledgebase",
+    "https://github.com/codeofaxel/Kiln",
+    "https://github.com/decocms/studio",
+    "https://github.com/dinho149/yeaboi.ai",
+    "https://github.com/draugr-dev/draugr",
+    "https://github.com/drhelius/Gearboy",
+    "https://github.com/drhelius/Gearcoleco",
+    "https://github.com/drhelius/Geargrafx",
+    "https://github.com/drhelius/Gearlynx",
+    "https://github.com/drhelius/Gearsystem",
+    "https://github.com/gabrielcoghi-rgb/spectre-graph",
+    "https://github.com/gabrielpulga/ableton-dj-mcp",
+    "https://github.com/getlien/lien",
+    "https://github.com/gist-info/immich-curator-mcp",
+    "https://github.com/gurutersesat24/ai-site-forge",
+    "https://github.com/hairglasses-studio/mcpkit",
+    "https://github.com/hamadou-08/roboclaw-reports",
+    "https://github.com/hieu5882/telos-customer-validator",
+    "https://github.com/kalinbogatzevski/captain-memo",
+    "https://github.com/lapietrajp/vsync-agent"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/linny006-mcp-servers-live.json",
+  "schema_version": 1,
+  "source_repository": "linny006/mcp-servers-live",
+  "source_url": "https://github.com/linny006/mcp-servers-live",
+  "status": "disabled_pending_review"
+}

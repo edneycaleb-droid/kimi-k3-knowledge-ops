@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/linny006/mcp-servers-live",
+  "canonical_repository": "linny006/mcp-servers-live",
+  "canonical_url": "https://github.com/linny006/mcp-servers-live",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:51.965116Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "385b7f9b4f6a4a9bf8dc7a96fcea6e0de8bde7b654eae874afa1119423fb7634",
+  "sampled_file_digests": {
+    "README.md": "ab80af6c928eb237f5e6d241d754a643b1aef661dd89f95757a34222291947c4",
+    "requirements.txt": "5e001466b9dac8aea97b90a9fe6a13d696c875ceca9aae7a5722c2f9665e2404"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

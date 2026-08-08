@@ -1,13 +1,13 @@
-# Integration proposal: decocms/studio
+# Integration proposal: tobocop2/lilbee
 
 ## Decision
 
-**REVIEW** — quality 85/100; bounded learning adjustment +0.
+**CANDIDATE** — quality 86/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/decocms/studio
-- Categories: agent, mcp_server, tool, workflow
+- Repository: https://github.com/tobocop2/lilbee
+- Categories: agent, api, mcp_server, memory, plugin, skill, tool, workflow
 - License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 15747
+- documentation: **10/10** — README length 70951
 - license: **10/10** — SPDX MIT
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
+- security: **8/10** — 0 critical, 0 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 396 stars
+- adoption: **4/10** — 41 stars
 
 ## Static security review
 
-- `high` `SEC006` in `.github/workflows/test.yml`: Credential or secret access
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
+- `medium` `SEC008` in `.github/workflows/ci.yml`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/decocms-studio.json`.
+A disabled metadata adapter was generated at `generated/adapters/tobocop2-lilbee.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

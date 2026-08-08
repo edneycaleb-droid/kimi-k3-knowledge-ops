@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/SandroHub013/llm-quota",
+  "canonical_repository": "SandroHub013/llm-quota",
+  "canonical_url": "https://github.com/SandroHub013/llm-quota",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:41.370450Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "70919ef8fdcf0666d58d62df66dd528f5ca1c74392d9ed71da1d1a4383471a07",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "92a9097e2be75ba254e4c7e0dd4cab69caa110ab9156d3b34783ca6a4a8416ed",
+    "LICENSE": "0938b060cf2f59b21d700495b9fd064e89d0c1990a5cf73f52d62eddbcaaf773",
+    "README.md": "10780731821aad5fc2307d7e8c14ad0f2f4640665ae950b866efdd9674293225",
+    "package.json": "678a315b54795aef2a431cb02e31420856768c5dff2b417d77b5df26029ad281"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 8913
+- documentation: **10/10** — README length 9229
 - license: **4/10** — SPDX NOASSERTION
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
 - interoperability: **5/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **4/10** — 14 stars
+- adoption: **4/10** — 15 stars
 
 ## Static security review
 

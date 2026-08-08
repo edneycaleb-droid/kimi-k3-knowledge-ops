@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/asigdel29/anu-agentic-stack",
+  "canonical_repository": "asigdel29/anu-agentic-stack",
+  "canonical_url": "https://github.com/asigdel29/anu-agentic-stack",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:35.482314Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ca426d1bc443568a201ace5249b8d223fa227ba8948bae3a4dfb092b21b96a00",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "2f3fb118317e5a065218b7e390a145cbcf3ec798df9dcda76c7e5324ba1a2baa",
+    "LICENSE": "b18cb61421a446130be05b744df8e7540009e0fb4ac2339eee3a605b6533ddd3",
+    "README.md": "8a20b8485d9f63ca6947434d50766deb1d0f3dba0a0073b7570d548a31dd1e94"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

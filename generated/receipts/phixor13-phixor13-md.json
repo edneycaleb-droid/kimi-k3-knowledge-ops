@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/PhixoR13/PhixoR13.md",
+  "canonical_repository": "PhixoR13/PhixoR13.md",
+  "canonical_url": "https://github.com/PhixoR13/PhixoR13.md",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:50.268387Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fd205dbd121fb41e52c8246e406d014e38503da24d6b8c2f405c7ebe61b4fa29",
+  "sampled_file_digests": {
+    "README.md": "b6f8ea153769117fb55823e5db08465206e3b63acdea9931246bc0b616d58e77"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/stnslvsvnv/ebites",
+  "canonical_repository": "stnslvsvnv/ebites",
+  "canonical_url": "https://github.com/stnslvsvnv/ebites",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-08-08T19:38:31.475732Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a6693984b0d82b30f28de1d6006d1b623257e1b37c3defe90cd53b3886fb0581",
+  "sampled_file_digests": {
+    "LICENSE": "76de6aa7e32fff45ccd21dfebd41179a3f16d3000e716072a37690761f94478b",
+    "README.md": "9cc9239e9cc1bc7595c2cb716fe531063eb7e5e1f4e0bc612f40e5a9a25f59bc",
+    "pyproject.toml": "fe2fca6f17645cf46b6794fe6ceb41b23de22b15760dc006986fe4052935786d"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

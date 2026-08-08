@@ -1,0 +1,56 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://chat.deepseek.com/share/j2p58c7ujuyha4xiuq",
+    "https://github-readme-stats.vercel.app/api/top-langs/?username=PhixoR13&layout=compact&theme=dark&hide_border=true",
+    "https://github-readme-stats.vercel.app/api?username=PhixoR13&show_icons=true&theme=dark&hide_border=true",
+    "https://github.com/FIXO-FOP-638",
+    "https://github.com/PhixoR13",
+    "https://github.com/PhixoR13/vertex-ai-creative-studio",
+    "https://grok.com/connectors",
+    "https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/-Gemini%20API-8B5CF6?style=flat",
+    "https://img.shields.io/badge/-Git-F05032?style=flat&logo=git&logoColor=white",
+    "https://img.shields.io/badge/-Google%20Cloud-4285F4?style=flat&logo=google-cloud&logoColor=white",
+    "https://img.shields.io/badge/-HTML5-E34F26?style=flat&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black",
+    "https://img.shields.io/badge/-Node.js-339933?style=flat&logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white",
+    "https://img.shields.io/badge/-React-61DAFB?style=flat&logo=react&logoColor=black",
+    "https://img.shields.io/badge/-Solidity-363636?style=flat&logo=solidity&logoColor=white",
+    "https://img.shields.io/badge/-TailwindCSS-06B6D4?style=flat&logo=tailwindcss&logoColor=white",
+    "https://img.shields.io/badge/-TypeScript-3178C6?style=flat&logo=typescript&logoColor=white",
+    "https://modelcontextprotocol.io"
+  ],
+  "environment_variable_names": [
+    "COMPORTAMIENTO",
+    "PORTAFOLIO",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/phixor13-phixor13-md.json",
+  "schema_version": 1,
+  "source_repository": "PhixoR13/PhixoR13.md",
+  "source_url": "https://github.com/PhixoR13/PhixoR13.md",
+  "status": "disabled_pending_review"
+}

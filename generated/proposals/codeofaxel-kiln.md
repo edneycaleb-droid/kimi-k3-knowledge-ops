@@ -1,14 +1,14 @@
-# Integration proposal: decocms/studio
+# Integration proposal: codeofaxel/Kiln
 
 ## Decision
 
-**REVIEW** — quality 85/100; bounded learning adjustment +0.
+**REVIEW** — quality 77/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/decocms/studio
-- Categories: agent, mcp_server, tool, workflow
-- License: MIT
+- Repository: https://github.com/codeofaxel/Kiln
+- Categories: agent, api, mcp_server, plugin, tool, workflow
+- License: AGPL-3.0
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 15747
-- license: **10/10** — SPDX MIT
+- documentation: **10/10** — README length 34417
+- license: **4/10** — SPDX AGPL-3.0
 - testing: **10/10** — Test/CI signal in sampled metadata
-- security: **3/10** — 0 critical, 1 high findings
-- interoperability: **7/10** — Compatibility target matches
-- reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **8/10** — 396 stars
+- security: **8/10** — 0 critical, 0 high findings
+- interoperability: **9/10** — Compatibility target matches
+- reproducibility: **5/10** — Versioned dependency manifest
+- adoption: **4/10** — 43 stars
 
 ## Static security review
 
-- `high` `SEC006` in `.github/workflows/test.yml`: Credential or secret access
+- `medium` `SEC008` in `README.md`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/decocms-studio.json`.
+A disabled metadata adapter was generated at `generated/adapters/codeofaxel-kiln.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

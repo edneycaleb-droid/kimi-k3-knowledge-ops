@@ -11,8 +11,8 @@
     },
     "deduplication": {
       "inputs": 29,
-      "outputs": 29,
-      "removed": 0
+      "outputs": 28,
+      "removed": 1
     },
     "discovery": {
       "outputs": 29
@@ -37,9 +37,9 @@
     }
   },
   "decisions": {
-    "blocked": 6,
-    "candidate": 6,
-    "rejected": 4,
+    "blocked": 5,
+    "candidate": 9,
+    "rejected": 1,
     "review": 13
   },
   "safety": {

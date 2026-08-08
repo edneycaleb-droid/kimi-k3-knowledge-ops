@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh",
+    "https://github.com/SandroHub013/llm-quota",
+    "https://github.com/SandroHub013/llm-quota.git",
+    "https://github.com/SandroHub013/llm-quota/actions/workflows/ci.yml",
+    "https://github.com/SandroHub013/llm-quota/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/SandroHub013/llm-quota/issues",
+    "https://github.com/SandroHub013/llm-quota/labels/good%20first%20issue",
+    "https://github.com/SandroHub013/llm-quota/releases",
+    "https://github.com/SandroHub013/llm-quota/stargazers",
+    "https://hono.dev",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+    "https://img.shields.io/badge/runtime-Bun-000?logo=bun",
+    "https://img.shields.io/github/downloads/SandroHub013/llm-quota/total?color=green&logo=github",
+    "https://img.shields.io/github/stars/SandroHub013/llm-quota?style=social",
+    "https://sandrohub013.github.io/llm-quota/"
+  ],
+  "environment_variable_names": [
+    "LLM_QUOTA_URL",
+    "PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/sandrohub013-llm-quota.json",
+  "schema_version": 1,
+  "source_repository": "SandroHub013/llm-quota",
+  "source_url": "https://github.com/SandroHub013/llm-quota",
+  "status": "disabled_pending_review"
+}
