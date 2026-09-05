@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/archives-assos/mel-etude-camp-francais",
+  "canonical_repository": "archives-assos/mel-etude-camp-francais",
+  "canonical_url": "https://github.com/archives-assos/mel-etude-camp-francais",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:32.862247Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0d7085a887ddd269e51f008dbf491384c6117830a4aa44753185b6272e340bff",
+  "sampled_file_digests": {
+    "README.md": "15d45ef06c170b4a26a15ee3d6cfc50be4297e2033f138e4f59fac513e277c21"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

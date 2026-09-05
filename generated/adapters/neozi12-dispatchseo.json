@@ -1,0 +1,123 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://dispatchseo.com",
+    "https://dispatchseo.com/api/mcp",
+    "https://dispatchseo.com/discord",
+    "https://dispatchseo.com/docs",
+    "https://dispatchseo.com/docs#choose-your-install",
+    "https://dispatchseo.com/docs/agent-commands",
+    "https://dispatchseo.com/docs/architecture",
+    "https://dispatchseo.com/docs/automations",
+    "https://dispatchseo.com/docs/choosing-how-to-run-it",
+    "https://dispatchseo.com/docs/concepts",
+    "https://dispatchseo.com/docs/connect-your-site",
+    "https://dispatchseo.com/docs/dashboard",
+    "https://dispatchseo.com/docs/day-to-day",
+    "https://dispatchseo.com/docs/environment-variables",
+    "https://dispatchseo.com/docs/faq",
+    "https://dispatchseo.com/docs/how-it-works",
+    "https://dispatchseo.com/docs/install-claude-code",
+    "https://dispatchseo.com/docs/install-codex",
+    "https://dispatchseo.com/docs/install-cursor",
+    "https://dispatchseo.com/docs/introduction",
+    "https://dispatchseo.com/docs/keyword-data",
+    "https://dispatchseo.com/docs/mcp-tools",
+    "https://dispatchseo.com/docs/publishing",
+    "https://dispatchseo.com/docs/schedules",
+    "https://dispatchseo.com/docs/search-console",
+    "https://dispatchseo.com/docs/security",
+    "https://dispatchseo.com/docs/setup-wizard",
+    "https://dispatchseo.com/docs/troubleshooting",
+    "https://dispatchseo.com/docs/upgrading",
+    "https://dispatchseo.com/icon.png",
+    "https://dispatchseo.com/llms-full.txt",
+    "https://dispatchseo.com/llms.txt",
+    "https://fsf.org/",
+    "https://github.com/NeoZi12",
+    "https://github.com/NeoZi12/dispatchseo",
+    "https://github.com/NeoZi12/dispatchseo/discussions",
+    "https://img.shields.io/badge/Discord-join%20the%20server-5865F2?logo=discord&logoColor=white&labelColor=1F2328&style=flat-square",
+    "https://img.shields.io/badge/built%20for-Claude%20Code%20%2B%20Codex%20%2B%20Cursor-D97757?labelColor=1F2328&style=flat-square",
+    "https://img.shields.io/badge/license-AGPL--3.0-7C5CFC?labelColor=1F2328&style=flat-square",
+    "https://img.shields.io/badge/self--host-one%20command-2496ED?logo=docker&logoColor=white&labelColor=1F2328&style=flat-square"
+  ],
+  "environment_variable_names": [
+    "APP_INTERNAL_URL",
+    "APP_URL",
+    "BUILDER_GH_TOKEN",
+    "CLAUDE_CODE_OAUTH_TOKEN",
+    "CRON_SECRET",
+    "CURSOR_API_KEY",
+    "DISPATCH_PORT",
+    "GH_MERGE_TOKEN",
+    "GSC_SITE_URL",
+    "HOSTNAME",
+    "MCP_API_KEY",
+    "OPENAI_API_KEY",
+    "PGHOST",
+    "PORT",
+    "POSTGREST_URL",
+    "RESEND_API_KEY",
+    "SEED_KEYWORDS",
+    "SELF_HOSTING",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Open-source SEO manager for coding agents: keyword research, content PRs, rank + Search Console.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "src": "https://dispatchseo.com/icon.png"
+        }
+      ],
+      "name": "io.github.NeoZi12/dispatchseo",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://dispatchseo.com/api/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/NeoZi12/dispatchseo"
+      },
+      "title": "DispatchSEO",
+      "version": "1.1.0",
+      "websiteUrl": "https://dispatchseo.com"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/neozi12-dispatchseo.json",
+  "schema_version": 1,
+  "source_repository": "NeoZi12/dispatchseo",
+  "source_url": "https://github.com/NeoZi12/dispatchseo",
+  "status": "disabled_pending_review"
+}

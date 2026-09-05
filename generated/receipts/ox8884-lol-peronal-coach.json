@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ox8884/LOL-Peronal-Coach-",
+  "canonical_repository": "ox8884/LOL-Peronal-Coach-",
+  "canonical_url": "https://github.com/ox8884/LOL-Peronal-Coach-",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:31.060341Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a6e3a4b0404bf069937a935697962a3076ff79a69658a2e0a57f03639a865323",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4eaf37333723833b9b98919df125cd4fb1d87a52f2c0320ce4f3c1f79fa53ad9",
+    "README.md": "b9a90cf4670ab42c0565348bf7607d2f026fd3e4a37d8b61b1b1d801a22a58ff",
+    "pyproject.toml": "d9ea719213021d838aa933c3947c6a2312e9d27d811e8a17645cd114cae9b43c",
+    "requirements.txt": "e3856c98bd4275fdd9d23fac14cbd618ff2c0224766764191866604f37577022"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

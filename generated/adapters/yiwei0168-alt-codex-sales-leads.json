@@ -1,0 +1,42 @@
+{
+  "categories": [
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.com/source"
+  ],
+  "environment_variable_names": [
+    "DATABASE_MIGRATION_URL",
+    "DATABASE_URL",
+    "OPENAI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/yiwei0168-alt-codex-sales-leads.json",
+  "schema_version": 1,
+  "source_repository": "yiwei0168-alt/codex_sales_leads",
+  "source_url": "https://github.com/yiwei0168-alt/codex_sales_leads",
+  "status": "disabled_pending_review"
+}

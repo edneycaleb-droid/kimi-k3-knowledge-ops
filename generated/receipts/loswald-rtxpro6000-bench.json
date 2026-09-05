@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/loswald/rtxpro6000-bench",
+  "canonical_repository": "loswald/rtxpro6000-bench",
+  "canonical_url": "https://github.com/loswald/rtxpro6000-bench",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:25.251108Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "667dc8190ab94a50ae68295d57587e8dda7a468a2b54802a68848b1e5a188f1e",
+  "sampled_file_digests": {
+    "README.md": "d7fe4b568a7eb2c44aaa0a73af565c7c52976df65f2e404452ada492bc33956c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

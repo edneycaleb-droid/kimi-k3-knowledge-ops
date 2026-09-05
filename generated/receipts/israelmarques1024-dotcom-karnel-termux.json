@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/israelmarques1024-dotcom/karnel-termux",
+  "canonical_repository": "israelmarques1024-dotcom/karnel-termux",
+  "canonical_url": "https://github.com/israelmarques1024-dotcom/karnel-termux",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:40.465958Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "806e6438372cf548610fdc251ce8af42582f92e3168c508637ab263dc344599c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b1f389d4118fc7041c49e36f79954cfa1d75394ec9b6045b2c722e729f0468ee",
+    "LICENSE": "91881a558f6be6cf1bba98a63e54dfb09686163fb533044e29c7f3047a4daad0",
+    "README.md": "eab4872759ad9836d32b5c689be250f4b4c527d094725f8772c26801feb4babc",
+    "package.json": "a5e2ecf23a756a70318c9045a9d11a8685be4a9d8ed1544e54fc105982ae80b4"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

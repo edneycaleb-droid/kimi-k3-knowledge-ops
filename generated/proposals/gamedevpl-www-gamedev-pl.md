@@ -1,15 +1,15 @@
-# Integration proposal: modelstudioai/skills
+# Integration proposal: gamedevpl/www.gamedev.pl
 
 ## Decision
 
-**REVIEW** — quality 77/100; bounded learning adjustment +0.
+**REVIEW** — quality 81/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/modelstudioai/skills
-- Categories: agent, mcp_server, memory, skill, tool, workflow
-- License: Apache-2.0
-- Default branch: `main`
+- Repository: https://github.com/gamedevpl/www.gamedev.pl
+- Categories: agent, mcp_server, memory, plugin, tool, workflow
+- License: GPL-3.0
+- Default branch: `master`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 12712
-- license: **10/10** — SPDX Apache-2.0
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **5/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **6/10** — 55 stars
+- documentation: **10/10** — README length 8304
+- license: **10/10** — SPDX GPL-3.0
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 1 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **4/10** — 14 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `.github/workflows/ci.yml`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/modelstudioai-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/gamedevpl-www-gamedev-pl.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

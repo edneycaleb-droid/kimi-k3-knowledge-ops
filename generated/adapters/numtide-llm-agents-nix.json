@@ -1,0 +1,77 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ampcode.com/",
+    "https://antigravity.google/",
+    "https://banner.numtide.com/banner/numtide/llm-agents.nix.svg",
+    "https://cache.numtide.com",
+    "https://ccusage.com/",
+    "https://claude.ai",
+    "https://claude.ai/code",
+    "https://cline.bot",
+    "https://coderabbit.ai",
+    "https://commandcode.ai",
+    "https://cubic.dev",
+    "https://cursor.com/",
+    "https://dev.meta.ai/",
+    "https://developers.openai.com/codex/app",
+    "https://executor.sh",
+    "https://factory.ai",
+    "https://fencesandbox.com/",
+    "https://freebuff.com",
+    "https://getbb.app",
+    "https://gitbutler.com",
+    "https://github.com/1ay1/agentty",
+    "https://github.com/1jehuang/jcode",
+    "https://github.com/AltanS/collie",
+    "https://github.com/AndyMik90/Aperant",
+    "https://github.com/BeaconBay/ck",
+    "https://github.com/BloopAI/vibe-kanban",
+    "https://github.com/Dicklesworthstone/beads_rust",
+    "https://github.com/Dicklesworthstone/beads_viewer",
+    "https://github.com/Fission-AI/OpenSpec",
+    "https://github.com/JetBrains/junie",
+    "https://github.com/Kamalnrf/claude-plugins",
+    "https://github.com/MinishLab/semble",
+    "https://github.com/MoonshotAI/kimi-code",
+    "https://github.com/MrLesk/Backlog.md",
+    "https://github.com/Nano-Collective/nanocoder",
+    "https://github.com/PrimeIntellect-ai/prime-agent",
+    "https://github.com/QwenLM/qwen-code",
+    "https://github.com/RightNow-AI/openfang",
+    "https://github.com/SaladDay/cc-switch-cli",
+    "https://github.com/Wei-Shaw/sub2api"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/numtide-llm-agents-nix.json",
+  "schema_version": 1,
+  "source_repository": "numtide/llm-agents.nix",
+  "source_url": "https://github.com/numtide/llm-agents.nix",
+  "status": "disabled_pending_review"
+}

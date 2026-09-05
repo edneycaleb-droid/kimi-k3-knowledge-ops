@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/NeoZi12/dispatchseo",
+  "canonical_repository": "NeoZi12/dispatchseo",
+  "canonical_url": "https://github.com/NeoZi12/dispatchseo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:09:09.354060Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ca9ca7e3d247453f00ac7b8b401b0d7d79bb411edb7a688765d1232bd48837bd",
+  "sampled_file_digests": {
+    "Dockerfile": "375f073a6ac03edd854a377166bca52e20e39eb97972b4eac085e1997f8e72d3",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "fb43de8577aace06ab8c6f69ded271fac1fbe46352bf25b22089554fb6a0dde3",
+    "docker-compose.yml": "29e2fffba606a31bdd7b67bdcd620a0d6e2b53b8c6eff6dd3d1b2026c27067a3",
+    "package.json": "93cd8dc482eab82165408b1ab01bcfba15b2cbdea10565b6efaafcfce41ded9f",
+    "server.json": "e5481a6ed823a370cfdeffd0358ad728d8fd0e545aa8f1ba127589f5fbe5fbfe"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,57 @@
+{
+  "categories": [
+    "agent",
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/FireRedTeam/FireRedASR2S",
+    "https://github.com/SYSTRAN/faster-whisper",
+    "https://github.com/Vincentwei1021/video-shotcraft",
+    "https://github.com/Vincentwei1021/video-talkcraft",
+    "https://github.com/Vincentwei1021/video-talkcraft.git",
+    "https://github.com/k2-fsa/sherpa-onnx",
+    "https://github.com/remotion-dev/remotion/blob/main/LICENSE.md",
+    "https://github.com/scpcn01vision-oss",
+    "https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-%E5%85%B3%E6%B3%A8%E6%88%91-FF2442?style=for-the-badge&logo=xiaohongshu&logoColor=white",
+    "https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-%E5%85%B3%E6%B3%A8%E6%88%91-000000?style=for-the-badge&logo=tiktok&logoColor=white",
+    "https://img.shields.io/badge/Gallery-live%20previews-7A5AF8",
+    "https://img.shields.io/badge/License-PolyForm%20Noncommercial-blue",
+    "https://img.shields.io/badge/WeChat-%E8%AE%A8%E8%AE%BA%E7%BE%A4-07C160?logo=wechat&logoColor=white",
+    "https://img.shields.io/badge/X-%E5%85%B3%E6%B3%A8%E6%88%91-000000?style=for-the-badge&logo=x&logoColor=white",
+    "https://polyformproject.org/licenses/noncommercial/1.0.0",
+    "https://skills.sh/",
+    "https://vincentwei1021.github.io/video-talkcraft/",
+    "https://www.douyin.com/user/MS4wLjABAAAAK1pkjBxilk2Oi_9h_vFyD-lTAu9CTlvhmOtkosDvvxg",
+    "https://www.remotion.dev/",
+    "https://x.com/VincentWei93",
+    "https://xhslink.cn/m/At9iP2d5C1V"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vincentwei1021-video-talkcraft.json",
+  "schema_version": 1,
+  "source_repository": "Vincentwei1021/video-talkcraft",
+  "source_url": "https://github.com/Vincentwei1021/video-talkcraft",
+  "status": "disabled_pending_review"
+}

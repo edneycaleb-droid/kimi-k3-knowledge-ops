@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/hesreallyhim/awesome-claude-code",
+  "canonical_repository": "hesreallyhim/awesome-claude-code",
+  "canonical_url": "https://github.com/hesreallyhim/awesome-claude-code",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:36.867918Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d5768c9e4644c1523d80a1c9cef42e3c19b73ab3749c4dfe8f9291e7d38d8a24",
+  "sampled_file_digests": {
+    "LICENSE": "e5da1bc9159d6e1190b3390a6e794093e766913068251f46e84c1874f864aacc",
+    "README.md": "2949c3389cc6d3a2ea19b2f1fd49085e6ba8fe439bd9552bd5976a05df3d631c",
+    "requirements.txt": "2092919ea760e3319a0044d999e8d3a77d1b665cdb46233ff6dc50bf4902d13d"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

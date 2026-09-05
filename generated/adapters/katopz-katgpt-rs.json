@@ -1,0 +1,26 @@
+{
+  "categories": [
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/katopz-katgpt-rs.json",
+  "schema_version": 1,
+  "source_repository": "katopz/katgpt-rs",
+  "source_url": "https://github.com/katopz/katgpt-rs",
+  "status": "disabled_pending_review"
+}

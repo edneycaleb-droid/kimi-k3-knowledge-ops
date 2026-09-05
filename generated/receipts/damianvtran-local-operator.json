@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/damianvtran/local-operator",
+  "canonical_repository": "damianvtran/local-operator",
+  "canonical_url": "https://github.com/damianvtran/local-operator",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:51.459245Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "97485427aa9fe411ae7e32277ee84ccf0789f3afafb2ede123dad1cd47113bb4",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0f961a297bc4dcd3cc003c50195bd4f03778d848db9b11255cd8d2218ba60689",
+    "Dockerfile": "51118bd0cbcbaa961c499c4e9e49f80d8f0569a74fcd3ef13c4de1a10bc22232",
+    "LICENSE": "4dc0ac3920247602ddf301f41bc9d77dc7f828e7010522bf6eaafbfeef96900d",
+    "README.md": "72b781dfad3c6bb678d299d8ef0d97faad17cb11da264ee96393edea894d6d07",
+    "docker-compose.yml": "5a03405dbc07c42d4fe44b0883acdcdd4ecaba8300dcb6320d8f06276992c668",
+    "pyproject.toml": "97fa9bd65a531f3c96f49233ffc7331a6468af9e5e876dd1be838fd3691af46f"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/katopz/katgpt-rs",
+  "canonical_repository": "katopz/katgpt-rs",
+  "canonical_url": "https://github.com/katopz/katgpt-rs",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "develop",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:27.373133Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "77665cec0dbaa7d7f238cb11c865e7b464b874a4ffa7aea184764e3106ad3da0",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "8615dea002163525c0d51de7c6754c43f41c26ce29461645ba751d5227d48d69",
+    "LICENSE": "a50e147fb4b0969922055c57d874b07298029153513cdf6634cd64503ad3fd5e"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
