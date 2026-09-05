@@ -1,0 +1,68 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/israelmarques1024-dotcom/karnel-plugins",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux.git",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/LICENSE",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/ARCHITECTURE/index.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/CHANGELOG.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/cli/index.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/doctor/index.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/index.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/blob/main/docs/troubleshooting/index.md",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/issues",
+    "https://github.com/israelmarques1024-dotcom/karnel-termux/releases/download/v$version",
+    "https://github.com/termux/termux-api",
+    "https://herdr.dev",
+    "https://herdr.dev/latest.json",
+    "https://img.shields.io/badge/Full%20Documentation-0078D4?style=for-the-badge",
+    "https://img.shields.io/badge/Site-karneltermux.vercel.app-0078D4?style=for-the-badge",
+    "https://img.shields.io/badge/license-MIT-0078D4?style=for-the-badge",
+    "https://img.shields.io/badge/platform-Termux%20%7C%20Android-0078D4?style=for-the-badge",
+    "https://img.shields.io/badge/version-4.17.31-0078D4?style=for-the-badge",
+    "https://img.shields.io/npm/dt/karnel-termux?style=for-the-badge&logo=npm&color=cb3837",
+    "https://img.shields.io/npm/v/karnel-termux?style=for-the-badge&logo=npm&color=cb3837",
+    "https://karneltermux.vercel.app",
+    "https://raw.githubusercontent.com/israelmarques1024-dotcom/karnel-termux/main/assets/images/karnel-logo.png",
+    "https://registry.npmjs.org",
+    "https://termux.dev/",
+    "https://www.npmjs.com/package/karnel-termux"
+  ],
+  "environment_variable_names": [
+    "IMPORTANT",
+    "PUTER_AUTH_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/israelmarques1024-dotcom-karnel-termux.json",
+  "schema_version": 1,
+  "source_repository": "israelmarques1024-dotcom/karnel-termux",
+  "source_url": "https://github.com/israelmarques1024-dotcom/karnel-termux",
+  "status": "disabled_pending_review"
+}

@@ -1,13 +1,13 @@
-# Integration proposal: modelstudioai/skills
+# Integration proposal: open-agreements/open-agreements
 
 ## Decision
 
-**REVIEW** — quality 77/100; bounded learning adjustment +0.
+**CANDIDATE** — quality 88/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/modelstudioai/skills
-- Categories: agent, mcp_server, memory, skill, tool, workflow
+- Repository: https://github.com/open-agreements/open-agreements
+- Categories: agent, mcp_server, plugin, workflow
 - License: Apache-2.0
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 12712
+- documentation: **10/10** — README length 6139
 - license: **10/10** — SPDX Apache-2.0
-- testing: **4/10** — Test/CI signal in sampled metadata
+- testing: **10/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
 - interoperability: **5/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **6/10** — 55 stars
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **6/10** — 53 stars
 
 ## Static security review
 
@@ -31,7 +31,7 @@
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/modelstudioai-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/open-agreements-open-agreements.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

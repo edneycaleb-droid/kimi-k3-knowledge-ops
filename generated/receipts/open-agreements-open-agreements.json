@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/open-agreements/open-agreements",
+  "canonical_repository": "open-agreements/open-agreements",
+  "canonical_url": "https://github.com/open-agreements/open-agreements",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:09:04.185604Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b354ce98f20a23e07ce53cb3620c51cd289c4e32338ab895af66a268550850b3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "fe26b8a275581f9286716ea64731134b9ddf5814b59e7002bb4eec05b9ded7f0",
+    "LICENSE": "757232bb66af9219755f687b7db475bb6af807a052ac7f5a93327cbbb89a03a4",
+    "README.md": "f601c5ddf58dfe35a37e9b6b33c1eac79e241611fd71f7333d10c192bbb6c420",
+    "mcp.json": "6755de01ff4119450c2c199411c6abe1c29f1897011ecee00902558f86d0b6f2",
+    "package.json": "7c349ef7c00b563257819864a7b4340214f9f3331cbfefbb5ca49ec07aa436c1",
+    "server.json": "e39bb1649c16e6273057cde7c9eb4173ac37cd5b6f5be674fac8543edb779c46"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

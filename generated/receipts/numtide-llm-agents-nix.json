@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/numtide/llm-agents.nix",
+  "canonical_repository": "numtide/llm-agents.nix",
+  "canonical_url": "https://github.com/numtide/llm-agents.nix",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:44.215111Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "335db27b86f7042c8a10644a05b261446592ef250397b6861eed5f7f5028e4cf",
+  "sampled_file_digests": {
+    "LICENSE": "1a8becb82d3ea520d8b4f3a57fed2d4972a8bd5be90f9108ee622a1f67318dc1",
+    "README.md": "14d911d8319144431f3884a6eee596aab5f085e0ee5f5ddb62be4704f21af0f8",
+    "pyproject.toml": "a3814639acfffdd79ead3a69278a15cd55976901ecb16d749f17a44180664844"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,14 +1,14 @@
-# Integration proposal: modelstudioai/skills
+# Integration proposal: archives-assos/mel-etude-camp-francais
 
 ## Decision
 
-**REVIEW** — quality 77/100; bounded learning adjustment +0.
+**REVIEW** — quality 63/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/modelstudioai/skills
-- Categories: agent, mcp_server, memory, skill, tool, workflow
-- License: Apache-2.0
+- Repository: https://github.com/archives-assos/mel-etude-camp-francais
+- Categories: uncategorized
+- License: unverified
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 12712
-- license: **10/10** — SPDX Apache-2.0
+- documentation: **10/10** — README length 8059
+- license: **0/10** — SPDX missing
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
 - interoperability: **5/10** — Compatibility target matches
 - reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **6/10** — 55 stars
+- adoption: **2/10** — 0 stars
 
 ## Static security review
 
@@ -31,7 +31,7 @@
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/modelstudioai-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/archives-assos-mel-etude-camp-francais.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/yiwei0168-alt/codex_sales_leads",
+  "canonical_repository": "yiwei0168-alt/codex_sales_leads",
+  "canonical_url": "https://github.com/yiwei0168-alt/codex_sales_leads",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:08:29.255399Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ce3e566bb62bfd5a052917b4783b3391ad70071687453598cb07588e1c4bce29",
+  "sampled_file_digests": {
+    "README.md": "fa4d83df6cad0d0e5a742a6798e0db883d14811686c9971fa1eec65eb4750129",
+    "docker-compose.yml": "2e42c6abcd50e456bc5d567733ea03bbf2a0c6e362cd454a59cea9fb0a5d9bdd",
+    "package.json": "1bc57b890cd139eb4f0bce068ef61ec9bc02b9d4ea095306659d6a16d6e238ca"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

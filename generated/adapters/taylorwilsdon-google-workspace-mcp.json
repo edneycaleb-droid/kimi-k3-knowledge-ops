@@ -1,0 +1,102 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://console.cloud.google.com/",
+    "https://github.com/taylorwilsdon/google_workspace_mcp",
+    "https://github.com/taylorwilsdon/google_workspace_mcp#readme",
+    "https://github.com/taylorwilsdon/google_workspace_mcp/issues",
+    "https://github.com/taylorwilsdon/google_workspace_mcp/releases",
+    "https://github.com/user-attachments/assets/0794ef1a-dc1c-447d-9661-9c704d7acc9d",
+    "https://github.com/user-attachments/assets/a342ebb4-1319-4060-a974-39d202329710",
+    "https://github.com/user-attachments/assets/b89524e4-6e6e-49e6-ba77-00d6df0c6e5c",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/Python-3.10%2B-blue.svg",
+    "https://img.shields.io/badge/Quick%20Start-2EA44F?style=for-the-badge",
+    "https://img.shields.io/badge/Read%20the%20Docs-0969DA?style=for-the-badge&logo=readthedocs&logoColor=white",
+    "https://img.shields.io/badge/Website-workspacemcp.com-green.svg",
+    "https://img.shields.io/pypi/v/workspace-mcp.svg",
+    "https://lobehub.com/badge/mcp/taylorwilsdon-google_workspace_mcp",
+    "https://lobehub.com/mcp/taylorwilsdon-google_workspace_mcp",
+    "https://mcptoplist.com/badge/glama%2Ftaylorwilsdon%2Fgoogle_workspace_mcp.svg",
+    "https://mcptoplist.com/server/glama%2Ftaylorwilsdon%2Fgoogle_workspace_mcp",
+    "https://opensource.org/licenses/MIT",
+    "https://pepy.tech/projects/workspace-mcp",
+    "https://pypi.org/project/workspace-mcp/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://static.pepy.tech/personalized-badge/workspace-mcp?period=total&units=NONE&left_color=GREY&right_color=BLUE&left_text=pypi+downloads",
+    "https://workspacemcp.com",
+    "https://workspacemcp.com/?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=badge-website",
+    "https://workspacemcp.com/docs/deployment/gateway-identity?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-gateway-identity",
+    "https://workspacemcp.com/docs/deployment/gateway-identity?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=nav-gateway-identity",
+    "https://workspacemcp.com/docs/deployment?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-advanced",
+    "https://workspacemcp.com/docs/deployment?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-env-vars#environment-variables",
+    "https://workspacemcp.com/docs/deployment?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=nav-deployment",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-docs",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-external-oauth#authentication",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-oauth21#authentication",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-otel#server-modes",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-proxy-storage#authentication",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-service-accounts#authentication",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=deploy-stateless#authentication",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=hero-docs",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=nav-docs",
+    "https://workspacemcp.com/docs?utm_source=github.com&utm_medium=referral&utm_campaign=readme&utm_content=services-docs-all"
+  ],
+  "environment_variable_names": [
+    "GOOGLE_CLIENT_SECRET_PATH",
+    "GOOGLE_OAUTH_CLIENT_SECRET",
+    "OAUTHLIB_INSECURE_TRANSPORT",
+    "PORT",
+    "WORKSPACE_EXTERNAL_URL",
+    "WORKSPACE_MCP_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Google Workspace MCP server for Gmail, Drive, Calendar, Docs, Sheets, Slides, Forms, Tasks, Chat.",
+      "name": "io.github.taylorwilsdon/workspace-mcp",
+      "packages": [
+        {
+          "identifier": "workspace-mcp",
+          "registryType": "pypi",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.25.2"
+        }
+      ],
+      "status": "active",
+      "version": "1.25.2"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/taylorwilsdon-google-workspace-mcp.json",
+  "schema_version": 1,
+  "source_repository": "taylorwilsdon/google_workspace_mcp",
+  "source_url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+  "status": "disabled_pending_review"
+}

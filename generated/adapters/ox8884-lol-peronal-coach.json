@@ -1,0 +1,41 @@
+{
+  "categories": [
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://blitz.gg",
+    "https://developer.riotgames.com/",
+    "https://github.com/ox8884/LOL-Peronal-Coach-/releases/latest",
+    "https://img.shields.io/badge/",
+    "https://ox8884.github.io/LOL-Peronal-Coach-/features.html"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ox8884-lol-peronal-coach.json",
+  "schema_version": 1,
+  "source_repository": "ox8884/LOL-Peronal-Coach-",
+  "source_url": "https://github.com/ox8884/LOL-Peronal-Coach-",
+  "status": "disabled_pending_review"
+}

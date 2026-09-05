@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/taylorwilsdon/google_workspace_mcp",
+  "canonical_repository": "taylorwilsdon/google_workspace_mcp",
+  "canonical_url": "https://github.com/taylorwilsdon/google_workspace_mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:09:00.370951Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9550482aa61badc4e4e3486bda802a7aaa53c690eeed00c711e88d9a8d71464a",
+  "sampled_file_digests": {
+    "Dockerfile": "f0eec656c253aa5d831cf81496b626dae918981ad6e96d1922a4fb551d9ab420",
+    "LICENSE": "6c1f0beeb232472e68f961f11a0bd1b98f21513ccdbb88770d392fc95f17149a",
+    "README.md": "4a5d2e6a2c7d05b4595afc128de6adeca000c8c517bb836ce997b6896dd0eaca",
+    "docker-compose.yml": "80e89de6191c73aab1ae5c1d0a08021b3a67139e86ed919d5b975e96a10e0d6d",
+    "pyproject.toml": "db51dbc9edf4e36b6ebb64742fdfdf96d87cae51fc8df5cdd2745bec25ee7b89",
+    "server.json": "c6a59d9a91197bfe0efaa1311e6adf07b044468041d2fdeaf458056c30a66ab4"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

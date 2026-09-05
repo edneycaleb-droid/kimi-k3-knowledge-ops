@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aipatternbook.com",
+    "https://arps18.github.io/",
+    "https://arps18.github.io/posts/claude-code-mastery",
+    "https://awesome.re",
+    "https://awesome.re/badge.svg",
+    "https://claude.com/blog",
+    "https://claude.com/blog/a-field-guide-to-claude-fable-finding-your-unknowns",
+    "https://claude.com/blog/steering-claude-code-skills-hooks-rules-subagents-and-more",
+    "https://code.claude.com/docs",
+    "https://code.claude.com/docs/",
+    "https://code.claude.com/docs/en/best-practices",
+    "https://code.claude.com/docs/en/how-claude-code-works",
+    "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+    "https://dyp23yngrtumg.ok.kimi.link",
+    "https://github.com/0-AI-UG",
+    "https://github.com/0-AI-UG/cate",
+    "https://github.com/AgriciDaniel",
+    "https://github.com/AgriciDaniel/claude-obsidian",
+    "https://github.com/Alisa0808",
+    "https://github.com/Alisa0808/vox-director",
+    "https://github.com/Barnett-Studios",
+    "https://github.com/Barnett-Studios/cxpak",
+    "https://github.com/BetaBots-LLC",
+    "https://github.com/BetaBots-LLC/callimachus",
+    "https://github.com/Chachamaru127",
+    "https://github.com/Chachamaru127/claude-code-harness",
+    "https://github.com/ColeMurray",
+    "https://github.com/ColeMurray/claude-code-otel",
+    "https://github.com/DevinoSolutions",
+    "https://github.com/DevinoSolutions/ai-agent-notifier",
+    "https://github.com/EndeavorYen",
+    "https://github.com/EndeavorYen/chrome-cdp-ex",
+    "https://github.com/EricAndrechek",
+    "https://github.com/EricAndrechek/Pacer",
+    "https://github.com/HeyRenan",
+    "https://github.com/HeyRenan/showreel",
+    "https://github.com/Imolatte",
+    "https://github.com/Imolatte/tg-claude",
+    "https://github.com/JeongJaeSoon",
+    "https://github.com/JeongJaeSoon/agent-guard"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hesreallyhim-awesome-claude-code.json",
+  "schema_version": 1,
+  "source_repository": "hesreallyhim/awesome-claude-code",
+  "source_url": "https://github.com/hesreallyhim/awesome-claude-code",
+  "status": "disabled_pending_review"
+}

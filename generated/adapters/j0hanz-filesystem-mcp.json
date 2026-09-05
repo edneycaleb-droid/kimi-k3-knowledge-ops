@@ -1,0 +1,192 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://contrib.rocks/image?repo=j0hanz/filesystem-mcp",
+    "https://github.com/j0hanz/filesystem-mcp",
+    "https://github.com/j0hanz/filesystem-mcp#readme",
+    "https://github.com/j0hanz/filesystem-mcp.git",
+    "https://github.com/j0hanz/filesystem-mcp/actions",
+    "https://github.com/j0hanz/filesystem-mcp/blob/main/LICENSE",
+    "https://github.com/j0hanz/filesystem-mcp/graphs/contributors",
+    "https://github.com/j0hanz/filesystem-mcp/security/advisories",
+    "https://github.com/j0hanz/filesystem-mcp/stargazers",
+    "https://img.shields.io/badge/Cursor-Install-000000?style=flat-square&logo=cursor&logoColor=white",
+    "https://img.shields.io/badge/Docker-ready-2496ED?style=for-the-badge&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/TypeScript-strict-3178C6?style=for-the-badge&logo=typescript&logoColor=white",
+    "https://img.shields.io/badge/VS_Code-Install-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/VS_Code_Insiders-Install-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/Visual_Studio-Install-C16FDE?logo=visualstudio&logoColor=white",
+    "https://img.shields.io/badge/node-%3E%3D24-339933?style=for-the-badge&logo=node.js&logoColor=white",
+    "https://img.shields.io/github/actions/workflow/status/j0hanz/filesystem-mcp/release.yml?style=for-the-badge&logo=githubactions&logoColor=white&label=build",
+    "https://img.shields.io/github/license/j0hanz/filesystem-mcp?style=for-the-badge",
+    "https://img.shields.io/github/stars/j0hanz/filesystem-mcp?style=for-the-badge&logo=github",
+    "https://img.shields.io/npm/v/%40j0hanz%2Ffilesystem-mcp?style=for-the-badge&logo=npm&logoColor=white",
+    "https://insiders.vscode.dev/redirect/mcp/install?name=filesystem&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40j0hanz%2Ffilesystem-mcp%40latest%22%5D%7D&quality=insiders",
+    "https://modelcontextprotocol.io",
+    "https://nodejs.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://vs-open.link/mcp-install?%7B%22filesystem-mcp%22%3A%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40j0hanz%2Ffilesystem-mcp%40latest%22%5D%7D%7D",
+    "https://vscode.dev/redirect/mcp/install?name=filesystem&config=%7B%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40j0hanz%2Ffilesystem-mcp%40latest%22%5D%7D",
+    "https://www.docker.com",
+    "https://www.npmjs.com/package/@j0hanz/filesystem-mcp",
+    "https://www.typescriptlang.org"
+  ],
+  "environment_variable_names": [
+    "FS_ALLOWED_HOSTS",
+    "FS_ALLOW_UNRESTRICTED_HOSTS",
+    "FS_API_KEY",
+    "FS_HTTP_HOST",
+    "FS_PORT",
+    "FS_PUBLIC_URL",
+    "FS_REQUEST_STATE_KEY",
+    "IMPORTANT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Secure filesystem MCP server for reading, writing, searching, diffing, and patching files.",
+      "name": "io.github.j0hanz/filesystem-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Allowed directories; ':'-separated on Unix, ';'-separated on Windows. Alternative to positional arguments.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FS_ALLOWED_DIRS"
+            }
+          ],
+          "identifier": "@j0hanz/filesystem-mcp",
+          "packageArguments": [
+            {
+              "description": "Directory path the server is allowed to access. Repeat for multiple directories.",
+              "format": "filepath",
+              "isRepeated": true,
+              "isRequired": false,
+              "type": "positional",
+              "valueHint": "allowed_directory"
+            },
+            {
+              "description": "Allow the current working directory as an additional access root.",
+              "format": "boolean",
+              "isRequired": false,
+              "name": "--allow-cwd",
+              "type": "named"
+            },
+            {
+              "description": "Disable all write, edit, move, and delete tools.",
+              "format": "boolean",
+              "isRequired": false,
+              "name": "--read-only",
+              "type": "named"
+            }
+          ],
+          "registryType": "npm",
+          "runtimeHint": "npx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.1.2"
+        },
+        {
+          "environmentVariables": [
+            {
+              "description": "Allowed directories inside the container, ':'-separated. Alternative to positional arguments.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "FS_ALLOWED_DIRS"
+            }
+          ],
+          "identifier": "ghcr.io/j0hanz/filesystem-mcp:2.1.2",
+          "packageArguments": [
+            {
+              "default": "/workspace",
+              "description": "Container path of the mounted directory.",
+              "isRequired": true,
+              "type": "positional",
+              "valueHint": "/workspace"
+            }
+          ],
+          "registryType": "oci",
+          "runtimeArguments": [
+            {
+              "description": "Keep stdin open for stdio transport.",
+              "format": "boolean",
+              "isRequired": true,
+              "name": "-i",
+              "type": "named"
+            },
+            {
+              "description": "Remove the container on exit.",
+              "format": "boolean",
+              "isRequired": true,
+              "name": "--rm",
+              "type": "named"
+            },
+            {
+              "description": "Mount the directory to expose to the server.",
+              "isRepeated": true,
+              "isRequired": true,
+              "name": "-v",
+              "type": "named",
+              "value": "{host_dir}:/workspace:ro",
+              "variables": {
+                "host_dir": {
+                  "description": "Host directory path to expose to the server.",
+                  "format": "filepath",
+                  "isRequired": true
+                }
+              }
+            }
+          ],
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "id": "1115057681",
+        "source": "github",
+        "url": "https://github.com/j0hanz/filesystem-mcp"
+      },
+      "title": "Filesystem MCP",
+      "version": "2.1.2",
+      "websiteUrl": "https://github.com/j0hanz/filesystem-mcp"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/j0hanz-filesystem-mcp.json",
+  "schema_version": 1,
+  "source_repository": "j0hanz/filesystem-mcp",
+  "source_url": "https://github.com/j0hanz/filesystem-mcp",
+  "status": "disabled_pending_review"
+}

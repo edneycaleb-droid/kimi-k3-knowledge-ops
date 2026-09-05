@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/j0hanz/filesystem-mcp",
+  "canonical_repository": "j0hanz/filesystem-mcp",
+  "canonical_url": "https://github.com/j0hanz/filesystem-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-05T21:09:05.909047Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "16ab0334fc0fdc06d139648183ff67957d63521640ca216db349c7366727ab4b",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "d27c626c56c292bb87863dc47750d93d14fdc63f4fb2d22e20b7faf39680ddb5",
+    "Dockerfile": "2850d303a2d0275e7bd744897ab3d1cdc37d2b56bedff2aaeee31db0f1580022",
+    "LICENSE": "9f2aa13c4182977f8d519bee051b5ffd989084f2b3c9e65f3a01cadd6abc1c6a",
+    "README.md": "226d18d1abc1c671f22c09c015413497a2612faf4279506a0c124561ac7f6dbd",
+    "docker-compose.yml": "b8d9ad3d95d2f8a186ca50b65c619a62bbc2f80ab47174acf1b31a81d31343b1",
+    "package.json": "016367b8ca2c76f48821df78007590f6a1121d7ed2fd5375190b1095bff30ff5",
+    "server.json": "c397425d3c1c3143fc53ef39a7d80bfe4faf398febf65881901bd5aaf375b2d1"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
