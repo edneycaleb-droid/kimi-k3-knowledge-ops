@@ -5,15 +5,15 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-29T03:35:34.009366Z",
+  "fetched_at": "2026-09-12T21:24:46.906693Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "93daf6f2ec2c3bcb87159e64b51eb8423acac0421452e915a35b0fd5fed6707e",
+  "metadata_digest": "88e4305a1ac8c5f15f663a5c67c24275e954089edae40bf764bc5c0207f16538",
   "sampled_file_digests": {
     ".mcp.json": "08f0b6c952fae562a49775d81793b9ebfd1beb50e860ee28f67c53e6ea24d768",
     "LICENSE": "27a98698e65ad847913ada4929b178859f7927ec65a49c0c42483008d75d5fdd",
-    "README.md": "b768d8720b8a182adea4a413dd1c5ce01c46efbab8ce21d341ab3b187172e7a9",
-    "package.json": "27e3f668e3d8059a8e07ecaec67230e42b84ecbbe80cc4a32447f65e6bddd823",
-    "pyproject.toml": "f35f5f19b394f65bddb2e5cddeecf12fc62b0bc22a2559e04dbd5a3bcc16448a"
+    "README.md": "717595e17e328094d9b260f7f6dc4f7178fff63c10489bee9823b139d87a3b9a",
+    "package.json": "8028e48de40965cefc3a8fcc9a4ea0bb01b30abc9f397a85d3c0a9cbf3068131",
+    "pyproject.toml": "424ec95d9bc0d218e6fa5c97a57fdc8782399e87c899f32f6214e1dfb9ca57ec"
   },
   "source_query": "topic:mcp-server language:python stars:>10"
 }

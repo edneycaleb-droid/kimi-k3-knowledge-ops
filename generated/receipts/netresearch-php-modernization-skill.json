@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/php-modernization-skill",
+  "canonical_repository": "netresearch/php-modernization-skill",
+  "canonical_url": "https://github.com/netresearch/php-modernization-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:25:06.216002Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f70896efc295db3855340a172e8d9cf032d49c5e2755227840185f71a0947358",
+  "sampled_file_digests": {
+    "README.md": "ada3d889eafe059874b125c4a75dc646e94da36627b224318794fd04f843cb7b"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

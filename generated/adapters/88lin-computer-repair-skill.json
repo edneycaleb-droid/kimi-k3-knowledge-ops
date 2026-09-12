@@ -1,0 +1,58 @@
+{
+  "categories": [
+    "agent",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentrouter.org/register?aff=ugVO",
+    "https://anyrouter.top/register?aff=woX5",
+    "https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/",
+    "https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/90C5FAD072EA247822CB88BB32512A41.webp",
+    "https://cdn.jsdmirror.com/gh/88lin/picx-images-hosting@master/ScreenShot_2026-08-06_174058_726.webp",
+    "https://download.codebuddy.cn/web/workbuddy/0bebf86e38e7d71ff0c313d661e7753ff996c54e/assets/workbuddy-logo-WhgOvEF7.png",
+    "https://fsf.org/",
+    "https://github.com/88lin/computer-repair-skill",
+    "https://github.com/88lin/computer-repair-skill.git",
+    "https://github.com/88lin/computer-repair-skill/actions/workflows/validate.yml",
+    "https://github.com/88lin/computer-repair-skill/actions/workflows/validate.yml/badge.svg",
+    "https://github.com/88lin/workbuddy-auto-signin",
+    "https://img.shields.io/badge/license-AGPL--3.0-blue.svg",
+    "https://raw.githubusercontent.com/88lin/computer-repair-skill/star-history/assets/my-star-history/star-history-dark.svg",
+    "https://raw.githubusercontent.com/88lin/computer-repair-skill/star-history/assets/my-star-history/star-history-light.svg",
+    "https://repair.88lin.eu.org/",
+    "https://repair.88lin.eu.org/#playbooks",
+    "https://skills.sh/88lin/computer-repair-skill",
+    "https://skills.sh/b/88lin/computer-repair-skill",
+    "https://skills.sh/docs",
+    "https://www.gnu.org/licenses/",
+    "https://www.sheapi.top/sign-up?aff=MvcR",
+    "https://www.workbuddy.cn/events/invite?inviteCode=w0x2ic45z"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/88lin-computer-repair-skill.json",
+  "schema_version": 1,
+  "source_repository": "88lin/computer-repair-skill",
+  "source_url": "https://github.com/88lin/computer-repair-skill",
+  "status": "disabled_pending_review"
+}

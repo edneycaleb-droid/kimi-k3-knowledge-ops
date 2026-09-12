@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/clezcoding/awesome-coolify",
+  "canonical_repository": "clezcoding/awesome-coolify",
+  "canonical_url": "https://github.com/clezcoding/awesome-coolify",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:37.619031Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2e05a80755a8dbd01ba975c048c726a1e47a5a9e3dad0e1207cca0c17c707fc3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "78e131b639d3ee3278918f5af486f04d56af98873b7d7404d5fabbc3581cf101",
+    "LICENSE": "b22c326eaa00d9b1c1eb37913090746e463a102ee4328baad2634b40aed610a0",
+    "README.md": "a8ce31ffdbafaff083e1f110b81ecd7d2da1ba19105cf8fa37507db735c88260",
+    "package.json": "db3f8022fff084c6cbc7e6feb222b86c413f273e752da301c25953dfc4ea62bb"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

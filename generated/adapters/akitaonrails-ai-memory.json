@@ -1,0 +1,50 @@
+{
+  "categories": [
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-code",
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2502.12110",
+    "https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f",
+    "https://github.com/NousResearch/hermes-agent",
+    "https://github.com/akitaonrails/ai-memory/releases/latest",
+    "https://github.com/akitaonrails/ai-memory/releases/latest/download/ai-memory-wrapper",
+    "https://github.com/basicmachines-co/basic-memory",
+    "https://github.com/rohitg00/agentmemory",
+    "https://github.com/topoteretes/cognee",
+    "https://img.shields.io/badge/license-MIT-blue",
+    "https://img.shields.io/badge/rust-1.95+-blue",
+    "https://img.shields.io/github/v/release/akitaonrails/ai-memory"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "GITHUB_TOKEN",
+    "OPENAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/akitaonrails-ai-memory.json",
+  "schema_version": 1,
+  "source_repository": "akitaonrails/ai-memory",
+  "source_url": "https://github.com/akitaonrails/ai-memory",
+  "status": "disabled_pending_review"
+}

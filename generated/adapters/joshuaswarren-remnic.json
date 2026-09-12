@@ -1,0 +1,69 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/joshuaswarren/remnic",
+    "https://github.com/joshuaswarren/remnic#readme",
+    "https://github.com/joshuaswarren/remnic.git",
+    "https://github.com/joshuaswarren/remnic/issues",
+    "https://github.com/sponsors/joshuaswarren",
+    "https://github.com/tobi/qmd",
+    "https://github.com/users/joshuaswarren/projects/1",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink",
+    "https://img.shields.io/badge/Sponsor-%E2%9D%A4-pink?style=for-the-badge",
+    "https://img.shields.io/npm/v/@remnic/cli",
+    "https://nodejs.org/",
+    "https://oramasearch.com/",
+    "https://pnpm.io/",
+    "https://remnic.ai",
+    "https://remnic.ai/benchmarks",
+    "https://remnic.ai/changelog",
+    "https://remnic.ai/compare",
+    "https://remnic.ai/guides",
+    "https://remnic.ai/import",
+    "https://www.england.nhs.uk/long-read/health-and-care-passports-implementation-guidance/",
+    "https://www.npmjs.com/package/@remnic/cli",
+    "https://www.npmjs.com/package/@remnic/plugin-openclaw"
+  ],
+  "environment_variable_names": [
+    "OPENAI_API_KEY",
+    "OPENCLAW_REMNIC_ACCESS_TOKEN",
+    "REMNIC_AUTH_TOKEN",
+    "REMNIC_HOST",
+    "REMNIC_PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/joshuaswarren-remnic.json",
+  "schema_version": 1,
+  "source_repository": "joshuaswarren/remnic",
+  "source_url": "https://github.com/joshuaswarren/remnic",
+  "status": "disabled_pending_review"
+}

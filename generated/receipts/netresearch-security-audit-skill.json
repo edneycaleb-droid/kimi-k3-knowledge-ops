@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/security-audit-skill",
+  "canonical_repository": "netresearch/security-audit-skill",
+  "canonical_url": "https://github.com/netresearch/security-audit-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:25:12.408336Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7502536ac58548e5328ab576f3cb06b7b88ce7eded89368f8e001661904963c2",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b762bafd8b813550c0bba3e0d42c0f3db96ff1ffc5ab52ee61aa5f65937095ac",
+    "README.md": "c738931cc53d91d2191efd2b82c507486b00137df0f9176ce4e64b1b6758e5c9",
+    "package.json": "a049d729893150082df6cd0cd05e9fdfc4c7e710b0d3e702d6dd8d8a275b589c"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/GuyMannDude/mnemo-cortex",
+  "canonical_repository": "GuyMannDude/mnemo-cortex",
+  "canonical_url": "https://github.com/GuyMannDude/mnemo-cortex",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:49.198399Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ca3e568020de77201546b9d3d21e7edd0843b4280d8d63237c77cc6e0ff1c44e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "5d41d63939816c21b3b64ee88258199ac9968d3d8b1c5a0bd9d944cf25397e43",
+    "Dockerfile": "f565b1ed62e47b0124786f58f8ff7c9e73e7d47129f3fd0c83bcc16b256087d7",
+    "LICENSE": "df032f3c7f49dd0beadea14663257ba3714450a06f6314d6274bc5afb2309233",
+    "README.md": "ef243069d9ff83d1b6f632f47288fdbf3ea6e776d261d480168b4cb9f191d426",
+    "pyproject.toml": "d223ad46ee6603dba80f2125e11f14c3561e99c98ddc81b057ac77ba92ad4ac7"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://git-lfs.com",
+    "https://github.com/oyesanyf/ModelFusion/releases",
+    "https://huggingface.co/OpenVINO",
+    "https://huggingface.co/OpenVINO/Qwen2.5-1.5B-Instruct-int4-ov",
+    "https://img.shields.io/badge/Download-HugOS%20IDE%20v2.1.0--beta-blue?style=for-the-badge&logo=windows&logoColor=white",
+    "https://img.shields.io/badge/Hugging%20Face-2M%2B%20Models-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black",
+    "https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge",
+    "https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white",
+    "https://img.shields.io/badge/Rust-1.70+-000000?style=for-the-badge&logo=rust&logoColor=white",
+    "https://img.shields.io/badge/SQLite-3-003B57?style=for-the-badge&logo=sqlite&logoColor=white",
+    "https://ollama.com/",
+    "https://openrouter.ai/blog/announcements/fusion-beats-frontier/"
+  ],
+  "environment_variable_names": [
+    "IMPORTANT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/oyesanyf-modelfusion.json",
+  "schema_version": 1,
+  "source_repository": "oyesanyf/ModelFusion",
+  "source_url": "https://github.com/oyesanyf/ModelFusion",
+  "status": "disabled_pending_review"
+}

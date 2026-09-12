@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bughunt.productcompass.pm",
+    "https://bughunt.productcompass.pm/?preset=all",
+    "https://bughunt.productcompass.pm/?view=coverage",
+    "https://bughunt.productcompass.pm/method",
+    "https://github.com/phuryn/bug-hunt-bench",
+    "https://github.com/phuryn/bug-hunt-bench/issues",
+    "https://github.com/phuryn/bug-hunt-bench/issues/new/choose",
+    "https://github.com/phuryn/pm-skills",
+    "https://www.linkedin.com/in/pawel-huryn",
+    "https://www.productcompass.pm",
+    "https://www.productcompass.pm/subscribe",
+    "https://x.com/PawelHuryn"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/phuryn-bug-hunt-bench.json",
+  "schema_version": 1,
+  "source_repository": "phuryn/bug-hunt-bench",
+  "source_url": "https://github.com/phuryn/bug-hunt-bench",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/88lin/computer-repair-skill",
+  "canonical_repository": "88lin/computer-repair-skill",
+  "canonical_url": "https://github.com/88lin/computer-repair-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:19.581954Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f08a70b5fb1481ea82182ae28d85eefe64a2046e41a3c1fab87a155aa0cd4359",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "57bd576765b69499edd4310ded6d34456ab703c1aaaab3838cee605e125bc54c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

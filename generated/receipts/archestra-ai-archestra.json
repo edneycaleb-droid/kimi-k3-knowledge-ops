@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/archestra-ai/archestra",
+  "canonical_repository": "archestra-ai/archestra",
+  "canonical_url": "https://github.com/archestra-ai/archestra",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:58.492335Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "82b616c045ec91a461b11ee1f1ae263c24fe5aed7866d5cac58f40d2d9c5f24a",
+  "sampled_file_digests": {
+    "LICENSE.md": "be120afa345a686704939278babbd00bc9ab830bb7142435420629a8c2932aa1",
+    "README.md": "afbba4dce12a3b087a50c9a6c8b9e0d19a59b34dd90c83872325fc12c0697b50"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

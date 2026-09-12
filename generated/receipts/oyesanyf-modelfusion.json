@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/oyesanyf/ModelFusion",
+  "canonical_repository": "oyesanyf/ModelFusion",
+  "canonical_url": "https://github.com/oyesanyf/ModelFusion",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:41.171481Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "65949d027b8ed92335988ca0472cd0ee2f22992727db00291838d69f3246b5de",
+  "sampled_file_digests": {
+    "README.md": "f0e56c55927aad724ff53d881e10f052e91a55e706c355f920f8401e69746eaf"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

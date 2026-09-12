@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/cyanheads/mcp-ts-core",
+  "canonical_repository": "cyanheads/mcp-ts-core",
+  "canonical_url": "https://github.com/cyanheads/mcp-ts-core",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:25:01.877433Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "54108a0b4b2f7dc17bce882eac5e6196e6b4b7c92bc71fe8b0e967254ed65529",
+  "sampled_file_digests": {
+    "Dockerfile": "ce0c22b0797c67a0c66160e493932db07e70d2d3f0bf810a21ce0e23aecfc527",
+    "LICENSE": "7915fc5b047784f96aeb6af9df72298c96d34c8f50ff6087a85366c60508a11d",
+    "README.md": "eb8ad49c31d11d81d03b326d3fc6c44fa3453764be8fafe7914b42803be27c04",
+    "package.json": "9bf451c0f1f0a7f4218d5b9960bb57f098e4c0fdb95a668d572c49974352781b",
+    "server.json": "eea9044181f7f70aa1cd1bf559dcc2cd660921952d0dd6fa4762c8c2ce670f2d"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
