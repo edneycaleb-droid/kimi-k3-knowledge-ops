@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/895397488/hack_scanner",
+  "canonical_repository": "895397488/hack_scanner",
+  "canonical_url": "https://github.com/895397488/hack_scanner",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:39.448520Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e428054aeae310ba96dcc9c4fe6805cc810f61a5b1658ce9ea15a036fc9436cb",
+  "sampled_file_digests": {
+    "README.md": "71e4d941c4c44e9f3f634b7260dd7708a1513df0c2b64f7e5fadbedacbe5713c"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/akitaonrails/ai-memory",
+  "canonical_repository": "akitaonrails/ai-memory",
+  "canonical_url": "https://github.com/akitaonrails/ai-memory",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:33.703000Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3877e257e6353abf0d31279a4f19902f6a617d6e43424ea9d779cf245f04d693",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "8df901ff22d3202d64b2d8e8c74c3a16cd351027173f4731a8a0fb6913518bfb",
+    "LICENSE": "18332c61780ce8e694d4fa330770cd4d8c85e33f47ac13a80d72d70bb032ae72",
+    "README.md": "8829fc45b455c87d464dd3ae0b37d3dde22e7f6a2ab097193e4de238aaeca553"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

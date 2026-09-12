@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/satishsolanki1990/ss-superpowers",
+  "canonical_repository": "satishsolanki1990/ss-superpowers",
+  "canonical_url": "https://github.com/satishsolanki1990/ss-superpowers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:35.511584Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "242d7526c8e8d9cde5312569eff12706fa278b7057ec00be04f8a712b44b5829",
+  "sampled_file_digests": {
+    "LICENSE": "a37e0e9697144819e1d965176ac4ae5bc3fa02d11e7812036bbcadf6dafe2400",
+    "README.md": "d452dc35974b028aad3b34f5f9957b048298b47ac46846fe69fabbdd5f949f6f",
+    "package.json": "4d6b01eb1842d8d1f7c8597c37a3828841f8e38a53dca160017169c250c8935c"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

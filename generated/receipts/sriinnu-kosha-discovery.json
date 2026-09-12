@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/sriinnu/kosha-discovery",
+  "canonical_repository": "sriinnu/kosha-discovery",
+  "canonical_url": "https://github.com/sriinnu/kosha-discovery",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:43.064235Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4230d29c276067cc515c9fc787981ec7e384b57f5a533eb68cb67521860c0a94",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "cb05ba082dc6f74db15b014b4c584a3010fd104ffc2bb17f297f8d1befc1bbb0",
+    "LICENSE": "f8d0f2f55cd9b3f2e5487bad5353690675024c1cb42afea32a5a55a788dfb215",
+    "README.md": "87a2a2bf6ae1e5cf0f700185ed1f904eb26e16154026305f9a38f364abdab170",
+    "package.json": "d59806c8c9985c42237684b363c62bfad42a9a4ea99f943a13ad6a262cfa728b"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

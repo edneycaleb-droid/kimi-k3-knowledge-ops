@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/joshuaswarren/remnic",
+  "canonical_repository": "joshuaswarren/remnic",
+  "canonical_url": "https://github.com/joshuaswarren/remnic",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:56.737124Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4b64f2d7a1ebcc9b1d771a85d74e380af4e1515a06dc8cc4100876bfa64b33d3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "08ae18dd3fdbc91b0da1a3baaf8279eb3d4d6962a4aec74e94e4d39df1f694fc",
+    "Dockerfile": "031003283036b17fd5a8f88fd59f708e932a5436288903113b9f8ada34afef73",
+    "LICENSE": "cc21ebb8386f7e358b7f48f63df58aedccbb9359096591f0bffd3b0ef1346522",
+    "README.md": "7e0932f6da3e87da738d1f37a0b79fa3e4e2fb7c5ca3c0fa88be3a7f7099f63e",
+    "package.json": "21609e135566f9ac6c8a0782357bed232d6370cb8df3352b20a643227166d8ad"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

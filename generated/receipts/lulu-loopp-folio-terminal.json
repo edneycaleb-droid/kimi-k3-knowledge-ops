@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/lulu-loopp/folio-terminal",
+  "canonical_repository": "lulu-loopp/folio-terminal",
+  "canonical_url": "https://github.com/lulu-loopp/folio-terminal",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:29.980923Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "114732b8165c43798f9965ca6da16ba524c6c1fb0ae900cb7c91d81a3b653dab",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6da6a32b03af81fb96a85c6e23b1d018ed3fd72470b333fe4616137c9c210f44",
+    "README.md": "4ee1ec1392dcb2e17c570d70c7651f7a1758fd2f55835c03c2e3bb519f670d8b"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

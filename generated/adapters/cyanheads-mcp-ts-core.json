@@ -1,0 +1,170 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh/",
+    "https://caseyjhand.com",
+    "https://github.com/cyanheads/brapi-mcp-server#working-with-dataframes",
+    "https://github.com/cyanheads/mcp-ts-core",
+    "https://github.com/cyanheads/mcp-ts-core#readme",
+    "https://github.com/cyanheads/mcp-ts-core.git",
+    "https://github.com/cyanheads/mcp-ts-core/issues",
+    "https://github.com/opencontainers/image-spec/blob/main/annotations.md",
+    "https://github.com/sponsors/cyanheads",
+    "https://img.shields.io/badge/Bun-v1.4.0%2B-blueviolet.svg?style=flat-square",
+    "https://img.shields.io/badge/License-Apache%202.0-orange.svg?style=flat-square",
+    "https://img.shields.io/badge/MCP%20SDK-",
+    "https://img.shields.io/badge/MCP%20Spec-2026--07--28-8A2BE2.svg?style=flat-square",
+    "https://img.shields.io/badge/TypeScript-",
+    "https://img.shields.io/badge/Version-0.12.9-blue.svg?style=flat-square",
+    "https://modelcontextprotocol.io/",
+    "https://modelcontextprotocol.io/specification/2026-07-28",
+    "https://registry.npmjs.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.buymeacoffee.com/cyanheads",
+    "https://www.typescriptlang.org/"
+  ],
+  "environment_variable_names": [
+    "MCP_AUTH_SECRET_KEY",
+    "MCP_HTTP_HOST",
+    "MCP_HTTP_PORT",
+    "MCP_TRANSPORT_TYPE",
+    "OPENROUTER_API_KEY",
+    "PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Agent-native TypeScript framework for MCP servers.",
+      "name": "io.github.cyanheads/mcp-ts-core",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "default": "info",
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_LOG_LEVEL"
+            }
+          ],
+          "identifier": "@cyanheads/mcp-ts-core",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "run"
+            },
+            {
+              "type": "positional",
+              "value": "start:stdio"
+            }
+          ],
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.12.9"
+        },
+        {
+          "environmentVariables": [
+            {
+              "default": "127.0.0.1",
+              "description": "The hostname for the HTTP server.",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_HTTP_HOST"
+            },
+            {
+              "default": "3010",
+              "description": "The port to run the HTTP server on.",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_HTTP_PORT"
+            },
+            {
+              "default": "/mcp",
+              "description": "The endpoint path for the MCP server.",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_HTTP_ENDPOINT_PATH"
+            },
+            {
+              "default": "none",
+              "description": "Authentication mode to use: 'none', 'jwt', or 'oauth'.",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_AUTH_MODE"
+            },
+            {
+              "default": "info",
+              "description": "Sets the minimum log level for output (e.g., 'debug', 'info', 'warn').",
+              "format": "string",
+              "isRequired": false,
+              "name": "MCP_LOG_LEVEL"
+            }
+          ],
+          "identifier": "@cyanheads/mcp-ts-core",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "run"
+            },
+            {
+              "type": "positional",
+              "value": "start:http"
+            }
+          ],
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "runtimeHint": "bun",
+          "transport": {
+            "type": "streamable-http",
+            "url": "http://localhost:3010/mcp"
+          },
+          "version": "0.12.9"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/cyanheads/mcp-ts-core"
+      },
+      "version": "0.12.9"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/cyanheads-mcp-ts-core.json",
+  "schema_version": 1,
+  "source_repository": "cyanheads/mcp-ts-core",
+  "source_url": "https://github.com/cyanheads/mcp-ts-core",
+  "status": "disabled_pending_review"
+}

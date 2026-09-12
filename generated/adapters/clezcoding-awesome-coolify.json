@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.coolify.io",
+    "https://cdn.jsdelivr.net/gh/clezcoding/awesome-coolify@main/docs/assets/architecture.png",
+    "https://cdn.jsdelivr.net/gh/clezcoding/awesome-coolify@main/docs/assets/features.png",
+    "https://cdn.jsdelivr.net/gh/clezcoding/awesome-coolify@main/docs/assets/hero-banner.png",
+    "https://clezcoding.github.io/awesome-coolify/",
+    "https://clezcoding.github.io/awesome-coolify/install.html",
+    "https://coolify.example.com",
+    "https://coolify.io",
+    "https://coolify.io/docs/api-reference/authorization",
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/deeplink/mcp-install-light.svg",
+    "https://cursor.com/en/install-mcp",
+    "https://cursor.com/en/install-mcp?name=awesome-coolify-mcp&config=eyJhd2Vzb21lLWNvb2xpZnktbWNwIjp7ImNvbW1hbmQiOiJucHgiLCJhcmdzIjpbIi15IiwiYXdlc29tZS1jb29saWZ5LW1jcCJdLCJlbnYiOnsiQ09PTElGWV9VUkwiOiJodHRwczovL2Nvb2xpZnkuZXhhbXBsZS5jb20iLCJDT09MSUZZX1RPS0VOIjoiWU9VUl9DT09MSUZZX0FQSV9UT0tFTiJ9fX0=",
+    "https://github.com/clezcoding/awesome-coolify",
+    "https://github.com/clezcoding/awesome-coolify#readme",
+    "https://github.com/clezcoding/awesome-coolify.git",
+    "https://github.com/clezcoding/awesome-coolify/actions/workflows/ci.yml",
+    "https://github.com/clezcoding/awesome-coolify/issues",
+    "https://github.com/clezcoding/awesome-coolify/releases/latest",
+    "https://img.shields.io/badge/Coolify%20API-4.1.x-6b16ed?style=flat-square",
+    "https://img.shields.io/badge/MCP-19%20tools-181818?style=flat-square",
+    "https://img.shields.io/badge/Node.js-%3E%3D24-3c873a?style=flat-square&logo=nodedotjs&logoColor=white",
+    "https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white",
+    "https://img.shields.io/badge/VS_Code-Install_MCP_Server-0098FF?style=for-the-badge&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/license-MIT-fcd34d?style=flat-square",
+    "https://img.shields.io/github/actions/workflow/status/clezcoding/awesome-coolify/ci.yml?branch=main&style=flat-square&label=CI&color=6b16ed",
+    "https://img.shields.io/github/v/release/clezcoding/awesome-coolify?style=flat-square&color=6b16ed",
+    "https://img.shields.io/npm/dm/awesome-coolify-mcp.svg?style=flat-square&color=6b16ed",
+    "https://img.shields.io/npm/v/awesome-coolify-mcp.svg?style=flat-square&color=6b16ed",
+    "https://megalinter.io/latest/install-github/",
+    "https://modelcontextprotocol.io",
+    "https://www.npmjs.com/package/awesome-coolify-mcp"
+  ],
+  "environment_variable_names": [
+    "API_KEY",
+    "COOLIFY_CLOUD_UNSUPPORTED",
+    "COOLIFY_TOKEN",
+    "COOLIFY_URL",
+    "DATABASE_URL",
+    "GITHUB_TOKEN",
+    "IMPORTANT",
+    "URL",
+    "YOUR_COOLIFY_API_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/clezcoding-awesome-coolify.json",
+  "schema_version": 1,
+  "source_repository": "clezcoding/awesome-coolify",
+  "source_url": "https://github.com/clezcoding/awesome-coolify",
+  "status": "disabled_pending_review"
+}

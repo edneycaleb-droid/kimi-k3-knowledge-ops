@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/puhuiin/Auto-Square-Publisher",
+  "canonical_repository": "puhuiin/Auto-Square-Publisher",
+  "canonical_url": "https://github.com/puhuiin/Auto-Square-Publisher",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:21.526180Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a65da58e05f623c405a4dfdf8afda6d54e6aa22fbe8dee7992eb1dc9a29a011b",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "375c10d649d418008029764f1194983ff84b6058e144a10f63093ea81910eabf",
+    "README.md": "b468846e289dd5ee67f3c5c57250d3a3b240c3fc0ec8a507fd56422e1c0259be",
+    "requirements.txt": "6e8cab8bed0ec8b49f635d858943cc098a65d8d19d333143dd29a3d2b75dc7cf"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/lusknchars/ai-radar",
+  "canonical_repository": "lusknchars/ai-radar",
+  "canonical_url": "https://github.com/lusknchars/ai-radar",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:25.698676Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "cbbde255b84be0be080f66dd14ca913c56ab707ae53731a828505869eeffa873",
+  "sampled_file_digests": {
+    "README.md": "3373c588d2aa1516666a44e97eb4442de6ebf7f5059e6bb7f3636f25da4b9cc3",
+    "pyproject.toml": "4012e3c6bf0a68a4cd71e66c6cb4956a89e4189fccb31620bfc8df709211c0b7"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

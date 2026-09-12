@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/phuryn/bug-hunt-bench",
+  "canonical_repository": "phuryn/bug-hunt-bench",
+  "canonical_url": "https://github.com/phuryn/bug-hunt-bench",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-12T21:24:23.712068Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c9c89b0c6acd540dbe8e687094726a516e3bc2a45e531f61694dfd9d4ed2518b",
+  "sampled_file_digests": {
+    "README.md": "a83ff34f62f8f1cbe93800cfcbc2c87e79d456baf2215de394f4ae5f5cd89553"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

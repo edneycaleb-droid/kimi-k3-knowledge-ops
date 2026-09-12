@@ -1,0 +1,76 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aidevops.sh",
+    "https://commit-history.com/marcusquinn?metric=total",
+    "https://github.com/Eugeny/tabby",
+    "https://github.com/Ultimate-Multisite/ultimate-multisite",
+    "https://github.com/WordPress/mcp-adapter",
+    "https://github.com/afragen/git-updater",
+    "https://github.com/anomalyco/opencode",
+    "https://github.com/awesome-opencode/awesome-opencode",
+    "https://github.com/awesome-selfhosted/awesome-selfhosted",
+    "https://github.com/bash-lsp/bash-language-server",
+    "https://github.com/block/buzz",
+    "https://github.com/ephraimduncan/opencode-cursor",
+    "https://github.com/marcusquinn",
+    "https://github.com/marcusquinn/aidevops",
+    "https://github.com/marcusquinn/aidevops-cloudron-app",
+    "https://github.com/marcusquinn/aidevops.sh",
+    "https://github.com/marcusquinn/amazon-order-history-csv-download-mcp",
+    "https://github.com/marcusquinn/cloudron-buzz-app",
+    "https://github.com/marcusquinn/cloudron-netbird-app",
+    "https://github.com/marcusquinn/homebrew-tap",
+    "https://github.com/marcusquinn/marcusquinn.github.io",
+    "https://github.com/marcusquinn/quickfile-mcp",
+    "https://github.com/steipete/claude-code-mcp",
+    "https://github.com/swissspidy/wp-performance-action",
+    "https://github.com/tddworks/ClaudeBar",
+    "https://github.com/turbostarter/extro",
+    "https://github.com/turbostarter/loading-ui",
+    "https://github.com/wangjs-jacky/Turing-CSS",
+    "https://github.com/wpallstars/mainwp-child",
+    "https://img.shields.io/badge/-@marcuswquinn-000000?style=flat-square&logo=x&logoColor=white",
+    "https://img.shields.io/badge/-CSS-1572B6?style=flat-square&logo=css3&logoColor=white",
+    "https://img.shields.io/badge/-Claude-000000?style=flat-square&logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/-Cloudron-03A9F4?style=flat-square&logo=cloud&logoColor=white",
+    "https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/-Follow-181717?style=flat-square&logo=github&logoColor=white",
+    "https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white",
+    "https://img.shields.io/badge/-HTML-E34F26?style=flat-square&logo=html5&logoColor=white",
+    "https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black",
+    "https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black",
+    "https://img.shields.io/badge/-OpenCode-6366F1?style=flat-square&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyem0wIDE4Yy00LjQyIDAtOC0zLjU4LTgtOHMzLjU4LTggOC04IDggMy41OCA4IDgtMy41OCA0LTggOHoiLz48L3N2Zz4=&logoColor=white"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/marcusquinn-marcusquinn.json",
+  "schema_version": 1,
+  "source_repository": "marcusquinn/marcusquinn",
+  "source_url": "https://github.com/marcusquinn/marcusquinn",
+  "status": "disabled_pending_review"
+}

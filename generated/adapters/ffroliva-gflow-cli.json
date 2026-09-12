@@ -1,0 +1,86 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/ffroliva/gflow-cli/badge",
+    "https://api.star-history.com/chart?repos=ffroliva/gflow-cli&type=date&legend=top-left&sealed_token=7kTiE_HExjjY2aT7O-_hMxY_Mf6n-ET17mi_RXcRjCSS5rHSBDMd7xFYCzT_yaXhAXrgF8AGTQc6mny_qfuJc7473KGqb-5U41Dpu-tpZIS1IYl-xVQR9ziGJtL0KWQVyWZU1IoUmLWwo43PhgVTo4MJfmWOvluFJq2zlGxE_iLl9wMRgpwQaiC4ufOK",
+    "https://api.star-history.com/chart?repos=ffroliva/gflow-cli&type=date&theme=dark&legend=top-left&sealed_token=7kTiE_HExjjY2aT7O-_hMxY_Mf6n-ET17mi_RXcRjCSS5rHSBDMd7xFYCzT_yaXhAXrgF8AGTQc6mny_qfuJc7473KGqb-5U41Dpu-tpZIS1IYl-xVQR9ziGJtL0KWQVyWZU1IoUmLWwo43PhgVTo4MJfmWOvluFJq2zlGxE_iLl9wMRgpwQaiC4ufOK",
+    "https://github.com/astral-sh/ruff",
+    "https://github.com/ffroliva/gflow-cli",
+    "https://github.com/ffroliva/gflow-cli/actions/workflows/ci.yml",
+    "https://github.com/ffroliva/gflow-cli/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/ffroliva/gflow-cli/actions/workflows/release.yml",
+    "https://github.com/ffroliva/gflow-cli/actions/workflows/release.yml/badge.svg",
+    "https://github.com/ffroliva/gflow-cli/blob/main/AGENTS.md",
+    "https://github.com/ffroliva/gflow-cli/blob/main/docs/INDEX.md",
+    "https://github.com/ffroliva/gflow-cli/commits/main",
+    "https://github.com/ffroliva/gflow-cli/issues",
+    "https://github.com/ffroliva/gflow-cli/issues/639",
+    "https://github.com/ffroliva/gflow-cli/network/members",
+    "https://github.com/ffroliva/gflow-cli/pulls",
+    "https://github.com/ffroliva/gflow-cli/stargazers",
+    "https://github.com/ffroliva/gflow-cli/watchers",
+    "https://github.com/googleapis/python-genai",
+    "https://github.com/microsoft/pyright",
+    "https://github.com/rany2/edge-tts",
+    "https://img.shields.io/badge/License-MIT-blue.svg",
+    "https://img.shields.io/badge/code%20style-ruff-000000.svg",
+    "https://img.shields.io/badge/status-alpha-orange.svg",
+    "https://img.shields.io/badge/tests-TDD-brightgreen.svg",
+    "https://img.shields.io/badge/type%20checked-pyright-blue.svg",
+    "https://img.shields.io/github/forks/ffroliva/gflow-cli?style=social&cacheSeconds=3600",
+    "https://img.shields.io/github/issues-pr/ffroliva/gflow-cli?cacheSeconds=3600",
+    "https://img.shields.io/github/issues/ffroliva/gflow-cli?cacheSeconds=3600",
+    "https://img.shields.io/github/last-commit/ffroliva/gflow-cli?cacheSeconds=3600",
+    "https://img.shields.io/github/repo-size/ffroliva/gflow-cli?cacheSeconds=3600",
+    "https://img.shields.io/github/stars/ffroliva/gflow-cli?style=social&cacheSeconds=3600",
+    "https://img.shields.io/github/watchers/ffroliva/gflow-cli?style=social&cacheSeconds=3600",
+    "https://img.shields.io/pypi/pyversions/gflow-cli.svg",
+    "https://img.shields.io/pypi/v/gflow-cli.svg",
+    "https://labs.google/fx/tools/flow",
+    "https://pepy.tech/project/gflow-cli",
+    "https://pypi.org/project/gflow-cli/",
+    "https://raw.githubusercontent.com/ffroliva/gflow-cli/main/docs/assets/example-run.gif",
+    "https://raw.githubusercontent.com/ffroliva/gflow-cli/main/docs/assets/examples.webp"
+  ],
+  "environment_variable_names": [
+    "GFLOW_CLI_FLOW_HOST",
+    "GITHUB_TOKEN",
+    "SONAR_HOST_URL",
+    "SONAR_TOKEN",
+    "STORAGE_EMULATOR_HOST",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ffroliva-gflow-cli.json",
+  "schema_version": 1,
+  "source_repository": "ffroliva/gflow-cli",
+  "source_url": "https://github.com/ffroliva/gflow-cli",
+  "status": "disabled_pending_review"
+}

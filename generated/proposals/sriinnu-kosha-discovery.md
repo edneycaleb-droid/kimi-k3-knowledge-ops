@@ -1,13 +1,13 @@
-# Integration proposal: benseverndev-oss/goldenmatch
+# Integration proposal: sriinnu/kosha-discovery
 
 ## Decision
 
-**CANDIDATE** — quality 86/100; bounded learning adjustment +0.
+**REVIEW** — quality 81/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/benseverndev-oss/goldenmatch
-- Categories: agent, api, mcp_server, memory, plugin, tool
+- Repository: https://github.com/sriinnu/kosha-discovery
+- Categories: agent, mcp_server, tool, workflow
 - License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,21 +17,22 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 35450
+- documentation: **10/10** — README length 12392
 - license: **10/10** — SPDX MIT
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 1 high findings
 - interoperability: **9/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **6/10** — 131 stars
+- adoption: **2/10** — 3 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `medium` `SEC008` in `package.json`: Elevated execution or privilege
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/benseverndev-oss-goldenmatch.json`.
+A disabled metadata adapter was generated at `generated/adapters/sriinnu-kosha-discovery.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist
