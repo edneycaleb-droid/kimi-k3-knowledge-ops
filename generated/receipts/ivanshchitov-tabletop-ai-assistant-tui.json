@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ivanshchitov/tabletop-ai-assistant-tui",
+  "canonical_repository": "ivanshchitov/tabletop-ai-assistant-tui",
+  "canonical_url": "https://github.com/ivanshchitov/tabletop-ai-assistant-tui",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:39.968629Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "96422bc3febcd616dddc6628a6b85b74b1818752193d9dd7e2b98106138e93cf",
+  "sampled_file_digests": {
+    "LICENSE": "1347b82c0017bfe9400322c21909f1555bef3afb8aeda3e20b9b7cdcbd07c710",
+    "README.md": "efd1d0c676caeda8c2dea1433066ce1b85af453fc68226bc40356e97cafe51a5",
+    "pyproject.toml": "254aa66644bc192430908dd265fafa9f7dd0401660d7d1b781e55b897ce12f1b",
+    "requirements.txt": "8bf025dde3078c5ecb972290e6f5331442f7a2780dbff42cd65f46ed0a95c08b"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

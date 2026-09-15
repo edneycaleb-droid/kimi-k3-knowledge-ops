@@ -1,5 +1,6 @@
 {
   "categories": [
+    "agent",
     "api",
     "mcp_server",
     "memory",
@@ -13,13 +14,21 @@
     ],
     "integration_mode": "metadata_adapter_only",
     "mcp_transports": [
-      "sse"
+      "sse",
+      "stdio"
     ],
     "targets_matched": [
-      "mcp"
+      "mcp",
+      "python"
     ]
   },
   "documented_https_endpoints": [
+    "https://github.com/elenaviter/app-ecosystem",
+    "https://github.com/elenaviter/app-ecosystem/blob/main/docs/connection-hub/connection-hub-architecture.md",
+    "https://github.com/elenaviter/app-ecosystem/blob/main/docs/connection-hub/quick-start-local.md",
+    "https://github.com/elenaviter/app-ecosystem/tree/main/docs/connection-hub",
+    "https://github.com/elenaviter/app-ecosystem/tree/main/products/connection-hub",
+    "https://github.com/kdcube/agent-plugins/tree/main/plugins/claude/kdcube",
     "https://github.com/kdcube/kdcube/actions/workflows/release-kdcube-platform.yml",
     "https://github.com/kdcube/kdcube/blob/main/LICENSE",
     "https://github.com/kdcube/kdcube/releases",
@@ -31,8 +40,8 @@
     "https://img.shields.io/github/stars/kdcube/kdcube?style=flat",
     "https://img.shields.io/github/v/release/kdcube/kdcube?label=release&sort=semver",
     "https://img.shields.io/pypi/v/kdcube-cli?label=pypi%3A%20kdcube-cli&logo=pypi&logoColor=white",
-    "https://kdcube.tech)",
-    "https://kdcube.tech/architecture.html)",
+    "https://kdcube.tech",
+    "https://kdcube.tech/architecture.html",
     "https://pypi.org/project/kdcube-cli/"
   ],
   "environment_variable_names": [],

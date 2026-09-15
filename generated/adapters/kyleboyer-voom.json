@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2607.05147",
+    "https://github.com/KyleBoyer/vOOM/actions/workflows/tests.yml",
+    "https://github.com/KyleBoyer/vOOM/actions/workflows/tests.yml/badge.svg"
+  ],
+  "environment_variable_names": [
+    "URL",
+    "VMODEL_DSPARK_MAX_DRAFT_TOKENS",
+    "VMODEL_DSPARK_MAX_PROMPT_TOKENS",
+    "VMODEL_DSPARK_PROMPT_CACHE_MIN_TOKENS",
+    "VMODEL_FAST_TOOL_GATEWAY_HOST_ROUTE",
+    "VMODEL_HOT_PROMPT_KV_MIN_TOKENS",
+    "VMODEL_PROMPT_KV_MIN_TOKENS",
+    "VMODEL_QWEN_MTP_MAX_PROMPT_TOKENS",
+    "VMODEL_SPECULATIVE_MAX_PROMPT_TOKENS",
+    "VMODEL_SPECULATIVE_PROMPT_CACHE_MIN_TOKENS"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/kyleboyer-voom.json",
+  "schema_version": 1,
+  "source_repository": "KyleBoyer/vOOM",
+  "source_url": "https://github.com/KyleBoyer/vOOM",
+  "status": "disabled_pending_review"
+}

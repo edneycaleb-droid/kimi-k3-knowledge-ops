@@ -1,0 +1,125 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://alpaca.markets/",
+    "https://alpaca.markets/data",
+    "https://alpaca.markets/disclosures",
+    "https://alpaca.markets/learn/how-to-deploy-alpaca-mcp-server-remotely-on-claude-mobile-app",
+    "https://alpaca.markets/sdks/python/",
+    "https://alpaca.markets/slack",
+    "https://antigravity.google/docs/mcp",
+    "https://app.alpaca.markets/paper/dashboard/overview",
+    "https://code.visualstudio.com/docs/copilot/chat/mcp-servers",
+    "https://cursor.directory/mcp/alpaca",
+    "https://docs.alpaca.markets/docs/getting-started",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://files.alpaca.markets/disclosures/library/CryptoRiskDisclosures.pdf",
+    "https://forum.alpaca.markets/",
+    "https://github.com/alpacahq/alpaca-mcp-server",
+    "https://github.com/alpacahq/alpaca-mcp-server#readme",
+    "https://github.com/alpacahq/alpaca-mcp-server.git",
+    "https://github.com/alpacahq/alpaca-mcp-server/issues",
+    "https://github.com/alpacahq/alpaca-mcp-server/pulls",
+    "https://help.openai.com/en/articles/11487775-connectors-in-chatgpt",
+    "https://img.shields.io/badge/Docs-DCDCDC",
+    "https://img.shields.io/badge/Forum-DCDCDC?logo=discourse&logoColor=000",
+    "https://img.shields.io/badge/LinkedIn-DCDCDC",
+    "https://img.shields.io/badge/Python_SDK-DCDCDC?logo=python&logoColor=000",
+    "https://img.shields.io/badge/Reddit-DCDCDC?logo=reddit&logoColor=000",
+    "https://img.shields.io/badge/Slack-DCDCDC?logo=slack&logoColor=000",
+    "https://img.shields.io/badge/X-DCDCDC?logo=x&logoColor=000",
+    "https://raw.githubusercontent.com/alpacahq/alpaca-mcp-server/main/assets/01-primary-alpaca-logo.png",
+    "https://s3.amazonaws.com/files.alpaca.markets/disclosures/PrivacyPolicy.pdf",
+    "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+    "https://www.finra.org/",
+    "https://www.jetbrains.com/help/ai-assistant/configure-an-mcp-server.html",
+    "https://www.linkedin.com/company/alpacamarkets/",
+    "https://www.python.org/downloads/",
+    "https://www.reddit.com/r/alpacamarkets/",
+    "https://www.sipc.org/",
+    "https://www.theocc.com/company-information/documents-and-archives/options-disclosure-document?ref=alpaca.markets",
+    "https://x.com/alpacahq?lang=en"
+  ],
+  "environment_variable_names": [
+    "ALPACA_API_KEY",
+    "ALPACA_SECRET_KEY",
+    "PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "description": "Alpaca Trading API integration for Model Context Protocol (MCP). V2 generates 60+ tools directly from Alpaca's OpenAPI specs using FastMCP.",
+      "name": "io.github.alpacahq/alpaca-mcp-server",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Alpaca Trading API key",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "ALPACA_API_KEY"
+            },
+            {
+              "description": "Alpaca Trading API secret key",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "ALPACA_SECRET_KEY"
+            },
+            {
+              "description": "Comma-separated list of toolsets to enable (e.g. account,trading,stock-data). All enabled by default.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "ALPACA_TOOLSETS"
+            }
+          ],
+          "identifier": "alpaca-mcp-server",
+          "registryType": "pypi",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.3.1"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/alpacahq/alpaca-mcp-server"
+      },
+      "title": "Alpaca's MCP Server",
+      "version": "2.3.1"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/alpacahq-alpaca-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "alpacahq/alpaca-mcp-server",
+  "source_url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "status": "disabled_pending_review"
+}

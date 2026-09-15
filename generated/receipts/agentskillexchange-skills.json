@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/agentskillexchange/skills",
+  "canonical_repository": "agentskillexchange/skills",
+  "canonical_url": "https://github.com/agentskillexchange/skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:28:07.174312Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d931a7d227d1a963f4bbac280bdba3b7be737b13e8e29f5706efdcf3195d78b7",
+  "sampled_file_digests": {
+    "LICENSE": "710723b91cfd15387184472df47f40cc4dd737d014038bdcfefe579a2a5c5181",
+    "README.md": "0ae645466d6dcab30acb566519b13ab3fe511345201e698979ed65f02afc1989"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Berry-Mappemonde/Blue-Intelligence-Map",
+  "canonical_repository": "Berry-Mappemonde/Blue-Intelligence-Map",
+  "canonical_url": "https://github.com/Berry-Mappemonde/Blue-Intelligence-Map",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:35.567248Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4ebeb2dda30db3c3f7f2922977bbf199f26de910d4996ef3762cc2031d4ea22c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "12bf537d39bc34334c712dd105bfddfa518861f0396593fa5bcf97a8fd1e2a2e",
+    "LICENSE": "28852f0065d1fa49bb0cff2b78f1ecf6292f3c607034946a50e1bebdc472b2cd",
+    "README.md": "a0ef22fc01fb28c34190335d5e7ff1bf0c7db6c49a85e53bf6272cfad8016bd7"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

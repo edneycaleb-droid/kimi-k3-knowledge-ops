@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/algokodcom/beast-agent",
+  "canonical_repository": "algokodcom/beast-agent",
+  "canonical_url": "https://github.com/algokodcom/beast-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:56.703991Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e258b22cf0ec03194486048808769b9ed037362f0a466292a5246dac3da031ea",
+  "sampled_file_digests": {
+    "LICENSE": "289bad80b8df601478b99fa96ef937ab92fc1d80d0e600c1f0a0d56b6208f857",
+    "README.md": "7a53cdfbbffd3cbae4a5110f83f1041569ea920681df7798c0b442d9b4a20a41",
+    "package.json": "98ecbb56ba5f891851f03c4f3a0aaa7936c41d330bb74d153e67324c6a27d5cd"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

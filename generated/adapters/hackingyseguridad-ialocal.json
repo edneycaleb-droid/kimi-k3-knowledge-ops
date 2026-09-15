@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api-docs.deepseek.com/quick_start/agent_integrations/codex/",
+    "https://claude.com/product/claude-security#public-beta",
+    "https://developers.openai.com/codex/cli",
+    "https://docs.ollama.com/integrations/claude-code#recommended-models",
+    "https://github.com/anthropics/knowledge-work-plugins",
+    "https://github.com/deepseek-ai/DeepSeek-Coder/",
+    "https://github.com/deepseek-ai/deepseek-harness",
+    "https://github.com/hackingyseguridad/ialocal.git",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/arquitectura.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/autor.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/banner2.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/ialocal.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/minipc.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/opencode.png",
+    "https://github.com/hackingyseguridad/ialocal/blob/main/qwen2.png",
+    "https://github.com/hackingyseguridad/ialocal/raw/main/arquitectura.png",
+    "https://github.com/hypnguyen1209/offensive-claude",
+    "https://github.com/openai/codex",
+    "https://github.com/openai/codex/",
+    "https://kali.org/get-kali/",
+    "https://ollama.com/",
+    "https://opencode.ai/",
+    "https://platform.deepseek.com/api_keys",
+    "https://qwen.ai/qwencode",
+    "https://www.hackingyseguridad.com/",
+    "https://www.kali.org/tools/gemini-cli/",
+    "https://www.kimi.com/es-419/help/kimi-code/cli-getting-started/"
+  ],
+  "environment_variable_names": [
+    "SECRETOS"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hackingyseguridad-ialocal.json",
+  "schema_version": 1,
+  "source_repository": "hackingyseguridad/ialocal",
+  "source_url": "https://github.com/hackingyseguridad/ialocal",
+  "status": "disabled_pending_review"
+}

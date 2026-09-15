@@ -1,0 +1,44 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bun.sh/",
+    "https://fsf.org/",
+    "https://github.com/badlogic/pi-mono",
+    "https://github.com/proma-ai/Proma",
+    "https://github.com/xcdha/Guru/releases",
+    "https://mermaid.js.org/",
+    "https://modelcontextprotocol.io/",
+    "https://shiki.style/",
+    "https://www.gnu.org/licenses/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/xcdha-guru.json",
+  "schema_version": 1,
+  "source_repository": "xcdha/Guru",
+  "source_url": "https://github.com/xcdha/Guru",
+  "status": "disabled_pending_review"
+}

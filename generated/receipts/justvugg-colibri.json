@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/JustVugg/colibri",
+  "canonical_repository": "JustVugg/colibri",
+  "canonical_url": "https://github.com/JustVugg/colibri",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:42.199747Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "28c86fd7d8d608c600de4906dd26fa5c59d129e783415059c96d90d12ad61632",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "211153c493907862ee0418bacb887d12b0c8c14b82e78757c645cf601f5416e6",
+    "LICENSE": "fb9b97e1cc193452870025f6cf501003130561681659e265e5fdf6c023f71325",
+    "README.md": "d9b31274b693f739122d8a19068546acb7c978cae50e96227d5689470d964edf",
+    "pyproject.toml": "8837f8a650db6a4e6bcf45b9cd15d91dcdd89e8244620ede9b69c5af0791aa3c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

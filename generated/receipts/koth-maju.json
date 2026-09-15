@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/koth/Maju",
+  "canonical_repository": "koth/Maju",
+  "canonical_url": "https://github.com/koth/Maju",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:47.812407Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "96621ca3bc18489d7dc6caedc8ef1a70c6bdfb3b4cdc88355690f4361601abcd",
+  "sampled_file_digests": {
+    "README.md": "6cd5d74cd5e15eb40bad71eb1581ac649db7db9b186a42d86a2f3ef999a18573"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/byoungju-web/coverfo",
+  "canonical_repository": "byoungju-web/coverfo",
+  "canonical_url": "https://github.com/byoungju-web/coverfo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:28:03.124942Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "88598eae312756f7359242affb6ca6608c7bb3964ca80f2a38595f3ff4276e93",
+  "sampled_file_digests": {
+    "Dockerfile": "d116ae550a3e5aae5c46c5804fd1e252bc76a0031fb5978c368480fa9b2602c4",
+    "LICENSE": "312c7a6557ba76d33134e7b4634f6c94c5c76c6bc2b5fe5fb1a37f0a2552efc1",
+    "README.md": "dfba4e1f8d81c532e97fabc178f16f6930864d5b43fe02964fff4e597855c3d1",
+    "package.json": "6a65bd8c518306611c1ed61f6a336f2de76461860cc99855ac61779480423499"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

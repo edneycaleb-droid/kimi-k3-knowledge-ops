@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/xcdha/Guru",
+  "canonical_repository": "xcdha/Guru",
+  "canonical_url": "https://github.com/xcdha/Guru",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:28:01.018506Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2801f5f662ebb420bf43dd8ee1116fc33342d76c06329de8224975324f881ad6",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "2ca4d4c7f275e3c30caa4db0ca59767262854c242bbfa1673e4b9cc11d515bdd",
+    "package.json": "c2334fae1cfe394e812061625e0b039715879eaa701e2da0792f87587103cda5"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

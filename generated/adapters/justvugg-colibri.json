@@ -1,0 +1,77 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2404.05019",
+    "https://arxiv.org/abs/2512.03927",
+    "https://discord.gg/RXV83nSZdk",
+    "https://github.com/BUAA-OSCAR/ReMoE",
+    "https://github.com/CerebrasResearch/reap",
+    "https://github.com/JL-Cheng/SERE",
+    "https://github.com/JustVugg/colibri",
+    "https://github.com/JustVugg/colibri/issues",
+    "https://github.com/JustVugg/colibri/issues/108",
+    "https://github.com/JustVugg/colibri/issues/163",
+    "https://github.com/JustVugg/colibri/issues/175",
+    "https://github.com/JustVugg/colibri/issues/191",
+    "https://github.com/JustVugg/colibri/issues/200",
+    "https://github.com/JustVugg/colibri/issues/273",
+    "https://github.com/JustVugg/colibri/issues/455",
+    "https://github.com/JustVugg/colibri/issues/8",
+    "https://github.com/JustVugg/colibri/issues/81",
+    "https://github.com/JustVugg/colibri/issues/82",
+    "https://github.com/JustVugg/colibri/issues/new",
+    "https://github.com/JustVugg/colibri/releases",
+    "https://github.com/PKU-SEC-Lab/HybriMoE",
+    "https://github.com/ROCm/rocWMMA",
+    "https://github.com/RUCAIBox/EASYEP",
+    "https://github.com/UNITES-Lab/MC-SMoE",
+    "https://github.com/facebookresearch/dietgpu",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://github.com/huggingface/safetensors",
+    "https://github.com/huggingface/transformers",
+    "https://github.com/inclusionAI/MoBE",
+    "https://github.com/kvcache-ai/ktransformers",
+    "https://github.com/lliai/D2MoE",
+    "https://github.com/openai/tiktoken",
+    "https://github.com/vllm-project/vllm",
+    "https://huggingface.co/Kreuzzelg/kat-coder-v2.5-dev-colibri-i4-gs64",
+    "https://huggingface.co/Kreuzzelg/qwen36-35b-a3b-colibri-i4",
+    "https://huggingface.co/Kreuzzelg/qwen36-35b-a3b-colibri-i4-gs64",
+    "https://huggingface.co/Qwen/Qwen3.8-Flash-Next-FP8",
+    "https://huggingface.co/mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp",
+    "https://huggingface.co/mastouri/GLM-5.2-colibri-int4-g64-with-int8-mtp**",
+    "https://huggingface.co/moonshotai/Kimi-K3"
+  ],
+  "environment_variable_names": [
+    "COLI_V4_SUPPORTED",
+    "HOST",
+    "PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/justvugg-colibri.json",
+  "schema_version": 1,
+  "source_repository": "JustVugg/colibri",
+  "source_url": "https://github.com/JustVugg/colibri",
+  "status": "disabled_pending_review"
+}
