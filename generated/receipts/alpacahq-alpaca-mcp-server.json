@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/alpacahq/alpaca-mcp-server",
+  "canonical_repository": "alpacahq/alpaca-mcp-server",
+  "canonical_url": "https://github.com/alpacahq/alpaca-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:28:11.003013Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7db20b47df706caf5cb8d2f9fb27ebc46c8a0e2f7de64b8b505668d8cc9a8219",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4a7a1b4b806d5356e6fd0aeb344b993985a8744e2e45a5d8594e8161e007b0ec",
+    "Dockerfile": "7a4eb3443f0619d462df599a08ae3ead1029d93501d8e445e6846ab4038a7b31",
+    "LICENSE": "283a08c2428771776cce906ac475ac0cc2fa14559f72674faa5f7aa4d87f13b2",
+    "README.md": "e6f48194c01a468e5cccebd2f71b606f7fb111770a48b43f72a774a5902367f1",
+    "pyproject.toml": "b7c32498d8ffdd6ec622d5e3383f774f709fcf234296e8c40dbc37e618aac381",
+    "requirements.txt": "afdba7437625dfff57762b47f2ec38b0f080bbd92df9da9f22228f3eadfd1550",
+    "server.json": "ff261b802594e88ccc13702c8625129468fc9e5b0c687dc1125dd33bd1c4b670"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

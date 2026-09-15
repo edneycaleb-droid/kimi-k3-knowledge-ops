@@ -1,0 +1,78 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://codemirror.net/",
+    "https://genoffice.ai/",
+    "https://genoffice.ai/join",
+    "https://github.com/Hopding/pdf-lib",
+    "https://github.com/NaturalIntelligence/fast-xml-parser",
+    "https://github.com/dream-num/univer",
+    "https://github.com/embedpdf/embed-pdf-viewer",
+    "https://github.com/genspark-ai/genoffice.git",
+    "https://github.com/genspark-ai/genoffice/issues",
+    "https://github.com/genspark-ai/genoffice/releases",
+    "https://github.com/genspark-ai/genoffice/releases/latest",
+    "https://github.com/genspark-ai/genoffice/stargazers",
+    "https://github.com/harfbuzz/harfbuzz",
+    "https://github.com/ironcalc/IronCalc",
+    "https://github.com/microsoft/fluentui-system-icons",
+    "https://github.com/mozilla/pdf.js",
+    "https://github.com/tafia/calamine",
+    "https://github.com/umanwizard/libeot",
+    "https://img.shields.io/github/downloads/genspark-ai/genoffice/total",
+    "https://img.shields.io/github/license/genspark-ai/genoffice",
+    "https://img.shields.io/github/stars/genspark-ai/genoffice?style=flat",
+    "https://img.shields.io/github/v/release/genspark-ai/genoffice",
+    "https://katex.org/",
+    "https://konvajs.org/",
+    "https://mermaid.js.org/",
+    "https://opentype.js.org/",
+    "https://pdfium.googlesource.com/pdfium/",
+    "https://prosemirror.net/",
+    "https://react.dev/",
+    "https://stuk.github.io/jszip/",
+    "https://tiptap.dev/",
+    "https://www.electron.build/",
+    "https://www.electronjs.org/"
+  ],
+  "environment_variable_names": [
+    "DOCS_RENDERER_URL",
+    "HTML_RENDERER_URL",
+    "MARKDOWN_RENDERER_URL",
+    "PDF_RENDERER_URL",
+    "SHEETS_RENDERER_URL",
+    "SLIDES_RENDERER_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/genspark-ai-genoffice.json",
+  "schema_version": 1,
+  "source_repository": "genspark-ai/genoffice",
+  "source_url": "https://github.com/genspark-ai/genoffice",
+  "status": "disabled_pending_review"
+}

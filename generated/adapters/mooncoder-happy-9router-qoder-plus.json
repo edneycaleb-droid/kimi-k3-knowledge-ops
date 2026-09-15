@@ -1,0 +1,49 @@
+{
+  "categories": [
+    "api",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/MoonCoder-HAPPY/9router-qoder-plus.git",
+    "https://github.com/decolua/9router",
+    "https://registry.npmmirror.com"
+  ],
+  "environment_variable_names": [
+    "API_KEY",
+    "HEADROOM_URL",
+    "HOSTNAME",
+    "JWT_SECRET",
+    "NEXT_PUBLIC_BASE_URL",
+    "NINER_KEY",
+    "PORT",
+    "REQUIRE_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/mooncoder-happy-9router-qoder-plus.json",
+  "schema_version": 1,
+  "source_repository": "MoonCoder-HAPPY/9router-qoder-plus",
+  "source_url": "https://github.com/MoonCoder-HAPPY/9router-qoder-plus",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://bolt.diy",
+    "https://git-scm.com/downloads",
+    "https://github.com/stackblitz-labs/bolt.diy.git",
+    "https://github.com/stackblitz-labs/bolt.diy/releases/latest",
+    "https://img.shields.io/github/v/release/stackblitz-labs/bolt.diy?label=Download%20Bolt&sort=semver",
+    "https://nodejs.org/en/download/",
+    "https://roadmap.sh/r/ottodev-roadmap-2ovzo",
+    "https://stackblitz-labs.github.io/bolt.diy/",
+    "https://studio.ottomator.ai/",
+    "https://thinktank.ottomator.ai",
+    "https://thinktank.ottomator.ai/t/videos-tutorial-helpful-content/3243",
+    "https://webcontainers.io/enterprise",
+    "https://www.docker.com/",
+    "https://www.youtube.com/@ColeMedin"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "HOST",
+    "LMSTUDIO_BASE_URL",
+    "OLLAMA_BASE_URL",
+    "OPENAI_API_KEY",
+    "PORT",
+    "URL",
+    "VITE_PUBLIC_APP_URL",
+    "VITE_SUPABASE_ANON_KEY",
+    "VITE_SUPABASE_URL",
+    "VITE_TOSS_CLIENT_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/byoungju-web-coverfo.json",
+  "schema_version": 1,
+  "source_repository": "byoungju-web/coverfo",
+  "source_url": "https://github.com/byoungju-web/coverfo",
+  "status": "disabled_pending_review"
+}

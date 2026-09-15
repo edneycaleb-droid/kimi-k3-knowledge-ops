@@ -5,12 +5,12 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-30T13:12:05.409858Z",
+  "fetched_at": "2026-09-15T13:28:09.108019Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "8b866cbfe30c05cc744c73e58e5b523456f15b804d1555e269ed47b0bcca2f12",
+  "metadata_digest": "29ac3b82b3c56534e4dd0e09e92c808a21fb6d4322d429e44626f6a947d689d6",
   "sampled_file_digests": {
     "LICENSE": "1e9e1a5a240647a5e97f097661b76b9e73dd2d0e87b13b484a4f933791c57d99",
-    "README.md": "f4772a26616a7b17cffc4a36bb7882e0b5f87ae46eb82c14d23542ebc3b08433"
+    "README.md": "74de67a60de1bf9aa29323a5c93575bb9e2e71620abc70f8822b8cb974c8af1a"
   },
   "source_query": "topic:mcp-server language:python stars:>10"
 }

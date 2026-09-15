@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/Gityanzu/zhizhi-agent",
+  "canonical_repository": "Gityanzu/zhizhi-agent",
+  "canonical_url": "https://github.com/Gityanzu/zhizhi-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:28:05.018413Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "680ad6e0ada62ad6f5d587f0df84a05e932106a58823f12220945eb417682d4b",
+  "sampled_file_digests": {
+    "README.md": "9a31783794fd65c8b59948e077a4318a511edd7a9ebf10ae64cb8bfd40f88b8c"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

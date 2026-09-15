@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/hackingyseguridad/ialocal",
+  "canonical_repository": "hackingyseguridad/ialocal",
+  "canonical_url": "https://github.com/hackingyseguridad/ialocal",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:54.473070Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "83946dc3b5d6575325ac3c0844ae6fe4ce1bb0f1635eec63ca32a23ea9e3ebc3",
+  "sampled_file_digests": {
+    "LICENSE": "7f7db6f48ad392a255ffa98a09f718f611d19af0075adab4660661e05f184cc2",
+    "README.md": "701a6b71c8e71f8e0e3212c12b981ff178ab080c2ae8d53d450d5657ab086bbb"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

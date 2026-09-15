@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/KyleBoyer/vOOM",
+  "canonical_repository": "KyleBoyer/vOOM",
+  "canonical_url": "https://github.com/KyleBoyer/vOOM",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:33.146583Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ef5937a31ccae5f3bc6d1be1543c2cbfd476331c02c1c3362a3f83edb83272ad",
+  "sampled_file_digests": {
+    "README.md": "f00f21d6a352618dc536e3d3b5d885da64a5a517a4345d0fcbc0d72c89fec75f"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

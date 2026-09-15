@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/MoonCoder-HAPPY/9router-qoder-plus",
+  "canonical_repository": "MoonCoder-HAPPY/9router-qoder-plus",
+  "canonical_url": "https://github.com/MoonCoder-HAPPY/9router-qoder-plus",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:37.752500Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "95a37d594286d5d0422e60ae179f2ea45e685ed31da41e6f8d8a67b9bb2f85e3",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "778ae290062d7f52727a82678b436c129d5745001220fa4610bbb993d25c19f7",
+    "Dockerfile": "1b8838bbffcec72d969497e31207b62a274595d00cc945b142f9cacb8b39f6c7",
+    "LICENSE": "2e51fac8d7c32794775e690e2f6af5ebe846cf7ddf6fdd8877d3e03b9656d92c",
+    "README.md": "d8d4873e8a9ab8d64db6999a1d7cc4e442f5c5115bb414855020806ce9fed4ec",
+    "docker-compose.yml": "bfa7cc67b222a49874a994e7a35ea76f192a214d72978609acccc2d3be26a6cc",
+    "package.json": "25623ef58da79f0de12b2b344e0066abb394e00c47f0f508d71673fb3b085fad"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

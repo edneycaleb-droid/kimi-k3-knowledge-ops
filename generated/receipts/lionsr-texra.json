@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/LionSR/TeXRA",
+  "canonical_repository": "LionSR/TeXRA",
+  "canonical_url": "https://github.com/LionSR/TeXRA",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-15T13:27:52.448982Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b69eaa34500704af3c15f537f04a413c9c667fbc0ff5a10060aa071bf5bc60c1",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "d30fc8be98a710e824cb49ce61326641185075910e1ed6a45b9c7312e3134261",
+    "LICENSE": "c708b960f316dcda647cd8a4a3dc575e774aa060507d7bbf5ba286747e135121",
+    "README.md": "0acefa7dc7fe853b10ca846a4f7ca498fa938ae9e4ed1f2383ecc6e5d49837dd",
+    "package.json": "0d6da7e4e13a1c7b8ceb192843e6c55033833480b167bd654ca02e9e6cd9955c"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

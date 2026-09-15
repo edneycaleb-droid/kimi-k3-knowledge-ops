@@ -2,12 +2,12 @@
 
 ## Decision
 
-**REVIEW** — quality 75/100; bounded learning adjustment +0.
+**REVIEW** — quality 77/100; bounded learning adjustment +0.
 
 ## Source
 
 - Repository: https://github.com/kdcube/kdcube
-- Categories: api, mcp_server, memory, plugin, tool, workflow
+- Categories: agent, api, mcp_server, memory, plugin, tool, workflow
 - License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
@@ -17,13 +17,13 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10629
+- documentation: **10/10** — README length 18396
 - license: **10/10** — SPDX MIT
 - testing: **4/10** — Test/CI signal in sampled metadata
 - security: **10/10** — 0 critical, 0 high findings
-- interoperability: **5/10** — Compatibility target matches
+- interoperability: **7/10** — Compatibility target matches
 - reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 13 stars
+- adoption: **4/10** — 25 stars
 
 ## Static security review
 
