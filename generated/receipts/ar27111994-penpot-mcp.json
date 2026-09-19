@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ar27111994/penpot-mcp",
+  "canonical_repository": "ar27111994/penpot-mcp",
+  "canonical_url": "https://github.com/ar27111994/penpot-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:58:02.650504Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fabc1f20c29c9cc52212e28e3d3afc359bfddd4968e9600b3c3e5e3028546a84",
+  "sampled_file_digests": {
+    "LICENSE": "d2bf091aa01cbe3c82a59a5ec2b3b6f375e4a160e1c4ca236f3f5a927aa50450",
+    "README.md": "8b8e69f7e093aba78e53da465a9d751a20b9768ac62f0d46f33b934b7ebccead",
+    "package.json": "788acf253484e36a4f86699eb2a275d804228638a7191c8c31be19e42632b111"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

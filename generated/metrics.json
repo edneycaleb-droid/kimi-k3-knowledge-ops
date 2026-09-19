@@ -37,10 +37,9 @@
     }
   },
   "decisions": {
-    "blocked": 6,
-    "candidate": 6,
-    "rejected": 4,
-    "review": 13
+    "blocked": 8,
+    "candidate": 5,
+    "review": 16
   },
   "safety": {
     "auto_merged": false,

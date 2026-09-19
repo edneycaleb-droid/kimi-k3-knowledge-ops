@@ -1,0 +1,39 @@
+{
+  "categories": [
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://app.codspeed.io/samzong/Recall?utm_source=badge",
+    "https://asciinema.org/a/909453",
+    "https://code.kimi.com/kimi-code/install.ps1",
+    "https://github.com/asg017/sqlite-vec",
+    "https://github.com/crossterm-rs/crossterm",
+    "https://github.com/huggingface/candle",
+    "https://github.com/junhoyeo/tokscale",
+    "https://github.com/ratatui/ratatui",
+    "https://github.com/samzong/kitup",
+    "https://huggingface.co/intfloat/multilingual-e5-small",
+    "https://img.shields.io/endpoint?url=https://codspeed.io/badge.json",
+    "https://linux.do/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/samzong-recall.json",
+  "schema_version": 1,
+  "source_repository": "samzong/Recall",
+  "source_url": "https://github.com/samzong/Recall",
+  "status": "disabled_pending_review"
+}

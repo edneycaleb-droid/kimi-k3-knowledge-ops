@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/sgoel2be24-cyber/mutant",
+  "canonical_repository": "sgoel2be24-cyber/mutant",
+  "canonical_url": "https://github.com/sgoel2be24-cyber/mutant",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:56:55.474456Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d3010065cb6625b327cb8ef69b9434df5693da92f051cc24c1f5544721a2d824",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b7ba0d5a3897fd1e9984d3b821177ce52834baf06d771849b66c02c908221afa",
+    "LICENSE": "a18580c139080a1fd6f66669ca15c007db0a7cbaa348652ceaf74d678e76af28",
+    "README.md": "df3922347db2c938e1aea73855fdced0a6fdd6f3db66af230cdeed675e6a6198",
+    "package.json": "afabd292e9c9d96b75a9b0ee4f8937eccab4e8ac83994ee11906b2afea31f27d"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

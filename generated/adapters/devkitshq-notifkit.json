@@ -1,0 +1,79 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/devkitshq/notifkit.git",
+    "https://github.com/devkitshq/notifkit/actions/workflows/ci.yml",
+    "https://github.com/devkitshq/notifkit/issues",
+    "https://github.com/user-attachments/assets/4dff98bb-37d3-44b4-bf46-9607c1cd89b5",
+    "https://img.shields.io/badge/TypeScript-5.0+-3178c6.svg?style=flat-square",
+    "https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square",
+    "https://img.shields.io/badge/node-%3E%3D22.0.0-339933.svg?style=flat-square",
+    "https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/devkitshq/notifkit/badges/coverage.json&style=flat-square",
+    "https://img.shields.io/npm/dm/notifkit.svg?style=flat-square&color=6366f1",
+    "https://img.shields.io/npm/v/notifkit.svg?style=flat-square&color=6366f1",
+    "https://nodejs.org",
+    "https://notifkit.dev",
+    "https://notifkit.dev/docs/",
+    "https://notifkit.dev/docs/architecture.html",
+    "https://notifkit.dev/docs/concepts.html",
+    "https://notifkit.dev/docs/deployment.html",
+    "https://notifkit.dev/docs/examples.html",
+    "https://notifkit.dev/docs/guides/preferences.html",
+    "https://notifkit.dev/docs/guides/routing.html",
+    "https://notifkit.dev/docs/guides/segments.html",
+    "https://notifkit.dev/docs/guides/templates.html",
+    "https://notifkit.dev/docs/guides/workflows.html",
+    "https://notifkit.dev/docs/mcp.html",
+    "https://notifkit.dev/docs/operations.html",
+    "https://notifkit.dev/docs/quickstart.html",
+    "https://notifkit.dev/docs/reference.html",
+    "https://notifkit.dev/llms-full.txt",
+    "https://www.npmjs.com/package/notifkit",
+    "https://www.typescriptlang.org/",
+    "https://x-access-token:$"
+  ],
+  "environment_variable_names": [
+    "ADMIN_API_KEY",
+    "DATABASE_URL",
+    "GH_TOKEN",
+    "GITHUB_TOKEN",
+    "NOTIFKIT_API_KEY",
+    "NOTIFKIT_URL",
+    "REDIS_URL",
+    "RESEND_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/devkitshq-notifkit.json",
+  "schema_version": 1,
+  "source_repository": "devkitshq/notifkit",
+  "source_url": "https://github.com/devkitshq/notifkit",
+  "status": "disabled_pending_review"
+}

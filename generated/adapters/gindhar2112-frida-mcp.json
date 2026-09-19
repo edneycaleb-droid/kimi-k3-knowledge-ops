@@ -1,0 +1,51 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Gindhar2112/frida-mcp/raw/refs/heads/main/src/mcp_frida_v3.6.zip",
+    "https://img.shields.io/badge/Download-frida--mcp-4c9aff?style=for-the-badge&logo=github",
+    "https://img.shields.io/badge/Download-frida--mcp-brightgreen?style=for-the-badge&logo=github",
+    "https://img.shields.io/badge/Get%20frida--mcp-blueviolet?style=for-the-badge&logo=github"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "frida-agent": {
+          "command": "frida-mcp"
+        },
+        "ida-pro-mcp": {
+          "args": [
+            "/Volumes/Realtek/project/idapython/ida-pro-mcp/src/ida_pro_mcp/server.py"
+          ],
+          "command": "/opt/homebrew/opt/python@3.11/bin/python3.11"
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/gindhar2112-frida-mcp.json",
+  "schema_version": 1,
+  "source_repository": "Gindhar2112/frida-mcp",
+  "source_url": "https://github.com/Gindhar2112/frida-mcp",
+  "status": "disabled_pending_review"
+}

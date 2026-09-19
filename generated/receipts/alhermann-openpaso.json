@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/alhermann/openPASO",
+  "canonical_repository": "alhermann/openPASO",
+  "canonical_url": "https://github.com/alhermann/openPASO",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:33.237933Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "41ff09ce91a0b42b17fb9b2470adeeb84cb8be88256d15b18392a07e264c73f6",
+  "sampled_file_digests": {
+    "LICENSE": "32f8f9837bbfa0b020b06d38795d11c26484b6e15dd19cecf193862066873d6f",
+    "README.md": "ccf0963a267c8d7958db73b418439bc022dd9e1dd78c11e545ecabeaa74e9ef0",
+    "pyproject.toml": "6f48e499fac33bbfa6a1cf9dfba657a5c739662ff122d685760adcdb4a23292f"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

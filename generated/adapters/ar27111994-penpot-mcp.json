@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://community.penpot.app/t/penpot-mcp-skill/10599",
+    "https://doc.plugins.penpot.app",
+    "https://github.com/ar27111994/penpot-mcp",
+    "https://github.com/ar27111994/penpot-mcp#readme",
+    "https://github.com/ar27111994/penpot-mcp/actions/workflows/validate.yml",
+    "https://github.com/ar27111994/penpot-mcp/actions/workflows/validate.yml/badge.svg",
+    "https://github.com/ar27111994/penpot-mcp/issues",
+    "https://github.com/ar27111994/penpot-mcp/stargazers",
+    "https://github.com/github/awesome-copilot/tree/main/skills/penpot-uiux-design",
+    "https://help.penpot.app/mcp/",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/badge/npx_skills_add-ar27111994%2Fpenpot--mcp-8B5CF6",
+    "https://img.shields.io/github/package-json/v/ar27111994/penpot-mcp?label=version",
+    "https://img.shields.io/github/stars/ar27111994/penpot-mcp?style=flat&logo=github",
+    "https://penpot.app",
+    "https://skills.sh/ar27111994/penpot-mcp",
+    "https://skills.sh/b/ar27111994/penpot-mcp"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ar27111994-penpot-mcp.json",
+  "schema_version": 1,
+  "source_repository": "ar27111994/penpot-mcp",
+  "source_url": "https://github.com/ar27111994/penpot-mcp",
+  "status": "disabled_pending_review"
+}

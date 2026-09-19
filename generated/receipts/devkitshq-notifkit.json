@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/devkitshq/notifkit",
+  "canonical_repository": "devkitshq/notifkit",
+  "canonical_url": "https://github.com/devkitshq/notifkit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:53.684830Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "09a0ae50abe2a1c4a46528dbf3aba9a8cfdf48d8e4af490e2dd6657977ab4796",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3c227fc20aa17e614163d24155afbe7cd8ec032491f2f6a8f3a1aa99f68d66d5",
+    "LICENSE": "dc6521a47262a911efd747cbedb7612a96c20a071aef82000dc1b709ced1de4d",
+    "README.md": "d66603934205272cd65910e7c4b6603ec686b4ccbc07382c259b50b479ceeb9b",
+    "package.json": "57b2454a7af988eb147e116b71c2ca082137cfa8fe063787d1be0cfa156eaea8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

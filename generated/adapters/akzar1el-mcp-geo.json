@@ -1,0 +1,626 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://YOUR-WORKER-NAME.YOUR-SUBDOMAIN.workers.dev/healthz",
+    "https://YOUR-WORKER-NAME.YOUR-SUBDOMAIN.workers.dev/mcp",
+    "https://aistudio.google.com/app/apikey",
+    "https://console.anthropic.com/",
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/en/install-mcp?name=digestseo&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBkaWdlc3RzZW8vbWNwLWdlbyJdLCJlbnYiOnsiT1BFTkFJX0FQSV9LRVkiOiIiLCJBTlRIUk9QSUNfQVBJX0tFWSI6IiIsIkdFTUlOSV9BUElfS0VZIjoiIiwiUEVSUExFWElUWV9BUElfS0VZIjoiIiwiU0VSUEFQSV9BUElfS0VZIjoiIn19",
+    "https://developers.openai.com/api/docs/pricing",
+    "https://digestseo-mcp.YOUR-SUBDOMAIN.workers.dev",
+    "https://digestseo.com",
+    "https://digestseo.com/#waitlist",
+    "https://digestseo.com/geo-mcp/",
+    "https://digestseo.com/products/mcp-geo-mark.svg",
+    "https://geo-mcp.digestseo.com/audit",
+    "https://geo-mcp.digestseo.com/privacy",
+    "https://github.com/AKzar1el/mcp-geo",
+    "https://github.com/AKzar1el/mcp-geo.git",
+    "https://github.com/AKzar1el/mcp-geo/actions/workflows/ci.yml",
+    "https://github.com/AKzar1el/mcp-geo/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/AKzar1el/mcp-geo/issues",
+    "https://github.com/AKzar1el/mcp-geo/releases/latest",
+    "https://github.com/AKzar1el/mcp-geo/stargazers",
+    "https://glama.ai/mcp/servers/AKzar1el/mcp-geo",
+    "https://glama.ai/mcp/servers/AKzar1el/mcp-geo/badges/score.svg",
+    "https://img.shields.io/badge/AI_Visibility_Audit-EUR_99-2ea44f",
+    "https://img.shields.io/badge/Cloudflare-Workers-F38020?logo=cloudflare&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-Server-blueviolet",
+    "https://img.shields.io/badge/MCP_Registry-io.github.AKzar1el%2Fmcp--geo-0098FF",
+    "https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white",
+    "https://img.shields.io/github/stars/AKzar1el/mcp-geo?style=social",
+    "https://img.shields.io/npm/v/%40digestseo%2Fmcp-geo",
+    "https://lmstudio.ai/install-mcp?name=digestseo&config=eyJjb21tYW5kIjoibnB4IiwiYXJncyI6WyIteSIsIkBkaWdlc3RzZW8vbWNwLWdlbyJdfQ%3D%3D",
+    "https://modelcontextprotocol.io/",
+    "https://platform.openai.com/api-keys",
+    "https://registry.modelcontextprotocol.io/v0.1/servers?search=io.github.AKzar1el/mcp-geo",
+    "https://serpapi.com/dashboard",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://tomiseregi.si",
+    "https://tomiseregi.si/projects/digestseo-mcp-suite",
+    "https://workers.cloudflare.com/"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "CONNECT_SECRET",
+    "GEMINI_API_KEY",
+    "KEY",
+    "OPENAI_API_KEY",
+    "PERPLEXITY_API_KEY",
+    "SEED_SECRET",
+    "SERPAPI_API_KEY",
+    "TURNSTILE_SECRET_KEY",
+    "TURNSTILE_SITE_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "digestseo-geo": {
+          "args": [
+            "-y",
+            "@digestseo/mcp-geo"
+          ],
+          "command": "npx"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "license": "MIT",
+          "notes": "Two deploy modes: run locally via `npx -y @digestseo/mcp-geo` (SQLite at ~/.digestseo, bring your own engine API keys), or self-host the Cloudflare Worker (D1 + cron auto-refresh; see SETUP.md or llms-install.md) and connect to your Worker URL at /mcp. Engines are opt-in: each of the five engines activates only when its API key is set.",
+          "tags": [
+            "geo",
+            "aeo",
+            "ai-visibility",
+            "generative-engine-optimization",
+            "seo",
+            "cloudflare-workers",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "gemini",
+            "google-ai-overviews"
+          ]
+        }
+      },
+      "description": "Track brand citations across five AI search engines. Free OSS; optional EUR 99 client-ready audit.",
+      "icons": [
+        {
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ],
+          "src": "https://digestseo.com/products/mcp-geo-mark.svg"
+        }
+      ],
+      "name": "io.github.AKzar1el/mcp-geo",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Optional OpenAI API key for ChatGPT visibility scans. Configure at least one provider key to run scans.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "OPENAI_API_KEY"
+            },
+            {
+              "description": "Optional Anthropic API key for Claude scans, prompt generation, and content-gap analysis.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "ANTHROPIC_API_KEY"
+            },
+            {
+              "description": "Optional Google AI Studio API key for Gemini visibility scans.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            },
+            {
+              "description": "Optional Perplexity API key for Perplexity visibility scans.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "PERPLEXITY_API_KEY"
+            },
+            {
+              "description": "Optional SerpAPI key for Google AI Overviews visibility scans.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "SERPAPI_API_KEY"
+            }
+          ],
+          "identifier": "@digestseo/mcp-geo",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.3.10"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/AKzar1el/mcp-geo"
+      },
+      "title": "GEO Tracker by DigestSEO",
+      "tools": [
+        {
+          "description": "Get the latest AI visibility data for a tracked brand: which AI assistants (ChatGPT, Claude, Perplexity, Gemini, Google AI Overviews) cite this brand, for which prompts, and how it compares to competitors. Use when the user asks 'how visible am I on AI?', 'who's citing my brand?', or 'show me my AI visibility score'. Returns stored data \u2014 for fresh data, call refresh_brand.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "engines": {
+                  "def": {
+                    "innerType": {
+                      "def": {
+                        "element": {
+                          "def": {
+                            "entries": {
+                              "ai_overviews": "ai_overviews",
+                              "chatgpt": "chatgpt",
+                              "claude": "claude",
+                              "gemini": "gemini",
+                              "perplexity": "perplexity"
+                            },
+                            "type": "enum"
+                          },
+                          "enum": {
+                            "ai_overviews": "ai_overviews",
+                            "chatgpt": "chatgpt",
+                            "claude": "claude",
+                            "gemini": "gemini",
+                            "perplexity": "perplexity"
+                          },
+                          "options": [
+                            "chatgpt",
+                            "claude",
+                            "perplexity",
+                            "gemini",
+                            "ai_overviews"
+                          ],
+                          "type": "enum"
+                        },
+                        "type": "array"
+                      },
+                      "element": {
+                        "def": {
+                          "entries": {
+                            "ai_overviews": "ai_overviews",
+                            "chatgpt": "chatgpt",
+                            "claude": "claude",
+                            "gemini": "gemini",
+                            "perplexity": "perplexity"
+                          },
+                          "type": "enum"
+                        },
+                        "enum": {
+                          "ai_overviews": "ai_overviews",
+                          "chatgpt": "chatgpt",
+                          "claude": "claude",
+                          "gemini": "gemini",
+                          "perplexity": "perplexity"
+                        },
+                        "options": [
+                          "chatgpt",
+                          "claude",
+                          "perplexity",
+                          "gemini",
+                          "ai_overviews"
+                        ],
+                        "type": "enum"
+                      },
+                      "type": "array"
+                    },
+                    "type": "optional"
+                  },
+                  "type": "optional"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "check_visibility"
+        },
+        {
+          "description": "Get the time-series history of a brand's AI visibility score, broken down per engine. Use when the user asks 'how has my AI visibility changed over time?', 'is my visibility growing or shrinking?', or 'show me the trend for the last month'.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "days": {
+                  "def": {
+                    "defaultValue": 30,
+                    "innerType": {
+                      "def": {
+                        "checks": [
+                          {},
+                          {}
+                        ],
+                        "type": "number"
+                      },
+                      "format": null,
+                      "isFinite": true,
+                      "isInt": false,
+                      "maxValue": 365,
+                      "minValue": 1,
+                      "type": "number"
+                    },
+                    "type": "default"
+                  },
+                  "type": "default"
+                },
+                "granularity": {
+                  "def": {
+                    "defaultValue": "weekly",
+                    "innerType": {
+                      "def": {
+                        "entries": {
+                          "daily": "daily",
+                          "weekly": "weekly"
+                        },
+                        "type": "enum"
+                      },
+                      "enum": {
+                        "daily": "daily",
+                        "weekly": "weekly"
+                      },
+                      "options": [
+                        "daily",
+                        "weekly"
+                      ],
+                      "type": "enum"
+                    },
+                    "type": "default"
+                  },
+                  "type": "default"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "get_visibility_history"
+        },
+        {
+          "description": "Compare a brand's AI visibility against competitors for the same category. Returns share-of-voice percentages, prompts the user wins, and prompts where competitors win. Use when the user asks 'who beats me in AI search?', 'compare me to my competitors', or 'why does [competitor] get cited more?'.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "competitor_domains": {
+                  "def": {
+                    "innerType": {
+                      "def": {
+                        "element": {
+                          "def": {
+                            "type": "string"
+                          },
+                          "format": null,
+                          "maxLength": null,
+                          "minLength": null,
+                          "type": "string"
+                        },
+                        "type": "array"
+                      },
+                      "element": {
+                        "def": {
+                          "type": "string"
+                        },
+                        "format": null,
+                        "maxLength": null,
+                        "minLength": null,
+                        "type": "string"
+                      },
+                      "type": "array"
+                    },
+                    "type": "optional"
+                  },
+                  "type": "optional"
+                },
+                "days": {
+                  "def": {
+                    "defaultValue": 7,
+                    "innerType": {
+                      "def": {
+                        "checks": [
+                          {},
+                          {}
+                        ],
+                        "type": "number"
+                      },
+                      "format": null,
+                      "isFinite": true,
+                      "isInt": false,
+                      "maxValue": 90,
+                      "minValue": 1,
+                      "type": "number"
+                    },
+                    "type": "default"
+                  },
+                  "type": "default"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "compare_competitors"
+        },
+        {
+          "description": "Get citation events where AI assistants mention the brand. Each event includes the prompt that triggered it, the LLM's response excerpt, whether the brand was mentioned with or without a link, and the matched brand URL from engine-native citation data when available. Use when the user asks 'show me where I'm cited', 'what are ChatGPT/Claude/Perplexity actually saying about my brand?', or 'give me proof of AI citations'.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "days": {
+                  "def": {
+                    "defaultValue": 14,
+                    "innerType": {
+                      "def": {
+                        "checks": [
+                          {},
+                          {}
+                        ],
+                        "type": "number"
+                      },
+                      "format": null,
+                      "isFinite": true,
+                      "isInt": false,
+                      "maxValue": 90,
+                      "minValue": 1,
+                      "type": "number"
+                    },
+                    "type": "default"
+                  },
+                  "type": "default"
+                },
+                "engine": {
+                  "def": {
+                    "innerType": {
+                      "def": {
+                        "entries": {
+                          "ai_overviews": "ai_overviews",
+                          "chatgpt": "chatgpt",
+                          "claude": "claude",
+                          "gemini": "gemini",
+                          "perplexity": "perplexity"
+                        },
+                        "type": "enum"
+                      },
+                      "enum": {
+                        "ai_overviews": "ai_overviews",
+                        "chatgpt": "chatgpt",
+                        "claude": "claude",
+                        "gemini": "gemini",
+                        "perplexity": "perplexity"
+                      },
+                      "options": [
+                        "chatgpt",
+                        "claude",
+                        "perplexity",
+                        "gemini",
+                        "ai_overviews"
+                      ],
+                      "type": "enum"
+                    },
+                    "type": "optional"
+                  },
+                  "type": "optional"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "get_citations"
+        },
+        {
+          "description": "Get actionable content recommendations based on AI visibility gaps. Returns prioritized topics and content formats that would close the gap between this brand and competitors winning the same prompts. Use when the user asks 'what should I write to improve AI visibility?', 'what content gaps do I have?', or 'how do I get cited more by AI?'.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "max_recommendations": {
+                  "def": {
+                    "defaultValue": 5,
+                    "innerType": {
+                      "def": {
+                        "checks": [
+                          {},
+                          {}
+                        ],
+                        "type": "number"
+                      },
+                      "format": null,
+                      "isFinite": true,
+                      "isInt": false,
+                      "maxValue": 10,
+                      "minValue": 1,
+                      "type": "number"
+                    },
+                    "type": "default"
+                  },
+                  "type": "default"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "get_content_gaps"
+        },
+        {
+          "description": "Manually trigger a fresh AI visibility scan for a tracked brand. The hosted Worker returns immediately with run IDs while selected engine scans finish asynchronously; the local CLI runs selected configured engines sequentially and returns only after they finish. Use when the user asks 'refresh my data', 'rerun the scan', or 'I want fresh data right now'.",
+          "inputSchema": {
+            "def": {
+              "shape": {
+                "brand_id": {
+                  "def": {
+                    "type": "string"
+                  },
+                  "format": null,
+                  "maxLength": null,
+                  "minLength": null,
+                  "type": "string"
+                },
+                "engines": {
+                  "def": {
+                    "innerType": {
+                      "def": {
+                        "element": {
+                          "def": {
+                            "entries": {
+                              "ai_overviews": "ai_overviews",
+                              "chatgpt": "chatgpt",
+                              "claude": "claude",
+                              "gemini": "gemini",
+                              "perplexity": "perplexity"
+                            },
+                            "type": "enum"
+                          },
+                          "enum": {
+                            "ai_overviews": "ai_overviews",
+                            "chatgpt": "chatgpt",
+                            "claude": "claude",
+                            "gemini": "gemini",
+                            "perplexity": "perplexity"
+                          },
+                          "options": [
+                            "chatgpt",
+                            "claude",
+                            "perplexity",
+                            "gemini",
+                            "ai_overviews"
+                          ],
+                          "type": "enum"
+                        },
+                        "type": "array"
+                      },
+                      "element": {
+                        "def": {
+                          "entries": {
+                            "ai_overviews": "ai_overviews",
+                            "chatgpt": "chatgpt",
+                            "claude": "claude",
+                            "gemini": "gemini",
+                            "perplexity": "perplexity"
+                          },
+                          "type": "enum"
+                        },
+                        "enum": {
+                          "ai_overviews": "ai_overviews",
+                          "chatgpt": "chatgpt",
+                          "claude": "claude",
+                          "gemini": "gemini",
+                          "perplexity": "perplexity"
+                        },
+                        "options": [
+                          "chatgpt",
+                          "claude",
+                          "perplexity",
+                          "gemini",
+                          "ai_overviews"
+                        ],
+                        "type": "enum"
+                      },
+                      "type": "array"
+                    },
+                    "type": "optional"
+                  },
+                  "type": "optional"
+                }
+              },
+              "type": "object"
+            },
+            "type": "object"
+          },
+          "name": "refresh_brand"
+        }
+      ],
+      "version": "0.3.10",
+      "websiteUrl": "https://digestseo.com/geo-mcp/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/akzar1el-mcp-geo.json",
+  "schema_version": 1,
+  "source_repository": "AKzar1el/mcp-geo",
+  "source_url": "https://github.com/AKzar1el/mcp-geo",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/dgrieser/ai-bench",
+  "canonical_repository": "dgrieser/ai-bench",
+  "canonical_url": "https://github.com/dgrieser/ai-bench",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:01.478348Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fb4e25b830576d41ef7c4dae88a0ae4163b6f89f63f31dbb5fd3f960d4fd83f7",
+  "sampled_file_digests": {
+    "README.md": "2bd34848f0c15bdda03551dd9c9f4974f1fa08e9c54c4d1f4f430d281035259b",
+    "requirements.txt": "db99e91e6c89028a2348c34ff0498271c5466b03e6baa01a714f2d069a77c3af"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
