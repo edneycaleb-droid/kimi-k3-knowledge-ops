@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://",
+    "https://artificialanalysis.ai/data-api/migrate-v2-data",
+    "https://benchlm.ai/benchmarks/deepSwe",
+    "https://cognition.com/blog/frontier-code-1.1",
+    "https://dgrieser.github.io/ai-bench/",
+    "https://en.wikipedia.org/wiki/Bradley%E2%80%93Terry_model",
+    "https://en.wikipedia.org/wiki/Regression_toward_the_mean",
+    "https://example.com/leaderboard",
+    "https://github.com/dgrieser/ai-bench#coding-index",
+    "https://github.com/dgrieser/ai-bench#knowledge-index",
+    "https://github.com/dgrieser/ai-bench#tooling-index",
+    "https://github.com/dgrieser/ai-bench#trust-index",
+    "https://github.com/dgrieser/ai-bench#vision-index",
+    "https://huggingface.co/mistralai/Devstral-2-123B-Instruct-2512",
+    "https://mistral.ai/",
+    "https://programbench.com/#faq-metrics",
+    "https://programbench.com/extended/",
+    "https://www.mittwald.de/mstudio/ai-dedicated-hosting",
+    "https://www.tbench.ai/leaderboard/terminal-bench/4.0"
+  ],
+  "environment_variable_names": [
+    "ARTIFICIAL_ANALYSIS_API_KEY",
+    "HOSTING_PRESETS",
+    "HOSTING_PRESET_GPU",
+    "HOSTING_PRESET_VENDOR",
+    "LEADERBOARD_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/dgrieser-ai-bench.json",
+  "schema_version": 1,
+  "source_repository": "dgrieser/ai-bench",
+  "source_url": "https://github.com/dgrieser/ai-bench",
+  "status": "disabled_pending_review"
+}

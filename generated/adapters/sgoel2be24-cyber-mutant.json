@@ -1,0 +1,40 @@
+{
+  "categories": [
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/sgoel2be24-cyber/mutant/actions/workflows/ci.yml",
+    "https://github.com/sgoel2be24-cyber/mutant/actions/workflows/ci.yml/badge.svg",
+    "https://mutant-omega.vercel.app",
+    "https://mutant-omega.vercel.app/api/badge?state=eyJjb2RlIjogImZ1bmN0aW9uIGdzdFJhdGUoYW1vdW50KSB7XG4gIGlmIChhbW91bnQgPCAxMDAwKSByZXR1cm4gMDtcbiAgaWYgKGFtb3VudCA8PSA1MDAwKSByZXR1cm4gNTtcbiAgaWYgKGFtb3VudCA-IDUwMDAwKSByZXR1cm4gMjg7XG4gIHJldHVybiAxODtcbn0iLCAidGVzdHMiOiBbImdzdFJhdGUoMjAwMDApID09PSAxOCJdLCAiZXhhbXBsZUlkIjogImdzdCIsICJzY29yZVBlcmNlbnQiOiAzNX0"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/sgoel2be24-cyber-mutant.json",
+  "schema_version": 1,
+  "source_repository": "sgoel2be24-cyber/mutant",
+  "source_url": "https://github.com/sgoel2be24-cyber/mutant",
+  "status": "disabled_pending_review"
+}

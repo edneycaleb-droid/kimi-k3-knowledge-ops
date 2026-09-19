@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Gindhar2112/frida-mcp",
+  "canonical_repository": "Gindhar2112/frida-mcp",
+  "canonical_url": "https://github.com/Gindhar2112/frida-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:41.330017Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "aec70331a7dbe1eadb5469b1c8916bec4a47132d0cf7177ffa60f03b714d068a",
+  "sampled_file_digests": {
+    ".mcp.json": "14a5b06f87d8ef2ac932d44d7bef48245e3b464e4ab73acd0762d2ab90aa2747",
+    "README.md": "4c0c57a44ba5fe188bc154ef1fba927e97c678570c8e8d79195b4f5a853b1758",
+    "pyproject.toml": "ad3f0e9ac33f84f5429a45a933cfee77fb5b2831b2095e1f4d4fd52e0045c3f6"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "mcp_server"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://account.minashin1120.com",
+    "https://chat.example.com",
+    "https://chat.example.com/api/version",
+    "https://chat.example.com/login/google/callback",
+    "https://chat.example.com/signup",
+    "https://github.com/Minashin1120/ai-playground.git",
+    "https://img.shields.io/badge/Python-3.11-3776ab",
+    "https://img.shields.io/badge/license-MIT-f59e0b",
+    "https://img.shields.io/badge/version-V4.8.1006-2563eb",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "DATABASE_URL",
+    "DEEPSEEK_API_KEY",
+    "FLASK_SECRET_KEY",
+    "GEMINI_API_KEY",
+    "GOOGLE_CLIENT_SECRET",
+    "IMPORTANT",
+    "MINASHIN_ACCOUNT_BASE_URL",
+    "MOONSHOT_API_KEY",
+    "OPENAI_API_KEY",
+    "REDIS_URL",
+    "TRUSTED_HOSTS",
+    "TURNSTILE_SECRET_KEY",
+    "TURNSTILE_SITE_KEY",
+    "XAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/minashin1120-ai-playground.json",
+  "schema_version": 1,
+  "source_repository": "Minashin1120/ai-playground",
+  "source_url": "https://github.com/Minashin1120/ai-playground",
+  "status": "disabled_pending_review"
+}

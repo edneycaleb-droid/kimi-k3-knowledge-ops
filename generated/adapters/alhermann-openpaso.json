@@ -1,0 +1,59 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://alhermann.github.io/openPASO/",
+    "https://alhermann.github.io/openPASO/contribute/",
+    "https://alhermann.github.io/openPASO/solvers/",
+    "https://alhermann.github.io/openPASO/solvers/dealii/",
+    "https://alhermann.github.io/openPASO/solvers/dune/",
+    "https://alhermann.github.io/openPASO/solvers/febio/",
+    "https://alhermann.github.io/openPASO/solvers/fenics/",
+    "https://alhermann.github.io/openPASO/solvers/fourc/",
+    "https://alhermann.github.io/openPASO/solvers/kratos/",
+    "https://alhermann.github.io/openPASO/solvers/ngsolve/",
+    "https://alhermann.github.io/openPASO/solvers/skfem/",
+    "https://alhermann.github.io/openPASO/solvers/sparta/",
+    "https://alhermann.github.io/openPASO/use/ai-app/",
+    "https://alhermann.github.io/openPASO/use/api-key/",
+    "https://doi.org/10.5281/zenodo.20543501",
+    "https://github.com/Hereon-InstituteMS/openPASO",
+    "https://github.com/alhermann/openPASO.git",
+    "https://img.shields.io/badge/DOI-10.5281%2Fzenodo.20543501-64748B?style=flat-square",
+    "https://img.shields.io/badge/docs-website-FF6B4A?style=flat-square",
+    "https://img.shields.io/badge/license-MIT-64748B?style=flat-square",
+    "https://img.shields.io/badge/python-3.10--3.13-64748B?style=flat-square",
+    "https://img.shields.io/badge/solvers-9-FF6B4A?style=flat-square",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/alhermann-openpaso.json",
+  "schema_version": 1,
+  "source_repository": "alhermann/openPASO",
+  "source_url": "https://github.com/alhermann/openPASO",
+  "status": "disabled_pending_review"
+}

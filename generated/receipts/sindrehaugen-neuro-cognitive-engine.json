@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/sindrehaugen/neuro-cognitive-engine",
+  "canonical_repository": "sindrehaugen/neuro-cognitive-engine",
+  "canonical_url": "https://github.com/sindrehaugen/neuro-cognitive-engine",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:30.148965Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "861ae1cf3f1b4a5ce90a6be38c480f5f25c72ff958b761c4db153b650f216589",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e09f265e983084b8e8774fe3b0b13470dde9023213f27463e435692977576fc8",
+    "LICENSE": "8d56b405468aad11f87ab5763f901e276e08d9646ff5c8481b1762b6b789e9ed",
+    "README.md": "17512cd3e150a53d9b96e9943ccecb57e573976875665b4bd11ce2aeb1fc7824",
+    "docker-compose.yml": "e9a7aeaa4bd15340a545e471be7bcfdc6045474cbd0629e659ea5a55ca61e092",
+    "package.json": "5a671617519da8fd7769c6aaf8ff6744d299b03d1bcfe2c89895b2fa35a40474",
+    "pyproject.toml": "89e2632d0cb29796d5d6d487c8c5db923ad41f18a273e55245c477a78831985b",
+    "requirements.txt": "64a9fdb69a3c6fb5acb2c36176eaa910696bb5a4a1c0eb4bda560dbd5c550554"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

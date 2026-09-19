@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/applicate2628/Orchestrarium",
+  "canonical_repository": "applicate2628/Orchestrarium",
+  "canonical_url": "https://github.com/applicate2628/Orchestrarium",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:27.330474Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a1a8a4570b02aae75e895c6cc9b765b2120a71de47c82ebfc24f021acdd35735",
+  "sampled_file_digests": {
+    "LICENSE": "8ea3cdf049f4e9357176cb4bd87a73ccd4b6011351c444afebaba8388525b4e3",
+    "README.md": "12bf16f05338449e22a35ab36b56c3cc7101325f56327102b473914c4895dc49"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

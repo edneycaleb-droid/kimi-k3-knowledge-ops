@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Minashin1120/ai-playground",
+  "canonical_repository": "Minashin1120/ai-playground",
+  "canonical_url": "https://github.com/Minashin1120/ai-playground",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:21.972158Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e94f0dee7fdf2f59a29a3101f247f6b188776226be06dc92f6c3f76e80d5b99b",
+  "sampled_file_digests": {
+    "LICENSE": "10a6c8d8d78e5d9bd20c9f0bd03317a99dc1657b7ea0a88efa8a7cd5bd02a560",
+    "README.md": "09a83a6f9b2a6427e6d7c9418ffddd2580c916906a623e7fdc002929897bd5e0",
+    "requirements.txt": "aea5f0554ce9f81d7283e1daa3f1470bd7cddba93376a813e9a8972e4e7084e8"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/virtualman333/XiaoWenDesktopAgent",
+  "canonical_repository": "virtualman333/XiaoWenDesktopAgent",
+  "canonical_url": "https://github.com/virtualman333/XiaoWenDesktopAgent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:24.681500Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "35491a3dba99d20c7ccd1cfc32dc6c7d76e61d292b802f5945c3105f7d7a7688",
+  "sampled_file_digests": {
+    "LICENSE": "b047bba08f048e70f8354ab5ad447f96e202a29b2233d8c02093bf960605fd80",
+    "README.md": "6bd981050bd0609678b546c474eecddd79a7547a830be297b1a3ead0a33cc9df",
+    "package.json": "7dcbeb6ff7431e5f501bf913b96fc0546c6a278ebac3471c08c83792a8314361"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

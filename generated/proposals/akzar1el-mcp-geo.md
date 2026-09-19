@@ -1,15 +1,15 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: AKzar1el/mcp-geo
 
 ## Decision
 
-**REVIEW** — quality 69/100; bounded learning adjustment +0.
+**REVIEW** — quality 81/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, mcp_server, memory, plugin, skill, tool, workflow
-- License: unverified
-- Default branch: `master`
+- Repository: https://github.com/AKzar1el/mcp-geo
+- Categories: agent, mcp_server, memory, plugin, tool, workflow
+- License: MIT
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,23 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 15494
-- license: **0/10** — SPDX missing
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **9/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 43 stars
+- documentation: **10/10** — README length 37912
+- license: **10/10** — SPDX MIT
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 3 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **4/10** — 45 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `high` `SEC006` in `server.json`: Credential or secret access
+- `high` `SEC006` in `Dockerfile`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/akzar1el-mcp-geo.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

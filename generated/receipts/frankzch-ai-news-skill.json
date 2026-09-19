@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/frankzch/ai-news-skill",
+  "canonical_repository": "frankzch/ai-news-skill",
+  "canonical_url": "https://github.com/frankzch/ai-news-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:58:06.288948Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4ae0ed98704a41f6c3a568e29de408c8efeb43e5b3cc09ed2f0d87c4e6ed7752",
+  "sampled_file_digests": {
+    "LICENSE": "54ff00fa8d98bc03023d39c9be5f7c644b84e4249708bcbcca048ee3748a4950",
+    "README.md": "6d5926f36f133f5d1995078815fc87a69776ab52e989677b4d0931e09e489d62"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

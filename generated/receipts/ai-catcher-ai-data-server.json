@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/ai-catcher/ai-data-server",
+  "canonical_repository": "ai-catcher/ai-data-server",
+  "canonical_url": "https://github.com/ai-catcher/ai-data-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:56:58.550733Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "089beace188f4e94bc7e918698318f197b608ea13e4c5a618f52a5b0a738d07d",
+  "sampled_file_digests": {
+    "README.md": "68e512c626598a9e7e511874c94581cd4ebcd944cb63a2fbce8847d300b9be6d",
+    "package.json": "de770a73bcdfd959f09201909a96cf3a369b71cf7302b43eae0d5dc1bb4b8220"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

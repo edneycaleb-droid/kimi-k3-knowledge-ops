@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/samzong/Recall",
+  "canonical_repository": "samzong/Recall",
+  "canonical_url": "https://github.com/samzong/Recall",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-19T17:57:16.376953Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0a4b3c16163d4cd3bfaead4fd7e3e4d81ec9a958cfc20a47a93bfb7edd9ec637",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "1217f3d6febd770357c73532684b411b2665e733bd19fa02aa4168fb95c99c05",
+    "LICENSE": "6f33b8ae9f6338c09adf50d21c15812931524048c7f192a6620470808a7e4125",
+    "README.md": "4c62011d1a8efaeaf09325229d4cb96fed9fbe92bb9f1ba7b20d420f711f95f4"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}
