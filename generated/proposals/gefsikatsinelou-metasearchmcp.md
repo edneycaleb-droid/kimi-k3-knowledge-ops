@@ -1,14 +1,14 @@
-# Integration proposal: netresearch/skill-repo-skill
+# Integration proposal: gefsikatsinelou/MetaSearchMCP
 
 ## Decision
 
-**REVIEW** — quality 76/100; bounded learning adjustment +0.
+**REVIEW** — quality 77/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/netresearch/skill-repo-skill
-- Categories: agent, plugin, skill, workflow
-- License: NOASSERTION
+- Repository: https://github.com/gefsikatsinelou/MetaSearchMCP
+- Categories: agent, api, mcp_server, memory, plugin, tool, workflow
+- License: MIT
 - Default branch: `main`
 - Collected via: GitHub REST API GET only
 
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 10390
-- license: **4/10** — SPDX NOASSERTION
+- documentation: **10/10** — README length 32692
+- license: **10/10** — SPDX MIT
 - testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- security: **3/10** — 0 critical, 1 high findings
 - interoperability: **7/10** — Compatibility target matches
 - reproducibility: **10/10** — Versioned dependency manifest
-- adoption: **4/10** — 21 stars
+- adoption: **6/10** — 59 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/netresearch-skill-repo-skill.json`.
+A disabled metadata adapter was generated at `generated/adapters/gefsikatsinelou-metasearchmcp.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

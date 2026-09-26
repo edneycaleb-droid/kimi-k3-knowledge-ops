@@ -5,12 +5,12 @@
   "collection_method": "GitHub REST API GET only",
   "default_branch": "main",
   "executed_upstream_code": false,
-  "fetched_at": "2026-07-27T11:37:30.452031Z",
+  "fetched_at": "2026-09-26T22:42:12.051683Z",
   "installed_upstream_dependencies": false,
-  "metadata_digest": "408ab59fd790d85e94226359a43f8ff63dcf3a311e3822da7e6b17befe859733",
+  "metadata_digest": "580154b5d5b8650ef11ab5081413f0e21c6706148600c006d2647cecf902f188",
   "sampled_file_digests": {
-    "README.md": "151717ef7651061c16dd43b25123bb150e4abf8e9b098d3cab48cc68d6aa3eb8",
-    "package.json": "ce024ac608c60b371e41b79a8b47d844c96708c2bf05a35867b41011be644019"
+    "README.md": "c1d8528e264fc6d33af7c4d51a3082b1de0a348db1ce651735007f4436f679c0",
+    "package.json": "905ceaa75b824a7c332aa3d3077189a7dcf6c34723c1ae7d7938f973628c5cce"
   },
   "source_query": "\"agent skill\" topic:ai-agent stars:>10"
 }

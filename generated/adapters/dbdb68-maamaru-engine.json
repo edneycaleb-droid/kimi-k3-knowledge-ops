@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/DbDB68/maamaru-engine",
+    "https://github.com/DbDB68/maamaru-engine.git",
+    "https://github.com/DbDB68/maamaru-engine/issues",
+    "https://github.com/DbDB68/maamaru-engine/releases",
+    "https://github.com/DbDB68/maamaru-engine/releases/latest",
+    "https://github.com/MaaXYZ/MaaFramework",
+    "https://github.com/TakWolf/fusion-pixel-font",
+    "https://github.com/r0x0r/pywebview",
+    "https://github.com/tiangolo/fastapi",
+    "https://github.com/vitejs/vite",
+    "https://github.com/vuejs/core",
+    "https://img.shields.io/badge/license-AGPL--3.0-blue",
+    "https://img.shields.io/badge/python-3.12%2B-blue",
+    "https://img.shields.io/github/stars/DbDB68/maamaru-engine?style=social",
+    "https://kenney.nl/assets/game-icons",
+    "https://www.gnu.org/licenses/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/dbdb68-maamaru-engine.json",
+  "schema_version": 1,
+  "source_repository": "DbDB68/maamaru-engine",
+  "source_url": "https://github.com/DbDB68/maamaru-engine",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/PyModel/jev-judge-mcp",
+  "canonical_repository": "PyModel/jev-judge-mcp",
+  "canonical_url": "https://github.com/PyModel/jev-judge-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:54.679467Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fcbbba4363b6eb5afb6875752a7fa8721df230198a22f95d060c8e661d03a308",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c9412679021df4e6058c0dcf693a4de821479c9ee6ecf182135e3e7aa53e240a",
+    "LICENSE": "624c2d94025e50130f96d1cb765fd466986a8878e33e101639af9be801672307",
+    "README.md": "7ba451b9930546b8b4793f89c5dbf4620c2061a0549c962597d337a24bd5d47b",
+    "pyproject.toml": "2963ad669708fbb032df286a5bbfb474bc99c0b6193cbbbaf7a08a47a712fd09"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

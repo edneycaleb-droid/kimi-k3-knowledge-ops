@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io",
+    "https://code.claude.com/docs/en/plugins",
+    "https://github.com/ComposioHQ/awesome-claude-skills",
+    "https://github.com/EveryInc/compound-engineering-plugin",
+    "https://github.com/iliaal/ai-skills",
+    "https://github.com/iliaal/codesage",
+    "https://github.com/iliaal/whetstone",
+    "https://github.com/iliaal/whetstone/releases",
+    "https://ilia.ws",
+    "https://ilia.ws/blog/ai-agents-dont-lack-capability-they-lack-process",
+    "https://img.shields.io/badge/Claude_Code-Plugin-blue?logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/Follow-@iliaa-000000?style=flat&logo=x&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/github/v/release/iliaal/whetstone",
+    "https://x.com/iliaa",
+    "https://x.com/intent/follow?screen_name=iliaa"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/iliaal-whetstone.json",
+  "schema_version": 1,
+  "source_repository": "iliaal/whetstone",
+  "source_url": "https://github.com/iliaal/whetstone",
+  "status": "disabled_pending_review"
+}

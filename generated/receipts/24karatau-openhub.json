@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/24KaratAu/openhub",
+  "canonical_repository": "24KaratAu/openhub",
+  "canonical_url": "https://github.com/24KaratAu/openhub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:42:13.862310Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7af4ff740e98e05b4ebe447b0a73514003b04b3e8ea3c9c93d48238018c5a4aa",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "aed74533570b2c6ff568380b1e827b83ba3bfe05c2db331b0a10927f69bdb3f0",
+    "LICENSE": "0fa78e7bed404c19372cd3b93d686082179245b4f5893c4523446cdb2cc09cde",
+    "README.md": "8284452b8fb99985ef2814260df0a4bb899f33899da84365f4c49c1dc3b78952",
+    "pyproject.toml": "ecb53f9bf860264375e12d904bd7936a0719f203ac761f0b7ea4cdb3aa6fbbee",
+    "requirements.txt": "6dba55fe372eeaf365ebc68e8fc71e0132b26fa77d81e1576a1ec65521652900"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

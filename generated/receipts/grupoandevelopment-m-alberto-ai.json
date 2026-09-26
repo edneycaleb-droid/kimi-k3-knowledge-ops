@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/GrupoANDevelopment-m/alberto-ai",
+  "canonical_repository": "GrupoANDevelopment-m/alberto-ai",
+  "canonical_url": "https://github.com/GrupoANDevelopment-m/alberto-ai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:27.536658Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "897b34babd7a45106216690d32e3615ebc0a0458222068086cc97f315ba7766a",
+  "sampled_file_digests": {
+    "README.md": "1312b90461abce756e5668e6b5769f720ad028fb1f46d5f4dec690b3d8d59ecd",
+    "pyproject.toml": "73ac249189cad353878657209d63ef6e2e4fe27b15b7d6fe78267061764a59b3",
+    "requirements.txt": "152f00bb85405a378f9df3c1ed620358b5850ca2dd314e59ee1d4a263f9f1425"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

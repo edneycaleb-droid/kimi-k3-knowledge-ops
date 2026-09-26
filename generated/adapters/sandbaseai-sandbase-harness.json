@@ -1,0 +1,123 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-plugins.directory/sandbaseai/sandbase-harness",
+    "https://agentplugin.net/dsh/plugins/managed-agents",
+    "https://aiagenttools.dev/submit",
+    "https://awesome.lvtd.dev/repos/?topic=dsh-plugin",
+    "https://blog.sandbase.ai/auditable-research-agent-evidence-ledger-sandbox-replay/",
+    "https://blog.sandbase.ai/deepseek-harness-developer-preview-2026/#add-a-real-third-party-runtime-plugin",
+    "https://blog.sandbase.ai/unified-ai-api-llm-image-video-2026/",
+    "https://blog.sandbase.ai/zh-CN/deepseek-harness-developer-preview-2026/#",
+    "https://botmarket.bot/v1/mcp/io-github-sandbaseai-sandbase-harness",
+    "https://codeload.github.com/sandbaseai/sandbase-harness/tar.gz/",
+    "https://codespaces.new/sandbaseai/sandbase-harness?quickstart=1",
+    "https://deepseek-harness-hub.com/plugins/sandbase-harness/",
+    "https://deepseek-plugin.org/plugins/sandbaseai/sandbase-harness",
+    "https://deepseekdocs.com/en/ecosystem",
+    "https://deepseekplugin.org/en/plugins/sandbaseai-sandbase-harness",
+    "https://deepyard.dev/submit",
+    "https://dsh-plugin.github.io/directory.html",
+    "https://dsh-plugin.org/plugins/sandbaseai/sandbase-harness",
+    "https://dsh.directory/plugins/sandbaseai/sandbase-harness",
+    "https://dsharness.io/en/plugins?search=sandbase-harness",
+    "https://dsharness101.com/plugins/",
+    "https://dshbase.com/plugins/sandbase-harness/",
+    "https://dshhub.dev/plugins/sandbase-harness",
+    "https://dshmarket.com/p/sandbaseai/sandbase-harness/",
+    "https://dshplugin.app/plugins/sandbase-harness",
+    "https://dshplugin.dev/plugins/sandbaseai-sandbase-harness",
+    "https://dshplugin.me/?q=sandbase-harness",
+    "https://dshpluginhub.dev/en/plugins/sandbaseai/sandbase-harness",
+    "https://dshpluginleaderboard.com/",
+    "https://dshplugins.cc/en/plugins/sandbaseai-sandbase-harness",
+    "https://duink.com/plugins/1297278222/",
+    "https://findharness.com/plugins/sandbaseai-sandbase-harness",
+    "https://github.com/0xNyk/awesome-agent-cortex/pull/72",
+    "https://github.com/0xNyk/awesome-agent-cortex/pull/74",
+    "https://github.com/0xsline/awesome-deepseek-harness",
+    "https://github.com/0xsline/awesome-deepseek-harness/pull/141",
+    "https://github.com/AIAnytime/Awesome-MCP-Server/pull/78",
+    "https://github.com/AIAnytime/Awesome-MCP-Server/pull/78#issuecomment-5473797072",
+    "https://github.com/ARUNAGIRINATHAN-K/awesome-ai-agents-2026/pull/240",
+    "https://github.com/AdamPlatin123/dsh-plugin-radar"
+  ],
+  "environment_variable_names": [
+    "MANAGED_AGENTS_API_KEY",
+    "MANAGED_AGENTS_URL",
+    "OPENAI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "MCP bridge for SandBase Harness sessions, sandboxed turns, artifacts, audit, and replay.",
+      "name": "io.github.sandbaseai/sandbase-harness",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "URL of the SandBase Harness runtime API.",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": false,
+              "name": "MANAGED_AGENTS_URL"
+            },
+            {
+              "description": "API key when the connected Harness runtime requires authentication.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "MANAGED_AGENTS_API_KEY"
+            }
+          ],
+          "identifier": "ghcr.io/sandbaseai/sandbase-harness-mcp:0.3.8",
+          "registryType": "oci",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/sandbaseai/sandbase-harness"
+      },
+      "title": "SandBase Harness",
+      "version": "0.3.8"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/sandbaseai-sandbase-harness.json",
+  "schema_version": 1,
+  "source_repository": "sandbaseai/sandbase-harness",
+  "source_url": "https://github.com/sandbaseai/sandbase-harness",
+  "status": "disabled_pending_review"
+}

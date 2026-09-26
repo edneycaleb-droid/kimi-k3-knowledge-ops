@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/sandbaseai/sandbase-harness",
+  "canonical_repository": "sandbaseai/sandbase-harness",
+  "canonical_url": "https://github.com/sandbaseai/sandbase-harness",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:42:01.204941Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1c9888d3ccb3d1a937db5167d826da0aee7cae8434c449f2d08ab45a24eacdc1",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c520973e53cdc0c208639394cba7481c373e379916baa6d0c3810523ecb6891b",
+    "LICENSE": "498edec689a18cfa462ca47b78cabeb393c5e836fd2a7a8588c6c56bf75be325",
+    "README.md": "8899e2b1f6b61a449960919e6bb554fd8b868d09f680b7aae8c08b3e23b00671",
+    "package.json": "c4b282617147757d2ae3712333ce0f9ec4f3e2c41ea580d5d49755e45d51c82b",
+    "server.json": "b47346d38abf08e25fb140ab82fb62d15df83e133496c7f9e1ea08b06837736d"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

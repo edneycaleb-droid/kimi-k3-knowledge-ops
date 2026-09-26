@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/gefsikatsinelou/MetaSearchMCP",
+  "canonical_repository": "gefsikatsinelou/MetaSearchMCP",
+  "canonical_url": "https://github.com/gefsikatsinelou/MetaSearchMCP",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:51.345557Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1c45e1fd3cb55be018f8e74239d8783a4d3217259d71d2837c075099c83aff44",
+  "sampled_file_digests": {
+    "Dockerfile": "4f555a50ccbb01f141fc47cd755a7459e6c72da4a9af08c48f7347267bad2e32",
+    "LICENSE": "398c232ac2b00293c4246b406aaca77bb85298280d61ca06a92131ec29c8b1cc",
+    "README.md": "65738967d3fb473a490bfce2ddd4e7bbc74b669eb3aa69118c1de5c1f5f94671",
+    "pyproject.toml": "b0685282034d3296c7255fcb70f3e3a1aeda272f7522fd7e62467412eba718fa"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

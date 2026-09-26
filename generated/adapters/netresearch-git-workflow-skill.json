@@ -13,23 +13,17 @@
     "mcp_transports": [
       "sse"
     ],
-    "targets_matched": [
-      "mcp",
-      "python"
-    ]
+    "targets_matched": []
   },
   "documented_https_endpoints": [
-    "https://agent-plugins.org",
     "https://agentskills.io",
-    "https://github.com/netresearch/agent-harness-skill",
-    "https://github.com/netresearch/agent-rules-skill",
     "https://github.com/netresearch/claude-code-marketplace",
     "https://github.com/netresearch/composer-agent-skill-plugin",
+    "https://github.com/netresearch/git-workflow-skill",
+    "https://github.com/netresearch/git-workflow-skill.git",
+    "https://github.com/netresearch/git-workflow-skill/issues",
+    "https://github.com/netresearch/git-workflow-skill/releases/latest",
     "https://github.com/netresearch/node-agent-skill-coordinator",
-    "https://github.com/netresearch/skill-repo-skill",
-    "https://github.com/netresearch/skill-repo-skill.git",
-    "https://github.com/netresearch/skill-repo-skill/issues",
-    "https://github.com/netresearch/skill-repo-skill/releases/latest",
     "https://skills.sh",
     "https://www.netresearch.de/"
   ],
@@ -42,9 +36,9 @@
   },
   "mcp_manifests": {},
   "project": "kimi-k3",
-  "provenance_receipt": "generated/receipts/netresearch-skill-repo-skill.json",
+  "provenance_receipt": "generated/receipts/netresearch-git-workflow-skill.json",
   "schema_version": 1,
-  "source_repository": "netresearch/skill-repo-skill",
-  "source_url": "https://github.com/netresearch/skill-repo-skill",
+  "source_repository": "netresearch/git-workflow-skill",
+  "source_url": "https://github.com/netresearch/git-workflow-skill",
   "status": "disabled_pending_review"
 }

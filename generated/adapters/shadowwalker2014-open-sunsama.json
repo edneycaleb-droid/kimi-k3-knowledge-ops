@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.opensunsama.com/mcp",
+    "https://api.opensunsama.com/tasks",
+    "https://bun.sh",
+    "https://chatgpt.com/plugins",
+    "https://circo.so",
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/en/install-mcp?name=open-sunsama&config=eyJ1cmwiOiJodHRwczovL2FwaS5vcGVuc3Vuc2FtYS5jb20vbWNwIn0=",
+    "https://github.com/ShadowWalker2014/open-sunsama.git",
+    "https://github.com/ShadowWalker2014/open-sunsama/discussions",
+    "https://github.com/ShadowWalker2014/open-sunsama/discussions/new?category=ideas",
+    "https://github.com/ShadowWalker2014/open-sunsama/issues",
+    "https://github.com/ShadowWalker2014/open-sunsama/stargazers",
+    "https://img.shields.io/badge/ChatGPT-Add_app-10A37F?style=for-the-badge",
+    "https://img.shields.io/badge/Claude-Add_connector-D97757?style=for-the-badge&logo=claude&logoColor=white",
+    "https://img.shields.io/badge/Open_the_app-opensunsama.com-F97316?style=for-the-badge",
+    "https://img.shields.io/badge/VS_Code-Add_MCP_server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/github/stars/ShadowWalker2014/open-sunsama?style=for-the-badge&logo=github&color=yellow",
+    "https://modelcontextprotocol.io",
+    "https://opensunsama.com",
+    "https://opensunsama.com/alternative/akiflow",
+    "https://opensunsama.com/alternative/motion",
+    "https://opensunsama.com/alternative/reclaim",
+    "https://opensunsama.com/alternative/sunsama",
+    "https://opensunsama.com/alternative/todoist",
+    "https://opensunsama.com/docs",
+    "https://opensunsama.com/docs/api/authentication",
+    "https://opensunsama.com/docs/mcp/chatgpt",
+    "https://opensunsama.com/docs/mcp/claude",
+    "https://opensunsama.com/docs/mcp/local-server",
+    "https://opensunsama.com/docs/mcp/overview",
+    "https://opensunsama.com/docs/self-hosting/docker",
+    "https://opensunsama.com/download",
+    "https://opensunsama.com/for/adhd",
+    "https://opensunsama.com/for/developers",
+    "https://opensunsama.com/for/remote-workers",
+    "https://vscode.dev/redirect/mcp/install?name=open-sunsama&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A//api.opensunsama.com/mcp%22%7D"
+  ],
+  "environment_variable_names": [
+    "API_URL",
+    "CALENDAR_ENCRYPTION_KEY",
+    "DATABASE_URL",
+    "DEMO_API_URL",
+    "DEV_DATABASE_URL",
+    "FRONTEND_URL",
+    "JWT_SECRET",
+    "MCP_E2E_API_URL",
+    "MCP_E2E_DATABASE_URL",
+    "OPENSUNSAMA_API_KEY",
+    "PORT",
+    "REDIS_URL",
+    "RESEND_API_KEY",
+    "URL",
+    "VITE_API_URL",
+    "WEB_APP_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/shadowwalker2014-open-sunsama.json",
+  "schema_version": 1,
+  "source_repository": "ShadowWalker2014/open-sunsama",
+  "source_url": "https://github.com/ShadowWalker2014/open-sunsama",
+  "status": "disabled_pending_review"
+}

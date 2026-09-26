@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://antigravity.google/",
+    "https://apps.microsoft.com/detail/9ppnmpdq8b52",
+    "https://apps.microsoft.com/detail/9ppnmpdq8b52?mode=direct",
+    "https://charm.land/crush",
+    "https://cline.bot/",
+    "https://dev.meta.ai/docs/muse-code",
+    "https://get.microsoft.com/images/en-us%20dark.svg",
+    "https://get.microsoft.com/images/en-us%20light.svg",
+    "https://github.com/JingbiaoMei/Tokdash/releases/tag/companion-v1.1.0",
+    "https://github.com/JingbiaoMei/tokdash",
+    "https://github.com/JingbiaoMei/tokdash/blob/main/docs/development/CHANGELOG.md",
+    "https://github.com/JingbiaoMei/tokdash/issues",
+    "https://github.com/MiniMax-AI/minimax-code",
+    "https://github.com/MoonshotAI/kimi-cli",
+    "https://github.com/QwenLM/qwen-code",
+    "https://github.com/cosyncing/cosyncing",
+    "https://github.com/deepseek-ai/deepseek-harness",
+    "https://github.com/features/copilot",
+    "https://github.com/google-gemini/gemini-cli",
+    "https://grok.com/build",
+    "https://hermes-agent.nousresearch.com/",
+    "https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-green?style=flat",
+    "https://img.shields.io/badge/Live%20Demo-tokdash.github.io%2Fdemo-F59E0B?style=flat&logo=githubpages&logoColor=white",
+    "https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white",
+    "https://img.shields.io/badge/Website-tokdash.github.io-1E40AF?style=flat&logo=githubpages&logoColor=white",
+    "https://kilocode.ai/",
+    "https://mimo.xiaomi.com/coder",
+    "https://omp.sh/",
+    "https://openai.com/codex/",
+    "https://openclaw.ai/",
+    "https://opencode.ai/",
+    "https://pi.dev/",
+    "https://qoder.com/",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/antigravity.png",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/claude.png",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/cline.png",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/codex.png",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/copilot.png",
+    "https://raw.githubusercontent.com/JingbiaoMei/Tokdash/main/docs/assets/agents/pills/crush.png"
+  ],
+  "environment_variable_names": [
+    "COMMANDCODE_API_KEY",
+    "COMMAND_CODE_API_KEY",
+    "IMPORTANT",
+    "KIMI_API_KEY",
+    "MINIMAX_TOKEN_PLAN_CN_KEY",
+    "MINIMAX_TOKEN_PLAN_GLOBAL_KEY",
+    "OPENCODE_API_KEY",
+    "SUPPORTED_CLIENTS",
+    "TOKDASH_HOST",
+    "TOKDASH_PORT",
+    "URL",
+    "ZAI_API_KEY",
+    "Z_AI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jingbiaomei-tokdash.json",
+  "schema_version": 1,
+  "source_repository": "JingbiaoMei/Tokdash",
+  "source_url": "https://github.com/JingbiaoMei/Tokdash",
+  "status": "disabled_pending_review"
+}

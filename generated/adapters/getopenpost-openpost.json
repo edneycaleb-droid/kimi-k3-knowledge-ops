@@ -1,0 +1,91 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.openpo.st/image-editor",
+    "https://app.openpo.st/register?plan=founder&billing_period=monthly",
+    "https://app.openpo.st/video-editor",
+    "https://discord.com/invite/u2QwukmY4W",
+    "https://fsf.org/",
+    "https://github.com/getopenpost/openpost/issues",
+    "https://github.com/getopenpost/openpost/releases",
+    "https://github.com/getopenpost/openpost/stargazers",
+    "https://github.com/gitleaks/gitleaks/releases/download/v$",
+    "https://openpo.st",
+    "https://openpo.st/#features",
+    "https://openpo.st/docs",
+    "https://openpo.st/docs/api-reference",
+    "https://openpo.st/docs/automate",
+    "https://openpo.st/docs/development/setup",
+    "https://openpo.st/docs/guides/accounts",
+    "https://openpo.st/docs/guides/analytics",
+    "https://openpo.st/docs/guides/inbox",
+    "https://openpo.st/docs/guides/media-library",
+    "https://openpo.st/docs/guides/media-library#add-media-to-a-post",
+    "https://openpo.st/docs/guides/publishing",
+    "https://openpo.st/docs/guides/scheduling",
+    "https://openpo.st/docs/guides/workspaces",
+    "https://openpo.st/docs/image-editor",
+    "https://openpo.st/docs/self-hosting/",
+    "https://openpo.st/docs/self-hosting/ai",
+    "https://openpo.st/docs/self-hosting/integrations",
+    "https://openpo.st/docs/self-hosting/maintenance",
+    "https://openpo.st/docs/video-editor",
+    "https://openpo.st/docs/video-editor/quick-cut-and-recorder",
+    "https://openpo.st/pricing",
+    "https://url.rgo.pt/x",
+    "https://www.gnu.org/licenses/",
+    "https://www.npmjs.com/package/@getopenpost/cli",
+    "https://www.npmjs.com/package/@getopenpost/sdk",
+    "https://www.youtube.com/watch?v=_mZf3HzQaN8"
+  ],
+  "environment_variable_names": [
+    "GH_TOKEN",
+    "GITHUB_TOKEN",
+    "OPENPOST_APP_E2E_PORT",
+    "OPENPOST_PORT",
+    "OPENPOST_SECRET_SCAN_BASE",
+    "OPENPOST_SECRET_SCAN_HEAD",
+    "OPENPOST_TEST_POSTGRES_URL",
+    "OPENPOST_TEST_S3_ACCESS_KEY_ID",
+    "OPENPOST_TEST_S3_SECRET_ACCESS_KEY",
+    "POSTHOG_BROWSER_HOST",
+    "POSTHOG_PERSONAL_API_KEY",
+    "POSTHOG_PROJECT_TOKEN",
+    "POSTHOG_UI_HOST",
+    "VITE_POSTHOG_API_HOST",
+    "VITE_POSTHOG_PROJECT_TOKEN",
+    "VITE_POSTHOG_UI_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/getopenpost-openpost.json",
+  "schema_version": 1,
+  "source_repository": "getopenpost/openpost",
+  "source_url": "https://github.com/getopenpost/openpost",
+  "status": "disabled_pending_review"
+}
