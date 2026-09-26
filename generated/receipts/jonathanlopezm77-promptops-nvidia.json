@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/JonathanLopezm77/promptops-nvidia",
+  "canonical_repository": "JonathanLopezm77/promptops-nvidia",
+  "canonical_url": "https://github.com/JonathanLopezm77/promptops-nvidia",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:25.682065Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7b4b356965722d7e0e574d02ed6ee71b12bc04ade37d4bfc241864cf05b67199",
+  "sampled_file_digests": {
+    "README.md": "ca067b36fda87ee37e0777a2e4eac9b00f68e523cd19356e61a2840d06346126",
+    "requirements.txt": "93b01ae68d390741a09a6003d47dd1a8b66ad09257f9409c836e0453dd67cf19"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

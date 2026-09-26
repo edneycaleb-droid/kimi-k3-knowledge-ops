@@ -1,0 +1,71 @@
+{
+  "categories": [
+    "api"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ai.hsnb.fun/aiplanhub",
+    "https://ai.hsnb.fun/aiplanhub/#audio",
+    "https://ai.hsnb.fun/aiplanhub/#coding",
+    "https://ai.hsnb.fun/aiplanhub/#compare",
+    "https://ai.hsnb.fun/aiplanhub/#home",
+    "https://ai.hsnb.fun/aiplanhub/#image",
+    "https://ai.hsnb.fun/aiplanhub/#token",
+    "https://ai.hsnb.fun/aiplanhub/#video",
+    "https://api.openstarry.com/?aff=X31B",
+    "https://catpaw.meituan.com/",
+    "https://cloud.baidu.com/product/codingplan.html",
+    "https://codingplan.alayanew.com/docs/billing",
+    "https://commandcode.ai/pricing",
+    "https://common-buy.aliyun.com/token-plan",
+    "https://console.cloud.tencent.cn/tokenhub/codingplan?regionId=1",
+    "https://console.lanyun.net/#/register?promoterCode=3ef0f72996",
+    "https://curl.qcloud.com/1Uogyigq",
+    "https://ecloud.10086.cn/portal/act/codingplan",
+    "https://github.com/HsMirage/AIPlanHub",
+    "https://hyper.charm.land/",
+    "https://img.shields.io/badge/%E4%BB%B7%E6%A0%BC%E5%AF%B9%E6%AF%94-Token%E6%95%88%E7%8E%87-00F5A0?style=for-the-badge",
+    "https://img.shields.io/badge/%E9%A6%96%E9%A1%B5-Home-00E5FF?style=for-the-badge",
+    "https://img.shields.io/badge/Audio-%E9%9F%B3%E9%A2%91-22C55E?style=for-the-badge",
+    "https://img.shields.io/badge/Coding-%E7%BC%96%E7%A8%8B-00E5FF?style=for-the-badge",
+    "https://img.shields.io/badge/Image-%E5%9B%BE%E7%89%87-A855F7?style=for-the-badge",
+    "https://img.shields.io/badge/Token-Plan-F59E0B?style=for-the-badge",
+    "https://img.shields.io/badge/Video-%E8%A7%86%E9%A2%91-FF3D71?style=for-the-badge",
+    "https://kimi-bot.com/activities/zh-cn/viral-referral/share?scenario=invite&from=share_poster&invitation_code=ANRBYG",
+    "https://maas.xfyun.cn/packageSubscription?inviteCode=MAAS-7573AB85",
+    "https://ollama.com/pricing",
+    "https://opencode.ai/go?ref=V156X2ZH2S",
+    "https://passport.compshare.cn/register?referral_code=Kkl0Vgy0pCsFOzeMtfGBdI",
+    "https://pay.ldxp.cn/shop/mirage",
+    "https://platform.minimaxi.com/subscribe/token-plan",
+    "https://platform.stepfun.com/?invite_code_v2=RCXWKOFD",
+    "https://platform.xiaomimimo.com/#/token-plan",
+    "https://raw.githubusercontent.com/HsMirage/AIPlanHub/main/assets/qr-group.png",
+    "https://support.cucloud.cn/document/127/591/2357.html?id=2357&arcid=7015",
+    "https://taotoken.net/?u=inv_iyn75yglujwdy9ij&utm_source=tt_invite",
+    "https://volcengine.com/L/jmiEa1dptck/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hsmirage-aiplanhub.json",
+  "schema_version": 1,
+  "source_repository": "HsMirage/AIPlanHub",
+  "source_url": "https://github.com/HsMirage/AIPlanHub",
+  "status": "disabled_pending_review"
+}

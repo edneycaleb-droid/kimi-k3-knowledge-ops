@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/ShadowWalker2014/open-sunsama",
+  "canonical_repository": "ShadowWalker2014/open-sunsama",
+  "canonical_url": "https://github.com/ShadowWalker2014/open-sunsama",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:59.554767Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "533f84ba5363d7effbc091132f76a6dc633d6406ac4b578d09574ec659e0bf48",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "5363e9eef545860e28f159f9876fd6b9170a4333e07b9ca1edb3e9139b52bfd0",
+    "LICENSE": "65bf3c40b73d39d947f3f3d31548b5bb042d6fb73a1390f61e804f320ba2d0d2",
+    "README.md": "f23f7e39ddf5faf5e1f5b3b475c436d40694cbbfeca195fc4c977d468b00fb27",
+    "docker-compose.yml": "b41742c25334b7047291a7dc084c4c16f866172dbf342c83f9f77eb9e0bfaa59",
+    "package.json": "987f24eb4e783d6c9b3df2dba50fc02e052728c1d252382f5532e29b0aab03b9"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

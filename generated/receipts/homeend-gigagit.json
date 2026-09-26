@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/homeend/gigagit",
+  "canonical_repository": "homeend/gigagit",
+  "canonical_url": "https://github.com/homeend/gigagit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:42.672435Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "223756b6c40ddeb1829bfd54898bc2482c01b93379caa28e8482a61ea21ebefa",
+  "sampled_file_digests": {
+    "LICENSE": "d03843e744a4cb942d48099fb3d8d0624f7bbc9c818d71a3a75a756adc98251b",
+    "README.md": "347b512a13a2e0205e4f4409f73ba12151324405a5f8bd8306e9cbba040cab8d"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

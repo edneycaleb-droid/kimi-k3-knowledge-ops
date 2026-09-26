@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/Strom-Capital/mcp-server-db2i",
+  "canonical_repository": "Strom-Capital/mcp-server-db2i",
+  "canonical_url": "https://github.com/Strom-Capital/mcp-server-db2i",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:42:04.386178Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f08f5fb7aa2301e0488581eb2bb263aa33dd916ea30a36bbdcd65a5e0495690a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "973a541292567e244075e876cff0cf6e4728c225eaad9cc9321b61e3521c4384",
+    "Dockerfile": "a4d791780ae8fd2d0c6c8f3b95b6e0fd036285e6d041024148fd9d48646f0106",
+    "LICENSE": "044a8c82fe069e8f81f72dfb34c484fc483ea2169ee8a8be2519fbee20cefd35",
+    "README.md": "3e399d078e8ffebf655384a283e68a02e633cf3ff8624a03ee0cf0a457dc24b0",
+    "docker-compose.yml": "9b07cab2fe23c386bb7a3253e708977d9205d8ef04bf21b1bbe34d4c7a365f36",
+    "package.json": "bb36e8ca86a45843643c53662576c76a49051475c0c9e5fc898d02b64a22e6db",
+    "server.json": "a834c110ee311a571526f40f9045e64f5faa578eeaf7a758fc6e04bda9b1ea01"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

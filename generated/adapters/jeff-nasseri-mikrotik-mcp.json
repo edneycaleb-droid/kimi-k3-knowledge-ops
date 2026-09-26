@@ -1,0 +1,164 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://avatars.githubusercontent.com/u/1254493?s=72",
+    "https://avatars.githubusercontent.com/u/12846521?s=72",
+    "https://avatars.githubusercontent.com/u/13348711?s=72",
+    "https://avatars.githubusercontent.com/u/133911424?s=72",
+    "https://avatars.githubusercontent.com/u/22665312?s=72",
+    "https://avatars.githubusercontent.com/u/2829939?s=72",
+    "https://avatars.githubusercontent.com/u/48822818?s=72",
+    "https://avatars.githubusercontent.com/u/57312476?s=72",
+    "https://avatars.githubusercontent.com/u/75182541?s=72",
+    "https://avatars.githubusercontent.com/u/9569795?s=72",
+    "https://github.com/OronF",
+    "https://github.com/goto1134",
+    "https://github.com/hassankhurram",
+    "https://github.com/inistor",
+    "https://github.com/jeff-nasseri",
+    "https://github.com/jeff-nasseri/mikrotik-mcp",
+    "https://github.com/jeff-nasseri/mikrotik-mcp/actions/workflows/publish.yml",
+    "https://github.com/jeff-nasseri/mikrotik-mcp/blob/master/LICENSE",
+    "https://github.com/jeff-nasseri/mikrotik-mcp/issues",
+    "https://github.com/lwsinclair",
+    "https://github.com/nieomylnieja",
+    "https://github.com/pdostal",
+    "https://github.com/shahabbahojb",
+    "https://github.com/user-attachments/assets/185b2c39-8f55-4f26-a74c-2ac459ad38f5",
+    "https://github.com/user-attachments/assets/24fadcdc-c6a8-48ed-90ac-74baf8f94b59",
+    "https://github.com/user-attachments/assets/e0301ff2-8144-4503-83d0-48589d95027d",
+    "https://github.com/vavan11",
+    "https://img.shields.io/badge/website-mikrotik--mcp.com-007ACC?style=flat-square&logo=googlechrome&logoColor=white",
+    "https://img.shields.io/github/actions/workflow/status/jeff-nasseri/mikrotik-mcp/publish.yml?branch=master&label=build&style=flat-square&color=%23007ACC",
+    "https://img.shields.io/github/actions/workflow/status/jeff-nasseri/mikrotik-mcp/publish.yml?branch=master&label=tests&style=flat-square&color=%2300C853",
+    "https://img.shields.io/github/license/jeff-nasseri/mikrotik-mcp?style=flat-square&color=%23FF6B35",
+    "https://mcptoplist.com/badge/io.github.jeff-nasseri%2Fmikrotik-mcp.svg",
+    "https://mcptoplist.com/server/io.github.jeff-nasseri%2Fmikrotik-mcp",
+    "https://mseep.ai/app/jeff-nasseri-mikrotik-mcp",
+    "https://mseep.net/pr/jeff-nasseri-mikrotik-mcp-badge.png",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.mikrotik-mcp.com/",
+    "https://www.mikrotik-mcp.com/docs/"
+  ],
+  "environment_variable_names": [
+    "MIKROTIK_HOST",
+    "MIKROTIK_KEY_FILENAME",
+    "MIKROTIK_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "MCP server for MikroTik routers: firewall, NAT, routing, DHCP, DNS, WireGuard and more via SSH.",
+      "name": "io.github.jeff-nasseri/mikrotik-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "IP address or hostname of the MikroTik router (single-device mode; default: 127.0.0.1). Not needed when an inventory is configured.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_HOST"
+            },
+            {
+              "description": "SSH username for the MikroTik router (single-device mode; default: admin)",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_USERNAME"
+            },
+            {
+              "description": "SSH password for the MikroTik router (single-device mode)",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "MIKROTIK_PASSWORD"
+            },
+            {
+              "description": "SSH port of the MikroTik router (single-device mode; default: 22)",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_PORT"
+            },
+            {
+              "description": "Path to SSH private key file for key-based authentication (single-device mode)",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_KEY_FILENAME"
+            },
+            {
+              "description": "When true, expose only tools that do not modify RouterOS or its file store. Use a read-only RouterOS account as defence in depth.",
+              "format": "boolean",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_READ_ONLY"
+            },
+            {
+              "description": "When true, redact recognized credentials and private key material from tool results, MCP notifications, and logs, and omit tools that return opaque sensitive payloads.",
+              "format": "boolean",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_SENSITIVE_HIDING"
+            },
+            {
+              "description": "Path to a YAML file listing multiple MikroTik devices (title, host, port, username, password, key_filename, tags, region). See docs/reference/inventory.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "MIKROTIK_INVENTORY_FILE"
+            },
+            {
+              "description": "Inline multi-device inventory as a YAML (or JSON) list; takes precedence over MIKROTIK_INVENTORY_FILE and the single-device variables. Holds credentials.",
+              "format": "string",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "MIKROTIK_INVENTORY"
+            }
+          ],
+          "identifier": "mcp-server-mikrotik",
+          "registryType": "pypi",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.14.1.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/jeff-nasseri/mikrotik-mcp"
+      },
+      "version": "0.14.1.0"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jeff-nasseri-mikrotik-mcp.json",
+  "schema_version": 1,
+  "source_repository": "jeff-nasseri/mikrotik-mcp",
+  "source_url": "https://github.com/jeff-nasseri/mikrotik-mcp",
+  "status": "disabled_pending_review"
+}

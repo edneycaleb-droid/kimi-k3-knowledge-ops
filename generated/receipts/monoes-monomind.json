@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/monoes/monomind",
+  "canonical_repository": "monoes/monomind",
+  "canonical_url": "https://github.com/monoes/monomind",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:44.489483Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a10781b739337cdaa847296e2bdcc5ad4647f2d6a404b777fad2a999ffe51bd1",
+  "sampled_file_digests": {
+    "LICENSE": "bcbe962a552866c88cb5ba31b1d860c7147a671cfed1ccf6bb0bd22ad5587f9d",
+    "README.md": "ef78683b1eb3bbec779afc251f2545b935d407b02453964b3d42d7f598952275",
+    "package.json": "a2101076b4e1dba86886de9bffb1c37eb16e24dffdad6eb92ac021acd630f3a9"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

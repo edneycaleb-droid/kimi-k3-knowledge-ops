@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "mcp_server",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://console.typesafe.ai/settings/keys",
+    "https://docs.astral.sh/uv/",
+    "https://github.com/PyModel/jev-judge-mcp",
+    "https://github.com/PyModel/jev-judge-mcp/actions/workflows/ci.yml",
+    "https://github.com/PyModel/jev-judge-mcp/blob/main/CHANGELOG.md",
+    "https://github.com/PyModel/jev-judge-mcp/issues",
+    "https://img.shields.io/badge/MCP-stdio-b9e769?style=flat&logo=modelcontextprotocol&logoColor=white&labelColor=0a0a0f",
+    "https://img.shields.io/badge/dynamic/toml?url=https%3A%2F%2Fraw.githubusercontent.com%2FPyModel%2Fjev-judge-mcp%2Fmain%2Fpyproject.toml&query=%24.project.version&prefix=v&label=version&style=flat&labelColor=0a0a0f&color=ffc94d",
+    "https://img.shields.io/badge/license-MIT-4fd8c4?style=flat&logo=opensourceinitiative&logoColor=white&labelColor=0a0a0f",
+    "https://img.shields.io/badge/python-3.12%2B-ff7b2e?style=flat&logo=python&logoColor=white&labelColor=0a0a0f",
+    "https://img.shields.io/github/actions/workflow/status/PyModel/jev-judge-mcp/ci.yml?branch=main&style=flat&label=CI&logo=githubactions&logoColor=white&labelColor=0a0a0f",
+    "https://img.shields.io/pepy/dt/jev-judge-mcp?style=flat&amp;label=downloads&amp;logo=pypi&amp;logoColor=white&amp;labelColor=0a0a0f",
+    "https://modelcontextprotocol.io/",
+    "https://pepy.tech/projects/jev-judge-mcp?timeRange=threeMonths&amp;category=version&amp;includeCIDownloads=true&amp;granularity=weekly&amp;viewType=line&amp;versions=Total%2C0.*",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [
+    "AI_GATEWAY_API_KEY",
+    "JEV_MCP_HTTP_HOST",
+    "JEV_MCP_HTTP_PORT",
+    "JEV_MCP_HTTP_TOKEN",
+    "JEV_MCP_KEY_FILE",
+    "JEV_MCP_TRANSPORT",
+    "TYPESAFE_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/pymodel-jev-judge-mcp.json",
+  "schema_version": 1,
+  "source_repository": "PyModel/jev-judge-mcp",
+  "source_url": "https://github.com/PyModel/jev-judge-mcp",
+  "status": "disabled_pending_review"
+}

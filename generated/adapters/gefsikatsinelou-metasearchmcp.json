@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.com/login",
+    "https://example.com/path",
+    "https://finnhub.io/register",
+    "https://github.com/gefsikatsinelou/MetaSearchMCP",
+    "https://github.com/gefsikatsinelou/MetaSearchMCP.git",
+    "https://github.com/gefsikatsinelou/MetaSearchMCP/issues",
+    "https://serpbase.dev",
+    "https://serper.dev",
+    "https://tokio.rs",
+    "https://www.alphavantage.co/support/#api-key"
+  ],
+  "environment_variable_names": [
+    "ALPHA_VANTAGE_API_KEY",
+    "BRAVE_API_KEY",
+    "FINNHUB_API_KEY",
+    "GITHUB_TOKEN",
+    "HOST",
+    "NCBI_API_KEY",
+    "PORT",
+    "REDDIT_CLIENT_SECRET",
+    "SEMANTIC_SCHOLAR_API_KEY",
+    "SERPBASE_API_KEY",
+    "SERPER_API_KEY",
+    "STACKEXCHANGE_API_KEY",
+    "UNSPLASH_ACCESS_KEY",
+    "URL",
+    "YDC_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/gefsikatsinelou-metasearchmcp.json",
+  "schema_version": 1,
+  "source_repository": "gefsikatsinelou/MetaSearchMCP",
+  "source_url": "https://github.com/gefsikatsinelou/MetaSearchMCP",
+  "status": "disabled_pending_review"
+}

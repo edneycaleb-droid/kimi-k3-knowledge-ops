@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/jeff-nasseri/mikrotik-mcp",
+  "canonical_repository": "jeff-nasseri/mikrotik-mcp",
+  "canonical_url": "https://github.com/jeff-nasseri/mikrotik-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:56.317947Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "085a4e8d5ec2838650e5c9f048932a2b89390bda6db671d9300a3b27e2dcedc9",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a458c5affd407af4debc031f4ef8b3d968bc7f6da9a368beb18daf208798341a",
+    "Dockerfile": "ca939965097ae3c2f5920ca3b4a6f5dd0b85f9275b2c5763dfb4a2e14ee8bc42",
+    "LICENSE": "87e38d41742385a0bc8422f95723518120fee0ab71e3e290b5dcaac6bb03a167",
+    "README.md": "803d52491f56ed010f2d3758a54c9c4e11d4f753356535965edca9a783d5128f",
+    "pyproject.toml": "54150c530578902c2252bd37a12f28dd6bef93074f4372eba81e2e6d3f6f496a",
+    "requirements.txt": "aa8779c420e2928f7daaa2c2fa0c8f701356694bd177e6932a339c65c554c71e",
+    "server.json": "610b699cc56b2e66e84427e0395693547bd8870b9fc22174b23610d7e027abe7"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

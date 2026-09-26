@@ -1,0 +1,48 @@
+{
+  "categories": [
+    "agent",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://ggufloader.github.io",
+    "https://github.com/GGUFloader/gguf-loader",
+    "https://github.com/GGUFloader/gguf-loader/releases",
+    "https://github.com/local-ai-zone/local-ai-zone.github.io#readme",
+    "https://github.com/local-ai-zone/local-ai-zone.github.io.git",
+    "https://github.com/local-ai-zone/local-ai-zone.github.io/issues",
+    "https://local-ai-zone.github.io",
+    "https://pypi.org/project/ggufloader/"
+  ],
+  "environment_variable_names": [
+    "HF_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/local-ai-zone-local-ai-zone-github-io.json",
+  "schema_version": 1,
+  "source_repository": "local-ai-zone/local-ai-zone.github.io",
+  "source_url": "https://github.com/local-ai-zone/local-ai-zone.github.io",
+  "status": "disabled_pending_review"
+}

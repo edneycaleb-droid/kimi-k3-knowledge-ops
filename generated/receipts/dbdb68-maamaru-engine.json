@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/DbDB68/maamaru-engine",
+  "canonical_repository": "DbDB68/maamaru-engine",
+  "canonical_url": "https://github.com/DbDB68/maamaru-engine",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:33.385371Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3a0249f11868785fed7375caa7c9d2703230aa8a1695be637998f0159c37dafd",
+  "sampled_file_digests": {
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "README.md": "9d259cd486a55d1f17d8e3af01ade28181b604f3f936d09b91b79e33474ddbfe",
+    "package.json": "6568ce93c95f4cae7651bb86ed15c78ab77cca83643a1f4092f6466790af726b",
+    "pyproject.toml": "6038c8c385e2f0ca49eb990677b8f747b9fbe478a9b9bb4f7ad3b5dd3d7acc53"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

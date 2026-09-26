@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/panopticon-scanner/panopticon",
+  "canonical_repository": "panopticon-scanner/panopticon",
+  "canonical_url": "https://github.com/panopticon-scanner/panopticon",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:38.815712Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3b5944caaad5f142f8d968fb8d048e4c5204f9fe917d12d85a1fbce76317982e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6ce93f18256f03a262ab82bd780b21e136f5f428b63573962d15e39f6c236b45",
+    "Dockerfile": "40b084c3a100eb22f20308c4f01bde27f9b0251775a03fb5807a0f0079f0d58c",
+    "LICENSE": "85de0270607c6863d837930c9ac5bf5027e52f56e992da56438da53e62c7e7d2",
+    "README.md": "c8c395283ed4e4ae24e4aa4dff356eef0939b4e1cf0c45d3ac25783bcd22e49b",
+    "pyproject.toml": "a8e1cf9e5ad5719d2f30566b02c544ba0a7d468999e030bd26f1982c31b1b3fc"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

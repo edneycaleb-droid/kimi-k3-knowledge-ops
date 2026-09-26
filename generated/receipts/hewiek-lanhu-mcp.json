@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/Hewiek/lanhu-mcp",
+  "canonical_repository": "Hewiek/lanhu-mcp",
+  "canonical_url": "https://github.com/Hewiek/lanhu-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:47.834650Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "457700025b00c442311119e97344a6a17e9ad808faf9fcfc0b84e9e506f934c5",
+  "sampled_file_digests": {
+    "Dockerfile": "00c9d7ee63f1c75e8b94723f950a98d8e004985f3a0919894a465de16847efb0",
+    "LICENSE": "48d1ab8a0cafc48d785b2d3f2c36ae43ca004f125e0c2acf3c0c7d1d72458577",
+    "README.md": "8e920656cd48b83e51f9f071da17e9081a3294e452c8c342e5fae3ac7998f8cf",
+    "docker-compose.yml": "5b568e70c75c2ebbad7f12e43b59c04d447c73421d3cb8da278fa63c63cd4896",
+    "pyproject.toml": "bec1cc05bd26db4dff45c555d40ccab28272ee4aba443884271a80df6cf8b936",
+    "requirements.txt": "338b15cd2fd0de92de488a8698a63d69c5018e78ece43a4187281543e3d4cd5e"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

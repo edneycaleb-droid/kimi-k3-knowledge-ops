@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/sebastienrousseau/agtmls",
+  "canonical_repository": "sebastienrousseau/agtmls",
+  "canonical_url": "https://github.com/sebastienrousseau/agtmls",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:49.541601Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "823a1e6b6246f8523462253704e410b6658f808727707dfc131ee9e08520b97b",
+  "sampled_file_digests": {
+    "README.md": "cdec5000c5bc9c85c36c392221c2a919986d96148268a001fce53f02c07f5132",
+    "pyproject.toml": "6df2b3aa7fef93182a317e89733d76ec942f42120857b0628876494e199d4778"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

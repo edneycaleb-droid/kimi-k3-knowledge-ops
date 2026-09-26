@@ -1,0 +1,163 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://db2i-mcp.com",
+    "https://db2i-mcp.com/blog",
+    "https://docs.db2i-mcp.com",
+    "https://github.com/IBM/ibmi-mcp-server",
+    "https://github.com/IBM/node-odbc",
+    "https://github.com/Mapepire-IBMi/mapepire-js",
+    "https://github.com/Strom-Capital/mcp-server-db2i",
+    "https://github.com/Strom-Capital/mcp-server-db2i.git",
+    "https://github.com/Strom-Capital/mcp-server-db2i/actions/workflows/ci.yml",
+    "https://github.com/Strom-Capital/mcp-server-db2i/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/Strom-Capital/mcp-server-db2i/issues",
+    "https://github.com/modelcontextprotocol/typescript-sdk",
+    "https://github.com/sponsors/Strom-Capital",
+    "https://ibmi-oss-docs.readthedocs.io/en/latest/odbc/installation.html",
+    "https://img.shields.io/badge/Docker-supported-blue?logo=docker&logoColor=white",
+    "https://img.shields.io/badge/IBM%20i-V7R3+-green?logo=ibm&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-2026--07--28-green?logo=modelcontextprotocol&logoColor=white",
+    "https://img.shields.io/badge/Node.js-",
+    "https://img.shields.io/badge/Sponsor-ea4aaa?logo=githubsponsors&logoColor=white",
+    "https://img.shields.io/badge/TypeScript-5.9-blue?logo=typescript&logoColor=white",
+    "https://img.shields.io/npm/dm/mcp-server-db2i",
+    "https://img.shields.io/npm/v/mcp-server-db2i",
+    "https://mapepire-ibmi.github.io/",
+    "https://modelcontextprotocol.io/",
+    "https://nodejs.org/",
+    "https://opensource.org/licenses/MIT",
+    "https://public.dhe.ibm.com/software/ibmi/products/odbc/debs/dists/1.1.0/ibmi-acs-1.1.0.list",
+    "https://registry.modelcontextprotocol.io/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.ibm.com/products/ibm-i",
+    "https://www.npmjs.com/package/mcp-server-db2i",
+    "https://www.npmjs.com/package/node-jt400",
+    "https://www.typescriptlang.org/"
+  ],
+  "environment_variable_names": [
+    "DB2I_HOSTNAME",
+    "EXPORT_DIR",
+    "EXPORT_ENABLED",
+    "MCP_ALLOWED_HOSTS",
+    "MCP_AUTH_ALLOWED_DB_HOSTS",
+    "MCP_AUTH_TOKEN",
+    "MCP_HTTP_HOST",
+    "MCP_HTTP_PORT",
+    "MCP_OAUTH_SECRET",
+    "MCP_PUBLIC_URL",
+    "MCP_TLS_KEY_PATH",
+    "MCP_TOKEN_EXPIRY",
+    "MCP_TRANSPORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Read-only SQL queries and schema inspection for IBM Db2 for i over ODBC, JT400 or Mapepire (SSH).",
+      "name": "io.github.Strom-Capital/mcp-server-db2i",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "IBM i hostname or IPv4 address",
+              "isRequired": true,
+              "name": "DB2I_HOSTNAME",
+              "placeholder": "ibmi.example.com"
+            },
+            {
+              "description": "IBM i user profile",
+              "isRequired": true,
+              "name": "DB2I_USERNAME"
+            },
+            {
+              "description": "IBM i password",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "DB2I_PASSWORD"
+            },
+            {
+              "description": "Default schema (library)",
+              "name": "DB2I_SCHEMA",
+              "placeholder": "MYLIB"
+            },
+            {
+              "description": "Path to a YAML file of IBM i systems. When set, it replaces the DB2I_* connection variables",
+              "name": "DB2I_PROFILES"
+            },
+            {
+              "description": "Comma-separated schemas the server may read. Empty disables the check.",
+              "name": "QUERY_ALLOWED_SCHEMAS",
+              "placeholder": "MYLIB,OTHERLIB"
+            },
+            {
+              "default": "odbc",
+              "description": "Database driver: odbc (default, IBM i Access ODBC driver, no Java), jt400 (optional node-jt400 package, needs a JDK at install and a JRE at runtime) or mapepire (Mapepire over SSH, needs Java on the IBM i only)",
+              "isRequired": false,
+              "name": "DB2I_DRIVER"
+            },
+            {
+              "description": "Extra JT400 JDBC properties, semicolon-separated (jt400 and mapepire drivers)",
+              "isRequired": false,
+              "name": "DB2I_JDBC_OPTIONS"
+            },
+            {
+              "description": "Extra IBM i Access ODBC connection keywords, semicolon-separated (odbc driver)",
+              "isRequired": false,
+              "name": "DB2I_ODBC_OPTIONS"
+            },
+            {
+              "description": "SSH and Mapepire settings, semicolon-separated, e.g. hostKey=SHA256:...;maxJobs=2 (mapepire driver)",
+              "isRequired": false,
+              "name": "DB2I_MAPEPIRE_OPTIONS"
+            }
+          ],
+          "identifier": "mcp-server-db2i",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.12.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Strom-Capital/mcp-server-db2i"
+      },
+      "title": "IBM Db2 for i",
+      "version": "2.12.0",
+      "websiteUrl": "https://db2i-mcp.com"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/strom-capital-mcp-server-db2i.json",
+  "schema_version": 1,
+  "source_repository": "Strom-Capital/mcp-server-db2i",
+  "source_url": "https://github.com/Strom-Capital/mcp-server-db2i",
+  "status": "disabled_pending_review"
+}

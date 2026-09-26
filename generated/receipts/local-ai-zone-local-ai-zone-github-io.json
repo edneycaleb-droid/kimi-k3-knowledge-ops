@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/local-ai-zone/local-ai-zone.github.io",
+  "canonical_repository": "local-ai-zone/local-ai-zone.github.io",
+  "canonical_url": "https://github.com/local-ai-zone/local-ai-zone.github.io",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-09-26T22:41:23.639863Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "20667a3b8029118e49df16a2dbeb1f614c17726109f02a8499353c285ae473ac",
+  "sampled_file_digests": {
+    "LICENSE": "07a2b1b2165bfb548269b28fb5b1eae4d97bf95faf0770d049f6fd1e4ff18698",
+    "README.md": "70cbb353af5c672bbb2978477dc2e5411104b1ada2bf3cf592cbbf56cc3c50a0",
+    "package.json": "fa01fda99369d4e461e6f2c185e3fcaabfdcb14f5f5d6f991e11e49e97bb4c9a"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
