@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/STiFLeR7/memex",
+  "canonical_repository": "STiFLeR7/memex",
+  "canonical_url": "https://github.com/STiFLeR7/memex",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:51.299119Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "855ec229c7f246f5653200f2f5b44e0dfe1a93ae745ec6271e024944940d632c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "37c91b61f466f4e2bf805fe3d6fddf3ef58f339f0a8872f12f81087db9afc669",
+    "Dockerfile": "cd2c72831f397d906f7bdf2a83306421369ad92dc5c5386cb22182b8b8b7c5d1",
+    "LICENSE": "ef18ca48073475060fb198787ddd02d2272c813753b36b461e7668d9056436e3",
+    "README.md": "95e5684f6a83780b35eaaac98d5bf2e2ec49a1db8cef1f9db30440dec23e81c5",
+    "pyproject.toml": "3ff779e0be82a5c305a87da73eae4e9533ac4e39d8f8f76d32298e94ea5f4e12",
+    "server.json": "5dbe327703b21815d4c8aa78be446bf25b983c0fa97334c69024b3dfe92b690b"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

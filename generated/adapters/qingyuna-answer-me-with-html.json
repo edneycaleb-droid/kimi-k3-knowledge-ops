@@ -1,0 +1,52 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=QingYunA/answer-me-with-html&type=Date",
+    "https://api.star-history.com/svg?repos=QingYunA/answer-me-with-html&type=Date&theme=dark",
+    "https://github.com/QingYunA/answer-me-with-html#readme",
+    "https://github.com/QingYunA/answer-me-with-html.git",
+    "https://github.com/QingYunA/answer-me-with-html/actions/workflows/ci.yml",
+    "https://github.com/QingYunA/answer-me-with-html/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/QingYunA/answer-me-with-html/issues",
+    "https://github.com/dagrejs/dagre",
+    "https://github.com/markedjs/marked",
+    "https://github.com/user-attachments/assets/1f13b1fe-70a9-4c39-8530-b12e553e17ea",
+    "https://github.com/vercel-labs/skills",
+    "https://img.shields.io/badge/license-MIT-blue",
+    "https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor%20%C2%B7%20OpenCode-black",
+    "https://nodejs.org/",
+    "https://star-history.com/#QingYunA/answer-me-with-html&Date",
+    "https://www.asd-ste100.org/",
+    "https://x.com/karpathy/status/2105819303471976479"
+  ],
+  "environment_variable_names": [
+    "ELEVENLABS_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/qingyuna-answer-me-with-html.json",
+  "schema_version": 1,
+  "source_repository": "QingYunA/answer-me-with-html",
+  "source_url": "https://github.com/QingYunA/answer-me-with-html",
+  "status": "disabled_pending_review"
+}

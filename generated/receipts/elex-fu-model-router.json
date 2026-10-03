@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/elex-fu/model-router",
+  "canonical_repository": "elex-fu/model-router",
+  "canonical_url": "https://github.com/elex-fu/model-router",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:36.375940Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9920040e39f00f46109f819f53ce6b13f11bbc20267ad9e55b945e11ca17c836",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b2a15da2fb3ccbd02532475a0431e7fd0aa5dfa6904b9a22f6f18afa1b42bf2a",
+    ".mcp.json": "6cde10cea7721b5ba2a7cf92dd6b37792bbfc3e2bf79db68a763a27186d63480",
+    "README.md": "204c407676b14c9ef33c8f069e4febc460485e222ae2645dd5d89b45bdc2d460",
+    "package.json": "4a99c64cb5bf1c7ab4993088e776b35bfc3bfb8d76bc6f1e39b6d232c9c65aaa"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -1,0 +1,62 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg",
+    "https://discord.com/invite/Ej5NmeHFf2",
+    "https://discord.gg/yefvtqDd2w",
+    "https://github.com/TensorBlock/awesome-mcp-servers/issues/new?template=add-mcp-server.yml",
+    "https://github.com/TensorBlock/awesome-mcp-servers/issues/new?template=claim-profile.yml",
+    "https://github.com/TensorBlock/awesome-mcp-servers/issues/new?template=improve-metadata.yml",
+    "https://github.com/TensorBlock/awesome-mcp-servers/issues/new?template=report-broken-entry.yml",
+    "https://github.com/TensorBlock/awesome-mcp-servers/issues/new?template=request-client-config.yml",
+    "https://github.com/TensorBlock/forge",
+    "https://github.com/owner/repo",
+    "https://huggingface.co/tensorblock",
+    "https://img.shields.io/badge/Discord-Join%20Us-5865F2?logo=discord&logoColor=white",
+    "https://img.shields.io/badge/HuggingFace-TensorBlock-yellow?logo=huggingface&logoColor=white",
+    "https://img.shields.io/badge/Telegram-Group-blue?logo=telegram",
+    "https://img.shields.io/badge/Website-tensorblock.co-blue?logo=google-chrome&logoColor=white",
+    "https://img.shields.io/twitter/follow/tensorblock_aoi?style=social",
+    "https://mcp-index.tensorblock.co",
+    "https://t.me/TensorBlock",
+    "https://tensorblock.co",
+    "https://tensorblock.co/mcp/servers/",
+    "https://twitter.com/tensorblock_aoi",
+    "https://www.tensorblock.co/mcp"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tensorblock-awesome-mcp-servers.json",
+  "schema_version": 1,
+  "source_repository": "TensorBlock/awesome-mcp-servers",
+  "source_url": "https://github.com/TensorBlock/awesome-mcp-servers",
+  "status": "disabled_pending_review"
+}

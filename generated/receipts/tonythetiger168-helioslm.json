@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/tonythetiger168/helioslm",
+  "canonical_repository": "tonythetiger168/helioslm",
+  "canonical_url": "https://github.com/tonythetiger168/helioslm",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:21.063951Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ff820a17081ef8505f13f73a7ce40bd15752d7a0f02aa244d584fdce5912fafb",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "35155b3d92f374fcf8554571952a12cfc20fa3d95dea527538268b96c3c927ef",
+    "LICENSE": "eda3382aaa05d4fc45c6e87435f221ed3de1636b3f675fec6c61e4eeeba3169e",
+    "README.md": "ec06bb43ae3249ae40d53f407b5a177c8b26cfe7e333602af70e99d572138202"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

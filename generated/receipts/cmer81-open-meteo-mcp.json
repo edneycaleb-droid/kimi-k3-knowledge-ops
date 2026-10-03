@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/cmer81/open-meteo-mcp",
+  "canonical_repository": "cmer81/open-meteo-mcp",
+  "canonical_url": "https://github.com/cmer81/open-meteo-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:59.504230Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2c269cbda41254e8f8c98ac39c11fd3a9a82459fefb89538e3f95f7586c4e0ed",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "eded530e1d5c930c0d3b35cc35feb42befc85ba141cb5699c6ce3de2536048f0",
+    "Dockerfile": "ab0440ff7b7014687228bf41fdac09f1e7d61b7087043687e6951ac75d111399",
+    "LICENSE": "88e4f242f23da29435777dc5a6c52fedaa54dc7d5c2639c3f5bf3ab8ee679e5b",
+    "README.md": "0886c591e223de019c42341b82f417f82f46db90b1947d332016df298675e439",
+    "docker-compose.yml": "55a0b604d3b0af165032d989b328038c284a2adfa9009a1563af3738d9ae436a",
+    "package.json": "dfc85b430e154fa301c11d4b47d082971900e23da43a21081b080d4063eac22b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

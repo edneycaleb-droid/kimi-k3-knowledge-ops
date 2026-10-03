@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://docs.github.com/copilot",
+    "https://docs.github.com/copilot/how-tos/copilot-cli",
+    "https://github.com/orestbida/cookieconsent",
+    "https://github.com/outrightmental/interesting/actions/workflows/deploy.yml",
+    "https://github.com/outrightmental/interesting/actions/workflows/deploy.yml/badge.svg",
+    "https://github.com/outrightmental/interesting/actions/workflows/make-interesting.yml",
+    "https://github.com/outrightmental/interesting/actions/workflows/make-interesting.yml/badge.svg",
+    "https://interesting.outright.io/",
+    "https://interesting.outright.io/**",
+    "https://mozilla.github.io/nunjucks/",
+    "https://www.w3.org/TR/WCAG22/"
+  ],
+  "environment_variable_names": [
+    "AWS_ACCESS_KEY_ID",
+    "AWS_SECRET_ACCESS_KEY",
+    "COPILOT_GITHUB_TOKEN",
+    "GITHUB_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/outrightmental-interesting.json",
+  "schema_version": 1,
+  "source_repository": "outrightmental/interesting",
+  "source_url": "https://github.com/outrightmental/interesting",
+  "status": "disabled_pending_review"
+}

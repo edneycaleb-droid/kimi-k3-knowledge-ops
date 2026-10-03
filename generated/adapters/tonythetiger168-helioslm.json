@@ -1,0 +1,46 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/tonythetiger168/helioslm/actions",
+    "https://github.com/tonythetiger168/helioslm/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/tonythetiger168/helioslm/blob/main/docs/paper_draft_2026-10-03.tex",
+    "https://github.com/tonythetiger168/helioslm/labels/good%20first%20issue",
+    "https://github.com/tonythetiger168/helioslm/projects",
+    "https://huggingface.co/chienhsinlin/helioslm/tree/main/docs",
+    "https://img.shields.io/badge/framework-PyTorch%20",
+    "https://img.shields.io/badge/license-Apache%202.0-blue",
+    "https://img.shields.io/badge/tests-150%2B%20unit%20%2B%20integration%20%2B%20oracle-brightgreen"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tonythetiger168-helioslm.json",
+  "schema_version": 1,
+  "source_repository": "tonythetiger168/helioslm",
+  "source_url": "https://github.com/tonythetiger168/helioslm",
+  "status": "disabled_pending_review"
+}

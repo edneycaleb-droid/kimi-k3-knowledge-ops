@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://accounts.binance.com/register?ref=K3L7BLL1",
+    "https://ascendex.com/register?inviteCode=BPEFZZW8Q",
+    "https://bingx.com/invite/OQLHEXTU",
+    "https://gitflic.ru/project/van-tehnologii/osengine",
+    "https://github.com/AlexWan/OsEngine",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/0d6a7ec2-f9b5-4e6b-b626-9bc4f3a599bf",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/0ec1e32a-9936-4063-966e-f61fce56bfff",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/1e1c2e65-d72d-4aa5-9c01-d846430707df",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/414d7f7e-6f59-4d84-bd79-35da2e310692",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/7e2c42f3-6046-4644-a300-8ff93a0381c0",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/91c0509f-f794-4d37-836b-365358c089bb",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/b35a203c-bf4f-47b0-b6cb-dc5fd111bb3a",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/d8e145de-cd5f-4e77-91f9-cccdb1610866",
+    "https://github.com/AlexWan/OsEngine/assets/26077466/e2042a82-2bd3-49b5-934c-0da9a9a720ce",
+    "https://github.com/user-attachments/assets/25efa820-8044-43ce-8dd7-e67e831fb83a",
+    "https://github.com/user-attachments/assets/60457850-4153-4077-9a90-7ada7783ebe0",
+    "https://github.com/user-attachments/assets/695a154c-e140-4a19-be2e-c414853bcab7",
+    "https://github.com/user-attachments/assets/9c948445-cfae-47b6-8932-89b7329247f2",
+    "https://github.com/user-attachments/assets/a29b4f7e-a2c9-4fdc-bf32-a447ae8af2b1",
+    "https://github.com/user-attachments/assets/a4054dd8-ceba-4437-9bec-f9161fcec5f2",
+    "https://github.com/user-attachments/assets/b5f5144a-6a37-4376-b7a7-003d935bf5f4",
+    "https://github.com/user-attachments/assets/bdf7be5e-74b0-4fe9-889b-ec83d6b388e0",
+    "https://github.com/user-attachments/assets/cd1bc7e3-d9fa-4173-85c5-c6c5c1a5e3cf",
+    "https://github.com/user-attachments/assets/d6bca2fe-6e9e-4390-9856-262f5319cbbf",
+    "https://github.com/user-attachments/assets/e6a1ec89-b537-4977-b88f-08e1a21b2087",
+    "https://github.com/user-attachments/assets/e865d1c4-42f8-4e27-a432-dcbe68b43a95",
+    "https://max.ru/join/Yar1c0k41XMwbnBXWutnmj4rWMk3RrhXIUqpGl8wOog",
+    "https://ninjatrader.com",
+    "https://o-s-a.net/os-engine-faq",
+    "https://o-s-a.net/os-engine-license-about",
+    "https://o-s-a.net/os-engine.html",
+    "https://o-s-a.net/posts/crash-server.html",
+    "https://os-engine-eng.com/faq",
+    "https://os-engine-eng.com/posts/crash-reception-server.html",
+    "https://partner.bitget.com/bg/txme90901684140842016",
+    "https://partner.blofin.com/d/IHJBujb",
+    "https://partner.bybit.com/b/osengine",
+    "https://reestr.digital.gov.ru/reestr/4075388/",
+    "https://smart-lab.ru/company/os_engine/blog/1024149.php",
+    "https://t.me/osengine_official_support"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/alexwan-osengine.json",
+  "schema_version": 1,
+  "source_repository": "AlexWan/OsEngine",
+  "source_url": "https://github.com/AlexWan/OsEngine",
+  "status": "disabled_pending_review"
+}

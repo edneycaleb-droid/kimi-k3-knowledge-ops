@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/agustinusnathaniel/maestria",
+  "canonical_repository": "agustinusnathaniel/maestria",
+  "canonical_url": "https://github.com/agustinusnathaniel/maestria",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:30.881697Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2e814cef468561265aa29b17886a996cfa9dcb262ac308fa0d732f692b76d2b5",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "470188bfe0697d5fd4cb6b1a74d747b88f051e314a0c2407a6d0aa0ac9193bb9",
+    "LICENSE": "2ce169b46e59419480d35eba9c249db01b25800aac93a863488329edac5a7877",
+    "README.md": "dc4cb3dbe3236fb69410d16898559e0eb3ba2cb22cd4cfdf0c78e5ec119d5c4d",
+    "package.json": "875c1dcf31969354cdc8ade5849095fcbb2f0f7a366d0f6af3f7c171ea66437d"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

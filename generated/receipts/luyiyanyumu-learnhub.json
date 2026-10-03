@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/luyiyanyumu/LearnHub",
+  "canonical_repository": "luyiyanyumu/LearnHub",
+  "canonical_url": "https://github.com/luyiyanyumu/LearnHub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:28.704621Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "27e283c3d32ed565d8b87752ccb91063e773bcb8f76d47c218ff6e725ee385fe",
+  "sampled_file_digests": {
+    "LICENSE": "3a2649bdd6cb94422530fd2119e7813219b5d787c875d1af7b00f3768440d707",
+    "README.md": "09ee94d6ee09c806eaa32b9353da01d8106963478d517c7bcc8a903a0511f331"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

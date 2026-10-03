@@ -1,0 +1,61 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/ImmatureGamer/uefn-device-graph",
+    "https://github.com/KirChuvakov/uefn-mcp-server",
+    "https://github.com/undergroundrap",
+    "https://github.com/undergroundrap/UEFN-TOOLBELT",
+    "https://github.com/undergroundrap/UEFN-TOOLBELT/actions/workflows/ci.yml",
+    "https://github.com/undergroundrap/UEFN-TOOLBELT/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/undergroundrap/UEFN-TOOLBELT/discussions",
+    "https://github.com/verselang/book",
+    "https://github.com/verselang/book.git",
+    "https://github.com/yourhandle",
+    "https://github.com/yourhandle/yourrepo/blob/main/my_cool_tool.py",
+    "https://img.shields.io/badge/community-discussions-blueviolet",
+    "https://img.shields.io/badge/license-AGPL--3.0-blue.svg",
+    "https://img.shields.io/badge/version-2.4.1-green.svg",
+    "https://raw.githubusercontent.com/undergroundrap/UEFN-TOOLBELT/main/registry.json",
+    "https://raw.githubusercontent.com/yourhandle/yourrepo/main/my_cool_tool.py",
+    "https://www.gnu.org/licenses/agpl-3.0.en.html",
+    "https://x.com/ImmatureGamer",
+    "https://x.com/KirchCreator"
+  ],
+  "environment_variable_names": [
+    "IMPORTANT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/undergroundrap-uefn-toolbelt.json",
+  "schema_version": 1,
+  "source_repository": "undergroundrap/UEFN-TOOLBELT",
+  "source_url": "https://github.com/undergroundrap/UEFN-TOOLBELT",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/argenisosorio/GuiasLenguajes",
+  "canonical_repository": "argenisosorio/GuiasLenguajes",
+  "canonical_url": "https://github.com/argenisosorio/GuiasLenguajes",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:45.886919Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "944303992c2468ebff4b585bfb4901aec7420435d2560474a6af75b3a37ceecb",
+  "sampled_file_digests": {
+    "LICENSE": "8185bd1165f05c747cf12cba43e3b5c8033a5f4225076457a1d76f19b2c54350",
+    "README.md": "2eaf711318e8c0ffdf3e62fec7bb545fba474f71d55bf4a74b4c993eec1384ea"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

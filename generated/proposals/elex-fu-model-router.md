@@ -1,4 +1,4 @@
-# Integration proposal: linny006/trending-claude-skills
+# Integration proposal: elex-fu/model-router
 
 ## Decision
 
@@ -6,10 +6,10 @@
 
 ## Source
 
-- Repository: https://github.com/linny006/trending-claude-skills
-- Categories: agent, mcp_server, memory, plugin, skill, tool, workflow
+- Repository: https://github.com/elex-fu/model-router
+- Categories: mcp_server, tool
 - License: unverified
-- Default branch: `master`
+- Default branch: `main`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,21 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 15760
+- documentation: **10/10** — README length 30149
 - license: **0/10** — SPDX missing
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 1 high findings
 - interoperability: **9/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **6/10** — 50 stars
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **2/10** — 0 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/linny006-trending-claude-skills.json`.
+A disabled metadata adapter was generated at `generated/adapters/elex-fu-model-router.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist
