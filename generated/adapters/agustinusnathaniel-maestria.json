@@ -1,0 +1,53 @@
+{
+  "categories": [
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-code",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agustinusnathaniel.com/",
+    "https://all-contributors.js.org/docs/en/bot/usage",
+    "https://allcontributors.org/docs/en/emoji-key",
+    "https://avatars.githubusercontent.com/u/17046154?v=4?s=100",
+    "https://avatars.githubusercontent.com/u/42711013?v=4?s=100",
+    "https://github.com/agustinusnathaniel/maestria/commits?author=agustinusnathaniel",
+    "https://github.com/agustinusnathaniel/maestria/commits?author=iyansr",
+    "https://github.com/all-contributors/all-contributors",
+    "https://github.com/changesets/changesets",
+    "https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square",
+    "https://links.iyansr.id",
+    "https://maestria.sznm.dev",
+    "https://maestria.sznm.dev/core/when-to-use/",
+    "https://raw.githubusercontent.com/all-contributors/all-contributors-cli/1b8533af435da9854653492b1327a23a4dbd0a10/assets/logo-small.svg",
+    "https://viteplus.dev"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/agustinusnathaniel-maestria.json",
+  "schema_version": 1,
+  "source_repository": "agustinusnathaniel/maestria",
+  "source_url": "https://github.com/agustinusnathaniel/maestria",
+  "status": "disabled_pending_review"
+}

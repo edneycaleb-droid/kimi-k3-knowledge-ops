@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/openabdev/openab",
+  "canonical_repository": "openabdev/openab",
+  "canonical_url": "https://github.com/openabdev/openab",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:34.635492Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "929c9a9dde74813b9489e978d64592d3113b9bf15cc901ca275e2404477c9b22",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "32716553d0c692c3efc2b1b77b99128c347f20036f8a466162946f746c1235d8",
+    "Dockerfile": "94a2244b0dc4e0f8affb602b4d531e34b2a6c615083bb43817433aa634f30d57",
+    "LICENSE": "fd5f68c2c6e5d74040018f9e996d85425aedc3cd5196c068c71248378e1b8e5c",
+    "README.md": "cb7636d500808b68d287e15e07b38ba1683e492a9a7264cb92aec53a82199512"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

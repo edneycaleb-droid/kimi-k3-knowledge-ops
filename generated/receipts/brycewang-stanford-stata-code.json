@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/brycewang-stanford/stata-code",
+  "canonical_repository": "brycewang-stanford/stata-code",
+  "canonical_url": "https://github.com/brycewang-stanford/stata-code",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:49.602661Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "72027f5fb40902a9728dc86a14db1d03718991680471e0c844b44bd003dc7f5a",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "29e0492957166a7b5cdd5a5428d21655416abda8be24456f6bacb7dc02cc06a0",
+    "LICENSE": "ea41b6780e4e480e411ea4acfdd516886aac3a45a99cae99cb95f18ccf5996a4",
+    "README.md": "7be9e3737f21e4913e622ffab20dbca62cd74510f16d5afed444c3a4d72ca3af",
+    "pyproject.toml": "3108ab939d8ceae0728eef64f43b8585ea3d83b12fe2651e47a5f3d82a4dd2d8"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

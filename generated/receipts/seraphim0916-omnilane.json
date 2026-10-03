@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Seraphim0916/omnilane",
+  "canonical_repository": "Seraphim0916/omnilane",
+  "canonical_url": "https://github.com/Seraphim0916/omnilane",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:25.040282Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "102a662f2c688cd41739a04f7dd9dcfa332be2b88fee5768c673e2dd148e7260",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c21571f4f040e393ce7fd2e76e56fa2d377e987c536ec07c2f426af19b4f0c01",
+    "LICENSE": "f81a8191b476a3fc46cd35eaf46afe66e827dd93fdc0299a6bb7514c76e97bae",
+    "README.md": "dbd653a1ad874aa797f5267575124015badc28e0eb229034e647c4f0b2934bb2",
+    "package.json": "a4c9d05239dd2d087e6a77e19178c039765da749fd78f152e922428c735d9f6d"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.claude.com/en/docs/claude-code/skills",
+    "https://github.com/BurntSushi/ripgrep",
+    "https://github.com/Fission-AI/OpenSpec",
+    "https://github.com/clay-good/OpenLore",
+    "https://github.com/clay-good/OpenLore/actions/workflows/ci.yml",
+    "https://github.com/clay-good/OpenLore/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/clay-good/OpenLore/issues",
+    "https://github.com/clay-good/OpenLore/stargazers",
+    "https://github.com/clay-good/openlore",
+    "https://github.com/clay-good/openlore#readme",
+    "https://github.com/clay-good/openlore/issues",
+    "https://img.shields.io/badge/API_key-not_required-0ea5e9",
+    "https://img.shields.io/badge/MCP-ready-7c3aed?logo=anthropic&logoColor=white",
+    "https://img.shields.io/badge/languages-21%20%2B%2012%20IaC-f97316",
+    "https://img.shields.io/badge/tests-5500%2B-success",
+    "https://img.shields.io/github/stars/clay-good/OpenLore?style=flat-square&logo=github&label=stars",
+    "https://img.shields.io/github/stars/clay-good/OpenLore?style=social",
+    "https://img.shields.io/node/v/openlore?color=339933&logo=node.js&logoColor=white",
+    "https://img.shields.io/npm/l/openlore?color=22c55e",
+    "https://img.shields.io/npm/v/openlore?color=2563eb&label=npm&logo=npm&logoColor=white",
+    "https://raw.githubusercontent.com/clay-good/openlore/main/docs/openlore-gallery.png",
+    "https://www.npmjs.com/package/openlore",
+    "https://www.star-history.com/clay-good/openlore"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "EMBED_BASE_URL",
+    "GEMINI_API_KEY",
+    "OPENAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/clay-good-openlore.json",
+  "schema_version": 1,
+  "source_repository": "clay-good/OpenLore",
+  "source_url": "https://github.com/clay-good/OpenLore",
+  "status": "disabled_pending_review"
+}

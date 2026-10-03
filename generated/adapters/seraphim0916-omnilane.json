@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Seraphim0916/omnilane",
+    "https://github.com/Seraphim0916/omnilane#readme",
+    "https://github.com/Seraphim0916/omnilane.git",
+    "https://github.com/Seraphim0916/omnilane/actions/workflows/ci.yml",
+    "https://github.com/Seraphim0916/omnilane/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/Seraphim0916/omnilane/issues",
+    "https://github.com/Seraphim0916/omnilane/tags",
+    "https://img.shields.io/github/license/Seraphim0916/omnilane",
+    "https://img.shields.io/github/v/tag/Seraphim0916/omnilane?label=version"
+  ],
+  "environment_variable_names": [
+    "EXIT_HOST_CONFIG",
+    "OMNILANE_AA_TRANSPORT_OVERLAY",
+    "OPENROUTER_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/seraphim0916-omnilane.json",
+  "schema_version": 1,
+  "source_repository": "Seraphim0916/omnilane",
+  "source_url": "https://github.com/Seraphim0916/omnilane",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/AlexWan/OsEngine",
+  "canonical_repository": "AlexWan/OsEngine",
+  "canonical_url": "https://github.com/AlexWan/OsEngine",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:38.300357Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b0e38b187cd7039e52b6b4834dded7a1ff1253456b7584475066625bf3f0da21",
+  "sampled_file_digests": {
+    "LICENSE": "2252bec063d957ca5d61c19cbd6f7424e364d74d59210317a9b816425bacf4c6",
+    "README.md": "a9859321f841c38b67fcc6068b7a357fa572718002aa19bcac975d2f99db3dd7"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,41 @@
+{
+  "categories": [
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [
+    "ANTHROPIC_AUTH_TOKEN",
+    "ANTHROPIC_BASE_URL",
+    "HOST",
+    "LLAMACPP_BASE_URL",
+    "LM_STUDIO_BASE_URL",
+    "OLLAMA_BASE_URL",
+    "PROXY_AUTH_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hkqr-my-free-code.json",
+  "schema_version": 1,
+  "source_repository": "hkqr/my-free-code",
+  "source_url": "https://github.com/hkqr/my-free-code",
+  "status": "disabled_pending_review"
+}

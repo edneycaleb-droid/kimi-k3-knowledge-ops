@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/outrightmental/interesting",
+  "canonical_repository": "outrightmental/interesting",
+  "canonical_url": "https://github.com/outrightmental/interesting",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:26.816477Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "453cd20dbe337e40810d48d0c98fc418ae7a6410834317202021480a55ce7e11",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "c38aff34b1c13c39d13a2ec701500831848efd2d15cae3c7ec2c7d5af2e456f3",
+    "README.md": "ceb643f54eb3af7ae7a0fdb51ff9e410b30f997665d60b134140320928ad0efb",
+    "package.json": "283d8167679c84cbe896eeecc3a95f1b53af85d10c5fa5ad28f80d0b744917b3"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

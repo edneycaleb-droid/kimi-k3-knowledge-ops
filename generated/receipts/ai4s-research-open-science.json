@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/ai4s-research/open-science",
+  "canonical_repository": "ai4s-research/open-science",
+  "canonical_url": "https://github.com/ai4s-research/open-science",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:41:04.722003Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "922dbc8b3b56cfbe25129ac4aa140d988e9e0dd57b6b6b5225bf8daec83e8394",
+  "sampled_file_digests": {
+    "LICENSE": "8f844b63f71cc8acb08d844081425183bc28fbb7312e1576651d2cf4cc013738",
+    "README.md": "e255609aaa6d814a297a6bb8478d75ad7194e86fa4096f95f9f0e5e262b0c6df",
+    "package.json": "cd130f2ea9530770cf80acf777873f79255b4c2784dc1454c432b17268bb2a32"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

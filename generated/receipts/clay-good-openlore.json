@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/clay-good/OpenLore",
+  "canonical_repository": "clay-good/OpenLore",
+  "canonical_url": "https://github.com/clay-good/OpenLore",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:56.280982Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8c2279b9967656f49e2ac6150b306784409da1da8a00f509734f6f4a11300dbd",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0620580970b53aebb27d2fc058f06591361dfe072ae5450d60e0186f260a98ab",
+    "LICENSE": "aceaa598dc09afa1b58c1e42127fac9c605e1d3eac92d5501ed0583aaa048f5a",
+    "README.md": "db7d6636d18bc57217d8796fad02aef7cff3419d83ca3b5c230e0668f5d18c3e",
+    "package.json": "e0f1977e6c96aaf1ab30158fee4cca7eac497ecd25b6d3c4b083d69187437de2"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

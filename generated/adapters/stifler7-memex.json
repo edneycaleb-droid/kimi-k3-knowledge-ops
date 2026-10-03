@@ -1,0 +1,181 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aiagentslisting.com/mcp/memex",
+    "https://aiagentslisting.com/memex/badge.svg?claim=1af930b83c7adc182c0f2c52cb300afb",
+    "https://aka.ms/vs/17/release/vs_BuildTools.exe",
+    "https://api.securityscorecards.dev/projects/github.com/STiFLeR7/memex/badge",
+    "https://github.com/Nirvaan05",
+    "https://github.com/STiFLeR7",
+    "https://github.com/STiFLeR7/claude-plugins",
+    "https://github.com/STiFLeR7/memex",
+    "https://github.com/STiFLeR7/memex/actions/workflows/ci.yml",
+    "https://github.com/STiFLeR7/memex/actions/workflows/ci.yml/badge.svg?branch=master",
+    "https://github.com/STiFLeR7/memex/actions/workflows/codeql.yml",
+    "https://github.com/STiFLeR7/memex/actions/workflows/codeql.yml/badge.svg?branch=master",
+    "https://github.com/STiFLeR7/memex/blob/master/README.md",
+    "https://github.com/STiFLeR7/memex/issues",
+    "https://github.com/STiFLeR7/memex/releases",
+    "https://github.com/STiFLeR7/memex/stargazers",
+    "https://github.com/getzep/graphiti",
+    "https://glama.ai/mcp/servers/STiFLeR7/memex",
+    "https://glama.ai/mcp/servers/STiFLeR7/memex/badges/score.svg",
+    "https://img.shields.io/badge/Claude%20Code-marketplace-7c3aed",
+    "https://img.shields.io/badge/License-MIT-green.svg",
+    "https://img.shields.io/github/stars/STiFLeR7/memex?style=flat",
+    "https://img.shields.io/npm/dm/stifler-memex-mcp",
+    "https://img.shields.io/npm/v/stifler-memex-mcp?v=0.9.0",
+    "https://img.shields.io/pypi/dm/memex-mcp",
+    "https://img.shields.io/pypi/v/memex-mcp?v=0.9.0",
+    "https://pypi.org/project/memex-mcp/",
+    "https://pypistats.org/packages/memex-mcp",
+    "https://raw.githubusercontent.com/STiFLeR7/memex/master/assets/memex.png",
+    "https://securityscorecards.dev/viewer/?uri=github.com/STiFLeR7/memex",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.npmjs.com/package/stifler-memex-mcp"
+  ],
+  "environment_variable_names": [
+    "GEMINI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Temporal engineering context for agents via MCP.",
+      "name": "io.github.STiFLeR7/memex",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "Bolt URI of your Neo4j instance",
+              "format": "string",
+              "isRequired": true,
+              "name": "NEO4J_URI"
+            },
+            {
+              "description": "Neo4j username",
+              "format": "string",
+              "isRequired": true,
+              "name": "NEO4J_USER"
+            },
+            {
+              "description": "Neo4j password",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "NEO4J_PASSWORD"
+            },
+            {
+              "description": "Google Gemini API key for entity extraction",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            }
+          ],
+          "identifier": "stifler-memex-mcp",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "serve"
+            },
+            {
+              "name": "--repo",
+              "type": "named",
+              "value": "."
+            }
+          ],
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.9.0"
+        },
+        {
+          "environmentVariables": [
+            {
+              "description": "Bolt URI of your Neo4j instance",
+              "format": "string",
+              "isRequired": true,
+              "name": "NEO4J_URI"
+            },
+            {
+              "description": "Neo4j username",
+              "format": "string",
+              "isRequired": true,
+              "name": "NEO4J_USER"
+            },
+            {
+              "description": "Neo4j password",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "NEO4J_PASSWORD"
+            },
+            {
+              "description": "Google Gemini API key for entity extraction",
+              "format": "string",
+              "isRequired": true,
+              "isSecret": true,
+              "name": "GEMINI_API_KEY"
+            }
+          ],
+          "identifier": "memex-mcp",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "serve"
+            },
+            {
+              "name": "--repo",
+              "type": "named",
+              "value": "."
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.9.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/STiFLeR7/memex"
+      },
+      "version": "0.9.0"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/stifler7-memex.json",
+  "schema_version": 1,
+  "source_repository": "STiFLeR7/memex",
+  "source_url": "https://github.com/STiFLeR7/memex",
+  "status": "disabled_pending_review"
+}

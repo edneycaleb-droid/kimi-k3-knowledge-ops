@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/liustack/pptwise",
+  "canonical_repository": "liustack/pptwise",
+  "canonical_url": "https://github.com/liustack/pptwise",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:41:12.808703Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4603545608abec96c8a4fce7bc26074b27bd59deaa0842cc7bd83476ed2131fa",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "164df0af5428e906e69919e0629ece8039f887b83ffcd0f58622d2af75321d2f",
+    "LICENSE": "49a28082bbd4890d92ff0effd83022baf0e66027744968759cbe0b48890acd6d",
+    "README.md": "1d635bc7e2fd3360f25ed1c08057bd28e88f552a6c3d4dcbb4c9ff5130554c3a",
+    "package.json": "5df3f3fe2c2bfa555490d8cf8a213a35de5d6e9df1ffd704298b5e489bbb8bbf"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

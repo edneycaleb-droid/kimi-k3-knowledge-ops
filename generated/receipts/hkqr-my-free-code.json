@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/hkqr/my-free-code",
+  "canonical_repository": "hkqr/my-free-code",
+  "canonical_url": "https://github.com/hkqr/my-free-code",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-03T16:40:32.821775Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b0aa4955e8fa23d2ab001a2e88474c676c8febcc8278808f14f5c8985323dadc",
+  "sampled_file_digests": {
+    "LICENSE": "5491592da72dfd55f92ed6e698df84c848799f8446e4fbde3129a681531c680d",
+    "README.md": "9b802d31d1953e13e36a11170d39a0942a0f599b809bb3a623cf572357c27a22",
+    "pyproject.toml": "f9ebd90c19de1389032a674686a83f8a824b7e1f46a816dbc62dcf2eecfe1514",
+    "requirements.txt": "7475bd0bd3b7a8e5acd7c9fde367da7aa078d67af7fa2857eba00a494cc759f1"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}
