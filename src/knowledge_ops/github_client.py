@@ -26,6 +26,32 @@ class GitHubClient:
         if self.token is None:
             self.token = os.getenv("GITHUB_TOKEN")
 
+    max_attempts: int = 4
+    max_backoff_seconds: float = 60.0
+    request_spacing_seconds: float = 0.25
+
+    def _retry_delay(self, exc: urllib.error.HTTPError | None, attempt: int) -> float | None:
+        """Seconds to wait before retrying, or None when the error is not transient."""
+        backoff = min(self.max_backoff_seconds, 2.0 ** attempt)
+        if exc is None:  # network error / timeout
+            return backoff
+        code = exc.code
+        headers = exc.headers or {}
+        retry_after = headers.get("Retry-After")
+        if retry_after and retry_after.isdigit():
+            return min(self.max_backoff_seconds, float(retry_after))
+        if code == 403 and headers.get("X-RateLimit-Remaining") == "0":
+            reset = headers.get("X-RateLimit-Reset", "")
+            if reset.isdigit():
+                wait = int(reset) - time.time() + 1
+                return wait if 0 < wait <= self.max_backoff_seconds else None
+            return None
+        if code in (403, 429):  # secondary rate limit
+            return backoff
+        if 500 <= code < 600:
+            return backoff
+        return None
+
     def _request_json(self, url: str) -> Any:
         parsed = urllib.parse.urlparse(url)
         if parsed.scheme != "https" or parsed.hostname not in self.policy.allowed_hosts:
@@ -37,16 +63,31 @@ class GitHubClient:
         }
         if self.token:
             headers["Authorization"] = f"Bearer {self.token}"
-        request = urllib.request.Request(url, headers=headers, method="GET")
-        try:
-            with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
-                payload = response.read(self.policy.max_file_bytes * 4)
-                return json.loads(payload)
-        except urllib.error.HTTPError as exc:
-            if exc.code == 403 and exc.headers.get("X-RateLimit-Remaining") == "0":
-                reset = exc.headers.get("X-RateLimit-Reset", "unknown")
-                raise RuntimeError(f"GitHub API rate limit exhausted; resets at {reset}") from exc
-            raise RuntimeError(f"GitHub API returned {exc.code} for {url}") from exc
+        last_error = "unknown error"
+        for attempt in range(1, self.max_attempts + 1):
+            request = urllib.request.Request(url, headers=headers, method="GET")
+            try:
+                with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
+                    payload = response.read(self.policy.max_file_bytes * 4)
+                    time.sleep(self.request_spacing_seconds)
+                    return json.loads(payload)
+            except urllib.error.HTTPError as exc:
+                if exc.code == 404:
+                    raise RuntimeError(f"GitHub API returned 404 for {url}") from exc
+                delay = self._retry_delay(exc, attempt)
+                if exc.code == 403 and exc.headers.get("X-RateLimit-Remaining") == "0":
+                    last_error = f"GitHub API rate limit exhausted; resets at {exc.headers.get('X-RateLimit-Reset', 'unknown')}"
+                else:
+                    last_error = f"GitHub API returned {exc.code} for {url}"
+                if delay is None or attempt == self.max_attempts:
+                    raise RuntimeError(last_error) from exc
+            except (urllib.error.URLError, TimeoutError) as exc:
+                last_error = f"Network error for {url}: {exc}"
+                if attempt == self.max_attempts:
+                    raise RuntimeError(last_error) from exc
+                delay = self._retry_delay(None, attempt)
+            time.sleep(delay)
+        raise RuntimeError(last_error)
 
     def search_repositories(self, query: str, per_page: int = 10) -> list[dict[str, Any]]:
         limit = min(max(per_page, 1), 25)
@@ -105,7 +146,6 @@ class GitHubClient:
                 files[path] = content
             if sum(len(v.encode("utf-8")) for v in files.values()) >= self.policy.max_file_bytes * 3:
                 break
-            time.sleep(0.01)
         readme = files.get("README.md") or files.get("README") or ""
         license_obj = metadata.get("license") or {}
         return RepositorySnapshot(
