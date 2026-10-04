@@ -15,6 +15,14 @@ from .models import RepositorySnapshot
 from .policy import AgentPolicy, PolicyError
 
 
+class GitHubNotFoundError(RuntimeError):
+    """The resource does not exist (HTTP 404); not worth retrying."""
+
+
+class GitHubTransientError(RuntimeError):
+    """Retries were exhausted on a rate limit, server error or network failure."""
+
+
 @dataclass(slots=True)
 class GitHubClient:
     policy: AgentPolicy
@@ -43,9 +51,9 @@ class GitHubClient:
         if code == 403 and headers.get("X-RateLimit-Remaining") == "0":
             reset = headers.get("X-RateLimit-Reset", "")
             if reset.isdigit():
-                wait = int(reset) - time.time() + 1
-                return wait if 0 < wait <= self.max_backoff_seconds else None
-            return None
+                wait = max(0.0, int(reset) - time.time() + 1)
+                return min(wait, self.max_backoff_seconds)
+            return backoff
         if code in (403, 429):  # secondary rate limit
             return backoff
         if 500 <= code < 600:
@@ -66,28 +74,31 @@ class GitHubClient:
         last_error = "unknown error"
         for attempt in range(1, self.max_attempts + 1):
             request = urllib.request.Request(url, headers=headers, method="GET")
+            # Space every attempt, including ones that end in 404/403, so probe bursts stay throttled.
+            time.sleep(self.request_spacing_seconds)
             try:
                 with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
                     payload = response.read(self.policy.max_file_bytes * 4)
-                    time.sleep(self.request_spacing_seconds)
                     return json.loads(payload)
             except urllib.error.HTTPError as exc:
                 if exc.code == 404:
-                    raise RuntimeError(f"GitHub API returned 404 for {url}") from exc
+                    raise GitHubNotFoundError(f"GitHub API returned 404 for {url}") from exc
                 delay = self._retry_delay(exc, attempt)
                 if exc.code == 403 and exc.headers.get("X-RateLimit-Remaining") == "0":
                     last_error = f"GitHub API rate limit exhausted; resets at {exc.headers.get('X-RateLimit-Reset', 'unknown')}"
                 else:
                     last_error = f"GitHub API returned {exc.code} for {url}"
-                if delay is None or attempt == self.max_attempts:
+                if delay is None:
                     raise RuntimeError(last_error) from exc
+                if attempt == self.max_attempts:
+                    raise GitHubTransientError(last_error) from exc
             except (urllib.error.URLError, TimeoutError) as exc:
                 last_error = f"Network error for {url}: {exc}"
                 if attempt == self.max_attempts:
-                    raise RuntimeError(last_error) from exc
+                    raise GitHubTransientError(last_error) from exc
                 delay = self._retry_delay(None, attempt)
             time.sleep(delay)
-        raise RuntimeError(last_error)
+        raise GitHubTransientError(last_error)
 
     def search_repositories(self, query: str, per_page: int = 10) -> list[dict[str, Any]]:
         limit = min(max(per_page, 1), 25)
@@ -109,8 +120,10 @@ class GitHubClient:
             url += "?" + urllib.parse.urlencode({"ref": ref})
         try:
             data = self._request_json(url)
+        except GitHubTransientError:
+            raise  # a rate-limited or unreachable API must not look like an empty file
         except RuntimeError:
-            return ""
+            return ""  # 404 and other permanent per-file errors: file is simply absent
         if not isinstance(data, dict) or data.get("type") != "file":
             return ""
         if int(data.get("size", 0)) > self.policy.max_file_bytes:

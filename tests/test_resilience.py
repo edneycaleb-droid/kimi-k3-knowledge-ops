@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 from knowledge_ops.agents import DiscoveryAgent  # noqa: E402
-from knowledge_ops.github_client import GitHubClient  # noqa: E402
+from knowledge_ops.github_client import GitHubClient, GitHubTransientError  # noqa: E402
 from knowledge_ops.policy import AgentPolicy  # noqa: E402
 
 
@@ -61,6 +61,33 @@ class ClientRetryTests(unittest.TestCase):
             with self.assertRaises(RuntimeError):
                 self.client._request_json("https://api.github.com/repos/a/b")
         self.assertEqual(opener.call_count, self.client.max_attempts)
+
+    def test_far_rate_limit_reset_is_clamped_not_fatal(self) -> None:
+        exc = http_error(403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "9999999999"})
+        self.assertEqual(self.client._retry_delay(exc, 1), self.client.max_backoff_seconds)
+        expired = http_error(403, {"X-RateLimit-Remaining": "0", "X-RateLimit-Reset": "1"})
+        self.assertEqual(self.client._retry_delay(expired, 1), 0.0)
+
+    def test_every_attempt_is_spaced_even_on_errors(self) -> None:
+        client = GitHubClient(self.policy, token="t", request_spacing_seconds=0.25)
+        with mock.patch("urllib.request.urlopen", side_effect=http_error(404)), mock.patch("time.sleep") as sleep:
+            self.assertEqual(client.get_content("a/b", "README.md"), "")
+        self.assertIn(mock.call(0.25), sleep.call_args_list)
+
+    def test_get_content_treats_404_as_absent(self) -> None:
+        with mock.patch("urllib.request.urlopen", side_effect=http_error(404)), mock.patch("time.sleep"):
+            self.assertEqual(self.client.get_content("a/b", "README.md"), "")
+
+    def test_get_content_propagates_exhausted_transient_errors(self) -> None:
+        with mock.patch("urllib.request.urlopen", side_effect=http_error(503)), mock.patch("time.sleep"):
+            with self.assertRaises(GitHubTransientError):
+                self.client.get_content("a/b", "README.md")
+
+    def test_snapshot_fails_when_api_is_unavailable(self) -> None:
+        metadata = {"full_name": "a/b", "default_branch": "main"}
+        with mock.patch("urllib.request.urlopen", side_effect=http_error(503)), mock.patch("time.sleep"):
+            with self.assertRaises(GitHubTransientError):
+                self.client.snapshot(metadata, "q")
 
 
 class DiscoveryToleranceTests(unittest.TestCase):
