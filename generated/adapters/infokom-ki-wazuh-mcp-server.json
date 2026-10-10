@@ -1,0 +1,73 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://download.pytorch.org/whl/cpu",
+    "https://github.com/user-attachments/assets/c05c2d24-06e6-4a1b-9c40-75af7c5915e8",
+    "https://glama.ai/mcp/servers/INFOKOM-KI/Wazuh-MCP-Server",
+    "https://glama.ai/mcp/servers/INFOKOM-KI/Wazuh-MCP-Server/badges/card.svg",
+    "https://glama.ai/mcp/servers/INFOKOM-KI/Wazuh-MCP-Server/badges/score.svg",
+    "https://kiyararouter.web.id"
+  ],
+  "environment_variable_names": [
+    "ABUSEIPDB_API_KEY",
+    "ARGUS_API_KEY",
+    "BLUETEAM_EXPORT_DIR",
+    "BLUETEAM_FORECAST_MIN_SUPPORT",
+    "BLUETEAM_FORENSIC_TOKEN",
+    "CROWDSEC_API_KEY",
+    "DEFENDER_HOST",
+    "GITHUB_TOKEN",
+    "HUDSONROCK_API_KEY",
+    "MCP_API_KEY",
+    "MCP_API_KEY_SCOPES",
+    "MCP_HOST",
+    "MCP_PORT",
+    "MCP_TRANSPORT",
+    "MISP_API_KEY",
+    "MISP_URL",
+    "NETRA_API_KEY",
+    "NVD_API_KEY",
+    "OTX_API_KEY",
+    "RAPIDAPI_KEY",
+    "THREATFOX_API_KEY",
+    "TOKENIZERS_PARALLELISM",
+    "URL",
+    "URLHAUS_API_KEY",
+    "VIRUSTOTAL_API_KEY",
+    "WAZUH_API_URL",
+    "WAZUH_INDEXER_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/infokom-ki-wazuh-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "INFOKOM-KI/Wazuh-MCP-Server",
+  "source_url": "https://github.com/INFOKOM-KI/Wazuh-MCP-Server",
+  "status": "disabled_pending_review"
+}

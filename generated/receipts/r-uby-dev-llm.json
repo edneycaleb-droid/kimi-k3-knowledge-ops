@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/r-uby-dev/llm",
+  "canonical_repository": "r-uby-dev/llm",
+  "canonical_url": "https://github.com/r-uby-dev/llm",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:24.375031Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f636e305c4d4e7113e03e51197a5699a68b5e70f058be9247463a523615221ab",
+  "sampled_file_digests": {
+    "LICENSE": "6fefe3e14ec5dbc36e6adb7165cb507b6c1310fb7f3eff05e76dded4ff0748e2",
+    "README.md": "b1f9b9af12fd7cdae6498ec12c72cd9c1b744ffdaa8439f1d793df50fcbbb3d1"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

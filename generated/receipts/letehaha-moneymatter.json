@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/letehaha/moneymatter",
+  "canonical_repository": "letehaha/moneymatter",
+  "canonical_url": "https://github.com/letehaha/moneymatter",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "dev",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:59.701325Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "14c671d4b9a2386893ea66bfdf0dec85d3462f75414957293028c4d150b174b6",
+  "sampled_file_digests": {
+    "LICENSE": "8d56b405468aad11f87ab5763f901e276e08d9646ff5c8481b1762b6b789e9ed",
+    "README.md": "b179b4266b883e1be9c34fda4be134612c88c6d4004fb6b3d5cf70fa744ad8d3",
+    "package.json": "2afa9b82ab8fe7eb1d26035d8a36e8532eb303a542c5034c6c2347a4f6ac80c1",
+    "server.json": "3d52b54d3ac505fc3cbf7507e1e6ffd40aa4c184d0bd265b0d86ee7332776968"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

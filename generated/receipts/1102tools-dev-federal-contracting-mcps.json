@@ -1,0 +1,13 @@
+{
+  "api_url": "https://api.github.com/repos/1102tools-dev/federal-contracting-mcps",
+  "canonical_repository": "1102tools-dev/federal-contracting-mcps",
+  "canonical_url": "https://github.com/1102tools-dev/federal-contracting-mcps",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:36.823778Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "49a7333d4d4aa607b904a76ebf80ce367dba02742c2ab8e224bd184e0fd12a13",
+  "sampled_file_digests": {},
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/juspay/neurolink",
+  "canonical_repository": "juspay/neurolink",
+  "canonical_url": "https://github.com/juspay/neurolink",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "release",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:26.908365Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "629983b0f2937cd8136168c05b9e9902d7625f68179e49c9bbc8aefd3bb187b0",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4ed883fed8ff2700b40f5c7afb9ed0c221e6675c6556181a0dc5c68628af9996",
+    "Dockerfile": "69048de0fe1f5a3653fd346ca78579bc502eaa37f1270f3e815a40ea94da0240",
+    "LICENSE": "a1939f8b9d666ec6759cb2cfce6c2aa4cdadb220345dc78567da2e57d19c10e3",
+    "README.md": "51f002f9a297375ea0e3985ea987393496fd2c4cef461e4d934a5e4b81de8731",
+    "package.json": "4d202c41972d19d47dceb6dedebf1a791ade77ff333d2746d1bb53033eeac869"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

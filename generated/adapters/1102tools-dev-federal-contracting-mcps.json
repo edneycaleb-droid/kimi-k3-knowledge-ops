@@ -1,0 +1,31 @@
+{
+  "categories": [
+    "mcp_server"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/1102tools-dev-federal-contracting-mcps.json",
+  "schema_version": 1,
+  "source_repository": "1102tools-dev/federal-contracting-mcps",
+  "source_url": "https://github.com/1102tools-dev/federal-contracting-mcps",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Moo-101/Qamar-cli",
+  "canonical_repository": "Moo-101/Qamar-cli",
+  "canonical_url": "https://github.com/Moo-101/Qamar-cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:31.732286Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6e6b274619ca9744a666b11c061ba2b2f709f340aca266676c7ce4ca5087c45c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f856f4337599dea681c337152c009ca98e173aed2776fbcfa61ada7b8fd1dd0e",
+    "LICENSE": "f9a73a7e5edd87b3452eab8dc51dd7d3bcc852d0b9c8092f9ebd4c6998e96fdf",
+    "README.md": "e88c00b50d45ad03990431792b150c489cdfe56a04ea353b610b28c8710ea57d",
+    "package.json": "7103e20fa215b5f8967806ab08b194ae3e5047604634af7dee901c7bf8da5def"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

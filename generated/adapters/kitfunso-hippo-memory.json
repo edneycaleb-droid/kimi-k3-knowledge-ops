@@ -1,0 +1,117 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2402.17753",
+    "https://arxiv.org/abs/2405.14831",
+    "https://arxiv.org/abs/2410.10813",
+    "https://code.claude.com/docs/en/memory",
+    "https://docs.mem0.ai/platform/mem0-mcp",
+    "https://evermind.ai/",
+    "https://github.com/MarcHesse/mhflocke",
+    "https://github.com/basicmachines-co/basic-memory",
+    "https://github.com/garrytan/gbrain-evals/blob/main/docs/benchmarks/2026-05-07-longmemeval-s.md",
+    "https://github.com/kitfunso/hippo-memory",
+    "https://github.com/kitfunso/hippo-memory.git",
+    "https://github.com/kitfunso/hippo-memory/actions/workflows/ci.yml",
+    "https://github.com/kitfunso/hippo-memory/actions/workflows/ci.yml/badge.svg?branch=master",
+    "https://github.com/kitfunso/hippo-memory/blob/master/LICENSE",
+    "https://github.com/kitfunso/hippo-memory/blob/master/ROADMAP.md#current-execution-index",
+    "https://github.com/kitfunso/hippo-memory/blob/master/docs/evals/README.md",
+    "https://github.com/kitfunso/hippo-memory/pull/126",
+    "https://github.com/kitfunso/hippo-memory/pull/232",
+    "https://github.com/kitfunso/hippo-memory/releases",
+    "https://github.com/kitfunso/hippo-memory/tree/master/extensions/claude-code-plugin",
+    "https://github.com/kitfunso/hippo-memory/tree/master/extensions/pi-extension",
+    "https://github.com/letta-ai/letta-code",
+    "https://github.com/matrixorigin/Memoria",
+    "https://github.com/mem0ai/mem0",
+    "https://github.com/milla-jovovich/mempalace",
+    "https://hermesatlas.com/projects/garrytan/gbrain",
+    "https://hippo-memory.com",
+    "https://ieeexplore.ieee.org/document/5548405",
+    "https://ieeexplore.ieee.org/document/5952114",
+    "https://ieeexplore.ieee.org/document/5953964",
+    "https://img.shields.io/badge/license-MIT-blue",
+    "https://img.shields.io/badge/website-hippo--memory.com-7c3aed",
+    "https://img.shields.io/npm/dm/hippo-memory",
+    "https://img.shields.io/npm/v/hippo-memory",
+    "https://npmjs.com/package/hippo-memory",
+    "https://raw.githubusercontent.com/kitfunso/hippo-memory/master/assets/hippo-init.svg",
+    "https://registry.npmjs.org",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://typesafe.ai",
+    "https://www.cognee.ai/"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "HIPPO_ALLOW_KEYLESS_LOCAL",
+    "HIPPO_API_KEY",
+    "HIPPO_PORT",
+    "HIPPO_TLS_KEY",
+    "SLACK_BOT_TOKEN",
+    "SLACK_SIGNING_SECRET",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Make your agent's memory work like a brain. Hippo is long-term memory for coding agents.",
+      "name": "io.github.kitfunso/hippo-memory",
+      "packages": [
+        {
+          "identifier": "hippo-memory",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryBaseUrl": "https://registry.npmjs.org",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/kitfunso/hippo-memory"
+      },
+      "title": "Hippo memory",
+      "version": "1.70.0",
+      "websiteUrl": "https://hippo-memory.com"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/kitfunso-hippo-memory.json",
+  "schema_version": 1,
+  "source_repository": "kitfunso/hippo-memory",
+  "source_url": "https://github.com/kitfunso/hippo-memory",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/zeng6125-rgb/suixing",
+  "canonical_repository": "zeng6125-rgb/suixing",
+  "canonical_url": "https://github.com/zeng6125-rgb/suixing",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:29.311875Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0a353d0bdbbc6b051a6864723680d3e2317eecc45965351f1faba99ef863d296",
+  "sampled_file_digests": {
+    "LICENSE": "c8c7076ca2e431b2e72cd6fcc53129bcca4fc6c097ee4c59cb96ddd2b31b52cd",
+    "README.md": "ebd8cab0da2b0d2d8799cc28ee039218ba8686206c05cd661cce308f2c6d1111"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

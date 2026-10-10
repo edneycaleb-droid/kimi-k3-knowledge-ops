@@ -1,0 +1,117 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/hashgraph-online/hol-guard/badge",
+    "https://deepwiki.com/badge.svg",
+    "https://deepwiki.com/hashgraph-online/hol-guard",
+    "https://developers.openai.com/codex/plugins",
+    "https://docs.astral.sh/uv/",
+    "https://example.test/samplectl",
+    "https://github.com/astral-sh/ruff",
+    "https://github.com/hashgraph-online",
+    "https://github.com/hashgraph-online/ai-plugin-scanner-action",
+    "https://github.com/hashgraph-online/hol-codex-plugin-scanner-action",
+    "https://github.com/hashgraph-online/hol-guard",
+    "https://github.com/hashgraph-online/hol-guard.git",
+    "https://github.com/hashgraph-online/hol-guard/actions/workflows/ci.yml",
+    "https://github.com/hashgraph-online/hol-guard/actions/workflows/publish.yml",
+    "https://github.com/hashgraph-online/hol-guard/blob/main/SECURITY.md",
+    "https://github.com/hashgraph-online/hol-guard/blob/main/docs/guard/get-started.md",
+    "https://github.com/hashgraph-online/hol-guard/issues",
+    "https://github.com/hashgraph-online/hol-guard/pkgs/container/hol-guard",
+    "https://github.com/hashgraph-online/hol-guard/pulls",
+    "https://github.com/hashgraph-online/hol-guard/releases",
+    "https://github.com/hashgraph-online/hol-guard/stargazers",
+    "https://github.com/hashgraph-online/hol-guard/tree/main/docs/guard",
+    "https://github.com/hashgraph-online/registry-broker-codex-plugin",
+    "https://hol.org/brand/Logo_Whole_Dark.png",
+    "https://hol.org/docs/standards",
+    "https://hol.org/guard",
+    "https://hol.org/guard/activate",
+    "https://hol.org/guard/contributors",
+    "https://hol.org/guard/releases",
+    "https://hol.org/guard/security",
+    "https://hol.org/registry/plugins",
+    "https://hol.org/registry/plugins/hol%2Fregistry-broker-codex-plugin",
+    "https://huggingface.co/datasets/HashgraphOnline/hol-plugin-security",
+    "https://img.shields.io/badge/ghcr-hol--guard-2496ED?logo=docker&logoColor=white",
+    "https://img.shields.io/badge/license-Apache--2.0-blue.svg",
+    "https://img.shields.io/badge/lint-ruff-D7FF64.svg",
+    "https://img.shields.io/badge/python-3.10%2B-3776AB?logo=python&logoColor=white",
+    "https://img.shields.io/github/actions/workflow/status/hashgraph-online/hol-guard/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white",
+    "https://img.shields.io/github/actions/workflow/status/hashgraph-online/hol-guard/publish.yml?branch=main&label=Publish&logo=githubactions&logoColor=white",
+    "https://img.shields.io/github/stars/hashgraph-online/hol-guard?style=social"
+  ],
+  "environment_variable_names": [
+    "SONAR_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Local-first AI agent security evidence and approval workflows through HOL Guard's stdio MCP server.",
+      "name": "io.github.hashgraph-online/hol-guard",
+      "packages": [
+        {
+          "identifier": "hol-guard",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            },
+            {
+              "type": "positional",
+              "value": "serve"
+            },
+            {
+              "type": "positional",
+              "value": "--stdio"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.2.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/hashgraph-online/hol-guard"
+      },
+      "title": "HOL Guard",
+      "version": "2.2.0",
+      "websiteUrl": "https://hol.org/guard"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hashgraph-online-hol-guard.json",
+  "schema_version": 1,
+  "source_repository": "hashgraph-online/hol-guard",
+  "source_url": "https://github.com/hashgraph-online/hol-guard",
+  "status": "disabled_pending_review"
+}

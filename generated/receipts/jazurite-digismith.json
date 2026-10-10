@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Jazurite/DigiSmith",
+  "canonical_repository": "Jazurite/DigiSmith",
+  "canonical_url": "https://github.com/Jazurite/DigiSmith",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:26:57.302539Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0a5b80a0fc5e4bd3e499297678fe34fef556a3d442103b16f8cf3e3bb510b86d",
+  "sampled_file_digests": {
+    "README.md": "7c5dd915eee4ab74aa51533520168ed1ddd57935c9ef75e7b14f50654b197d9e",
+    "package.json": "ba710da3605d93592d22225453202281fb3336fe575eec624a47a2dbfe0ad40c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

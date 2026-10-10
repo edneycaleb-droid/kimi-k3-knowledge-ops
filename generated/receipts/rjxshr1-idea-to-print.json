@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Rjxshr1/idea-to-print",
+  "canonical_repository": "Rjxshr1/idea-to-print",
+  "canonical_url": "https://github.com/Rjxshr1/idea-to-print",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:28:10.174514Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "437eaa4ec1fcdd8ccca201b00c9fd6eafc2dba7396db75655c95b97e5c95da4b",
+  "sampled_file_digests": {
+    "LICENSE": "7590d45a7823783c192aea5f5a7d94ab5fd56e3f08eccc68d6ee0a0abd5c737d",
+    "README.md": "5e3bf5f2456067cf6940650091da5863c29ce7ed0247a12039923979dcc6c9e7",
+    "requirements.txt": "32b0262a1c6a23e2ac2456ef2dc64fb6e302318a3b312caf925794c9408f2ba9"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/kitfunso/hippo-memory",
+  "canonical_repository": "kitfunso/hippo-memory",
+  "canonical_url": "https://github.com/kitfunso/hippo-memory",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:54.558381Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "701684697c3263e86339832274ae2d2ffbbeca596d2669739e944574746e386e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "baa068c2e6790bc98b540f95b71d625fa4aa99ceddebfa18fb70d5f8fc9c9f47",
+    "LICENSE": "c3e197e295e989f797bf994a98ee514179c5ea031320af0823b2bb4c8b05a09d",
+    "README.md": "cba66e17783d4d63589def10d1fbdf455e46b38aacc5285641088d735cc3efd0",
+    "package.json": "9db1c750119dcc110ecb28834ea0750107aec3545c7b9a6df95358a30f213d69",
+    "server.json": "a0f0ac8315291ed0e62dd6399d71868748d9b84ed116d59810e66f5de8461593"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

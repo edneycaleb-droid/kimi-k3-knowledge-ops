@@ -1,0 +1,88 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://badges.crowdin.net/moneymatter/localized.svg",
+    "https://crowdin.com/project/moneymatter",
+    "https://docs.moneymatter.app",
+    "https://docs.moneymatter.app/accounts/vehicles/",
+    "https://docs.moneymatter.app/import/bank-connections/",
+    "https://docs.moneymatter.app/import/import-from-csv/",
+    "https://docs.moneymatter.app/import/other-import-sources/",
+    "https://docs.moneymatter.app/settings/base-currency-and-currencies/",
+    "https://docs.moneymatter.app/settings/plans-and-billing/",
+    "https://docs.moneymatter.app/settings/security-and-account/",
+    "https://docs.moneymatter.app/settings/security-and-account/#backup-and-restore",
+    "https://docs.moneymatter.app/stats/analytics-reports/",
+    "https://docs.moneymatter.app/stats/dashboard/",
+    "https://docs.moneymatter.app/transfers-and-refunds/how-transfers-work/",
+    "https://fsf.org/",
+    "https://github.com/letehaha/moneymatter",
+    "https://github.com/letehaha/moneymatter.git",
+    "https://github.com/letehaha/moneymatter/actions/workflows/check-source-code.yml",
+    "https://github.com/letehaha/moneymatter/releases",
+    "https://img.shields.io/badge/License-AGPL_v3-blue.svg",
+    "https://img.shields.io/github/actions/workflow/status/letehaha/moneymatter/check-source-code.yml?branch=main&label=CI",
+    "https://img.shields.io/github/v/release/letehaha/moneymatter",
+    "https://mcp.moneymatter.app/mcp",
+    "https://modelcontextprotocol.io",
+    "https://moneymatter.app",
+    "https://moneymatter.app/sign-up",
+    "https://moneymatter.featurebase.app/dashboard/roadmap",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/agpl-3.0"
+  ],
+  "environment_variable_names": [
+    "MCP_BASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Personal finance tracker: accounts, transactions, budgets, investments and analytics over OAuth.",
+      "name": "io.github.letehaha/moneymatter",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://mcp.moneymatter.app/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/letehaha/moneymatter"
+      },
+      "title": "MoneyMatter",
+      "version": "1.0.0",
+      "websiteUrl": "https://moneymatter.app"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/letehaha-moneymatter.json",
+  "schema_version": 1,
+  "source_repository": "letehaha/moneymatter",
+  "source_url": "https://github.com/letehaha/moneymatter",
+  "status": "disabled_pending_review"
+}

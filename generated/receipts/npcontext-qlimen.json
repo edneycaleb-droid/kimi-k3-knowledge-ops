@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/NPCONTEXT/Qlimen",
+  "canonical_repository": "NPCONTEXT/Qlimen",
+  "canonical_url": "https://github.com/NPCONTEXT/Qlimen",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:21.321778Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e0dc520314f6117ea49b34642ff860ae3a8a6a1d4f8fe79eed388ecfb02ba49e",
+  "sampled_file_digests": {
+    "LICENSE": "837b73694a966731c85143906da7b02aca3530ff3dc021af17a2fe7a44be1f38",
+    "README.md": "d2e500051dbb2448e40f27e5e6a125ffcfc31377f5266ad860518236c9631eee"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}
