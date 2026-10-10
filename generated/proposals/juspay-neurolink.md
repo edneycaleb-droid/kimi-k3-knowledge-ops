@@ -1,15 +1,15 @@
-# Integration proposal: Tairitsua/Monica
+# Integration proposal: juspay/neurolink
 
 ## Decision
 
-**REVIEW** — quality 75/100; bounded learning adjustment +0.
+**REVIEW** — quality 83/100; bounded learning adjustment +0.
 
 ## Source
 
-- Repository: https://github.com/Tairitsua/Monica
-- Categories: mcp_server, skill, workflow
+- Repository: https://github.com/juspay/neurolink
+- Categories: agent, api, mcp_server, memory, plugin, tool, workflow
 - License: MIT
-- Default branch: `dev`
+- Default branch: `release`
 - Collected via: GitHub REST API GET only
 
 ## Ten-control assessment
@@ -17,21 +17,23 @@
 - provenance: **10/10** — Canonical GitHub identity and retrieval timestamp
 - source_authority: **7/10** — Trusted owner or non-fork upstream
 - maintenance: **10/10** — Last push 0 days ago
-- documentation: **10/10** — README length 11789
+- documentation: **10/10** — README length 139895
 - license: **10/10** — SPDX MIT
-- testing: **4/10** — Test/CI signal in sampled metadata
-- security: **10/10** — 0 critical, 0 high findings
-- interoperability: **5/10** — Compatibility target matches
-- reproducibility: **5/10** — Versioned dependency manifest
-- adoption: **4/10** — 13 stars
+- testing: **10/10** — Test/CI signal in sampled metadata
+- security: **3/10** — 0 critical, 3 high findings
+- interoperability: **7/10** — Compatibility target matches
+- reproducibility: **10/10** — Versioned dependency manifest
+- adoption: **6/10** — 147 stars
 
 ## Static security review
 
-- No sampled static-security indicators.
+- `high` `SEC006` in `README.md`: Credential or secret access
+- `high` `SEC006` in `Dockerfile`: Credential or secret access
+- `high` `SEC006` in `.github/workflows/ci.yml`: Credential or secret access
 
 ## Generated implementation
 
-A disabled metadata adapter was generated at `generated/adapters/tairitsua-monica.json`.
+A disabled metadata adapter was generated at `generated/adapters/juspay-neurolink.json`.
 It contains normalized MCP/tool/skill metadata and compatibility hints. It cannot install or execute upstream code.
 
 ## Activation checklist

@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/Moo-101",
+    "https://github.com/Moo-101/Qamar-cli#readme",
+    "https://github.com/Moo-101/Qamar-cli.git",
+    "https://github.com/Moo-101/Qamar-cli/actions/workflows/ci.yml",
+    "https://github.com/Moo-101/Qamar-cli/issues",
+    "https://github.com/vadimdemedes/ink",
+    "https://img.shields.io/badge/CI-Passing-brightgreen?style=flat-square",
+    "https://img.shields.io/badge/Docs-%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-orange.svg?style=flat-square",
+    "https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=flat-square",
+    "https://img.shields.io/badge/Node.js-%3E%3D18.0.0-green.svg?style=flat-square",
+    "https://img.shields.io/badge/Suites-179%20clean-blue?style=flat-square",
+    "https://img.shields.io/badge/TUI-React%20%2B%20Ink-pink.svg?style=flat-square",
+    "https://img.shields.io/badge/Tests-1030%20passing-brightgreen?style=flat-square",
+    "https://img.shields.io/badge/TypeScript-5.6-blue.svg?style=flat-square",
+    "https://mcp.internal.corp/sse",
+    "https://nodejs.org",
+    "https://www.conventionalcommits.org/",
+    "https://www.gnu.org/licenses/",
+    "https://www.typescriptlang.org"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "BRAVE_SEARCH_API_KEY",
+    "DASHSCOPE_API_KEY",
+    "DEEPSEEK_API_KEY",
+    "GEMINI_API_KEY",
+    "GITHUB_PERSONAL_ACCESS_TOKEN",
+    "KIMI_API_KEY",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "TOKENHARBOR_API_KEY",
+    "ZENMUX_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/moo-101-qamar-cli.json",
+  "schema_version": 1,
+  "source_repository": "Moo-101/Qamar-cli",
+  "source_url": "https://github.com/Moo-101/Qamar-cli",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/DigitalPals/Fusebox",
+  "canonical_repository": "DigitalPals/Fusebox",
+  "canonical_url": "https://github.com/DigitalPals/Fusebox",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:13.853128Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d9c503fe56a785630a409bc3161b2c1a32aae5fb1cb1b6475ca5b7b064ae5618",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f0f88867cef42236061964631476ee5e35e3ad2b8a8d47bed1d03c8d6264abb7",
+    "Dockerfile": "8850d3bf7ebf390996ccf55fca3af831033c6ad44c5faf25ddb70d9fb459d53a",
+    "LICENSE": "6b0382b16279f26ff69014300541967a356a666eb0b91b422f6862f6b7dad17e",
+    "README.md": "8b5e43bcd93402ff986e0c09cbdc2507c52475aece0b6b19d873e3322a4eb74b",
+    "docker-compose.yml": "6e822e2709fa39b5d01182cebc13cb3f1ff2e1f4a1eebe9bf51e4f53e4218372"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

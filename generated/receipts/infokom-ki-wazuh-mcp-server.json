@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/INFOKOM-KI/Wazuh-MCP-Server",
+  "canonical_repository": "INFOKOM-KI/Wazuh-MCP-Server",
+  "canonical_url": "https://github.com/INFOKOM-KI/Wazuh-MCP-Server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:46.265441Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c5cd9e70aa92538ec8b5929ffa3a0bc1899091cbda10f1d6f97b30ceb955b599",
+  "sampled_file_digests": {
+    "LICENSE": "f6605e49c14f9edcc2249a97be667d5fa4e6f986058b65fc6f13f465934d0075",
+    "README.md": "f6b60208df2e1c4ae59094b97a43f0135672ea490ae8ea4bfabec7450c0d8910",
+    "requirements.txt": "87a2e114726d4ae6dfadf4eef82a5240786ad21b12b69b408d979b7968a3d973"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

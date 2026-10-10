@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "openai-compatible",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/DigitalPals/Fusebox",
+    "https://github.com/DigitalPals/Fusebox/actions/workflows/ci.yml",
+    "https://github.com/DigitalPals/Fusebox/releases/latest",
+    "https://github.com/IuCC123",
+    "https://github.com/IuCC123/CLIProxyAPI-Rust",
+    "https://github.com/lobehub/lobe-icons",
+    "https://github.com/router-for-me/CLIProxyAPI",
+    "https://img.shields.io/badge/dashboard-built%20in-f2efe8?style=flat-square&labelColor=0b0b0a",
+    "https://img.shields.io/badge/license-Unlicense-f2efe8?style=flat-square&labelColor=0b0b0a",
+    "https://img.shields.io/badge/rust-1.88%2B-f2efe8?style=flat-square&labelColor=0b0b0a&logo=rust&logoColor=white",
+    "https://img.shields.io/badge/single%20binary-embedded%20dashboard-f2efe8?style=flat-square&labelColor=0b0b0a",
+    "https://img.shields.io/github/actions/workflow/status/DigitalPals/Fusebox/ci.yml?branch=main&style=flat-square&labelColor=0b0b0a&label=ci",
+    "https://openrouter.ai/api/v1",
+    "https://t3.codes",
+    "https://tailscale.com/kb/1153/enabling-https",
+    "https://unlicense.org",
+    "https://www.rust-lang.org"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_AUTH_TOKEN",
+    "ANTHROPIC_BASE_URL",
+    "CLIPROXYAPI_RUST_DEFAULT_HOST",
+    "FUSEBOX_DEFAULT_HOST",
+    "FUSEBOX_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/digitalpals-fusebox.json",
+  "schema_version": 1,
+  "source_repository": "DigitalPals/Fusebox",
+  "source_url": "https://github.com/DigitalPals/Fusebox",
+  "status": "disabled_pending_review"
+}

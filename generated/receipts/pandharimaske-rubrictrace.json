@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Pandharimaske/RubricTrace",
+  "canonical_repository": "Pandharimaske/RubricTrace",
+  "canonical_url": "https://github.com/Pandharimaske/RubricTrace",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:05.381150Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5e0f89242e20557286b5c1e3da059f56d131458dbb1df8060532ee7451fa3cb8",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "b685f0830ec883be45108d75e6364f4b7e64421d7b2aefd1ecf23bc045868061"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

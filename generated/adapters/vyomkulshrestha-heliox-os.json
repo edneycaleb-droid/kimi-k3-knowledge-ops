@@ -1,0 +1,84 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://code.claude.com/docs/en/authentication",
+    "https://github.com/VyomKulshrestha/Heliox-OS.git",
+    "https://github.com/VyomKulshrestha/Heliox-OS/actions",
+    "https://github.com/VyomKulshrestha/Heliox-OS/actions/workflows/ci.yml",
+    "https://github.com/VyomKulshrestha/Heliox-OS/discussions",
+    "https://github.com/VyomKulshrestha/Heliox-OS/issues/new/choose",
+    "https://github.com/VyomKulshrestha/Heliox-OS/issues?q=is%3Aissue+is%3Aopen+label%3A%22good%20first%20issue%22",
+    "https://github.com/VyomKulshrestha/Heliox-OS/releases",
+    "https://github.com/sponsors/VyomKulshrestha",
+    "https://help.openai.com/en/articles/11369540-using-codex-with-your-chatgpt-plan",
+    "https://img.shields.io/github/actions/workflow/status/VyomKulshrestha/Heliox-OS/ci.yml?style=for-the-badge&label=CI",
+    "https://img.shields.io/github/downloads/VyomKulshrestha/Heliox-OS/total?style=for-the-badge&color=7c6fe0&label=Downloads",
+    "https://img.shields.io/github/license/VyomKulshrestha/Heliox-OS?style=for-the-badge&color=blue",
+    "https://img.shields.io/github/sponsors/VyomKulshrestha?style=for-the-badge&color=ea4aaa&label=Sponsor",
+    "https://img.shields.io/github/v/release/VyomKulshrestha/Heliox-OS?style=for-the-badge&color=00f0ff&label=Release",
+    "https://olud.ai/badge.php?tool=vyomkulshrestha-heliox-os",
+    "https://olud.ai/tool/vyomkulshrestha-heliox-os.html",
+    "https://www.helioxos.dev/",
+    "https://www.helioxos.dev/#comparisons",
+    "https://www.helioxos.dev/.well-known/agent-skills/index.json",
+    "https://www.helioxos.dev/.well-known/api-catalog",
+    "https://www.helioxos.dev/.well-known/mcp.json",
+    "https://www.helioxos.dev/accessibility-hands-free.html",
+    "https://www.helioxos.dev/autonomous-workflows.html",
+    "https://www.helioxos.dev/browser-app-control.html",
+    "https://www.helioxos.dev/capabilities.json",
+    "https://www.helioxos.dev/cost.html",
+    "https://www.helioxos.dev/gesture-gaze-control.html",
+    "https://www.helioxos.dev/heliox-vs-open-interpreter.html",
+    "https://www.helioxos.dev/heliox-vs-traditional-automation.html",
+    "https://www.helioxos.dev/heliox-vs-windows-copilot.html",
+    "https://www.helioxos.dev/llms.txt",
+    "https://www.helioxos.dev/neural-research.html",
+    "https://www.helioxos.dev/openapi.json",
+    "https://www.helioxos.dev/plugin-marketplace.html",
+    "https://www.helioxos.dev/privacy.html",
+    "https://www.helioxos.dev/proof.html",
+    "https://www.helioxos.dev/proof.md",
+    "https://www.helioxos.dev/releases.json",
+    "https://www.helioxos.dev/subscription-models.html"
+  ],
+  "environment_variable_names": [
+    "GITHUB_PERSONAL_ACCESS_TOKEN",
+    "IMPORTANT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vyomkulshrestha-heliox-os.json",
+  "schema_version": 1,
+  "source_repository": "VyomKulshrestha/Heliox-OS",
+  "source_url": "https://github.com/VyomKulshrestha/Heliox-OS",
+  "status": "disabled_pending_review"
+}

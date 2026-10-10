@@ -1,0 +1,35 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://github.com/obra/superpowers"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jazurite-digismith.json",
+  "schema_version": 1,
+  "source_repository": "Jazurite/DigiSmith",
+  "source_url": "https://github.com/Jazurite/DigiSmith",
+  "status": "disabled_pending_review"
+}

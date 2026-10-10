@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/kumargope/yt-egnt",
+  "canonical_repository": "kumargope/yt-egnt",
+  "canonical_url": "https://github.com/kumargope/yt-egnt",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-10T17:27:02.711086Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0835af2a6ab26c95f6b44a93731b4e1213c8803e11aa9a5cc1278340fc00da68",
+  "sampled_file_digests": {
+    "LICENSE": "0637d0e4accdfba32d1f8723892a882fe85057ea4860ec35bfcca578782e49a0",
+    "README.md": "b18c387f615444ce5b790ba2d8c4cc53aa86394341eb280974a19874aaa980cd",
+    "package.json": "a65d320170866761f1f99807bcd9dd5bce9990c837580d52e7efb1209902db08"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
