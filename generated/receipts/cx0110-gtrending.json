@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/cx0110/gTrending",
+  "canonical_repository": "cx0110/gTrending",
+  "canonical_url": "https://github.com/cx0110/gTrending",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:22.809072Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2d65668e4a9f035860230ce8e8a74eae9102311861280cefc820fbc45cb5b9f9",
+  "sampled_file_digests": {
+    "README.md": "e2e540206af30d5c1284a741a9196c5a8ba95c8dd9bc0a11fde297baab8dd418",
+    "requirements.txt": "5dfc1bf3f9aab827ccec118a6b073e488ec6d5f2e21ba1a175f8d9b4b7440762"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,37 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io",
+    "https://skills.sh"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/v0lka-skills.json",
+  "schema_version": 1,
+  "source_repository": "v0lka/skills",
+  "source_url": "https://github.com/v0lka/skills",
+  "status": "disabled_pending_review"
+}

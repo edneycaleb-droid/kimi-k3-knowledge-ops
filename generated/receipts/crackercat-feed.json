@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/CrackerCat/feed",
+  "canonical_repository": "CrackerCat/feed",
+  "canonical_url": "https://github.com/CrackerCat/feed",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:16:37.970159Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "32781da4cf6758b4369bdd767676393e607fa02ceb3747cca988f038f83c408b",
+  "sampled_file_digests": {
+    "README.md": "4622de10d9d3af8f3a7ce4001f1d0a86b1e707e5f3679d3590f30331b3cd478f",
+    "requirements.txt": "5ae860438076ce662297206386430bd6d044edf6ed1f73f6e8f348cfbd0525d9"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

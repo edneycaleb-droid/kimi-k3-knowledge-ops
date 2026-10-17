@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/emersonjds/santi",
+  "canonical_repository": "emersonjds/santi",
+  "canonical_url": "https://github.com/emersonjds/santi",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:54.056083Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7d785f6a36be1f75ed92ea631ea5f73f31c052245404b4fb3a1f944244b9773e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a6e1f4c6eca69a830ea8dd21caad31ff670ec02394e12e2a462c72fc65602d23",
+    "Dockerfile": "35923ea3de2e0ecbb9f167b73ce8fb5b976fc8fc512c78f2a62def62e1f0e224",
+    "README.md": "4bfe7651d6d4f6a934f2cbd6eb3033b9ebd7252bfada25b6cbbc373e69806056"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

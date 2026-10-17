@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/v0lka/skills",
+  "canonical_repository": "v0lka/skills",
+  "canonical_url": "https://github.com/v0lka/skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:18:13.084055Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9118e408fa070ee7ea5c987134ce279408c5bf04b6370f30ff914ecad698e47d",
+  "sampled_file_digests": {
+    "LICENSE": "a63cbab38826f03c14fea9844c7d3cabec21e9c90ba9489876874a5f68b3ffd9",
+    "README.md": "f5f8c9e9e3a48a2cc61ca9a221d6af403e319ac9768e427a3bb829758bb2c1cf"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

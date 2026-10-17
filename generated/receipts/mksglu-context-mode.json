@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/mksglu/context-mode",
+  "canonical_repository": "mksglu/context-mode",
+  "canonical_url": "https://github.com/mksglu/context-mode",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:58.096693Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b89d13418a45d051ab172a6f9739bf98f855107a5a9397b341ad35c13730d64e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e036684e82d00e6f612fdf1dded8ed687fb16e2c3af2ce289562db3de4b8f55e",
+    "LICENSE": "92f11a867c41c9e575ccb978ff205ae2011c244a14aa3c576e914e537105caa0",
+    "README.md": "9308e09043c4746340662e7a72e68de155fc28d70a1dd316f5ff292596076d04",
+    "package.json": "f0a96c5affd66f5334f2f4cd5a1270e65018a0b83317b4e752cd6f60cdba8680"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

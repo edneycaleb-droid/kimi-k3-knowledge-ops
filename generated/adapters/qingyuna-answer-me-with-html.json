@@ -1,0 +1,63 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "skill",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://answer-me-with-html.com/",
+    "https://answer-me-with-html.com/themes/",
+    "https://api.star-history.com/svg?repos=QingYunA/answer-me-with-html&type=Date",
+    "https://api.star-history.com/svg?repos=QingYunA/answer-me-with-html&type=Date&theme=dark",
+    "https://atomgit.com/weixin_43367137/answer-me-with-html",
+    "https://discord.gg/sYQuRRZNzQ",
+    "https://github.com/QingYunA/answer-me-with-html#readme",
+    "https://github.com/QingYunA/answer-me-with-html.git",
+    "https://github.com/QingYunA/answer-me-with-html/issues",
+    "https://github.com/QingYunA/answer-me-with-html/releases",
+    "https://github.com/QingYunA/answer-me-with-html/releases/download/v0.4.14/bench-corpus-2026-10-07.zip",
+    "https://github.com/QingYunA/answer-me-with-html/stargazers",
+    "https://github.com/dagrejs/dagre",
+    "https://github.com/markedjs/marked",
+    "https://github.com/omdsh-dev/dsh-genui",
+    "https://github.com/tt-a1i/archify",
+    "https://github.com/user-attachments/assets/d3063a28-5dfd-4c44-a562-be901c49b249",
+    "https://github.com/vercel-labs/skills",
+    "https://img.shields.io/badge/works%20with-Claude%20Code%20%C2%B7%20Codex%20%C2%B7%20Cursor%20%C2%B7%20OpenCode%20%C2%B7%20Pi%20%C2%B7%20DeepSeek%20Harness-2ea44f?style=flat-square&labelColor=16181d",
+    "https://img.shields.io/github/stars/QingYunA/answer-me-with-html?style=flat-square&logo=github&labelColor=16181d&color=2ea44f",
+    "https://img.shields.io/github/v/release/QingYunA/answer-me-with-html?style=flat-square&logo=github&labelColor=16181d&color=2ea44f",
+    "https://linux.do",
+    "https://nodejs.org/",
+    "https://raw.githubusercontent.com/QingYunA/answer-me-with-html/main/INSTALL.md",
+    "https://star-history.com/#QingYunA/answer-me-with-html&Date",
+    "https://www.asd-ste100.org/",
+    "https://www.theagenticleaderboard.com/alternatives/answer-me-with-html/",
+    "https://www.theagenticleaderboard.com/badges/new/answer-me-with-html.svg",
+    "https://x.com/karpathy/status/2105819303471976479"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/qingyuna-answer-me-with-html.json",
+  "schema_version": 1,
+  "source_repository": "QingYunA/answer-me-with-html",
+  "source_url": "https://github.com/QingYunA/answer-me-with-html",
+  "status": "disabled_pending_review"
+}

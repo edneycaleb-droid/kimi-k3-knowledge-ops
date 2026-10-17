@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://baocode.dev",
+    "https://github.com/0xSh4dy",
+    "https://github.com/0xjohnnydev/cryptsn0w",
+    "https://github.com/10dian-ai/cpa-nexus",
+    "https://github.com/1193776794",
+    "https://github.com/ARahim3/DigUp",
+    "https://github.com/Admirepowered",
+    "https://github.com/AndnixSH",
+    "https://github.com/Autumn-27/ScopeSentry",
+    "https://github.com/Benjamin-Dobell",
+    "https://github.com/Benjamin-Dobell/luanalysis",
+    "https://github.com/Bioruebe",
+    "https://github.com/BlackLineInteractive/nWiiURecomp",
+    "https://github.com/BuSung-dev",
+    "https://github.com/Bzi-Han",
+    "https://github.com/CHIZI-0618",
+    "https://github.com/CangShui/workbuddy-gateway",
+    "https://github.com/ChrisTheCoolHut",
+    "https://github.com/Chunyu33/light-c",
+    "https://github.com/ColdWindScholar",
+    "https://github.com/CreditTone/hooker",
+    "https://github.com/DarkLineX",
+    "https://github.com/Dax89",
+    "https://github.com/DeLuks2006",
+    "https://github.com/Devolutions/UniGetUI",
+    "https://github.com/DietrichGebert/ponytail",
+    "https://github.com/Dispa1r",
+    "https://github.com/Dom-Yan/Mucc",
+    "https://github.com/Dump-GUY",
+    "https://github.com/Dump-GUY/DefenderCheck",
+    "https://github.com/Dy-Baby",
+    "https://github.com/Ebony-Vinyl/dsh-our-free-model",
+    "https://github.com/EchoPing07/Qoder-2API-Go",
+    "https://github.com/Ernket/CodeScan-Artex",
+    "https://github.com/EthanArbuckle",
+    "https://github.com/EthanArbuckle/fairplay-screenshot",
+    "https://github.com/FreelancerDecomp/Freelancer-Decomp",
+    "https://github.com/GMWalletApp/eip7702",
+    "https://github.com/Garfield1002/open_sleigh",
+    "https://github.com/Gegenbauer"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/crackercat-feed.json",
+  "schema_version": 1,
+  "source_repository": "CrackerCat/feed",
+  "source_url": "https://github.com/CrackerCat/feed",
+  "status": "disabled_pending_review"
+}

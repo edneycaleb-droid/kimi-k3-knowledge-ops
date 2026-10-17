@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Ward-Software-Defined-Systems/embraOS",
+  "canonical_repository": "Ward-Software-Defined-Systems/embraOS",
+  "canonical_url": "https://github.com/Ward-Software-Defined-Systems/embraOS",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:16:50.296262Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3c0297cf6cd725489398dd2ea2174e0bad5bd0ce6bb8eb17ddc4837bbacafa35",
+  "sampled_file_digests": {
+    "LICENSE": "6c8b1ac5670d0be4c7dd12aa648018f83d9887343e2fefa6cc9960c4386a40f1",
+    "README.md": "9ddd729b76f060c24f36bf7dc7f234b11257283e3dcb3f8d18eae11214e9b63a"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

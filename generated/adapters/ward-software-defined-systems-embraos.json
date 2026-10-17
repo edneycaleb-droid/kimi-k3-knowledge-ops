@@ -1,0 +1,43 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "kimi-k3"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://doi.org/10.5281/zenodo.20673525",
+    "https://github.com/AiClaw/OpenClaw",
+    "https://github.com/ward-software-defined-systems/wardsondb",
+    "https://wsds.io",
+    "https://www.talos.dev/",
+    "https://zenodo.org/badge/DOI/10.5281/zenodo.20673525.svg"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ward-software-defined-systems-embraos.json",
+  "schema_version": 1,
+  "source_repository": "Ward-Software-Defined-Systems/embraOS",
+  "source_url": "https://github.com/Ward-Software-Defined-Systems/embraOS",
+  "status": "disabled_pending_review"
+}

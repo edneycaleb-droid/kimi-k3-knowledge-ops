@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/thiagoproldan/graff",
+  "canonical_repository": "thiagoproldan/graff",
+  "canonical_url": "https://github.com/thiagoproldan/graff",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:16:42.007828Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4e898f70319e7ae95181c9f3371b7e026fe4aa3d8d57b787658fc45524ec06d3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "56a37b15533bbe9d0aa499439fa9e53c766ccad3c7acb503ec30756092817142",
+    "LICENSE": "71a7d9871c85e9b91bbb2c33d29c2ecc920583fed268f453563f1054926bf534",
+    "README.md": "02a4469f41b0288c7d987e237b89bcd0338a87aca7f1a4a29e373c990311470d"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/CodesbyFebin/BRO-Personal-Ai",
+  "canonical_repository": "CodesbyFebin/BRO-Personal-Ai",
+  "canonical_url": "https://github.com/CodesbyFebin/BRO-Personal-Ai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:16:33.908382Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d75c38f32289a07f9b95023921835d7408f7f93264c57c0fad0fd7c25052fa0b",
+  "sampled_file_digests": {
+    "README.md": "a0559d2322502d652ef04ef3454859935e8f086328ae81496112d418786b05cd"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

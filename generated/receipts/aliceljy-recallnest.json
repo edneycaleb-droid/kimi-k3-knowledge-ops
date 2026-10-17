@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/AliceLJY/recallnest",
+  "canonical_repository": "AliceLJY/recallnest",
+  "canonical_url": "https://github.com/AliceLJY/recallnest",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:46.345567Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d6d81dd74dfa8ff406bab8ead9a9548c640d5020d930e207cbd85d3eb2d6e77d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "85e5df6f1f54cc7bd948f3f063a302e67908c2604f6c0a69450605ba0650c540",
+    ".mcp.json": "d8e397af03b5b032f21d0aa967086f0c78b33c87b76f2e9898ae0a144df7de02",
+    "Dockerfile": "3f349ef634609e13f85c574ae795e77bbc29a15f38bd7715ce844a16b0f4b000",
+    "LICENSE": "4cca8f0cb3d9069e2123aadd3484d561844f44ced6dd0a4febc0618148b4882c",
+    "README.md": "a8f10804e9a1d75c0eb6fc2ebd65b09989e8508747315c83633eb4c2dd07a299",
+    "package.json": "e9494e0c48d35f19706075efe43bd71fd23e6f310fd74d5b09538c0402c344f7"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
