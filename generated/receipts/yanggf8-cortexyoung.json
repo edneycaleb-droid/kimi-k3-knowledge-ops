@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/yanggf8/cortexyoung",
+  "canonical_repository": "yanggf8/cortexyoung",
+  "canonical_url": "https://github.com/yanggf8/cortexyoung",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:10.031394Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4d9c74b693cb21fd9020c75125816066269ab7d8bf21b23783981ee5cae98c93",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e7a960480fb4917a0a931ecb84b42eddcc7654eef3541b062c858d120d9247d8",
+    "LICENSE": "c7e2fc209db40050b4d05214a4772ee5428704afdf8dc800bafdfbe7c23d7c69",
+    "README.md": "4b1194ffc24698913bb8e5fc19ec1408995a7296fccd80a5082444cb19cf6414"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

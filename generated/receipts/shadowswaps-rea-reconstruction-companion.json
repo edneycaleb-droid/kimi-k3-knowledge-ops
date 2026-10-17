@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ShadowSwaps/REA-Reconstruction-Companion",
+  "canonical_repository": "ShadowSwaps/REA-Reconstruction-Companion",
+  "canonical_url": "https://github.com/ShadowSwaps/REA-Reconstruction-Companion",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:18:06.041660Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f607d2327b0590390f73180b1f8e03483228cca0f267333384658a74fa9e7d37",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "eeef3a578ed650472c771c9dc773c2ed9ff74225a085398953864231df490d1f",
+    "LICENSE": "aca900183741df5c9b3db981bd48aba202474218f758c8b194548178a22c93bd",
+    "README.md": "1027fb17247d60bc8218ca2a7ad04db1afe6d7a63cdfbbdf7201775b9175b3d7",
+    "package.json": "86ed0927151e19e050cda16b76c77affb8555ec7fd3dfd75cab7d014899b30fc"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

@@ -1,0 +1,45 @@
+{
+  "categories": [
+    "api",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://dev.synthetic.new/docs/api/models",
+    "https://dev.synthetic.new/docs/synthetic/search",
+    "https://github.com/Agent-Field/CodeAF",
+    "https://synthetic.new",
+    "https://synthetic.new/pricing"
+  ],
+  "environment_variable_names": [
+    "CODEAF_APP_PRIVATE_KEY",
+    "CODEAF_ARTIFACT_PRIVATE_KEY",
+    "CODEAF_ARTIFACT_PUBLIC_KEY",
+    "CODEAF_BASE_URL",
+    "GITHUB_TOKEN",
+    "SYNTHETIC_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/richardoc-factory-repo.json",
+  "schema_version": 1,
+  "source_repository": "RichardoC/factory-repo",
+  "source_url": "https://github.com/RichardoC/factory-repo",
+  "status": "disabled_pending_review"
+}

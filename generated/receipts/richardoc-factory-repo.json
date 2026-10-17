@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/RichardoC/factory-repo",
+  "canonical_repository": "RichardoC/factory-repo",
+  "canonical_url": "https://github.com/RichardoC/factory-repo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:16:46.120954Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d993f1b6dd84f915f3a30bf8414979de507154dc893ad55f594f760f69b7243d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "ad44733f833876f1596c437c3a78824482508fa927244c9a4932f2cebd816ac8",
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "f10402230e03b95febb49dbc219c35b0473c0a355d4accc79285702c213f6df7"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

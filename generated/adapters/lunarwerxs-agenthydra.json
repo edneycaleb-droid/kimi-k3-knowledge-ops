@@ -1,0 +1,60 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agenthydra.lunarwerx.com",
+    "https://api.github.com/repos/$GITHUB_REPOSITORY/actions/workflows/$wf/runs?head_sha=$GITHUB_SHA&status=success&per_page=10",
+    "https://api.star-history.com/svg?repos=lunarwerxs%2Fagenthydra&type=Date&theme=dark&legend=bottom-right",
+    "https://bun.sh",
+    "https://discord.gg/PsWpeNUzhk",
+    "https://github.com/LunarWerxs",
+    "https://github.com/LunarWerxs/AgentHydra.git",
+    "https://github.com/LunarWerxs/AgentHydra/actions/workflows/ci.yml",
+    "https://github.com/LunarWerxs/AgentHydra/issues",
+    "https://github.com/LunarWerxs/AgentHydra/releases",
+    "https://img.shields.io/badge/Discord-join_the_community-5865F2?style=flat-square&logo=discord&logoColor=white",
+    "https://img.shields.io/badge/license-PolyForm%20Noncommercial-c15f3c?style=flat-square",
+    "https://img.shields.io/badge/website-agenthydra.lunarwerx.com-c15f3c?style=flat-square",
+    "https://img.shields.io/github/actions/workflow/status/LunarWerxs/AgentHydra/ci.yml?branch=main&style=flat-square&label=CI",
+    "https://img.shields.io/github/v/release/LunarWerxs/AgentHydra?style=flat-square&color=c15f3c",
+    "https://lunarwerx.com",
+    "https://polyformproject.org/licenses/noncommercial/1.0.0",
+    "https://raw.githubusercontent.com/LunarWerxs/AgentHydra/main/install.ps1",
+    "https://repoyeti.com",
+    "https://sagethumbs.lunarwerx.com",
+    "https://www.star-history.com/?repos=lunarwerxs%2Fagenthydra&type=date&legend=bottom-right"
+  ],
+  "environment_variable_names": [
+    "GH_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/lunarwerxs-agenthydra.json",
+  "schema_version": 1,
+  "source_repository": "LunarWerxs/AgentHydra",
+  "source_url": "https://github.com/LunarWerxs/AgentHydra",
+  "status": "disabled_pending_review"
+}

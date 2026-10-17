@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/chrisryugj/kordoc",
+  "canonical_repository": "chrisryugj/kordoc",
+  "canonical_url": "https://github.com/chrisryugj/kordoc",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-17T19:17:42.528728Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8b9b705762d1b14a489794c7c6a737b3eceb2f239b622188fbf6a5539fcbca7c",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a3c2b3fb73a12b591b4c39cc6663c5dc765c5b6a34c6f0bb6011ba68544269d2",
+    "LICENSE": "af5f2aced9ce13fa964a5ec9f7ab3271b139f10a1950f5c5408b7b3012369571",
+    "README.md": "2ce7263c3b1c1ee971a1b279c98d9af190b2811d3e01124c34a6911de74c7a94",
+    "package.json": "581da65e22531fe867818d8fc15c249ca237dac6265129997345e194f03af759",
+    "server.json": "92330e416090b361ec8d5e5e9a920b949611f9eeff1a3c8d0a5f45fea5534693"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

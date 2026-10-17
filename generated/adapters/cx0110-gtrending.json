@@ -1,0 +1,78 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/Automattic/harper",
+    "https://github.com/CorentinTh/it-tools",
+    "https://github.com/Crosstalk-Solutions/unifi-toolkit",
+    "https://github.com/DietrichGebert/ponytail",
+    "https://github.com/Evil0ctal/Douyin_TikTok_Download_API",
+    "https://github.com/Fission-AI/OpenSpec",
+    "https://github.com/GCWing/OpenBitFun",
+    "https://github.com/Gentleman-Programming/engram",
+    "https://github.com/HKUDS/CLI-Anything",
+    "https://github.com/JuliusBrussee/caveman",
+    "https://github.com/K-Dense-AI/scientific-agent-skills",
+    "https://github.com/LykosAI/StabilityMatrix",
+    "https://github.com/MadsLorentzen/ai-job-search",
+    "https://github.com/MoeKoeMusic/MoeKoeMusic",
+    "https://github.com/NVIDIA/cutlass",
+    "https://github.com/NationalSecurityAgency/ghidra",
+    "https://github.com/OpenBMB/PilotDeck",
+    "https://github.com/OtterMind/Chat2DB",
+    "https://github.com/PanJiaChen/vue-element-admin",
+    "https://github.com/PowerShell/PowerShell",
+    "https://github.com/RikkaApps/websites",
+    "https://github.com/Smaug6739/Alexandrie",
+    "https://github.com/Sonarr/Sonarr",
+    "https://github.com/The-Swarm-Corporation/AutoHedge",
+    "https://github.com/Virtual-Browser/VirtualBrowser",
+    "https://github.com/actions/runner",
+    "https://github.com/affaan-m/ECC",
+    "https://github.com/ai-dynamo/dynamo",
+    "https://github.com/akitaonrails/ai-memory",
+    "https://github.com/android/skills",
+    "https://github.com/anomalyco/opencode",
+    "https://github.com/anthropics/claude-code",
+    "https://github.com/anthropics/claude-plugins-official",
+    "https://github.com/aoaostar/legado",
+    "https://github.com/apache/kafka",
+    "https://github.com/ashishps1/awesome-system-design-resources",
+    "https://github.com/bitcoin/bitcoin",
+    "https://github.com/bitwarden/server",
+    "https://github.com/bmad-code-org/BMAD-METHOD",
+    "https://github.com/cilium/cilium"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/cx0110-gtrending.json",
+  "schema_version": 1,
+  "source_repository": "cx0110/gTrending",
+  "source_url": "https://github.com/cx0110/gTrending",
+  "status": "disabled_pending_review"
+}

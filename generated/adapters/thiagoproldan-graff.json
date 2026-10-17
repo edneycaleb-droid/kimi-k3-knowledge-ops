@@ -1,0 +1,32 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/thiagoproldan-graff.json",
+  "schema_version": 1,
+  "source_repository": "thiagoproldan/graff",
+  "source_url": "https://github.com/thiagoproldan/graff",
+  "status": "disabled_pending_review"
+}
