@@ -83,6 +83,31 @@ class ClientRetryTests(unittest.TestCase):
             with self.assertRaises(GitHubTransientError):
                 self.client.get_content("a/b", "README.md")
 
+    def test_oversized_response_is_absent_not_fatal(self) -> None:
+        cap = self.policy.max_file_bytes * 4
+        body = b'{"type": "file", "content": "' + b"A" * cap + b'"}'
+        with mock.patch("urllib.request.urlopen", return_value=FakeResponse(body)) as opener, mock.patch("time.sleep"):
+            self.assertEqual(self.client.get_content("a/b", "big.json"), "")
+        self.assertEqual(opener.call_count, 1)
+
+    def test_invalid_json_is_absent_not_fatal(self) -> None:
+        with mock.patch("urllib.request.urlopen", return_value=FakeResponse(b'{"type": "file", "content": "AAA')), \
+                mock.patch("time.sleep"):
+            self.assertEqual(self.client.get_content("a/b", "README.md"), "")
+
+    def test_snapshot_skips_oversized_file(self) -> None:
+        metadata = {"full_name": "a/b", "default_branch": "main"}
+        cap = self.policy.max_file_bytes * 4
+        big = b'{"type": "file", "content": "' + b"A" * cap + b'"}'
+        readme = json.dumps({"type": "file", "encoding": "base64", "size": 5, "content": "aGVsbG8="}).encode()
+
+        def fake_urlopen(request, *_a, **_k):
+            return FakeResponse(readme if request.full_url.endswith("/README.md?ref=main") else big)
+
+        with mock.patch("urllib.request.urlopen", side_effect=fake_urlopen), mock.patch("time.sleep"):
+            snap = self.client.snapshot(metadata, "q")
+        self.assertEqual(snap.readme, "hello")
+
     def test_snapshot_fails_when_api_is_unavailable(self) -> None:
         metadata = {"full_name": "a/b", "default_branch": "main"}
         with mock.patch("urllib.request.urlopen", side_effect=http_error(503)), mock.patch("time.sleep"):

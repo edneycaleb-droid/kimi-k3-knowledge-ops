@@ -23,6 +23,10 @@ class GitHubTransientError(RuntimeError):
     """Retries were exhausted on a rate limit, server error or network failure."""
 
 
+class GitHubResponseError(RuntimeError):
+    """The response body was too large to read whole or was not valid JSON; permanent for that resource."""
+
+
 @dataclass(slots=True)
 class GitHubClient:
     policy: AgentPolicy
@@ -78,8 +82,16 @@ class GitHubClient:
             time.sleep(self.request_spacing_seconds)
             try:
                 with urllib.request.urlopen(request, timeout=self.timeout_seconds) as response:
-                    payload = response.read(self.policy.max_file_bytes * 4)
+                    # Read one byte past the cap: a capped read of a larger body used to cut the JSON inside the
+                    # base64 'content' of any file over ~600 KB and crash the whole run with JSONDecodeError.
+                    cap = self.policy.max_file_bytes * 4
+                    payload = response.read(cap + 1)
+                if len(payload) > cap:
+                    raise GitHubResponseError(f"GitHub API response for {url} exceeds {cap} bytes")
+                try:
                     return json.loads(payload)
+                except ValueError as exc:
+                    raise GitHubResponseError(f"GitHub API returned invalid JSON for {url}: {exc}") from exc
             except urllib.error.HTTPError as exc:
                 if exc.code == 404:
                     raise GitHubNotFoundError(f"GitHub API returned 404 for {url}") from exc
