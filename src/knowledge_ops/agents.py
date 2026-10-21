@@ -5,6 +5,7 @@ import hashlib
 import json
 import math
 import re
+import sys
 from collections import defaultdict
 from datetime import datetime, timezone
 from pathlib import Path
@@ -43,29 +44,49 @@ class DiscoveryAgent:
         self.policy = policy
 
     def run(self) -> list[RepositorySnapshot]:
+        """Collect snapshots; one failing source is recorded in ``errors`` instead of aborting the run."""
         snapshots: list[RepositorySnapshot] = []
         seen: set[str] = set()
+        self.errors: list[str] = []
         for full_name in self.config.get("seed_repositories", []):
-            metadata = self.client.get_repository(full_name)
-            snapshot = self.client.snapshot(metadata, "seed")
+            try:
+                metadata = self.client.get_repository(full_name)
+                snapshot = self.client.snapshot(metadata, "seed")
+            except RuntimeError as exc:
+                self._record_error(f"seed {full_name}: {exc}")
+                continue
             snapshots.append(snapshot)
             seen.add(snapshot.canonical_id())
         remaining = self.policy.max_candidates_per_run - len(snapshots)
-        if remaining <= 0:
-            return snapshots
         queries = list(self.config.get("search_queries", []))
-        per_query = max(1, min(10, math.ceil(remaining / max(len(queries), 1))))
-        for query in queries:
-            for metadata in self.client.search_repositories(query, per_page=per_query):
-                if len(snapshots) >= self.policy.max_candidates_per_run:
-                    return snapshots
-                identity = str(metadata.get("full_name", "")).lower()
-                if not identity or identity in seen:
+        if remaining > 0:
+            per_query = max(1, min(10, math.ceil(remaining / max(len(queries), 1))))
+            for query in queries:
+                try:
+                    results = self.client.search_repositories(query, per_page=per_query)
+                except RuntimeError as exc:
+                    self._record_error(f"search {query!r}: {exc}")
                     continue
-                snapshot = self.client.snapshot(metadata, query)
-                snapshots.append(snapshot)
-                seen.add(identity)
+                for metadata in results:
+                    if len(snapshots) >= self.policy.max_candidates_per_run:
+                        break
+                    identity = str(metadata.get("full_name", "")).lower()
+                    if not identity or identity in seen:
+                        continue
+                    try:
+                        snapshot = self.client.snapshot(metadata, query)
+                    except RuntimeError as exc:
+                        self._record_error(f"snapshot {identity}: {exc}")
+                        continue
+                    snapshots.append(snapshot)
+                    seen.add(identity)
+        if not snapshots and self.errors:
+            raise RuntimeError("Discovery found nothing; every source failed: " + "; ".join(self.errors))
         return snapshots
+
+    def _record_error(self, message: str) -> None:
+        self.errors.append(message)
+        print(f"::warning title=discovery::{message}", file=sys.stderr)
 
 
 class ClassificationAgent:
