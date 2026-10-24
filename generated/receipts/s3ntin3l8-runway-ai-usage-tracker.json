@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/s3ntin3l8/runway-ai-usage-tracker",
+  "canonical_repository": "s3ntin3l8/runway-ai-usage-tracker",
+  "canonical_url": "https://github.com/s3ntin3l8/runway-ai-usage-tracker",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:03.196952Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6b574ba1003d6fd2fc61c7b6dce6f3ff7588e8b347a40bd19f820f152ebdb9c3",
+  "sampled_file_digests": {
+    "Dockerfile": "581c77f2ec1958432f20eff82c89be42c2a138ac0a4cb85610482a42e2f19a33",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "6380bb4c5f2ff133ad79f02bb9747dadbfdfa495da7542b5beba95f7b59b2476",
+    "docker-compose.yml": "0cbb16a899287d4f147671e129e748e1978563f6a95bc38392659e63a06958c3",
+    "package.json": "736e46102709e82e42d07b4fe9a44b3d8395dd4c4e5c34c11ffce105c804d01c",
+    "pyproject.toml": "5c72bf8014ad62d180d003c5f3477400f85a2ca25a7202ce028558c80482c731",
+    "requirements.txt": "399a5517eeac3446f4ff99aef1c2fc32b733f9f5ea32c77dbe9eb1e9c334ff05"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

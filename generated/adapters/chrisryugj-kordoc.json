@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "mcp_server",
+    "plugin"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/chrisryugj/kordoc",
+    "https://github.com/chrisryugj/kordoc.git",
+    "https://github.com/chrisryugj/kordoc/releases/tag/v4.24.2",
+    "https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fregistry.modelcontextprotocol.io%2Fv0%2Fservers%3Fsearch%3Dio.github.chrisryugj%2Fkordoc%26version%3Dlatest&query=%24.servers%5B0%5D.server.version&label=MCP%20Registry&color=blue",
+    "https://img.shields.io/npm/l/kordoc.svg",
+    "https://img.shields.io/npm/v/kordoc.svg",
+    "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.chrisryugj/kordoc",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.npmjs.com/package/kordoc",
+    "https://youtu.be/9kRbwiTRQLs",
+    "https://youtu.be/Q13GmgDcIw0"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Parse Korean documents (HWP, HWPX, PDF, XLSX, DOCX, PPTX) to Markdown; fill forms, diff, render.",
+      "name": "io.github.chrisryugj/kordoc",
+      "packages": [
+        {
+          "identifier": "kordoc",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "4.24.2"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/chrisryugj/kordoc"
+      },
+      "title": "kordoc",
+      "version": "4.24.2",
+      "websiteUrl": "https://github.com/chrisryugj/kordoc"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/chrisryugj-kordoc.json",
+  "schema_version": 1,
+  "source_repository": "chrisryugj/kordoc",
+  "source_url": "https://github.com/chrisryugj/kordoc",
+  "status": "disabled_pending_review"
+}

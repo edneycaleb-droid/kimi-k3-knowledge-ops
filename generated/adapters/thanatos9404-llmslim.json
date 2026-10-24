@@ -1,0 +1,146 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://auth0.com/startups",
+    "https://cartesia.ai/startups",
+    "https://claude.com/programs/startups",
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/en/install-mcp?name=llmslim&config=eyJjb21tYW5kIjoidXZ4IiwiYXJncyI6WyItLWZyb20iLCJsbG1zbGltW21jcF09PTAuMTEuMSIsImxsbXNsaW0iLCJtY3AiXX0%3D",
+    "https://docs.astral.sh/uv/",
+    "https://exa.ai/pricing",
+    "https://files.lmstudio.ai/deeplink/mcp-install-dark.svg",
+    "https://github.com/Thanatos9404/llmslim",
+    "https://github.com/Thanatos9404/llmslim/actions",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/GPTME.md",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/HAYSTACK.md",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/HERMES.md",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/LANGCHAIN.md",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/LLAMAINDEX.md",
+    "https://github.com/Thanatos9404/llmslim/blob/main/docs/integrations/PYDANTIC_AI.md",
+    "https://github.com/Thanatos9404/llmslim/issues",
+    "https://github.com/Thanatos9404/llmslim/releases",
+    "https://glama.ai/mcp/servers/Thanatos9404/llmslim",
+    "https://glama.ai/mcp/servers/Thanatos9404/llmslim/badges/card.svg",
+    "https://glama.ai/mcp/servers/Thanatos9404/llmslim/badges/score.svg",
+    "https://goose-docs.ai/extension?cmd=uvx&arg=--from&arg=llmslim%5Bmcp%5D%3D%3D0.11.1&arg=llmslim&arg=mcp&id=llmslim&name=LLMSlim&description=Long-term%20memory%20for%20agents%20with%20no%20LLM%20in%20the%20loop",
+    "https://goose-docs.ai/img/extension-install-dark.svg",
+    "https://img.shields.io/badge/Branch%20Coverage-93.67%25-10b981?style=flat-square&logo=codecov&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-94a3b8?style=flat-square",
+    "https://img.shields.io/badge/Live%20Studio-www.llmslim.app-f43f5e?style=flat-square&logo=vercel&logoColor=white",
+    "https://img.shields.io/badge/MCP_Registry-io.github.Thanatos9404%2Fllmslim-0098FF?style=flat-square",
+    "https://img.shields.io/badge/Sarvam%20AI-Startup%20Program-fbbf24?style=flat-square&logo=sparkles&logoColor=black",
+    "https://img.shields.io/badge/Tests-1648%20passed%20%2F%200%20failed-34d399?style=flat-square&logo=pytest&logoColor=white",
+    "https://img.shields.io/badge/VS_Code-Install_Server-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/pypi/pyversions/llmslim.svg?style=flat-square&logo=python&logoColor=white&color=818cf8",
+    "https://img.shields.io/pypi/v/llmslim.svg?style=flat-square&logo=pypi&logoColor=white&color=38bdf8",
+    "https://kiro.dev/images/add-to-kiro.svg",
+    "https://kiro.dev/launch/mcp/add?name=llmslim&config=%7B%22command%22%3A%22uvx%22%2C%22args%22%3A%5B%22--from%22%2C%22llmslim%5Bmcp%5D%3D%3D0.11.1%22%2C%22llmslim%22%2C%22mcp%22%5D%7D",
+    "https://llmslim.app",
+    "https://lmstudio.ai/install-mcp?name=llmslim&config=eyJjb21tYW5kIjoidXZ4IiwiYXJncyI6WyItLWZyb20iLCJsbG1zbGltW21jcF09PTAuMTEuMSIsImxsbXNsaW0iLCJtY3AiXX0%3D",
+    "https://mixpanel.com/startups/",
+    "https://neo4j.com/startup-program/",
+    "https://openai.com/startups/",
+    "https://pepy.tech/projects/llmslim"
+  ],
+  "environment_variable_names": [
+    "KEY",
+    "LLMSLIM_API_KEYS",
+    "LLMSLIM_BASE_URL",
+    "LLMSLIM_HOST",
+    "LLMSLIM_PORT",
+    "LLMSLIM_TEST_POSTGRES_URL",
+    "OPENAI_API_KEY",
+    "REPORT",
+    "SARVAM_API_KEY",
+    "TIKTOKEN_CACHE_DIR",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Long-term memory and context fitting for agents, with no LLM in the loop. Local SQLite.",
+      "name": "io.github.Thanatos9404/llmslim",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "description": "SQLite file for the memory (default ~/.llmslim/memory.db)",
+              "isRequired": false,
+              "name": "LLMSLIM_MEMORY_DB"
+            },
+            {
+              "description": "Whose memory this server holds (default \"default\")",
+              "isRequired": false,
+              "name": "LLMSLIM_USER_ID"
+            },
+            {
+              "description": "Optional agent id, so each agent keeps its own memory",
+              "isRequired": false,
+              "name": "LLMSLIM_AGENT_ID"
+            }
+          ],
+          "identifier": "llmslim",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeArguments": [
+            {
+              "name": "--from",
+              "type": "named",
+              "value": "llmslim[mcp]==0.11.1"
+            }
+          ],
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.11.1"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Thanatos9404/llmslim"
+      },
+      "title": "LLMSlim memory",
+      "version": "0.11.1",
+      "websiteUrl": "https://llmslim.app"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/thanatos9404-llmslim.json",
+  "schema_version": 1,
+  "source_repository": "Thanatos9404/llmslim",
+  "source_url": "https://github.com/Thanatos9404/llmslim",
+  "status": "disabled_pending_review"
+}

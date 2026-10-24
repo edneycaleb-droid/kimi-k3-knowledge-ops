@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/atomantic/PortOS",
+  "canonical_repository": "atomantic/PortOS",
+  "canonical_url": "https://github.com/atomantic/PortOS",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:08.421440Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "86f1463b32c5dbd2e132a177d88214754ac280d700dac41be33acb62da4656ce",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "7f60de824c5f3177c5306f3bd93a056e402a40cfa89766b8c3c9d147d13ecfcd",
+    "LICENSE": "54979dae0312d1ecd154d258d04c3d2312998f9bbb2eea7ef75d17e3531c32fe",
+    "README.md": "f12d47f0a6a8d1f874a43a51c9496222df7fd3e85f7a72ef57fb5475605461a9",
+    "docker-compose.yml": "deed1879b4983c36b79cbefa258daca00b8e3c5a2f68729ec51a027c0e560a81",
+    "package.json": "dd18542dca1a98d455a6260f91e03b5232978f4eb2e69115689ff5821b2e61c7"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

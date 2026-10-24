@@ -1,0 +1,63 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aletheore.com",
+    "https://api.securityscorecards.dev/projects/github.com/Aletheore/Aletheore/badge",
+    "https://codecov.io/gh/Aletheore/Aletheore",
+    "https://codecov.io/gh/Aletheore/Aletheore/graph/badge.svg",
+    "https://github.com/Aletheore/Aletheore/actions/workflows/container-security.yml",
+    "https://github.com/Aletheore/Aletheore/actions/workflows/container-security.yml/badge.svg",
+    "https://github.com/Aletheore/Aletheore/actions/workflows/tests.yml",
+    "https://github.com/Aletheore/Aletheore/actions/workflows/tests.yml/badge.svg",
+    "https://github.com/Aletheore/Aletheore/blob/master/LICENSE",
+    "https://github.com/Aletheore/aletheore-benchmarks",
+    "https://github.com/apps/aletheore/installations/new",
+    "https://github.com/sponsors/ArihantK15",
+    "https://img.shields.io/badge/license-PolyForm--Noncommercial--1.0.0-blue",
+    "https://img.shields.io/pypi/pyversions/aletheore",
+    "https://img.shields.io/pypi/v/aletheore?color=blue",
+    "https://mcpvault.io/badge/aletheore.svg",
+    "https://mcpvault.io/servers/aletheore/health?utm_source=external_badge&utm_medium=referral&utm_campaign=mcp_health_report",
+    "https://pepy.tech/projects/aletheore",
+    "https://polyformproject.org/licenses/noncommercial/1.0.0",
+    "https://pypi.org/project/aletheore/",
+    "https://securityscorecards.dev/viewer/?uri=github.com/Aletheore/Aletheore",
+    "https://static.pepy.tech/personalized-badge/aletheore?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads"
+  ],
+  "environment_variable_names": [
+    "STARTUP_AUDIT_REPORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/aletheore-aletheore.json",
+  "schema_version": 1,
+  "source_repository": "Aletheore/Aletheore",
+  "source_url": "https://github.com/Aletheore/Aletheore",
+  "status": "disabled_pending_review"
+}

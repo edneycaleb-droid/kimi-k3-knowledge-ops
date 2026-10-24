@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/newsbubbles/ismail",
+  "canonical_repository": "newsbubbles/ismail",
+  "canonical_url": "https://github.com/newsbubbles/ismail",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:51.298415Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2099057e7473c2960709c07401df325d83b46b8b29f607362969258bf001ab39",
+  "sampled_file_digests": {
+    ".mcp.json": "2a8d85b051c8c0d0e07310e4d16f3552c79ee5615ddf5db660e012b6e205097d",
+    "Dockerfile": "cc46f17119e377901b71cf3f6df04f9015f34b286053004ed7390e2ffcdaca2b",
+    "LICENSE": "2cf4aab46700d9500c0263880c6e4d1131114b49da4bdf73b8ab3ff6e09e982d",
+    "README.md": "6c6ad5317467bdeea72b3b4579d09e8005853b59d9ffb340d32313b5dc705cce",
+    "pyproject.toml": "580a13d926674f9bdfd4e67de6659a8b198ee0cf8b320f20c893cdc6f62deb9e",
+    "server.json": "0f9a2c57d67197cc90ea8ae4671b38ad3b6b91397f0d0873bc30c950c6029fad"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/productdevbook/yuva",
+  "canonical_repository": "productdevbook/yuva",
+  "canonical_url": "https://github.com/productdevbook/yuva",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:14:28.012532Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "26bce7262f0566c29182e614ff8b9c120ab4ab3e32f18ce5937164444839e65f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "499060ebcddbc92ebdf7d78cdd9ab541c4b9466295e13a412728e9b316b9a451",
+    "LICENSE": "8d56b405468aad11f87ab5763f901e276e08d9646ff5c8481b1762b6b789e9ed",
+    "README.md": "d8f5954d6371660dd85f99852d58b803942d44c1a91d5143ff41c6e4044adc57",
+    "server.json": "af915e426cf308cb1447f16d60b39c08af6c1ff027fffd6b5f628409d675d04a"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

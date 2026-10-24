@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/en/install-mcp?name=taiwan-health&config=eyJ1cmwiOiJodHRwczovL3R3LWhlYWx0aC1tY3AuaGVhbHRoeW1pbmQtdGVjaC5jb20vbWNwIn0=",
+    "https://github.com/healthymind-tech/Taiwan-Health-MCP.git",
+    "https://github.com/healthymind-tech/Taiwan-Health-MCP/stargazers",
+    "https://github.com/user-attachments/assets/13527dd9-72ac-4e36-9868-7967399d4041",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/modules/ig-concept-search/",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/tools/clinical-calculator-tools/",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/tools/drug-tools/",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/tools/fhir-ig-tools/",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/tools/fhir-server-tools/",
+    "https://healthymind-tech.github.io/Taiwan-Health-MCP/tools/icd-tools/",
+    "https://img.shields.io/badge/2026%20%E5%8F%B0%E7%81%A3%E8%81%AF%E6%B8%AC%E6%9D%BE-%E5%B7%B2%E9%80%9A%E9%81%8E%20%C2%B7%20%E8%A1%9B%E7%A6%8F%E9%83%A8%E4%B8%BB%E8%BE%A6-0e9ea8",
+    "https://img.shields.io/badge/License-MIT-yellow",
+    "https://img.shields.io/badge/MCP%20tools-68-0e9ea8",
+    "https://img.shields.io/badge/VS_Code-Install_MCP-0098FF?logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/github/stars/healthymind-tech/Taiwan-Health-MCP?style=flat",
+    "https://img.shields.io/website?url=https%3A%2F%2Ftw-health-mcp.healthymind-tech.com&label=website",
+    "https://insiders.vscode.dev/redirect/mcp/install?name=taiwan-health&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Ftw-health-mcp.healthymind-tech.com%2Fmcp%22%7D",
+    "https://tw-health-mcp.healthymind-tech.com",
+    "https://tw-health-mcp.healthymind-tech.com/mcp"
+  ],
+  "environment_variable_names": [
+    "ADMIN_SESSION_SECRET",
+    "METRICS_PORT",
+    "PUBLIC_TOOLS_BEARER_TOKEN",
+    "WEB_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/healthymind-tech-taiwan-health-mcp.json",
+  "schema_version": 1,
+  "source_repository": "healthymind-tech/Taiwan-Health-MCP",
+  "source_url": "https://github.com/healthymind-tech/Taiwan-Health-MCP",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/git-workflow-skill",
+  "canonical_repository": "netresearch/git-workflow-skill",
+  "canonical_url": "https://github.com/netresearch/git-workflow-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:14:39.197616Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fe198ec8f62f39dd8fa5c159679c33f7c6314ba0af6bcd0d420ed3b8e83db670",
+  "sampled_file_digests": {
+    "README.md": "5337da065533a72839e38b6212b9c0e8f90e522d924fc647d883cc13ec9ddb3c",
+    "package.json": "b47f44352f5a4ae65de19be8b86f8a8809484d5d8f8ff678feecbbcbbabfe754"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

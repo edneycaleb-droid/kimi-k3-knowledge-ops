@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/fulin-peng-ydxs/ai-codex-skills",
+  "canonical_repository": "fulin-peng-ydxs/ai-codex-skills",
+  "canonical_url": "https://github.com/fulin-peng-ydxs/ai-codex-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:12:57.969208Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2072b13fd273c3d9e246c8eb89e0c9cdff1f4df8ac95426b661e7d033ec4ab74",
+  "sampled_file_digests": {
+    "README.md": "1db9df148ac70bfd15668e6037969cdfe818a96d4c1bc2c3dc558c7a7723a73e"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

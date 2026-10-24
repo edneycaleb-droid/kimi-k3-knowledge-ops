@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/ricobeliko/video-factory",
+  "canonical_repository": "ricobeliko/video-factory",
+  "canonical_url": "https://github.com/ricobeliko/video-factory",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:12:30.164406Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "67b71e89d8004c22b474fd3e96442be2a9108cecf4425dccfe694a5cd72c2788",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9474ede4ece281650b0b4bbeeeacab7755ad116378d75dfc3121406879de5d83",
+    "Dockerfile": "e9daae695759ee583675dbe93b9b4f8ae2a5d2b4fc3d3f10b66dc5793c88c98f",
+    "LICENSE": "87dd19b6a0779e14a91c1b06423ef251df37e89666160c031130a26bae68c229",
+    "README.md": "09174efa67f142e36394d288736af9010862a7044fea1f44bbe29075ac84c6d8",
+    "docker-compose.yml": "0f0f2c6b47150974fece34eb6b83eb384695b07d875eb7fc7236ee7a99c71d7e",
+    "pyproject.toml": "479b773ad1a035e6372574879a965ddc92427b627ab16805138085783325afe8",
+    "requirements.txt": "f3d5800bcc811ec4a1cad2ccf088bfb4f4db6d026d3d7fc073f8fa2e047ec934"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

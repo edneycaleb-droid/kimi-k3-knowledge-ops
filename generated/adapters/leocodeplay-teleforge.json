@@ -1,0 +1,55 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/LeoCodePlay/Teleforge/releases",
+    "https://img.shields.io/badge/License-GPL--3.0-blue.svg",
+    "https://img.shields.io/badge/Node-%3E%3D22.18-339933?logo=nodedotjs&logoColor=white",
+    "https://img.shields.io/badge/Platform-Local%20Web-7c8aa0",
+    "https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/why-not-lgpl.html"
+  ],
+  "environment_variable_names": [
+    "HOST",
+    "KEY",
+    "PORT",
+    "PORT_RANGE_",
+    "SECRET",
+    "TOKEN",
+    "UNSUPPORTED_FIELD",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/leocodeplay-teleforge.json",
+  "schema_version": 1,
+  "source_repository": "LeoCodePlay/Teleforge",
+  "source_url": "https://github.com/LeoCodePlay/Teleforge",
+  "status": "disabled_pending_review"
+}

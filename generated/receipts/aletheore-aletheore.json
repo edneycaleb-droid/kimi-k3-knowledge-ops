@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/Aletheore/Aletheore",
+  "canonical_repository": "Aletheore/Aletheore",
+  "canonical_url": "https://github.com/Aletheore/Aletheore",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:14:01.444673Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4c9ab559528f87b4dc6d40eee56410351db2030a67f0fd7aad1645c2ef02f6d2",
+  "sampled_file_digests": {
+    "LICENSE": "a114b413837486b1a082af24ebe3ba4e0567704c94a8a0e3217cbaa47e0b7f18",
+    "README.md": "57723a54227320bd57ee6902602e6c28b708fa17a71b3eebec4037cc8a00a8a9",
+    "package.json": "3e80d9baf701d068c8bee1f67d32b00b850c1e1116cd1360faadc3c84778c786"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
