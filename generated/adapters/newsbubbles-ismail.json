@@ -1,0 +1,105 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/newsbubbles/ismail",
+    "https://github.com/newsbubbles/ismail/actions/workflows/tests.yml",
+    "https://github.com/newsbubbles/ismail/actions/workflows/tests.yml/badge.svg",
+    "https://github.com/newsbubbles/ismail/blob/main/CHANGELOG.md",
+    "https://github.com/newsbubbles/ismail/pull/116",
+    "https://i.ytimg.com/vi/fKGkaf2WYWw/hqdefault.jpg",
+    "https://newsbubbles.github.io/ismail/",
+    "https://newsbubbles.github.io/ismail/#astrasmb",
+    "https://newsbubbles.github.io/ismail/#canopee",
+    "https://newsbubbles.github.io/ismail/#clairdelune",
+    "https://newsbubbles.github.io/ismail/#compare",
+    "https://newsbubbles.github.io/ismail/#crossroads",
+    "https://newsbubbles.github.io/ismail/#direction",
+    "https://newsbubbles.github.io/ismail/#mycelium",
+    "https://newsbubbles.github.io/ismail/#sixeight",
+    "https://newsbubbles.github.io/ismail/#tambopata",
+    "https://newsbubbles.github.io/ismail/#ukestory",
+    "https://newsbubbles.github.io/ismail/#windward",
+    "https://raw.githubusercontent.com/newsbubbles/ismail/main/assets/logo/ismail-dark.svg",
+    "https://raw.githubusercontent.com/newsbubbles/ismail/main/assets/logo/ismail.svg",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://youtu.be/fKGkaf2WYWw",
+    "https://youtu.be/ktFhmx2axvU"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "ismail": {
+          "args": [
+            "-m",
+            "ismail.mcp_server"
+          ],
+          "command": "python",
+          "env": {
+            "PYTHONWARNINGS": "ignore"
+          }
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "A DAW for AI agents: write music as text, read the audio back as text, and play it live.",
+      "name": "io.github.newsbubbles/ismail",
+      "packages": [
+        {
+          "identifier": "ismail",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.3.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/newsbubbles/ismail"
+      },
+      "title": "ismail",
+      "version": "0.3.0",
+      "websiteUrl": "https://newsbubbles.github.io/ismail/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/newsbubbles-ismail.json",
+  "schema_version": 1,
+  "source_repository": "newsbubbles/ismail",
+  "source_url": "https://github.com/newsbubbles/ismail",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,80 @@
+{
+  "categories": [
+    "agent",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://aihubmix.com/",
+    "https://aimlapi.com/app/keys",
+    "https://aistudio.google.com/app/apikey",
+    "https://api.star-history.com/badge?repo=harry0703/MoneyPrinterTurbo",
+    "https://assets.mangodisk.app/images/screenshots/zh/dark-01-deep-cleanup.jpg?ver=1.1.0",
+    "https://assets.mangodisk.app/images/screenshots/zh/light-01-deep-cleanup.jpg?ver=1.1.0",
+    "https://code.claude.com/docs",
+    "https://colab.research.google.com/assets/colab-badge.svg",
+    "https://colab.research.google.com/github/harry0703/MoneyPrinterTurbo/blob/main/docs/MoneyPrinterTurbo.ipynb",
+    "https://console.groq.com/keys",
+    "https://console.volcengine.com/ark/region:ark+cn-beijing/apikey",
+    "https://console.x.ai/",
+    "https://coverr.co/developers?ctx=header_navigation",
+    "https://dash.cloudflare.com/",
+    "https://dashscope.console.aliyun.com/apiKey",
+    "https://deb.debian.org/debian",
+    "https://deb.debian.org/debian-security",
+    "https://docs.astral.sh/uv/",
+    "https://docs.litellm.ai/docs/providers",
+    "https://enter.pollinations.ai/",
+    "https://evolink.ai/dashboard/keys",
+    "https://f.howxm.com/xs/u/HVFW5X8EIYV1",
+    "https://frontend.example.com",
+    "https://gcdn.moonshot.cn/growth-cdn/sponsor/kimi-zh.png",
+    "https://github.com/harry0703/MangoDisk",
+    "https://github.com/harry0703/MoneyPrinterTurbo.git",
+    "https://github.com/harry0703/MoneyPrinterTurbo/issues",
+    "https://github.com/harry0703/MoneyPrinterTurbo/pulls",
+    "https://github.com/harry0703/MoneyPrinterTurbo/releases",
+    "https://github.com/harry0703/MoneyPrinterTurbo/releases/latest",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/02-zh-landscape-deep-ocean.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/03-zh-portrait-city-morning.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/04-zh-landscape-reading-power.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/05-zh-portrait-clean-energy.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/06-zh-landscape-pour-over-coffee.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/07-zh-portrait-space-exploration.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/08-zh-landscape-spring-journey.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/09-en-portrait-future-robotics.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/10-en-landscape-ocean-conservation.jpg",
+    "https://github.com/harry0703/mpt-assets/releases/download/assets/11-en-portrait-small-habits.jpg"
+  ],
+  "environment_variable_names": [
+    "MPT_TEST_REDIS_HOST",
+    "MPT_TEST_REDIS_PORT",
+    "MPT_WEBUI_HOST"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ricobeliko-video-factory.json",
+  "schema_version": 1,
+  "source_repository": "ricobeliko/video-factory",
+  "source_url": "https://github.com/ricobeliko/video-factory",
+  "status": "disabled_pending_review"
+}

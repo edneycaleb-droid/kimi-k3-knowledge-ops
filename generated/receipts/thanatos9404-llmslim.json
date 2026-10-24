@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/Thanatos9404/llmslim",
+  "canonical_repository": "Thanatos9404/llmslim",
+  "canonical_url": "https://github.com/Thanatos9404/llmslim",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:46.306867Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4bb61ac5c6f42af8e3c43ea804239c14fda09e45a11fd85765b6546e6a07a64e",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "1211058d9b25eedc8e62e2763bfeed75a23ea93d715f122838b5c8885f44375b",
+    "Dockerfile": "75aadf3c3dda7beddd8cb69bac980fa8575ffa80d872cd676a18f5c21ebe635a",
+    "LICENSE": "c3b72b5f1edc3d046ad552ff611ff2ccc5c0b0bd8723d6adba8c418cf1670410",
+    "README.md": "327bc8c9ed8b84da32e600b27222922c90488bcc20d141fa723f1353e76c9895",
+    "pyproject.toml": "a746a29616d4b7f9b8e5bbd04730866f43426f2549e4d8d31024926fa0c47486",
+    "requirements.txt": "7156695ab0cf82d138a650a8795a0d03106baa3124d5e2a24864e91ac973c61c",
+    "server.json": "a6441b2760f0f73facda950f28798ebfe2dbabb8d2404eb9e07133542fc6e8a3"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/janvasilecko-droid/vasil",
+  "canonical_repository": "janvasilecko-droid/vasil",
+  "canonical_url": "https://github.com/janvasilecko-droid/vasil",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:24.588297Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5c6b5daeba18dcf549c8c1e003c60000a7070c0abfdfba6fb485ef457a7e98ff",
+  "sampled_file_digests": {
+    "Dockerfile": "92172ff59b6bf658dc8c974b875f91cf3bf52b38939942a95e0295366cbd0dfc",
+    "LICENSE": "312c7a6557ba76d33134e7b4634f6c94c5c76c6bc2b5fe5fb1a37f0a2552efc1",
+    "README.md": "dfba4e1f8d81c532e97fabc178f16f6930864d5b43fe02964fff4e597855c3d1",
+    "package.json": "d1db616576ccf170a123502877cb1883266f0ef462b8506f90df2aa1163b2971"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

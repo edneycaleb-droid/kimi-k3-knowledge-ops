@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/VyomKulshrestha/Heliox-OS",
+  "canonical_repository": "VyomKulshrestha/Heliox-OS",
+  "canonical_url": "https://github.com/VyomKulshrestha/Heliox-OS",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:56.412064Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e90302346c75a8e2b148ac9e3a5f225bd19fc1b6e366fa4346e746d457e5a319",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9348803a4fdaa83a6a6f6e4d723ed0b9ef188b84e3d70fe4f9cfa664516b56ca",
+    "LICENSE": "645f21a62edb2553f77b0d2698b092bd827ffa33d4f6e39ee4de7f76e090d5ed",
+    "README.md": "662cbf050c919a998e8ab0603b96d9ae586e03f04ad32e58882e2ffef65c0cbb"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

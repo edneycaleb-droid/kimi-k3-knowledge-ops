@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/estebanf/estebanf-knowledge-graphrag",
+  "canonical_repository": "estebanf/estebanf-knowledge-graphrag",
+  "canonical_url": "https://github.com/estebanf/estebanf-knowledge-graphrag",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:29.885130Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7828eba7d7d8bd0670aca71a93846f466e1e5c40c9adb05334b2b5e6f8a2a572",
+  "sampled_file_digests": {
+    "Dockerfile": "9e07b04472e5a8bd12ae0327645c9b14d521703d2e820b113627d37dbf9057fc",
+    "README.md": "78f091fe6bd1fa285d1e908b5b5750b03d081e2dd3c92159ef9689bccc166083",
+    "docker-compose.yml": "ad0997cb5d705e1fc7728b56d63ee0d840c63ed098f1ec53bb4a29d59b083714",
+    "pyproject.toml": "f3a3037cd9025534bd36aca99fb33d34fa052355331f4791f0b4398ec70ccbbd"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

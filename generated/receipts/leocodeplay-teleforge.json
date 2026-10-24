@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/LeoCodePlay/Teleforge",
+  "canonical_repository": "LeoCodePlay/Teleforge",
+  "canonical_url": "https://github.com/LeoCodePlay/Teleforge",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:35.113214Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b729998a4fb130dc788d0065097f8ef875b6fd17c6b93f8c3162f79bb5978785",
+  "sampled_file_digests": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "20e98895f6cab3d7c90dd8ff64a3287dc976f92d0011d39e543cddbe56d7b4c0",
+    "package.json": "057be007cc116e4675e7453e3beaf3e2bc18272eded41701e89a8f5b69226613"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

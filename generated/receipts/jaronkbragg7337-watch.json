@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/JaronKBragg7337/watch",
+  "canonical_repository": "JaronKBragg7337/watch",
+  "canonical_url": "https://github.com/JaronKBragg7337/watch",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:13.568217Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "57fd8e1ec95488e2178391b3d4d529fc25749b1d82766eb760c22023694b6cc6",
+  "sampled_file_digests": {
+    "README.md": "0095d57184ce16a42a175b06d5dcbee9960646e666ecb8615e14b92abe6312ba"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

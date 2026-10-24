@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/magpie-community/plugins",
+  "canonical_repository": "magpie-community/plugins",
+  "canonical_url": "https://github.com/magpie-community/plugins",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:13:18.766197Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e86598a2a397546c7898dc88a88797b1b36c0c952e8c59ace32566d1c84381a7",
+  "sampled_file_digests": {
+    "LICENSE": "5e8730b694ba31696dd68d693f8bf5e2c75f7e40fd5f6fbc3f067cf9490b24fb",
+    "README.md": "0319e4efdd5696676b875a30b1d0d7606397bd38d48a1349a727f0b7f9f4fe65",
+    "package.json": "b88cf1b3f48397e63df3c80d900ba7b7d0826d177b3904ec478ebe3cc9cd4ea5"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

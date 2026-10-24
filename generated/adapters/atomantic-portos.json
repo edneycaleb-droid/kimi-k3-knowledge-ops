@@ -1,0 +1,65 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://github.com/atomantic/PortOS.git",
+    "https://github.com/ggerganov/whisper.cpp",
+    "https://github.com/npm/cli/blob/v11.11.0/workspaces/arborist/lib/shrinkwrap.js",
+    "https://github.com/rhasspy/piper",
+    "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX",
+    "https://tailscale.com",
+    "https://umbrel.com"
+  ],
+  "environment_variable_names": [
+    "GITHUB_TOKEN",
+    "PGHOST",
+    "PGPORT",
+    "PGPORT_DOCKER",
+    "PORTOS_BROWSER_TEST_PROFILE",
+    "PORTOS_CI_BROWSER_OWNER",
+    "PORTOS_CI_DIAGNOSTICS_DIR",
+    "PORTOS_CI_MAX_WORKERS",
+    "PORTOS_DATA_ROOT",
+    "PORTOS_DOCKER_CONTAINMENT_LIVE",
+    "PORTOS_HTTP_PORT",
+    "PORTOS_NATIVE_TRASH_SMOKE",
+    "PORTOS_REQUIRE_BROWSER_SUITES",
+    "PORTOS_REQUIRE_DB",
+    "PORTOS_REQUIRE_LINUX_CONTAINMENT",
+    "PORTOS_SUPERCOLLIDER_LIVE",
+    "PORTOS_TEST_MEMO_DIR",
+    "PORTOS_TEST_QUIET",
+    "PORTS",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/atomantic-portos.json",
+  "schema_version": 1,
+  "source_repository": "atomantic/PortOS",
+  "source_url": "https://github.com/atomantic/PortOS",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/healthymind-tech/Taiwan-Health-MCP",
+  "canonical_repository": "healthymind-tech/Taiwan-Health-MCP",
+  "canonical_url": "https://github.com/healthymind-tech/Taiwan-Health-MCP",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-24T07:14:22.974956Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4f2364b4f001fb4d022ac63866a8ae7c5def412bdf4ef00508fe97efe1f2f1bc",
+  "sampled_file_digests": {
+    "LICENSE": "6e3e91ad6352438f0da017acbd8cb611d402802a907c667cb777c005562e93a2",
+    "README.md": "d487addfef11306659dda702705ac1ffc2b300413c9445fb1068da24e3303f53",
+    "pyproject.toml": "5b95884cdd29bb0bca69245fce41d7858cb8f0dad32120e24c1370c0bb817fc1"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
