@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/KettuAI/Kettu",
+  "canonical_repository": "KettuAI/Kettu",
+  "canonical_url": "https://github.com/KettuAI/Kettu",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:31:34.971269Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "28b039edc29cdd7689e1d31546aef5b1c2291836beb2e35704e64a4c25d9bb43",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c39396e3affa93753c0a6af5e8165972b3021220bb3f4f5432f53d887113c33c",
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "7816d8bbc2443d2d3e5b87e8d9fd17509a512135414a2d475d0aacd2945cc2e1",
+    "package.json": "a8805232556fc3bc877229f6561329e9e8e636021f344ee067a3b047fee8620d"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

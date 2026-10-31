@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/tedix-hq/tedix",
+  "canonical_repository": "tedix-hq/tedix",
+  "canonical_url": "https://github.com/tedix-hq/tedix",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:33:42.904949Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fe38e8a5258cc5200a452628020e6985d81e6516019191ab4ed1d03fea8e6096",
+  "sampled_file_digests": {
+    "LICENSE": "d8a6cc31abc16b6748c7a21f21611f5a1ec33f67d22ca23d7da1c19b95496bee",
+    "README.md": "adbb76ff575bb4d1e69307132b45f3d8daf0bd79816acbdf9d25ed41c90787e3",
+    "package.json": "73c39a64790c38bba2d4322bf2afaf4a4edca4d509f3dcde218cb6ce9b5a8dbe",
+    "server.json": "84f6d564a7c229ed95bf2d76cb0a2f723237484a0b499ee5345e6ba98b7fb098"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

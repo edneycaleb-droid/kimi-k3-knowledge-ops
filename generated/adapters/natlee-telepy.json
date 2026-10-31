@@ -1,0 +1,65 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "websocket"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://avatars.githubusercontent.com/u/10178964?v=3?s=100",
+    "https://avatars.githubusercontent.com/u/16372174?v=3?s=100",
+    "https://avatars.githubusercontent.com/u/77889460?v=3?s=100",
+    "https://fsf.org/",
+    "https://github.com/NatLee",
+    "https://github.com/NatLee/telepy",
+    "https://github.com/NatLee/telepy/releases",
+    "https://github.com/boris-lok",
+    "https://github.com/h-alice",
+    "https://telepy.example.com",
+    "https://www.gnu.org/licenses/",
+    "https://www.google.com"
+  ],
+  "environment_variable_names": [
+    "DESKTOP_CALLBACK_HOST",
+    "GATEWAY_HOST_KEYS_DIR",
+    "INTERNAL_API_TOKEN",
+    "KASM_BROWSER_HOST",
+    "KEEP_SHARED_SERVICE_KEY",
+    "PUBLIC_URL",
+    "REVERSE_SERVER_SSH_PORT",
+    "SECRET_KEY",
+    "SESSION_MANAGER_PORT",
+    "TELEPY_TOKEN",
+    "TELEPY_URL",
+    "URL",
+    "WEB_SERVER_PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/natlee-telepy.json",
+  "schema_version": 1,
+  "source_repository": "NatLee/telepy",
+  "source_url": "https://github.com/NatLee/telepy",
+  "status": "disabled_pending_review"
+}

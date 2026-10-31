@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/xue-ding-e/AI-Toolbox-Next",
+  "canonical_repository": "xue-ding-e/AI-Toolbox-Next",
+  "canonical_url": "https://github.com/xue-ding-e/AI-Toolbox-Next",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:31:49.604103Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9e5d7b981c606967bce6ca8405510cde80e5fea8a2361befd0af27261ce1dfcc",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "4a6f3e5de6aceb79501b9b4ae3c5ec05d9e0307122d9a7ff83eb643fe5fd5914",
+    "package.json": "c6c7ebf1c07af4ed7d73a6b7066fea083f568ccbdfb7b02aa943200f1545b9f0"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

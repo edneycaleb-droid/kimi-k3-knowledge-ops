@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/EatonZhou/the-fourth-institute",
+  "canonical_repository": "EatonZhou/the-fourth-institute",
+  "canonical_url": "https://github.com/EatonZhou/the-fourth-institute",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:04.538618Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8c1f78ff96766d8c362b33ec1c7a5c2b8b2666b073f4a3e7852bedfde0d01e30",
+  "sampled_file_digests": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "8c98526694676b6aacded925744c9e1eb2707f573ba3f6a4aca764d8b9c57fd9"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

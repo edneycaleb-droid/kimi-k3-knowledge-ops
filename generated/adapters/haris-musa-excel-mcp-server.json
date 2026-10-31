@@ -1,0 +1,105 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio",
+      "streamable-http"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://excelmcpserver.com",
+    "https://github.com/haris-musa/excel-mcp-server",
+    "https://github.com/haris-musa/excel-mcp-server/actions/workflows/ci.yml",
+    "https://github.com/haris-musa/excel-mcp-server/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/haris-musa/excel-mcp-server/blob/main/CHANGELOG.md",
+    "https://github.com/haris-musa/excel-mcp-server/blob/main/TOOLS.md",
+    "https://github.com/haris-musa/excel-mcp-server/issues",
+    "https://github.com/haris-musa/excel-mcp-server/releases/latest/download/excel-mcp-server.mcpb",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/pypi/pyversions/excel-mcp-server.svg",
+    "https://img.shields.io/pypi/v/excel-mcp-server.svg",
+    "https://modelcontextprotocol.io",
+    "https://pepy.tech/project/excel-mcp-server",
+    "https://pypi.org",
+    "https://pypi.org/project/excel-mcp-server/",
+    "https://raw.githubusercontent.com/haris-musa/excel-mcp-server/main/assets/logo-dark.png",
+    "https://raw.githubusercontent.com/haris-musa/excel-mcp-server/main/assets/logo.png",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://static.pepy.tech/badge/excel-mcp-server",
+    "https://trendshift.io/api/badge/repositories/13975",
+    "https://trendshift.io/repositories/13975"
+  ],
+  "environment_variable_names": [
+    "EXCEL_MCP_AUTH_TOKEN",
+    "EXCEL_MCP_HOST",
+    "EXCEL_MCP_PORT",
+    "HOST",
+    "IMPORTXML",
+    "PORT"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Create and edit Excel files with AI: charts, PivotTables, formulas. No Excel needed.",
+      "name": "io.github.haris-musa/excel-mcp-server",
+      "packages": [
+        {
+          "identifier": "excel-mcp-server",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "stdio"
+            },
+            {
+              "description": "Folder the server may read and write workbooks in.",
+              "format": "filepath",
+              "isRequired": false,
+              "name": "--allow-dir",
+              "type": "named"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "2.2.6"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/haris-musa/excel-mcp-server"
+      },
+      "title": "Excel MCP Server",
+      "version": "2.2.6"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/haris-musa-excel-mcp-server.json",
+  "schema_version": 1,
+  "source_repository": "haris-musa/excel-mcp-server",
+  "source_url": "https://github.com/haris-musa/excel-mcp-server",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/hoyt-harness/davinci-mcp-professional",
+  "canonical_repository": "hoyt-harness/davinci-mcp-professional",
+  "canonical_url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:43.988882Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3f7c3f286af0945e6aab9c04096725802d809c20ba137e259707d76c0965dbed",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "329ce7830955303a3afdadc219743a74cdffca812f66593842a88e6cbd090e42",
+    "README.md": "de56045b7f0042c0f160ea43b77c82686d6616d2d2a844dc4dc4be071bca15de",
+    "pyproject.toml": "62458881eeaf89ca0013647b19244d5944195f932110058eb452722df3bdb784"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

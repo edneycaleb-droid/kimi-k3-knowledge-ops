@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/lightseekorg/tokenspeed",
+  "canonical_repository": "lightseekorg/tokenspeed",
+  "canonical_url": "https://github.com/lightseekorg/tokenspeed",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:30:57.052711Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0755b5b59332dc6254869db715fffd86976989f872c0fe9a04f588fdb0a7947f",
+  "sampled_file_digests": {
+    "LICENSE": "ef0cb6e89d6bdfb8f9b3f30b707a6c9ad6518b02e6823d1222fcfdb645ca48ff",
+    "README.md": "e4b6a0a08b3e46720daf67952b7c85aac04ee365339fb734e10279b4a8a824f4"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

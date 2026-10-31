@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/vladfa2010/pulse",
+  "canonical_repository": "vladfa2010/pulse",
+  "canonical_url": "https://github.com/vladfa2010/pulse",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:28.503302Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4a3e25f241f5f6f5ff2f8afe32b59f00538785047ff8ac736a85474b00d5121f",
+  "sampled_file_digests": {
+    "Dockerfile": "637abc41e2135a6453a924ce8dff5506fb429de3dd45c1ddd68e09792ff8d6ec",
+    "README.md": "b4587cc88e9591267fa0e191320c7923caa3b89cb07ff55d3b0a1492f6625b45",
+    "docker-compose.yml": "7bd6ffd31839ce49657caf7cfb6eace387451cb1f35a15b384beac204926e768",
+    "package.json": "85245deebb7f2b93fbafd91ecb1de0491945e99d718b17619cc9c7d32222b5fc"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

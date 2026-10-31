@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/Fioooooooo/curated-acp-agents",
+  "canonical_repository": "Fioooooooo/curated-acp-agents",
+  "canonical_url": "https://github.com/Fioooooooo/curated-acp-agents",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:31:42.435161Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a2f9db5295d7c8538b26b1a82c3fea32c487ec51f9fa0f22610a5771552b8a73",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+    "README.md": "a57a62e06edc73561356ee1f08102f45ca788c6ed183b38d21093492fbaad69c"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

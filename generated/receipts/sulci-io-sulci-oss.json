@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/sulci-io/sulci-oss",
+  "canonical_repository": "sulci-io/sulci-oss",
+  "canonical_url": "https://github.com/sulci-io/sulci-oss",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:58.401381Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3274adf5be1a390fd2e368700c0b64b36d4162e7b24d0fc96c42d85abe6cc863",
+  "sampled_file_digests": {
+    "LICENSE": "23dd6f73a512289405237810996b9b41b983b44cd6a53d3cb41c7f6bff80f2fd",
+    "README.md": "fdf33b5a0b3e327d1b953d5e72b28a11238942a71f8c6b6c54673db67108f946",
+    "pyproject.toml": "9134a43a2d19361338a4e4a092cbcba9fef8905c3b6849ef327618941ad5c0fc"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

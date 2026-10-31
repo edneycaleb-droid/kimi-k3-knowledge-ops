@@ -1,0 +1,63 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://code.visualstudio.com/",
+    "https://fsf.org/",
+    "https://github.com/coulsontl/ai-toolbox",
+    "https://github.com/coulsontl/ai-toolbox/blob/main/LICENSE",
+    "https://github.com/coulsontl/ai-toolbox/releases",
+    "https://github.com/farion1231/cc-switch",
+    "https://github.com/looplj/axonhub",
+    "https://github.com/qufei1993/skills-hub",
+    "https://github.com/xingkongliang/skills-manager",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/actions/runs/41020650501",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/commit/96cfbc495fe1281ba39b0673ba796aaf8f2cf09b",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/releases",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/releases/download/v1.2.1-next.1-build.96cfbc495fe1/AI-Toolbox-Next_1.2.1-next.1_96cfbc495fe1_windows-x64-setup.exe",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/releases/download/v1.2.1-next.1-build.96cfbc495fe1/SHA256SUMS",
+    "https://github.com/xue-ding-e/AI-Toolbox-Next/releases/download/v1.2.1-next.1-build.96cfbc495fe1/build-provenance.json",
+    "https://img.shields.io/github/downloads/coulsontl/ai-toolbox/total?style=flat-square",
+    "https://img.shields.io/github/license/coulsontl/ai-toolbox?style=flat-square",
+    "https://img.shields.io/github/v/release/coulsontl/ai-toolbox?style=flat-square",
+    "https://linux.do",
+    "https://marketplace.visualstudio.com/items?itemName=rust-lang.rust-analyzer",
+    "https://marketplace.visualstudio.com/items?itemName=tauri-apps.tauri-vscode",
+    "https://scoop.sh/",
+    "https://tauri.app/start/prerequisites/",
+    "https://www.gnu.org/licenses/"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/xue-ding-e-ai-toolbox-next.json",
+  "schema_version": 1,
+  "source_repository": "xue-ding-e/AI-Toolbox-Next",
+  "source_url": "https://github.com/xue-ding-e/AI-Toolbox-Next",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "agent",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://blog.eagle.ai/blog/introducing-eagle-4",
+    "https://developer.nvidia.com/blog/experiment-with-qwen3-8-flash-next-176b-model-on-nvidia-gb300-nvl72-for-agentic-coding/",
+    "https://developers.reflection.ai/deployment-overview",
+    "https://github.com/lightseekorg/tokenspeed",
+    "https://github.com/lightseekorg/tokenspeed/tree/main/tokenspeed-mla#mla-2-decode-benchmarks",
+    "https://huggingface.co/Qwen/Qwen3.8-2.4T-A95B#serving-qwen38",
+    "https://huggingface.co/lightseekorg/Inkling-MXFP4",
+    "https://huggingface.co/moonshotai/Kimi-K3#5-deployment",
+    "https://huggingface.co/zai-org/GLM-5.3-Flash#serve-glm-53-flash-locally",
+    "https://lightseek.org/",
+    "https://lightseek.org/blog/",
+    "https://lightseek.org/blog/eagle-4.html",
+    "https://lightseek.org/blog/kimi-k3-optimization-gb300-part-i.html",
+    "https://lightseek.org/blog/lightseek-tokenspeed.html",
+    "https://lightseek.org/blog/tokenspeed-inkling.html",
+    "https://lightseek.org/blog/tokenspeed-kimi-k3.html",
+    "https://lightseek.org/blog/tokenspeed-mla-2.html",
+    "https://lightseek.org/blog/tokenspeed-qwen3-8-flash-next.html",
+    "https://lightseek.org/blog/tokenspeed-qwen3-8.html",
+    "https://lightseek.org/blog/tokenspeed-reflection-beam.html",
+    "https://lightseek.org/sponsors",
+    "https://lightseek.org/tokenspeed/",
+    "https://lightseek.org/tokenspeed/configuration/compatible-parameters",
+    "https://lightseek.org/tokenspeed/configuration/server",
+    "https://lightseek.org/tokenspeed/guides/getting-started",
+    "https://lightseek.org/tokenspeed/guides/launching",
+    "https://lightseek.org/tokenspeed/recipes/models",
+    "https://lightseek.org/tokenspeed/serving/parallelism",
+    "https://pytorch.org/blog/lightseek-tokenspeed-kernel/",
+    "https://pytorch.org/blog/pytorch-ecosystem-landscape-q3-update/",
+    "https://pytorch.org/blog/up-to-580tps-new-speed-record-of-qwen3-5-397b-a17b-on-gpu-for-agentic-workloads-with-tokenspeed/",
+    "https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/banner/tokenspeed-banner.png",
+    "https://raw.githubusercontent.com/lightseekorg/tokenspeed/main/assets/perf/tokenspeed-kimi-k2.5-performance.png",
+    "https://thinkingmachines.ai/news/introducing-inkling/",
+    "https://thinkingmachines.ai/news/introducing-inkling/#inkling-availability",
+    "https://www.amd.com/en/developer/resources/technical-articles/2026/kimi-k3-on-amd-instinct-gpus-with-tokenspeed.html",
+    "https://www.nvidia.com/en-us/data-center/technologies/rubin/",
+    "https://x.com/NVIDIAAI/status/2052061195381911806"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/lightseekorg-tokenspeed.json",
+  "schema_version": 1,
+  "source_repository": "lightseekorg/tokenspeed",
+  "source_url": "https://github.com/lightseekorg/tokenspeed",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/vaibhavarora14/job-application-agent",
+  "canonical_repository": "vaibhavarora14/job-application-agent",
+  "canonical_url": "https://github.com/vaibhavarora14/job-application-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:34:27.440557Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ba3390595fc440897477561802cdcf05c88186bf516f6ca0c0e7faa0866444d7",
+  "sampled_file_digests": {
+    "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "README.md": "e3108f7515d4a46f00d1139a043c4744ca7682048253a22f06a15fe2caf3614b",
+    "package.json": "7659f90b44bfa41638841b7264ffb1961ac039cd7322453861de31cac552040b"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

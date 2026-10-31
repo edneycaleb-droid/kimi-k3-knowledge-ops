@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/NatLee/telepy",
+  "canonical_repository": "NatLee/telepy",
+  "canonical_url": "https://github.com/NatLee/telepy",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:33:50.319874Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "32733ad78f879cb5800784730bda1b4bccfc510dcf7cb3293e19733caf14ce5f",
+  "sampled_file_digests": {
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "8e9c87b55438a373bb48e7b8753197335c7c0e0be69942d2b3e6d38464096bfd",
+    "docker-compose.yml": "ccc3252f76145a9e6f6a1b5f63062d2f4c1330d1623f48068dde5bd960a3a147"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
