@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/open-metadata/OpenMetadata",
+  "canonical_repository": "open-metadata/OpenMetadata",
+  "canonical_url": "https://github.com/open-metadata/OpenMetadata",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:33:21.150687Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "39e48838bf4bd62e46fc1aa79cfd83e2e7a9dd9f9d1a1afc7d7b327f3eb2f036",
+  "sampled_file_digests": {
+    "LICENSE": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "README.md": "1e4bb2eb3fd9c7e3848009fa7940ed30684ce9bc31d35c591e4bfa0b4bd2f383"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

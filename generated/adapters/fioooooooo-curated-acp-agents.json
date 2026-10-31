@@ -1,0 +1,50 @@
+{
+  "categories": [
+    "plugin"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-code",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentclientprotocol.com",
+    "https://cursor.com/cli",
+    "https://github.com/MoonshotAI/kimi-code",
+    "https://github.com/QwenLM/qwen-code",
+    "https://github.com/aaif-goose/goose",
+    "https://github.com/agentclientprotocol/claude-agent-acp",
+    "https://github.com/agentclientprotocol/codex-acp",
+    "https://github.com/agentclientprotocol/registry",
+    "https://github.com/agentclientprotocol/registry/blob/main/FORMAT.md",
+    "https://github.com/anomalyco/opencode",
+    "https://github.com/cline/cline",
+    "https://github.com/github/copilot-cli",
+    "https://github.com/google-gemini/gemini-cli",
+    "https://github.com/mistralai/mistral-vibe",
+    "https://raw.githubusercontent.com/Fioooooooo/curated-acp-agents/main/dist/registry.json",
+    "https://www.codebuddy.cn/cli/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/fioooooooo-curated-acp-agents.json",
+  "schema_version": 1,
+  "source_repository": "Fioooooooo/curated-acp-agents",
+  "source_url": "https://github.com/Fioooooooo/curated-acp-agents",
+  "status": "disabled_pending_review"
+}

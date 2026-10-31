@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/betterlytics/betterlytics",
+  "canonical_repository": "betterlytics/betterlytics",
+  "canonical_url": "https://github.com/betterlytics/betterlytics",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:33:35.627884Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ec70838d86e399a3dfbd75865495183a966894c8398cf33970aea50f92beb30c",
+  "sampled_file_digests": {
+    "LICENSE": "895609d3e3043a5ffca941bbd0eb75e34470798261e49ba5c890292723952fb9",
+    "README.md": "1cbe42d4288dc8e613a3c6ab2802a2b8835e8e0b9c7d46e586f0999737ec692e",
+    "docker-compose.yml": "6f1d0c2002f41fea8c1f30ba47e51999b557f28498e61cb19f1ae9e4602eb2b4",
+    "package.json": "2ed79b841a138e769cc01d710e41495e52d05a5bd85752479f4108e27948ac12"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

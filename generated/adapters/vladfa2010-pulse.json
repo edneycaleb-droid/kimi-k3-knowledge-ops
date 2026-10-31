@@ -1,0 +1,67 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://pulse-api-bsov.onrender.com",
+    "https://pulse-api-bsov.onrender.com/api/webhook/yookassa",
+    "https://pulse.inside-trade.ru"
+  ],
+  "environment_variable_names": [
+    "BACKEND_URL",
+    "CRON_SECRET_KEY",
+    "DATABASE_URL",
+    "DB_HOST",
+    "DB_PORT",
+    "ENCRYPTION_KEY",
+    "FINAM_MARKET_SECRET",
+    "FINNHUB_API_KEY",
+    "FRONTEND_URL",
+    "JWT_SECRET",
+    "KIMI_API_KEY",
+    "MINIMAX_API_KEY",
+    "PORT",
+    "RESEND_API_KEY",
+    "SENDGRID_API_KEY",
+    "SERPER_API_KEY",
+    "SIGNED_URL_SECRET",
+    "SIGNED_URL_TTL_SEC",
+    "TELEGRAM_BOT_TOKEN",
+    "TRANSLATION_API_KEY",
+    "URL",
+    "VAPID_PRIVATE_KEY",
+    "VAPID_PUBLIC_KEY",
+    "YANDEX_SEARCH_API_KEY",
+    "YOOKASSA_SECRET_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vladfa2010-pulse.json",
+  "schema_version": 1,
+  "source_repository": "vladfa2010/pulse",
+  "source_url": "https://github.com/vladfa2010/pulse",
+  "status": "disabled_pending_review"
+}

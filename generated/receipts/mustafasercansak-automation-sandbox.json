@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/mustafasercansak/automation-sandbox",
+  "canonical_repository": "mustafasercansak/automation-sandbox",
+  "canonical_url": "https://github.com/mustafasercansak/automation-sandbox",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:21.070491Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e871d2f5e21e46b2ee6d4d000e7b5c1ec7c4aa9d28b3d28bb2a641d5f19d20f5",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e5f029e6acbc9d971b4457cc01495e4e907476061590351d7eb6555b7f02e501",
+    "LICENSE": "3cdd032c8a19802833181012adc72a9099b3890d22a96b3a401b0ae5fc95f65b",
+    "README.md": "dd9a8ebe09ab652c76d28c8e9ef5e088ab0bdd17272f57532c2cca72f2eec0f7"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

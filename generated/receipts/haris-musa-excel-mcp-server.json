@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/haris-musa/excel-mcp-server",
+  "canonical_repository": "haris-musa/excel-mcp-server",
+  "canonical_url": "https://github.com/haris-musa/excel-mcp-server",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:32:51.243396Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "b7462d7074e6fc6e99d97ea431c5f4eb352a4e69a3dd7ae565295a78b241d2ab",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b18389fef78d18310c0fdf64dff614306c7e663ec36247132b7f748ea7f2fb9c",
+    "Dockerfile": "e2a440d30cfaa1321d3a119b56190ec9af33ee558a79cf6da7f921a0301187d4",
+    "LICENSE": "095b88e8690eb78079af0ffe38a1845d9aadd92f4a8d19b18be0479a233579e6",
+    "README.md": "afeabf356c10d13085a758cd0c5a635bf5ebe81737a21c5743ec400bd3dfb53e",
+    "pyproject.toml": "fd9165d454621072ca819794b0e16e70e8dbfacaabb9346dafad96135b9402ca",
+    "server.json": "a76ccbd84697d2074a3056973fefac4e0c92edf23a0e911c826336004f4b08f6"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

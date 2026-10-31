@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/LeoYeAI/agent-master-skills",
+  "canonical_repository": "LeoYeAI/agent-master-skills",
+  "canonical_url": "https://github.com/LeoYeAI/agent-master-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:34:05.520458Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2edf2a31e634e1142e89ba1fca5c1a447e62ad774e7e66970fed7f60cbf4bfbe",
+  "sampled_file_digests": {
+    "LICENSE": "c52dbddb7d688967098e13593e96a823edb98fcfb149219a075a201cc71b4745",
+    "README.md": "c0daa228b8de3ae52d55317201e2df393afe008f61c7bab1af5be6176d1be730"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

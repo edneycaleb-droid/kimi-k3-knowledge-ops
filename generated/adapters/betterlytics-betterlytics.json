@@ -1,0 +1,73 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://betterlytics.io",
+    "https://betterlytics.io/demo",
+    "https://betterlytics.io/docs",
+    "https://betterlytics.io/docs/installation",
+    "https://betterlytics.io/docs/installation/self-hosting",
+    "https://betterlytics.io/features",
+    "https://betterlytics.io/signup",
+    "https://bsky.app/profile/betterlytics.bsky.social",
+    "https://clickhouse.com/",
+    "https://discord.gg/vwqSvPn6sP",
+    "https://fsf.org/",
+    "https://github.com/betterlytics/betterlytics",
+    "https://github.com/betterlytics/betterlytics/discussions",
+    "https://github.com/betterlytics/betterlytics/issues",
+    "https://img.shields.io/badge/ClickHouse-FFCC01?style=flat&logo=clickhouse&logoColor=black",
+    "https://img.shields.io/badge/License-AGPL%20v3-blue.svg",
+    "https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white",
+    "https://img.shields.io/badge/docker-%230db7ed.svg?style=flat&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/postgresql-%23316192.svg?style=flat&logo=postgresql&logoColor=white",
+    "https://img.shields.io/badge/react-%2320232a.svg?style=flat&logo=react&logoColor=%2361DAFB",
+    "https://img.shields.io/badge/rust-%23000000.svg?style=flat&logo=rust&logoColor=white",
+    "https://img.shields.io/badge/typescript-%23007ACC.svg?style=flat&logo=typescript&logoColor=white",
+    "https://img.shields.io/github/stars/betterlytics/betterlytics?style=social",
+    "https://nextjs.org/",
+    "https://reactjs.org/",
+    "https://www.docker.com/",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/agpl-3.0",
+    "https://www.postgresql.org/",
+    "https://www.rust-lang.org/",
+    "https://www.typescriptlang.org/"
+  ],
+  "environment_variable_names": [
+    "CLICKHOUSE_HTTP_PORT",
+    "CLICKHOUSE_NATIVE_PORT",
+    "POSTGRES_HOST_PORT",
+    "PROXY_HOST_PORT",
+    "TARGET_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/betterlytics-betterlytics.json",
+  "schema_version": 1,
+  "source_repository": "betterlytics/betterlytics",
+  "source_url": "https://github.com/betterlytics/betterlytics",
+  "status": "disabled_pending_review"
+}

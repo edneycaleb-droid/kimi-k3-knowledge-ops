@@ -1,0 +1,64 @@
+{
+  "categories": [
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agentskills.io/specification",
+    "https://api.free.ai/v1",
+    "https://chat2anyllm.github.io/awesome-claude-skills/",
+    "https://clawhub.ai/vaibhavarora14/skills/job-application-agent",
+    "https://company.example/jobs/123",
+    "https://free.ai/account/?tab=api",
+    "https://github.com/VoltAgent/awesome-agent-skills",
+    "https://github.com/agentskills/agentskills/discussions/537",
+    "https://github.com/vaibhavarora14/job-application-agent",
+    "https://github.com/vaibhavarora14/job-application-agent.git",
+    "https://github.com/vaibhavarora14/job-application-agent/actions/workflows/validate.yml",
+    "https://github.com/vaibhavarora14/job-application-agent/actions/workflows/validate.yml/badge.svg",
+    "https://github.com/vaibhavarora14/job-application-agent/issues",
+    "https://img.shields.io/badge/Agent_Skills-compatible-0F172A",
+    "https://img.shields.io/badge/license-MIT-2563EB.svg",
+    "https://img.shields.io/npm/v/job-application-agent?logo=npm&color=CB3837",
+    "https://job-application-agent-telemetry.varora1406.workers.dev/",
+    "https://jobappagent.com",
+    "https://jobappagent.com/platforms",
+    "https://jobappagent.com/privacy",
+    "https://skills.re/skills/vaibhavarora14/job-application-agent/job-application-agent",
+    "https://skills.sh/vaibhavarora14/job-application-agent",
+    "https://www.npmjs.com/package/job-application-agent",
+    "https://www.openagentskill.com/skills/vaibhavarora14-job-application-agent-job-application-agent",
+    "https://www.skillhub.club/app/skills/b99cbef5-2445-47d0-94d0-e6d1fac81263",
+    "https://x.ai/bot/0PNQABev0aiAUlhWI83XH"
+  ],
+  "environment_variable_names": [
+    "FREE_AI_API_KEY",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vaibhavarora14-job-application-agent.json",
+  "schema_version": 1,
+  "source_repository": "vaibhavarora14/job-application-agent",
+  "source_url": "https://github.com/vaibhavarora14/job-application-agent",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/snowfrost/Seedance25-prompt-skill",
+  "canonical_repository": "snowfrost/Seedance25-prompt-skill",
+  "canonical_url": "https://github.com/snowfrost/Seedance25-prompt-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:31:04.648755Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5f8d086348be1494bc47400e4c09dac49a2bba542cd9295fa8285f7157fb6e3c",
+  "sampled_file_digests": {
+    "README.md": "b7196ac1aefc45a9afaafb015f5e35a5a5212a83e9d501f7d79aea2f42f0a6f1"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

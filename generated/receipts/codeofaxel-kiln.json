@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/codeofaxel/Kiln",
+  "canonical_repository": "codeofaxel/Kiln",
+  "canonical_url": "https://github.com/codeofaxel/Kiln",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-10-31T19:33:13.112951Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "afb4afae932cf9d9d2646b72134ca4bfa7f9bbb606c3d866929599c754c7c88f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "db8f77c110670f103dd7c3e70cf8b154d339d9b441ecdb68a2acf5af79d33881",
+    "Dockerfile": "f6777373ff7c6453403a49f3cbe0dab20f92f473690e0c00d283988e9b33fb91",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "abf6fe74328e2861b3f708688259ac39e95c142bc4cb224a367f2bd504d3aaec",
+    "docker-compose.yml": "3078370b5769df04658630aadab73a54c036318dd2634d811200df6a92683249",
+    "server.json": "6fe0acb46d515908b490ca500b43c40327d19fd7f899f74678537dbe1e3ba09f"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

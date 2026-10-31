@@ -1,0 +1,41 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://github.com/hoyt-harness/davinci-mcp-professional",
+    "https://github.com/hoyt-harness/davinci-mcp-professional.git",
+    "https://github.com/hoyt-harness/davinci-mcp-professional/issues",
+    "https://github.com/samuelgursky/davinci-resolve-mcp",
+    "https://www.blackmagicdesign.com/products/davinciresolve",
+    "https://www.python.org/downloads/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hoyt-harness-davinci-mcp-professional.json",
+  "schema_version": 1,
+  "source_repository": "hoyt-harness/davinci-mcp-professional",
+  "source_url": "https://github.com/hoyt-harness/davinci-mcp-professional",
+  "status": "disabled_pending_review"
+}

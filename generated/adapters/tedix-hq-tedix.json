@@ -1,0 +1,76 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://connect.mcp.tedix.dev/mcp",
+    "https://deepwiki.com/badge.svg",
+    "https://deepwiki.com/tedix-hq/tedix",
+    "https://docs.tedix.dev",
+    "https://docs.tedix.dev/learning-paths/first-plugin",
+    "https://github.com/tedix-hq/tedix",
+    "https://github.com/tedix-hq/tedix.git",
+    "https://github.com/tedix-hq/tedix/discussions",
+    "https://github.com/tedix-hq/tedix/stargazers",
+    "https://img.shields.io/badge/license-AGPL--3.0-blue",
+    "https://img.shields.io/badge/status-beta-yellow",
+    "https://img.shields.io/github/stars/tedix-hq/tedix?style=flat",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://tedix.dev",
+    "https://tedix.dev/contact/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Connect AI assistants to your Tedix organization\u2019s tasks, knowledge, apps, and results through MCP.",
+      "name": "io.github.tedix-hq/tedix",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://connect.mcp.tedix.dev/mcp"
+        }
+      ],
+      "repository": {
+        "id": "1407008349",
+        "source": "github",
+        "url": "https://github.com/tedix-hq/tedix"
+      },
+      "title": "Tedix",
+      "version": "0.2.3",
+      "websiteUrl": "https://docs.tedix.dev/learning-paths/first-plugin"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tedix-hq-tedix.json",
+  "schema_version": 1,
+  "source_repository": "tedix-hq/tedix",
+  "source_url": "https://github.com/tedix-hq/tedix",
+  "status": "disabled_pending_review"
+}

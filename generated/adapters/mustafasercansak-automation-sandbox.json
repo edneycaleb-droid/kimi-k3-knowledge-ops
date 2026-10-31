@@ -1,0 +1,69 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://example.test/customers",
+    "https://github.com/FlaUI/FlaUI",
+    "https://github.com/mustafasercansak/automation-sandbox/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/mustafasercansak/automation-sandbox/issues/401",
+    "https://github.com/mustafasercansak/automation-sandbox/issues/402",
+    "https://github.com/mustafasercansak/automation-sandbox/issues/469",
+    "https://github.com/mustafasercansak/automation-sandbox/releases",
+    "https://github.com/mustafasercansak/automation-sandbox/releases/tag/v0.2.0-beta.2",
+    "https://img.shields.io/badge/.NET-Standard%202.0%20%7C%20.NET%208%20%7C%20.NET%2010%20%7C%20.NET%204.8-purple.svg",
+    "https://img.shields.io/badge/Status-Desktop%20%26%20Web%20Core-green.svg",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/github/v/release/mustafasercansak/automation-sandbox?include_prereleases",
+    "https://img.shields.io/nuget/v/AutomationSandbox.SelfHealing.svg",
+    "https://mustafasercansak.github.io/automation-sandbox/",
+    "https://www.nuget.org/profiles/mustafasercansak"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "CLOUDFLARE_API_TOKEN",
+    "GEMINI_API_KEY",
+    "GROK_API_KEY",
+    "GROQ_API_KEY",
+    "IMPORTANT",
+    "KIMI_API_KEY",
+    "MISTRAL_API_KEY",
+    "NVIDIA_API_KEY",
+    "OLLAMA_CLOUD_API_KEY",
+    "OLLAMA_HOST",
+    "OPENAI_API_KEY",
+    "OPENROUTER_API_KEY",
+    "SELF_HEALING_REPORT_HTML_PATH",
+    "SELF_HEALING_REPORT_PATH",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/mustafasercansak-automation-sandbox.json",
+  "schema_version": 1,
+  "source_repository": "mustafasercansak/automation-sandbox",
+  "source_url": "https://github.com/mustafasercansak/automation-sandbox",
+  "status": "disabled_pending_review"
+}
