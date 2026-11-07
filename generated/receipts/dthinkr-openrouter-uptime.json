@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/dthinkr/openrouter-uptime",
+  "canonical_repository": "dthinkr/openrouter-uptime",
+  "canonical_url": "https://github.com/dthinkr/openrouter-uptime",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:31:18.699441Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2aa0c3d48855d5b6dc10c558b30c7b69406d9d08669c44a53206f6af261d16c0",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "8efc791ae2478c1c9f80182740d027f8a3891e3f7929844b666d917bdc19c5cf",
+    "LICENSE": "cc98ad30969bb6211763fbc0ff3e9b0d8b2d838b106f3d64a1c95440ed543e52",
+    "README.md": "08f06c78891b356ebbf9e2734a2d237cd52c81355086546ff6542bf0059a1484"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

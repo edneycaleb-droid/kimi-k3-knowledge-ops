@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/KenKaiii/gg-framework",
+  "canonical_repository": "KenKaiii/gg-framework",
+  "canonical_url": "https://github.com/KenKaiii/gg-framework",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:32:10.507553Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7cb0b70fec0ffd96a0e1e9baf43ad038b553aeef553d1816187dc50f9da09c98",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "6b128e45de3e6f4267db56572290fbe86d3b67de73533617b875c98f7d6d120e",
+    "LICENSE": "0d96a4ff68ad6d4b6f1f30f713b18d5184912ba8dd389f86aa7710db079abcb0",
+    "README.md": "737c1b01244df902bb894752ee73580e7bac99adcf9ecda052cb5b8957c5afb1",
+    "package.json": "a22aedcfe0ffd4cfc824b8c587fef5b627961510d96170e6ae1ce9721c2397ac"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -1,0 +1,43 @@
+{
+  "categories": [
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.deepseek.com",
+    "https://api.kimi.com/coding/v1",
+    "https://github.com/chliu1990/obsidian-emend",
+    "https://github.com/chliu1990/obsidian-emend#readme",
+    "https://github.com/chliu1990/obsidian-emend.git",
+    "https://github.com/chliu1990/obsidian-emend/actions/workflows/ci.yaml",
+    "https://github.com/chliu1990/obsidian-emend/actions/workflows/ci.yaml/badge.svg",
+    "https://github.com/chliu1990/obsidian-emend/issues",
+    "https://github.com/chliu1990/obsidian-emend/releases"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/chliu1990-obsidian-emend.json",
+  "schema_version": 1,
+  "source_repository": "chliu1990/obsidian-emend",
+  "source_url": "https://github.com/chliu1990/obsidian-emend",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/crftwr/keyhac",
+  "canonical_repository": "crftwr/keyhac",
+  "canonical_url": "https://github.com/crftwr/keyhac",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:32:56.256121Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7ebefe31263ef2c381c41870a216a82e4e34d9752b12c1604c170ae9f3a3d410",
+  "sampled_file_digests": {
+    "LICENSE": "cda405f74d0abff82f323c857bc3824c5aaacff84ef1d972d71cde569231e22b",
+    "README.md": "cd159442e5ecab60ad2e7475cccea90312b7c3073419c9af8492728b7f52d6ae",
+    "pyproject.toml": "295a83e1804145dc9acaecbcc151a05f20a4b9cf9ae9c4e4a05d964d0c90a91e",
+    "requirements.txt": "7ea28769fa16772e810004d46c17a79ab1d6c7538cac347f8dcf8e80fb535b1f"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

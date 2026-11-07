@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://arxiv.org/abs/2606.28344",
+    "https://awesome.re/badge.svg",
+    "https://clianything.cc/",
+    "https://cloud.qdrant.io/",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://deeptutor.info/",
+    "https://discord.gg/EMgGbDceNQ",
+    "https://discord.gg/tyvKNccgqN",
+    "https://git.ffmpeg.org/ffmpeg.git",
+    "https://git.io/linux",
+    "https://git.zx2c4.com/wireguard-go",
+    "https://github.com/0voice/interview_internal_reference",
+    "https://github.com/0xAX/linux-insides",
+    "https://github.com/11ty/buildawesome",
+    "https://github.com/170-carry/codex-tools",
+    "https://github.com/1Panel-dev/1Panel",
+    "https://github.com/1Panel-dev/KubePi",
+    "https://github.com/1Panel-dev/MaxKB",
+    "https://github.com/21st-dev/magic-mcp",
+    "https://github.com/233boy/Xray",
+    "https://github.com/233boy/sing-box",
+    "https://github.com/2dust/v2rayN",
+    "https://github.com/3b1b/manim",
+    "https://github.com/521xueweihan/HelloGitHub",
+    "https://github.com/996icu/996.ICU",
+    "https://github.com/AFunc-OPC/Skiller",
+    "https://github.com/APIJSON/APIJSON",
+    "https://github.com/ActivityWatch/activitywatch",
+    "https://github.com/AlexanderPro/SmartSystemMenu",
+    "https://github.com/Alibaba-NLP/DeepResearch",
+    "https://github.com/Alishahryar1/free-claude-code",
+    "https://github.com/Anankke/SSPanel-UIM",
+    "https://github.com/Anarkh-Lee/universal-db-mcp",
+    "https://github.com/Anduin2017/HowToCook",
+    "https://github.com/Angel-ML/angel",
+    "https://github.com/AntonyCheng/spring-boot-init-template",
+    "https://github.com/AppFlowy-IO/AppFlowy",
+    "https://github.com/AstrBotDevs/AstrBot",
+    "https://github.com/AtsushiSakai/PythonRobotics",
+    "https://github.com/AutoHotkey/AutoHotkey"
+  ],
+  "environment_variable_names": [
+    "TOKENICODE",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/lsasw-my-awesome-stars.json",
+  "schema_version": 1,
+  "source_repository": "lsasw/my-awesome-stars",
+  "source_url": "https://github.com/lsasw/my-awesome-stars",
+  "status": "disabled_pending_review"
+}

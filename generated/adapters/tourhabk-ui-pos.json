@@ -1,0 +1,117 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://dl-cdn.alpinelinux.org#https://mirror.yandex.ru/mirrors#g",
+    "https://github.com/tourhabk-ui/pos",
+    "https://inspomcp.dev/api/mcp",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://tourhab.ru",
+    "https://vedarai.ru",
+    "https://vedarai.ru/.well-known/agent-card.json",
+    "https://vedarai.ru/.well-known/agent.json",
+    "https://vedarai.ru/.well-known/ai-catalog.json",
+    "https://vedarai.ru/.well-known/api-catalog",
+    "https://vedarai.ru/.well-known/mcp.json",
+    "https://vedarai.ru/api/mcp",
+    "https://vedarai.ru/api/mcp/server-card",
+    "https://vedarai.ru/apple-touch-icon.png",
+    "https://vedarai.ru/icons/icon-512.png",
+    "https://vedarai.ru/llms.txt",
+    "https://vedarai.ru/mcp",
+    "https://vedarai.ru/openapi.json",
+    "https://vedarai.ru/zh",
+    "https://vedarai.ru/zh#connect"
+  ],
+  "environment_variable_names": [
+    "ANTHROPIC_API_KEY",
+    "APP_URL",
+    "BASE_URL",
+    "DATABASE_URL",
+    "GITHUB_TOKEN",
+    "HOSTNAME",
+    "JWT_SECRET",
+    "KERNEL_PG_TEST_URL",
+    "LLM_API_KEY",
+    "NEXT_PUBLIC_API_BASE_URL",
+    "NEXT_PUBLIC_APP_URL",
+    "OPENAI_API_KEY",
+    "PORT",
+    "REDIS_URL",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "inspo": {
+          "type": "http",
+          "url": "https://inspomcp.dev/api/mcp"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Kamchatka, Russia travel: tours, hotels, transfers, volcano status, safety, booking requests",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "512x512"
+          ],
+          "src": "https://vedarai.ru/icons/icon-512.png"
+        },
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "180x180"
+          ],
+          "src": "https://vedarai.ru/apple-touch-icon.png"
+        }
+      ],
+      "name": "ru.vedarai/mcp",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://vedarai.ru/api/mcp"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/tourhabk-ui/pos"
+      },
+      "title": "Vedar \u2014 Kamchatka travel",
+      "version": "2.10.1",
+      "websiteUrl": "https://vedarai.ru/mcp"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/tourhabk-ui-pos.json",
+  "schema_version": 1,
+  "source_repository": "tourhabk-ui/pos",
+  "source_url": "https://github.com/tourhabk-ui/pos",
+  "status": "disabled_pending_review"
+}

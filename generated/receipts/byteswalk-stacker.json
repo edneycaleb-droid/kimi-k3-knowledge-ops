@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/byteswalk/stacker",
+  "canonical_repository": "byteswalk/stacker",
+  "canonical_url": "https://github.com/byteswalk/stacker",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:32:04.152066Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "4f200f8f531b7c73dbebe68a2d622e1c32e89b10956e02cec94bca186b2ce64d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "0a38a8f5022af0521c3c66dfd2fb98b0ced33ef72cbb50ca9aa759e01da637f0",
+    "LICENSE": "4e7eeb136c8aa5e13b789a9a625fe8cfc101b4ab5c1154213c3c9817ea1ebe6f",
+    "README.md": "dbae5af3fbe8212bcfd1446e4a910b2f6007e2631c67c3a7e0bd4159226d0763",
+    "package.json": "e06a13e3ddeb5279355494158f4abe5c198cd77c21bc243bddcd687294a1ae0c"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

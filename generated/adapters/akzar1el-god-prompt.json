@@ -1,0 +1,54 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://chatgpt.com/plugins/plugins_6ab2f1cc5d0081919d729fd1c2884f86",
+    "https://docs.anthropic.com",
+    "https://github.com/AKzar1el/god-prompt-mcp/tree/main/skills/god-prompt",
+    "https://github.com/AKzar1el/god-prompt.git",
+    "https://github.com/AKzar1el/god-prompt/issues",
+    "https://github.com/sponsors/AKzar1el/sponsorships?tier_id=657478&metadata_campaign=godprompt_rs1&metadata_offer=agent_harness_review&metadata_source=core",
+    "https://god-prompt-mcp.tomi-seregi99.workers.dev/mcp",
+    "https://help.openai.com/en/articles/10169521-projects-in-chatgpt",
+    "https://help.openai.com/en/articles/12584461-developer-mode-and-mcp-apps-in-chatgpt",
+    "https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt",
+    "https://img.shields.io/badge/Claude-Code-blueviolet",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+    "https://img.shields.io/badge/version-1.0.0-blue.svg",
+    "https://opensource.org/licenses/MIT",
+    "https://tomiseregi.si/projects/god-prompt"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/akzar1el-god-prompt.json",
+  "schema_version": 1,
+  "source_repository": "AKzar1el/god-prompt",
+  "source_url": "https://github.com/AKzar1el/god-prompt",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/koala73/worldmonitor",
+  "canonical_repository": "koala73/worldmonitor",
+  "canonical_url": "https://github.com/koala73/worldmonitor",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:33:34.715298Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5a9c7a77565f178b7af441119329c14cd01a4c3da19cc033e18d8d098383af3b",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "972898551a20afd3389d3844029458696b068285d78feba64c662eed55c35c91",
+    "Dockerfile": "154507d5ec13340f94b0dd800365bdc7f051714cf28af5b118fe69fe9efb6407",
+    "LICENSE": "91fd070eb055a106f41e4218f1372741e847f42c9ddae77101e799642a3282a7",
+    "README.md": "150afdb0c2b1222a455069cdc31b9743fe02e9488e33c2e04f5454d20c9de4bf",
+    "docker-compose.yml": "5ebe2876778b8cd66419235d8c5c470d5f1c685f55346125163872915a2db114",
+    "mcp.json": "87a3ebe88f0899118fd38712db7db2f2081c387ef1157531a9611752893af92e",
+    "package.json": "fc68757a60a0a5f87dd3032239501229f2326dc298bb2c397b19f05f873eec4d",
+    "server.json": "3434163dee32abe93830649b94b81adaf50b42938d2ea0818078e3520578a942"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

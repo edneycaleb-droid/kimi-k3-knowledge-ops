@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/roomi-fields/notebooklm-mcp",
+  "canonical_repository": "roomi-fields/notebooklm-mcp",
+  "canonical_url": "https://github.com/roomi-fields/notebooklm-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:33:41.114347Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "400e788d8b5f416b8ee02a4f9e4eb114556e7995cfaecf6f46059110b83f968a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c52131948634c1fe3b7309dc36670cb6429b3c54999b5e4d61d9d576d2392c39",
+    "Dockerfile": "d691054393239dff12d8c2154e349cb637b30f509f823e8203c658fe10338cb0",
+    "LICENSE": "84320e00413004e80f87f9aa6ac5b78ed536b1895082533154a02c7bcf6e0e93",
+    "README.md": "8272af3b4d99ceb9737ea49acffd012311f1c860d9a3a8a6c0d6b2b39e610bc1",
+    "docker-compose.yml": "178cf0755e2ebae38c960063cce67bece20e22228a7ef092b63449106ce1558e",
+    "package.json": "63c88f51d388b78161a169d294dfdc54287ef143a4e1acfec8e027f3460654c4",
+    "server.json": "a6ed454a9093bd0bc645de78632dca2a1f0bd2e1ae97e6dfd875652f9eb2bb79"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

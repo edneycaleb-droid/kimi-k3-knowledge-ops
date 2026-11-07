@@ -1,0 +1,82 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://0xc0ffee.netlify.app/osdev",
+    "https://awesome.re/badge.svg",
+    "https://aws.amazon.com/mobile",
+    "https://cli.github.com/",
+    "https://cloudash.dev",
+    "https://code.google.com/p/google-breakpad/",
+    "https://code.miguelgrinberg.com/miguelgrinberg/microdot",
+    "https://codeberg.org/rkaj/chord3",
+    "https://creativecommons.org/publicdomain/zero/1.0/",
+    "https://demo.paisa.fyi",
+    "https://g",
+    "https://gitgitgadget.github.io/",
+    "https://github.com/0xAX/linux-insides",
+    "https://github.com/0xD34D/OpenBuildProp",
+    "https://github.com/11ty/buildawesome",
+    "https://github.com/18F/identity-idp",
+    "https://github.com/7kfpun/FinanceReactNative",
+    "https://github.com/89luca89/distrobox",
+    "https://github.com/AFNetworking/AFNetworking",
+    "https://github.com/AdamNiederer/faster",
+    "https://github.com/AdrienTorris/awesome-blazor",
+    "https://github.com/AirLabsTeam/react-native-aws-cognito-js",
+    "https://github.com/AlDanial/cloc",
+    "https://github.com/AlexanderWillner/runMacOSinVirtualBox",
+    "https://github.com/AltBeacon/android-beacon-library",
+    "https://github.com/AltBeacon/spec",
+    "https://github.com/Anstinus/lazy-linq",
+    "https://github.com/Antaris/RazorEngine",
+    "https://github.com/AppHubPlatform/apphub",
+    "https://github.com/AssemblyScript/assemblyscript",
+    "https://github.com/AvaloniaUI/Avalonia",
+    "https://github.com/Azure/data-api-builder",
+    "https://github.com/B00TK1D/copilot-api",
+    "https://github.com/BalestraPatrick/SwiftBlog",
+    "https://github.com/BoldContacts/boldcontacts-mobile-app-for-apple",
+    "https://github.com/BoostIO/BoostNote-App",
+    "https://github.com/BoostIO/BoostNote-Legacy",
+    "https://github.com/Boris-Em/BEMSimpleLineGraph",
+    "https://github.com/BurntSushi/xsv",
+    "https://github.com/CaliDog/certstream-server"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/appwiz-starred.json",
+  "schema_version": 1,
+  "source_repository": "appwiz/starred",
+  "source_url": "https://github.com/appwiz/starred",
+  "status": "disabled_pending_review"
+}
