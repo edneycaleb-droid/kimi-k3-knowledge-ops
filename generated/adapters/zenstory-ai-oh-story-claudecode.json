@@ -1,0 +1,71 @@
+{
+  "categories": [
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://app.zenstory.ai",
+    "https://app.zenstory.ai/?utm_source=gh-oh-story&utm_medium=readme",
+    "https://clawhub.ai/",
+    "https://contrib.rocks/image?repo=zenstory-ai/oh-story-claudecode",
+    "https://github.com/Sophomoresty/zhuque",
+    "https://github.com/user-attachments/assets/8f9cc11b-1fb8-4cc5-a084-e0deb05ec791",
+    "https://github.com/wen1701/FanqieRankTracker",
+    "https://github.com/zenstory-ai",
+    "https://github.com/zenstory-ai/drama-skills",
+    "https://github.com/zenstory-ai/novel-to-game",
+    "https://github.com/zenstory-ai/oh-story-claudecode",
+    "https://github.com/zenstory-ai/oh-story-claudecode/discussions",
+    "https://github.com/zenstory-ai/oh-story-claudecode/graphs/contributors",
+    "https://github.com/zenstory-ai/oh-story-claudecode/issues/new/choose",
+    "https://github.com/zenstory-ai/oh-story-claudecode/releases",
+    "https://github.com/zenstory-ai/oh-story-claudecode/releases/latest",
+    "https://github.com/zenstory-ai/oh-story-claudecode/stargazers",
+    "https://github.com/zenstory-ai/oh-story-dsh",
+    "https://github.com/zenstory-ai/video-recap-skills",
+    "https://github.com/zenstory-ai/zenstory",
+    "https://img.shields.io/badge/GitHub%20Discussions-181717?style=for-the-badge&logo=github&logoColor=white",
+    "https://img.shields.io/badge/License-MIT-1F6FEB?style=flat-square",
+    "https://img.shields.io/badge/Skills-14-081431?style=flat-square",
+    "https://img.shields.io/badge/Telegram%20%E4%BA%A4%E6%B5%81%E7%BE%A4-26A5E4?style=for-the-badge&logo=telegram&logoColor=white",
+    "https://img.shields.io/github/stars/zenstory-ai/oh-story-claudecode?style=flat-square&color=22D3EE&logo=github&logoColor=white&label=Stars",
+    "https://img.shields.io/github/v/release/zenstory-ai/oh-story-claudecode?style=flat-square&color=081431&label=Release",
+    "https://linux.do",
+    "https://raw.githubusercontent.com/zenstory-ai/zenstory/main/apps/web/public/brand/zenstory-ai-mark.svg",
+    "https://t.me/ohstoryclaudecode",
+    "https://zenstory.ai/zh",
+    "https://zenstory.ai/zh/oh-story",
+    "https://zenstory.ai/zh/oh-story/agent-skills-for-writers",
+    "https://zenstory.ai/zh/oh-story/import-and-continue",
+    "https://zenstory.ai/zh/oh-story/long-novel-continuity",
+    "https://zenstory.ai/zh/oh-story/outline-to-chapter",
+    "https://zenstory.ai/zh/oh-story/preserve-author-voice",
+    "https://zenstory.ai/zh/oh-story/revise-ai-prose",
+    "https://zhuanlan.zhihu.com/p/2087452622655592204"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/zenstory-ai-oh-story-claudecode.json",
+  "schema_version": 1,
+  "source_repository": "zenstory-ai/oh-story-claudecode",
+  "source_url": "https://github.com/zenstory-ai/oh-story-claudecode",
+  "status": "disabled_pending_review"
+}

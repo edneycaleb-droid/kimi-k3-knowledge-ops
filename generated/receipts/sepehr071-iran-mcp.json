@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/sepehr071/iran-mcp",
+  "canonical_repository": "sepehr071/iran-mcp",
+  "canonical_url": "https://github.com/sepehr071/iran-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:33:02.495599Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "369b64074d396a4cc90f57c3596dcf7e41ffe01cafbcea6e1edcf4e6f48d71ae",
+  "sampled_file_digests": {
+    ".mcp.json": "dda9194378abd7dedfd9357995c8818341bc4928c50358ec9b492ab8151fda19",
+    "LICENSE": "beb1c534b373d081b15f3e4a3de139955fd971dfed2ef551f04ec5a63f5089da",
+    "README.md": "0651bccf48c21d3bb2a6e72f32adebb4058b6f859553fd01cc51289372bfc304"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

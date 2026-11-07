@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/openstatusHQ/openstatus",
+  "canonical_repository": "openstatusHQ/openstatus",
+  "canonical_url": "https://github.com/openstatusHQ/openstatus",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:33:47.438106Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0d2c628c086cf54625ddcd96189f542011e5bbc83e503f86f2faca2901d5e3aa",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "ba8d0f143c38a183cabe7463031cec104166341bbdc1cb5918e0ac436de4240d",
+    "LICENSE": "8486a10c4393cee1c25392769ddd3b2d6c242d6ec7928e1414efff7dfb2f07ef",
+    "README.md": "834327838b77124eb6787cbcf369055867e37bbf43d697bbb2e66fc68cc7673d",
+    "package.json": "ed209dda39642abcbeef984dada950faa1f511db1eb65238ea18e6fede3ca55d"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

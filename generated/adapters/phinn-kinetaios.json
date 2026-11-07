@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "openai-compatible"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.orcarouter.ai/v1",
+    "https://apps.apple.com/app/id6773755689",
+    "https://apps.apple.com/app/id6779978181",
+    "https://apps.apple.com/app/id6780600464",
+    "https://apps.apple.com/app/id6780944289",
+    "https://apps.apple.com/app/id6782778566",
+    "https://apps.apple.com/app/id6797004663",
+    "https://apps.apple.com/app/id6807457522",
+    "https://apps.apple.com/app/id6808698046",
+    "https://apps.apple.com/app/id6809450051",
+    "https://apps.apple.com/app/id6813423397",
+    "https://apps.apple.com/app/id6813593104",
+    "https://apps.apple.com/app/id6814033986",
+    "https://apps.apple.com/app/id6815923723",
+    "https://apps.apple.com/app/id6817339084",
+    "https://apps.apple.com/app/id6817377455",
+    "https://apps.apple.com/app/id6820196518",
+    "https://apps.apple.com/app/id6820624868",
+    "https://apps.apple.com/app/id6820942179",
+    "https://apps.apple.com/app/id6823855712",
+    "https://fsf.org/",
+    "https://github.com/phinn/KinetAios",
+    "https://github.com/phinn/KinetAios.git",
+    "https://github.com/phinn/KinetAios/blob/main/documents/excel-cross-analysis-engines.html",
+    "https://github.com/phinn/KinetAios/discussions",
+    "https://github.com/phinn/KinetAios/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22",
+    "https://github.com/phinn/KinetAios/releases/latest",
+    "https://github.com/phinn/KinetAios/wiki/Voice-Chat",
+    "https://img.shields.io/badge/-good%20first%20issues-7057ff",
+    "https://img.shields.io/badge/Download_on_the-Mac_App_Store-007AFF",
+    "https://img.shields.io/badge/License-GPLv3-blue.svg",
+    "https://img.shields.io/badge/platform-Windows%2011%20%7C%20macOS-black",
+    "https://img.shields.io/github/discussions/phinn/KinetAios",
+    "https://img.shields.io/github/stars/phinn/KinetAios?style=social",
+    "https://img.shields.io/github/v/release/phinn/KinetAios",
+    "https://phinn.github.io/KinetAios/",
+    "https://phinn.github.io/kinetapp/index.html",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/why-not-lgpl.html",
+    "https://www.orcarouter.ai/ref/ref_1ed8570b7192ed54082b"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/phinn-kinetaios.json",
+  "schema_version": 1,
+  "source_repository": "phinn/KinetAios",
+  "source_url": "https://github.com/phinn/KinetAios",
+  "status": "disabled_pending_review"
+}

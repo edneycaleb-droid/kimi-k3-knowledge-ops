@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/tourhabk-ui/pos",
+  "canonical_repository": "tourhabk-ui/pos",
+  "canonical_url": "https://github.com/tourhabk-ui/pos",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:31:51.425410Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "17cfe460e82904e5fa23584abcd57052a85020b3241b0fbf66d431fbc52e5903",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4cf468e899a2db1cd77dfcb1a97ca9667cc85634da9878fa63c0850e35a81f3c",
+    ".mcp.json": "16f8f493b9783493dd499523b56fe4f859498f527f2f1c8ca14edcc2e7190894",
+    "Dockerfile": "250aca744e48966f87f3b4bc0108a0b4eab066ae9420a4fd95e0c0a1db898d75",
+    "LICENSE": "361f385b5f68e64f5321e4e352d4be46f215be4a5c96828ec37f4bd1717e4d41",
+    "README.md": "827b381163856ee7d41462918dd1a9002dd598f3ae55a663152d79be3eeb47e2",
+    "docker-compose.yml": "81d237b3465271a9c89517d2374f2cd8efc0ec013b6b74a5c42a826b4388afe4",
+    "package.json": "fa11753307a516996b07e491845e4c5459fe1d246a7574c1f5646da5468af460",
+    "server.json": "7011512d06ec227473731a071e0724a4773d6691d5b90a15a216275dcf3853de"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

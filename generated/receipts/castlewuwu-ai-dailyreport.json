@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/castlewuwu/ai-dailyreport",
+  "canonical_repository": "castlewuwu/ai-dailyreport",
+  "canonical_url": "https://github.com/castlewuwu/ai-dailyreport",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:31:44.315763Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "e5692c94a049f8c62449f3619fdce1dd3b5cf6a3f963f42ca76bd2daddd26ea7",
+  "sampled_file_digests": {
+    "README.md": "bfdf6e00b19eb7e51b5cab2d1407b4a85ed5f1d71b597674fcaa01f840175a42"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

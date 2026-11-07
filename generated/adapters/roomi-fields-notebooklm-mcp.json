@@ -1,0 +1,113 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://badge.fury.io/js/%40roomi-fields%2Fnotebooklm-mcp.svg",
+    "https://claude.ai/claude-code",
+    "https://codecov.io/gh/roomi-fields/notebooklm-mcp",
+    "https://codecov.io/gh/roomi-fields/notebooklm-mcp/branch/main/graph/badge.svg",
+    "https://crates.io/crates/notebooklm",
+    "https://docs.rs/notebooklm",
+    "https://github.com/Excauboi",
+    "https://github.com/JulienCANTONI",
+    "https://github.com/KhizarJamshaidIqbal",
+    "https://github.com/PleasePrompto",
+    "https://github.com/eminsnow",
+    "https://github.com/ghostnshells",
+    "https://github.com/he0xwhale",
+    "https://github.com/kpietkaa",
+    "https://github.com/musnymubarak/Calim_Doc",
+    "https://github.com/nils-friedrichs",
+    "https://github.com/roomi-fields",
+    "https://github.com/roomi-fields/claude-plugins",
+    "https://github.com/roomi-fields/notebooklm-mcp",
+    "https://github.com/roomi-fields/notebooklm-mcp#readme",
+    "https://github.com/roomi-fields/notebooklm-mcp.git",
+    "https://github.com/roomi-fields/notebooklm-mcp/actions/workflows/ci.yml",
+    "https://github.com/roomi-fields/notebooklm-mcp/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/roomi-fields/notebooklm-mcp/issues",
+    "https://github.com/roomi-fields/notebooklm-mcp/issues/27",
+    "https://github.com/roomi-fields/notebooklm-mcp/security/advisories/GHSA-p69m-c5rf-g2c3",
+    "https://github.com/roomi-fields/notebooklm-skill",
+    "https://github.com/roomi-fields/rtfm",
+    "https://github.com/shinjiyu",
+    "https://github.com/teodor-t-tenev",
+    "https://img.shields.io/badge/Claude_Code-MCP-8A2BE2",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-compatible-green.svg",
+    "https://img.shields.io/badge/Node.js-",
+    "https://img.shields.io/badge/TypeScript-5.x-blue.svg",
+    "https://img.shields.io/badge/UTCP-compatible-blue.svg",
+    "https://img.shields.io/badge/n8n-HTTP_API-orange",
+    "https://img.shields.io/crates/v/notebooklm.svg",
+    "https://img.shields.io/docsrs/notebooklm",
+    "https://img.shields.io/gem/v/notebooklm.svg"
+  ],
+  "environment_variable_names": [
+    "CODECOV_TOKEN",
+    "GITHUB_TOKEN",
+    "HTTP_HOST",
+    "HTTP_PORT",
+    "NOTEBOOKLM_API_KEY",
+    "NOTEBOOKLM_URL",
+    "NOVNC_PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Google Gemini Notebook (ex NotebookLM) over MCP + a local REST API \u2014 cited answers, Studio, history",
+      "name": "io.github.roomi-fields/notebooklm-mcp",
+      "packages": [
+        {
+          "identifier": "@roomi-fields/notebooklm-mcp",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "4.7.0"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/roomi-fields/notebooklm-mcp"
+      },
+      "title": "NotebookLM MCP",
+      "version": "4.7.0"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/roomi-fields-notebooklm-mcp.json",
+  "schema_version": 1,
+  "source_repository": "roomi-fields/notebooklm-mcp",
+  "source_url": "https://github.com/roomi-fields/notebooklm-mcp",
+  "status": "disabled_pending_review"
+}

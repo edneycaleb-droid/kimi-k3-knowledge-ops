@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/lessweb/deepcode-cli",
+  "canonical_repository": "lessweb/deepcode-cli",
+  "canonical_url": "https://github.com/lessweb/deepcode-cli",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:34:19.215371Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "30a9119c24690d18fd23c1638c8e68ebcbd536747134c9324ecd98300baa3c00",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9bea83c5063bfebc1c9a10708d1c61428236bfeeaa106aac1b83da3e6ade27c8",
+    "LICENSE": "7b1d5fa29a200220ca44b3355db5f1c7b91714fbbd76f42e7268104fa9efd380",
+    "README.md": "17ce35991daea9a93e9a9d26c5add323853790b399db22c75b5c464e859959cb",
+    "package.json": "d44764daeefa57c36a4ef323894ca16f206a3861d866d103d59450b37f60cc52"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

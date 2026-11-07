@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/phinn/KinetAios",
+  "canonical_repository": "phinn/KinetAios",
+  "canonical_url": "https://github.com/phinn/KinetAios",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:33:22.078199Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2dd3a0c47b76300cd98bca3b8dcd1f714d39aa6174bf403acfd887ba528a4001",
+  "sampled_file_digests": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "bce3e4d3e727689ec846068eeb0fc985f3d212b4bec2e22d72be9a97a28f2b4e",
+    "package.json": "d73b05ed5da65efb30d6fc7d0db0ee83b0fda0c80ba00d2d6d178bbbe083f2f8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

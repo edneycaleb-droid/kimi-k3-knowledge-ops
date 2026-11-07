@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/chliu1990/obsidian-emend",
+  "canonical_repository": "chliu1990/obsidian-emend",
+  "canonical_url": "https://github.com/chliu1990/obsidian-emend",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:31:57.661523Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6768151ae42f91fb30ddad4be2d804add3babdbf2c9ad20241ffbabf77f0e88e",
+  "sampled_file_digests": {
+    "LICENSE": "109efaa6b400883a2e8c201f486680843ab5aa1b3987c244e10cc0c8720ab28d",
+    "README.md": "49e4015ec1976e6b98f2c12d51067d945a12c6f64ebae36948b9cb8d3fd46b18",
+    "package.json": "fa7538e51b1d83f3ad8786e8862e59a5bfcfc2de29bc03e9d7c8ecb35cfe6459"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

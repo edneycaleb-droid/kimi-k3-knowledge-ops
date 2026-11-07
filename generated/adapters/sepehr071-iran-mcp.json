@@ -1,0 +1,550 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agah.com",
+    "https://amar.org.ir",
+    "https://asalbanooshop.com",
+    "https://baaneeh.com",
+    "https://balad.ir",
+    "https://bale.ai",
+    "https://bama.ir",
+    "https://basalam.com",
+    "https://bimebazar.com",
+    "https://bitpin.ir",
+    "https://cafebazaar.ir",
+    "https://chabokan.net",
+    "https://codal.ir",
+    "https://daric.gold",
+    "https://darukade.com",
+    "https://digiato.com",
+    "https://divar.ir",
+    "https://docs.astral.sh/uv/",
+    "https://docs.astral.sh/uv/getting-started/installation/",
+    "https://doctoreto.com",
+    "https://downloadly.ir",
+    "https://earthquake.usgs.gov",
+    "https://emalls.ir",
+    "https://exir.io",
+    "https://exiryab.com",
+    "https://exiryab.com/llms.txt",
+    "https://faradars.org",
+    "https://fidibo.com",
+    "https://fipiran.ir",
+    "https://gamefa.com",
+    "https://github.com/SwapWallet/swapwallet-mcp",
+    "https://github.com/SwapWallet/swapwallet-mcp#connect",
+    "https://github.com/SwapWallet/swapwallet-mcp/commits/main",
+    "https://github.com/ashkancapella/pasavard-mcp",
+    "https://github.com/ashkancapella/pasavard-mcp/blob/main/server.json",
+    "https://github.com/ashkancapella/pasavard-mcp/commits/main",
+    "https://github.com/sepehr071",
+    "https://github.com/sepehr071/30book-mcp",
+    "https://github.com/sepehr071/30book-mcp/commits/main",
+    "https://github.com/sepehr071/alibaba-ir-mcp"
+  ],
+  "environment_variable_names": [
+    "BALE_BOT_TOKEN",
+    "PAYPING_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "30book": {
+          "args": [
+            "30book-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "alibaba-ir": {
+          "args": [
+            "alibaba-ir-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "amar": {
+          "args": [
+            "amar-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "asalbanoo": {
+          "args": [
+            "asalbanoo-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "balad": {
+          "args": [
+            "balad-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "bale": {
+          "args": [
+            "bale-mcp@0.3.0"
+          ],
+          "command": "uvx",
+          "env": {
+            "BALE_BOT_TOKEN": "${BALE_BOT_TOKEN:-}"
+          }
+        },
+        "bama-ir": {
+          "args": [
+            "bama-ir-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "baneh": {
+          "args": [
+            "baneh-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "banimode": {
+          "args": [
+            "banimode-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "basalam": {
+          "args": [
+            "basalam-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "cbi": {
+          "args": [
+            "cbi-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "codal": {
+          "args": [
+            "codal-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "darukade": {
+          "args": [
+            "darukade-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "digikala": {
+          "args": [
+            "digikala-mcp@0.6.0"
+          ],
+          "command": "uvx"
+        },
+        "divar": {
+          "args": [
+            "divar-mcp@0.3.0"
+          ],
+          "command": "uvx"
+        },
+        "doctoreto": {
+          "args": [
+            "doctoreto-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "eghamat24": {
+          "args": [
+            "eghamat24-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "emalls-ir": {
+          "args": [
+            "emalls-ir-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "exiryab": {
+          "args": [
+            "exiryab-mcp@0.1.0"
+          ],
+          "command": "uvx"
+        },
+        "faradars": {
+          "args": [
+            "faradars-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "fidibo": {
+          "args": [
+            "fidibo-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "fipiran": {
+          "args": [
+            "fipiran-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "flytoday": {
+          "args": [
+            "flytoday-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "gamefa": {
+          "args": [
+            "gamefa-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "hamrah-mechanic": {
+          "args": [
+            "hamrah-mechanic-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "ifb": {
+          "args": [
+            "ifb-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "ime": {
+          "args": [
+            "ime-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-apps": {
+          "args": [
+            "iran-apps-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-brokers": {
+          "args": [
+            "iran-brokers-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-cloud-status": {
+          "args": [
+            "iran-cloud-status-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-crypto": {
+          "args": [
+            "iran-crypto-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-downloads": {
+          "args": [
+            "iran-downloads-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-gold": {
+          "args": [
+            "iran-gold-mcp@0.3.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-insurance": {
+          "args": [
+            "iran-insurance-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-jobs": {
+          "args": [
+            "iran-jobs-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-news": {
+          "args": [
+            "iran-news-mcp@0.3.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-quake": {
+          "args": [
+            "iran-quake-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-tax": {
+          "args": [
+            "iran-tax-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iran-vod": {
+          "args": [
+            "iran-vod-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "iranketab": {
+          "args": [
+            "iranketab-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "irantalent": {
+          "args": [
+            "irantalent-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "jabama": {
+          "args": [
+            "jabama-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "jobinja": {
+          "args": [
+            "jobinja-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "jobvision": {
+          "args": [
+            "jobvision-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "karlancer": {
+          "args": [
+            "karlancer-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "karnameh": {
+          "args": [
+            "karnameh-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "khanoumi": {
+          "args": [
+            "khanoumi-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "maktabkhooneh": {
+          "args": [
+            "maktabkhooneh-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "masterkala": {
+          "args": [
+            "masterkala-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "milligold": {
+          "args": [
+            "milligold-mcp@0.3.0"
+          ],
+          "command": "uvx"
+        },
+        "mobile-ir": {
+          "args": [
+            "mobile-ir-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "mrbilit": {
+          "args": [
+            "mrbilit-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "neshan": {
+          "args": [
+            "neshan-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "okala": {
+          "args": [
+            "okala-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "otaghak": {
+          "args": [
+            "otaghak-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "pasavard": {
+          "type": "http",
+          "url": "https://pasavard.ir/api/mcp"
+        },
+        "payping": {
+          "args": [
+            "payping-mcp@0.3.0"
+          ],
+          "command": "uvx",
+          "env": {
+            "PAYPING_TOKEN": "${PAYPING_TOKEN:-}"
+          }
+        },
+        "paziresh24": {
+          "args": [
+            "paziresh24-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "ponisha": {
+          "args": [
+            "ponisha-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "qavanin": {
+          "args": [
+            "qavanin-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "quera": {
+          "args": [
+            "quera-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "rasmio": {
+          "args": [
+            "rasmio-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "rrk": {
+          "args": [
+            "rrk-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "sheypoor": {
+          "args": [
+            "sheypoor-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "shopino": {
+          "args": [
+            "shopino-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "snapp": {
+          "args": [
+            "snapp-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "snappshop": {
+          "args": [
+            "snappshop-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "swapwallet": {
+          "type": "http",
+          "url": "https://swapwallet.app/mcp"
+        },
+        "taaghche": {
+          "args": [
+            "taaghche-mcp@0.4.0"
+          ],
+          "command": "uvx"
+        },
+        "tapsifood": {
+          "args": [
+            "tapsifood-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "technolife": {
+          "args": [
+            "technolife-mcp@0.5.0"
+          ],
+          "command": "uvx"
+        },
+        "tgju": {
+          "args": [
+            "tgju-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "time-ir": {
+          "args": [
+            "time-ir-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "torob": {
+          "args": [
+            "torob-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "tsetmc": {
+          "args": [
+            "tsetmc-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "varzesh3": {
+          "args": [
+            "varzesh3-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        },
+        "zoomit": {
+          "args": [
+            "zoomit-mcp@0.2.0"
+          ],
+          "command": "uvx"
+        }
+      }
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/sepehr071-iran-mcp.json",
+  "schema_version": 1,
+  "source_repository": "sepehr071/iran-mcp",
+  "source_url": "https://github.com/sepehr071/iran-mcp",
+  "status": "disabled_pending_review"
+}

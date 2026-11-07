@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/appwiz/starred",
+  "canonical_repository": "appwiz/starred",
+  "canonical_url": "https://github.com/appwiz/starred",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:32:30.433564Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "29605983caff606de5faa19637f5d25c893932e3dfa0a74c43e39a2f70e2a84f",
+  "sampled_file_digests": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "README.md": "bcf3e3e77f279d920b8445c41f3e4abfa035d159345abb264ea4933bacb814e5"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/tianfeng66/articles",
+  "canonical_repository": "tianfeng66/articles",
+  "canonical_url": "https://github.com/tianfeng66/articles",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:31:38.013206Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c5db54d405dc5131154331ab5bbe67df98fd9ccc870af78c2caeae1d05ac4404",
+  "sampled_file_digests": {
+    "README.md": "444f736946e88b52158849f4c0e9657f9d16ef49e9daa099e55deef5f96bbef0"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

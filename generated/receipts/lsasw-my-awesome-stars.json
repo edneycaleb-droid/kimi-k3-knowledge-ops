@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/lsasw/my-awesome-stars",
+  "canonical_repository": "lsasw/my-awesome-stars",
+  "canonical_url": "https://github.com/lsasw/my-awesome-stars",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-07T06:32:42.993838Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ea8d3011e1e8602d6c631cc42c1accb01905081b2ed3353ffb5d51e36b7d8142",
+  "sampled_file_digests": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "README.md": "bf7d328ab07dbf35dab99f80fee4ecdeb3b545aa4bc6eaebd3d6a27b1b8b16ad"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}
