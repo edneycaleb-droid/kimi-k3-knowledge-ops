@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/oyi77/1ai-skills",
+  "canonical_repository": "oyi77/1ai-skills",
+  "canonical_url": "https://github.com/oyi77/1ai-skills",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:10:04.609198Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f7b22e0b638a39bec91c0ea29fc1ac6ae70bb98fe8fa050eff3e628cb1b434ce",
+  "sampled_file_digests": {
+    "LICENSE": "c04beb6d699ef190836933bb658afd2868a37e23d11100747899d046fa7f1e43",
+    "README.md": "a942250b31155c5ca851edefcaa3f6636595cce320454e0ede6566d743b87d0d",
+    "package.json": "044a0d05ef8301c9912a10e982e0e49148149237daa343bfbc827ec9d0f5f034"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

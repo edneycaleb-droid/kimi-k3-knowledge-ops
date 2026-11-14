@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/chen1pengvincent/dsh-model-sync-plugin",
+  "canonical_repository": "chen1pengvincent/dsh-model-sync-plugin",
+  "canonical_url": "https://github.com/chen1pengvincent/dsh-model-sync-plugin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:10.844227Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6e9e40490b6a8dfbdb67e8c35432ef69482c537d5c19f4d17576700806380c8c",
+  "sampled_file_digests": {
+    "LICENSE": "5b81bb1f0ea0d32f59151007853f240229ef2e3192f5ba0c198b90af3ea40ddf",
+    "README.md": "b8e6083614847da312b45aa412a91e3c1114d080ec174e683cc8c242be72a587",
+    "package.json": "9b512177121e544537d1a667a30fb22b43bd2eee5d34cfe2602df49c82643193"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

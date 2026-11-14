@@ -1,0 +1,119 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.met.no/weatherapi/locationforecast/2.0/documentation",
+    "https://api.weather.gc.ca/",
+    "https://badge.fury.io/js/@dangahagan%2Fweather-mcp.svg",
+    "https://data-nifc.opendata.arcgis.com/",
+    "https://developers.google.com/maps/documentation/weather/coverage",
+    "https://docs.npmjs.com/trusted-publishers",
+    "https://environment.data.gov.uk/flood-monitoring/doc/reference",
+    "https://firms.modaps.eosdis.nasa.gov/",
+    "https://firms.modaps.eosdis.nasa.gov/api/map_key/",
+    "https://github.com/weather-mcp/weather-mcp",
+    "https://github.com/weather-mcp/weather-mcp#readme",
+    "https://github.com/weather-mcp/weather-mcp.git",
+    "https://github.com/weather-mcp/weather-mcp/issues",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-Registry-blue",
+    "https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white",
+    "https://img.shields.io/badge/tests-5%2C224%20passing-brightgreen",
+    "https://meteoalarm.org/",
+    "https://modelcontextprotocol.io",
+    "https://nodejs.org",
+    "https://open-meteo.com/",
+    "https://opensource.org/licenses/MIT",
+    "https://publicalert.pagasa.dost.gov.ph/",
+    "https://registry.modelcontextprotocol.io/v0/servers?search=io.github.dgahagan/weather-mcp",
+    "https://sachet.ndma.gov.in/",
+    "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+    "https://water.noaa.gov/",
+    "https://www.blitzortung.org/",
+    "https://www.bmkg.go.id/",
+    "https://www.earthdata.nasa.gov/engage/open-data-services-software/earthdata-developer-portal/gibs-api",
+    "https://www.jma.go.jp/bosai/warning/",
+    "https://www.ncdc.noaa.gov/cdo-web/token",
+    "https://www.npmjs.com/package/@dangahagan/weather-mcp",
+    "https://www.rainviewer.com/api.html",
+    "https://www.rcc-acis.org/",
+    "https://www.weather.gov/documentation/services-web-api"
+  ],
+  "environment_variable_names": [
+    "FIRMS_MAP_KEY",
+    "GOOGLE_POLLEN_API_KEY",
+    "GOOGLE_POLLEN_KEY_SETUP",
+    "GOOGLE_WEATHER_API_KEY",
+    "GOOGLE_WEATHER_KEY_SETUP",
+    "NCEI_API_TOKEN",
+    "REMOTE_HOSTING",
+    "URL",
+    "WEATHER_HTTP_PUBLIC_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-10-17/server.schema.json",
+      "categories": [
+        "data",
+        "utilities"
+      ],
+      "description": "17 weather tools, no API keys: forecasts, alerts, air quality, marine, radar, lightning, wildfires",
+      "homepage": "https://github.com/weather-mcp/weather-mcp",
+      "keywords": [
+        "weather",
+        "forecast",
+        "noaa",
+        "open-meteo",
+        "historical-weather",
+        "climate",
+        "air-quality",
+        "weather-alerts",
+        "no-api-key"
+      ],
+      "license": "MIT",
+      "name": "io.github.dgahagan/weather-mcp",
+      "packages": [
+        {
+          "identifier": "@dangahagan/weather-mcp",
+          "registryType": "npm",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "1.35.17"
+        }
+      ],
+      "title": "Weather Data MCP Server",
+      "version": "1.35.17"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/weather-mcp-weather-mcp.json",
+  "schema_version": 1,
+  "source_repository": "weather-mcp/weather-mcp",
+  "source_url": "https://github.com/weather-mcp/weather-mcp",
+  "status": "disabled_pending_review"
+}

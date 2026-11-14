@@ -1,0 +1,135 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://app.hyperliquid-testnet.xyz/API",
+    "https://app.hyperliquid.xyz/API",
+    "https://github.com/Julian-dev28/pathiel",
+    "https://github.com/Julian-dev28/pathiel#before-you-trade",
+    "https://github.com/Julian-dev28/pathiel/actions/workflows/ci.yml",
+    "https://github.com/Julian-dev28/pathiel/actions/workflows/ci.yml/badge.svg?branch=main",
+    "https://glama.ai/mcp/servers/Julian-dev28/pathiel",
+    "https://glama.ai/mcp/servers/Julian-dev28/pathiel/badges/score.svg",
+    "https://img.shields.io/badge/Claude_Code-plugin-d97757.svg",
+    "https://img.shields.io/badge/MCP-30_tools-6f42c1.svg",
+    "https://img.shields.io/badge/license-MIT-blue.svg",
+    "https://img.shields.io/badge/version-0.7.1-informational.svg",
+    "https://julian-dev28.github.io/pathiel/scoreboard/",
+    "https://mcpservers.org/badge.svg",
+    "https://mcpservers.org/servers/julian-dev28/pathiel",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json"
+  ],
+  "environment_variable_names": [
+    "GITHUB_TOKEN",
+    "OPENROUTER_API_KEY",
+    "SECRETS"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    ".mcp.json": {
+      "mcpServers": {
+        "pathiel": {
+          "args": [
+            "scripts/pathiel-mcp-server.py"
+          ],
+          "command": ".venv/bin/python",
+          "env": {
+            "PATHIEL_TOOLSET": "v2"
+          }
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "AI trading agent for Hyperliquid: exact stop and target on every order. Mainnet; testnet opt-in.",
+      "name": "io.github.Julian-dev28/pathiel",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "choices": [
+                "mainnet",
+                "testnet"
+              ],
+              "default": "mainnet",
+              "description": "Hyperliquid network: mainnet (the default; real money once a key is set) or testnet (test funds).",
+              "isRequired": false,
+              "isSecret": false,
+              "name": "PATHIEL_NETWORK"
+            }
+          ],
+          "identifier": "ghcr.io/julian-dev28/pathiel-mcp:0.7.1",
+          "registryType": "oci",
+          "runtimeArguments": [
+            {
+              "description": "Keep stdin open: the server speaks MCP over stdio.",
+              "name": "-i",
+              "type": "named"
+            },
+            {
+              "description": "Remove the container when the client disconnects.",
+              "name": "--rm",
+              "type": "named"
+            },
+            {
+              "description": "Mount the folder that holds your pathiel env file, config and state.",
+              "isRequired": true,
+              "name": "-v",
+              "type": "named",
+              "value": "{pathiel_home}:/data",
+              "variables": {
+                "pathiel_home": {
+                  "description": "Absolute path to your pathiel folder, usually ~/.pathiel. Keys stay in its .env.local and never go in this config.",
+                  "format": "filepath",
+                  "isRequired": true
+                }
+              }
+            }
+          ],
+          "runtimeHint": "docker",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/Julian-dev28/pathiel"
+      },
+      "title": "pathiel",
+      "version": "0.7.1",
+      "websiteUrl": "https://github.com/Julian-dev28/pathiel#before-you-trade"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/julian-dev28-pathiel.json",
+  "schema_version": 1,
+  "source_repository": "Julian-dev28/pathiel",
+  "source_url": "https://github.com/Julian-dev28/pathiel",
+  "status": "disabled_pending_review"
+}

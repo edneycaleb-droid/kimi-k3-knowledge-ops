@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/huzjie/ai-daily-hub",
+  "canonical_repository": "huzjie/ai-daily-hub",
+  "canonical_url": "https://github.com/huzjie/ai-daily-hub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:42.961878Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "69b4c00014131893fc0adf3897cc2108fc05cd472671e1d2194258e2112295b9",
+  "sampled_file_digests": {
+    "LICENSE": "8deb0960300933d784849cb9017ddb4323108cd42274688ad3fbbc3de2905861",
+    "README.md": "9f381cc6d66b9e012cdfcdb9b8c32be33f6936909e04a9981500e15221857fe3"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

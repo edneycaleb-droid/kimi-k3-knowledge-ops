@@ -1,0 +1,121 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://codespaces.new/jackson-cmd/risk-aware-trading-agents",
+    "https://doi.org/10.5281/zenodo.24202496",
+    "https://github.com/codespaces/badge.svg",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents#",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/actions/workflows/ci.yml",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/blob/main/",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/blob/main/CHANGELOG.md",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/discussions",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/issues",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/issues/new/choose",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/pkgs/container/risk-aware-trading-agents",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/releases/latest",
+    "https://github.com/jackson-cmd/risk-aware-trading-agents/tree/main/docs",
+    "https://huggingface.co/datasets/jacksonwangpro1/point-in-time-market-data-2026",
+    "https://img.shields.io/badge/MCP-server-24292f.svg",
+    "https://img.shields.io/badge/dataset-Hugging%20Face-ffcc4d.svg",
+    "https://img.shields.io/badge/docker-ghcr.io-2496ed.svg",
+    "https://img.shields.io/badge/docs-English%20%7C%20%E4%B8%AD%E6%96%87-e3b341.svg",
+    "https://img.shields.io/badge/license-MIT-2ea043.svg",
+    "https://img.shields.io/badge/pypi-0.7.2-e5534b.svg",
+    "https://img.shields.io/badge/python-3.10%2B-3776ab.svg",
+    "https://jackson-cmd.github.io/risk-aware-trading-agents/",
+    "https://jackson-cmd.github.io/risk-aware-trading-agents/leaderboard.html",
+    "https://jackson-cmd.github.io/risk-aware-trading-agents/llm-trading-agents.html",
+    "https://jackson-cmd.github.io/risk-aware-trading-agents/news-backtesting.html",
+    "https://jackson-cmd.github.io/risk-aware-trading-agents/point-in-time-market-data.html",
+    "https://ollama.com",
+    "https://pypi.org",
+    "https://pypi.org/project/risk-aware-trading-agents/",
+    "https://raw.githubusercontent.com/jackson-cmd/risk-aware-trading-agents/main/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.python.org/",
+    "https://zenodo.org/badge/DOI/10.5281/zenodo.24202496.svg"
+  ],
+  "environment_variable_names": [
+    "BENZINGA_API_KEY",
+    "OPENAI_API_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "AI trading agents for US stocks: point-in-time news backtests, a frozen 2026 market, paper trading",
+      "name": "io.github.jackson-cmd/risk-aware-trading-agents",
+      "packages": [
+        {
+          "identifier": "risk-aware-trading-agents",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.7.2"
+        },
+        {
+          "identifier": "ghcr.io/jackson-cmd/risk-aware-trading-agents:0.7.2",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "oci",
+          "transport": {
+            "type": "stdio"
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/jackson-cmd/risk-aware-trading-agents"
+      },
+      "title": "Risk-Aware Trading Agents",
+      "version": "0.7.2",
+      "websiteUrl": "https://jackson-cmd.github.io/risk-aware-trading-agents/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/jackson-cmd-risk-aware-trading-agents.json",
+  "schema_version": 1,
+  "source_repository": "jackson-cmd/risk-aware-trading-agents",
+  "source_url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
+  "status": "disabled_pending_review"
+}

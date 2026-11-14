@@ -1,0 +1,74 @@
+{
+  "categories": [
+    "memory",
+    "plugin",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": []
+  },
+  "documented_https_endpoints": [
+    "https://deploy.workers.cloudflare.com/?url=https://github.com/Javis603/token-monitor/tree/main/worker",
+    "https://deploy.workers.cloudflare.com/button",
+    "https://discord.gg/HmdNVVvw5P",
+    "https://formulae.brew.sh/cask/token-monitor",
+    "https://github.com/Javis603",
+    "https://github.com/Javis603/token-monitor#readme",
+    "https://github.com/Javis603/token-monitor-plugins",
+    "https://github.com/Javis603/token-monitor.git",
+    "https://github.com/Javis603/token-monitor/issues",
+    "https://github.com/Javis603/token-monitor/releases",
+    "https://github.com/Javis603/token-monitor/tree/star-history",
+    "https://github.com/junhoyeo/tokscale",
+    "https://github.com/junhoyeo/tokscale#session-data-retention",
+    "https://github.com/steipete/CodexBar",
+    "https://img.shields.io/badge/Linux-x64-64748b?style=flat-square&logo=linux&logoColor=white",
+    "https://img.shields.io/badge/Windows-10%2B-0078D4?style=flat-square",
+    "https://img.shields.io/badge/license-MIT-A855F7?style=flat-square",
+    "https://img.shields.io/badge/macOS-13%2B-0A84FF?style=flat-square&logo=apple&logoColor=white",
+    "https://img.shields.io/discord/1344259784219689031?color=5865F2&label=Discord&logo=discord&logoColor=white&style=flat-square",
+    "https://img.shields.io/github/downloads/Javis603/token-monitor/total?style=flat-square&color=22c55e",
+    "https://img.shields.io/github/v/release/Javis603/token-monitor?include_prereleases&style=flat-square&label=release&color=22c55e",
+    "https://javis-ai.com/token-monitor/docs/plugins.html?lang=en",
+    "https://raw.githubusercontent.com/Javis603/token-monitor/star-history/star-history-dark.svg",
+    "https://raw.githubusercontent.com/Javis603/token-monitor/star-history/star-history.svg",
+    "https://signpath.io/",
+    "https://signpath.org/",
+    "https://trendshift.io/api/badge/repositories/47497",
+    "https://trendshift.io/repositories/47497?utm_source=repository-badge&amp;utm_medium=badge&amp;utm_campaign=badge-repository-47497"
+  ],
+  "environment_variable_names": [
+    "QODERCN_EXPOSE_TOKEN_USAGE",
+    "TOKEN_MONITOR_APP_GROUP",
+    "TOKEN_MONITOR_DEVICE_ID",
+    "TOKEN_MONITOR_HUB_URL",
+    "TOKEN_MONITOR_LOCAL_DEVELOPMENT_SIGNING",
+    "TOKEN_MONITOR_QODER_CN_PROJECTS_PATH",
+    "TOKEN_MONITOR_SECRET",
+    "TOKEN_MONITOR_WIDGET_ARCH",
+    "TOKEN_MONITOR_WIDGET_BUNDLE_ID",
+    "TOKEN_MONITOR_WIDGET_DISTRIBUTION",
+    "TOKEN_MONITOR_WIDGET_ENABLED",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/javis603-token-monitor.json",
+  "schema_version": 1,
+  "source_repository": "Javis603/token-monitor",
+  "source_url": "https://github.com/Javis603/token-monitor",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/AKzar1el/mcp-geo",
+  "canonical_repository": "AKzar1el/mcp-geo",
+  "canonical_url": "https://github.com/AKzar1el/mcp-geo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:16.595090Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "21e68ba6b30c8291724e3b434128fa82bd197aa95a516779682d7b6b75437ba1",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "01a5f52d8e0506815b5c3a5922f4049e700219f38656ad6fdc09018dcee9d658",
+    ".mcp.json": "83c0abbbfec52b1ceaed7b087f9742f1bd5ea5be77208b3999ffbc33d21aa0d9",
+    "Dockerfile": "75d1fe917ed23156e5f3bfcf0c6b3a0eba63b49711af9bc851feaceabf7d72b9",
+    "LICENSE": "fc19d44cf96546ccaf41f69e08113f4d48937411503b987af0fdf93b4cfd12ef",
+    "README.md": "d7248639b8b5f44cb3ddc920ee763ae873ed48a52333b821376b674155aa196c",
+    "mcp.json": "b4fa2a192e920c8a7043aa1e0b5507d1d90d93e43ebc96ed4509d25a28c1ffad",
+    "package.json": "bd11c24762533b2ed3bd84302395b753c3530e3a8bffbc873b82eafae0037c7f",
+    "server.json": "0f92c92bb9c2ba567d53040f97ca4b6f1feafce367306e3a9f8757b1b2780f58"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

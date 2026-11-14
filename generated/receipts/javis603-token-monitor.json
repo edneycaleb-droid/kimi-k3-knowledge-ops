@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/Javis603/token-monitor",
+  "canonical_repository": "Javis603/token-monitor",
+  "canonical_url": "https://github.com/Javis603/token-monitor",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:05.454558Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "bc501e7a8472fa0cf2324efd9672c5f23f3249d8c2de02003f48ef1a44914d82",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "c714777b34c36bda21edafc74305f5aa619e145e056589a92de7533e68933273",
+    "LICENSE": "250136de456c31d659e54c1804c43a27dadad175336b67226e9509d6310f923c",
+    "README.md": "b25d6f156d9966be3c779f5aa28e27e5c655085b8e609733c9a5511fc991b8e2",
+    "package.json": "d3ad69589b9d527422d6dcef61e6c8928b54a39de558dc35f5f8f6c9a15356a8"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

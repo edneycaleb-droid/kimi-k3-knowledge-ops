@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/monotykamary/pi-wafer-provider",
+  "canonical_repository": "monotykamary/pi-wafer-provider",
+  "canonical_url": "https://github.com/monotykamary/pi-wafer-provider",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:59.221809Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ce9ea45780c99e26db5a9600f305e814278913f3b6567b90e7f1e315c0473432",
+  "sampled_file_digests": {
+    "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "README.md": "3933317f4b03736c9d4a157501973f8bd72047ccd1e64c1927bf96b274d28295",
+    "package.json": "869277499cc3311a17735572025585b406f16af1d62fcdf8022a4da45a4f7713"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
