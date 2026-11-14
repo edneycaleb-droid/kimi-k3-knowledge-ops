@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/weather-mcp/weather-mcp",
+  "canonical_repository": "weather-mcp/weather-mcp",
+  "canonical_url": "https://github.com/weather-mcp/weather-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:09:21.843979Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2407ad3d0e0cbd564060d25177a586aa513fd111f92b43d1abce2ef08b5940ba",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "f8b1981b47142a49d5af418e9e6ee7f8c61464f8d91cd7c2a36d5d8f83665401",
+    "LICENSE": "9f60261cea5351e0afa2ca32a53e3ae24b049601a4961d2e810a82584b80f804",
+    "README.md": "11b7a53f90376dcfe4c2295434440c31579be810e5a24b1f2ca58abf48dc8967",
+    "package.json": "5e50fcb850a7b7099926e8da0bd81a6fa91ae6c9879fdc916023b248fffad055",
+    "server.json": "eb757eb8d6781ed444350c8cd1d2681cb5324b2eafd497440e6d831ef72032ce"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/awesome-dsh-plugin/awesome-dsh-plugin",
+  "canonical_repository": "awesome-dsh-plugin/awesome-dsh-plugin",
+  "canonical_url": "https://github.com/awesome-dsh-plugin/awesome-dsh-plugin",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:27.543905Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a40a7fed89721490ae338733873a7f661bf300df6efbc87430b96f9f9e028d18",
+  "sampled_file_digests": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "package.json": "9fb19e1afeec85a948d6ad762d0662af7e64b51680ac2fb10eaa886906adefb9"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

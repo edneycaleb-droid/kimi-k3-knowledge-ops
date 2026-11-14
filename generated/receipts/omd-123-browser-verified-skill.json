@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/OMD-123/browser-verified-skill",
+  "canonical_repository": "OMD-123/browser-verified-skill",
+  "canonical_url": "https://github.com/OMD-123/browser-verified-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:09:48.593035Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "95c764df330047d8ccc2a2a5c54982ca4ed3d395dff26b37164e97539a302854",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a9eef67d2b486fe2bcd76c14848398bf18b2094def7ef7b094bf1b8bfd39f3d0",
+    "LICENSE": "33cf4c3439379fa11b41dc7ce2492e8687075400d7f3e0e27bf2ce14507be1b3",
+    "README.md": "c0818d6dfcb95463ea3ee571f0c47d5996da14aff3b4582f81a3f6161a10f1ce",
+    "package.json": "12c632f4bb802fa1b876b85ce54a283725f8d35bc6c4560dbb9a491eab26c39e"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

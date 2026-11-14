@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/Julian-dev28/pathiel",
+  "canonical_repository": "Julian-dev28/pathiel",
+  "canonical_url": "https://github.com/Julian-dev28/pathiel",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:09:15.891126Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "135a7537ca0e760fb8113cddd6acff541af13e4ec2c2d03177e7a47e991ba7b3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "7650f59646e5c6478563a4f122e70f732d0a197aafda1a32a15a648a229fb591",
+    ".mcp.json": "78f5341cf2307e2c6215d0e3cf1245d57b91622d0926fd1fcb44611d69b5a5d7",
+    "Dockerfile": "f5e16f7712fb951cb4463c3ea1d9b545b54d6a1ddee44c74d2f70b96c7e03530",
+    "LICENSE": "b0ec6f41becc7b90154cb19a49e9f8d63529b27fb049539928868006ba1926af",
+    "README.md": "d0859c4cab2d2ef9bafe75dbf6bd0e32298bc31edfdfe3c9dfb8a010e8ccd7c1",
+    "pyproject.toml": "192bc910ff8a0278e3909997fae5e4390e4f54c257cac3d4a305a5d6af508d2d",
+    "requirements.txt": "3843cbae78617b8622af9123bad5e712f417e42ab7986bb7d5e955ebb5956967",
+    "server.json": "60884f587761908ea63f133a9153f4749a64c0eca6234b53a9c14c3e994b2a8a"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

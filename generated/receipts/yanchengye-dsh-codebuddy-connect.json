@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/yanchengye/dsh-codebuddy-connect",
+  "canonical_repository": "yanchengye/dsh-codebuddy-connect",
+  "canonical_url": "https://github.com/yanchengye/dsh-codebuddy-connect",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:07:37.479485Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "00f5294666c73424212789044fc740fea2d625eccf9686a2f6d629cf96cd6508",
+  "sampled_file_digests": {
+    "LICENSE": "fc888bbd333bd70d784eae7c49f45b93ada18dcddfae354a555d8f68d9dfcaa6",
+    "README.md": "0d81983b2541f5c868eaf2b05d648154617a19c9738443f5ff8f85e5f8c3f471",
+    "package.json": "b222390b436ace2506cda8daf17a4f40dd916315b5185e22e5a9695ebfc11a5a"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

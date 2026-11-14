@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/gtg2619/kate-agent-panel",
+  "canonical_repository": "gtg2619/kate-agent-panel",
+  "canonical_url": "https://github.com/gtg2619/kate-agent-panel",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:22.130515Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1263c9c56be69d9f5f83a647875ac3f8de07098bb51f5ca7739751fffb155ef6",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "459a5a393fe8c5f8007d3558b40610a437a7559692e4a52c346d538e2b655e88",
+    "LICENSE": "7057d9b3c1178d732507c59c5d491ea5db63f1a3958e073959bd7becce8e1162",
+    "README.md": "2f159f87c9f040aa221dca6f290b6b79fadb991840c04ccb1f74e81bc7ed08ac"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

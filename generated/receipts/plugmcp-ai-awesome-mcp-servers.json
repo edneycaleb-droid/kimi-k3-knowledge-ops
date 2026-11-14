@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/plugmcp-ai/awesome-mcp-servers",
+  "canonical_repository": "plugmcp-ai/awesome-mcp-servers",
+  "canonical_url": "https://github.com/plugmcp-ai/awesome-mcp-servers",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:43.801059Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8bfdb4d4f163d7ba7d6ebb71b3cfb2a209be2a2f6ec53ca9debd3050c6a5f9c8",
+  "sampled_file_digests": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+    "README.md": "cf37324202cd0d4a6aaad3fc0e3120b695cd736487b7de71dcd5b97bed8af4b4"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

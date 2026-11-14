@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/genspark-ai/genoffice",
+  "canonical_repository": "genspark-ai/genoffice",
+  "canonical_url": "https://github.com/genspark-ai/genoffice",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:09:53.923335Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "626992e08143f55d042d1769ea5d1253d69ad4783a7058f7827c473073f02fca",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "a9bec0c9d6dfc21d56cf8dade2a9984ee316c604ad3ea3e4bbcc3a27e659a850",
+    "LICENSE": "68e32334df324ef4fc79fad3a26487e5abac36055a484bb6c8d7ecf9d8350885",
+    "README.md": "933194683cbe6a3be0dd5ddab6fdeb300b6cdff6e618df3c0376dd18734129ce",
+    "package.json": "faffae4cd8648fc6d3e2e31b12a05ca4c1ac2c0a950075be4a16b50c88ce82af"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

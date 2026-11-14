@@ -1,0 +1,50 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node",
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/oyi77/1ai-skills",
+    "https://github.com/oyi77/1ai-skills.git",
+    "https://github.com/oyi77/1ai-skills/blob/main/LICENSE",
+    "https://github.com/oyi77/1ai-skills/blob/main/scripts/test-skills.py",
+    "https://img.shields.io/badge/Categories-19-purple?style=flat-square",
+    "https://img.shields.io/badge/License-MIT-yellow?style=flat-square",
+    "https://img.shields.io/badge/Skills-1454-blue?style=flat-square",
+    "https://img.shields.io/badge/Tests-100%25%20Pass-brightgreen?style=flat-square",
+    "https://img.shields.io/badge/Warnings-0-brightgreen?style=flat-square",
+    "https://oyi77.is-a.dev/1ai-skills/",
+    "https://registry.npmjs.org"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/oyi77-1ai-skills.json",
+  "schema_version": 1,
+  "source_repository": "oyi77/1ai-skills",
+  "source_url": "https://github.com/oyi77/1ai-skills",
+  "status": "disabled_pending_review"
+}

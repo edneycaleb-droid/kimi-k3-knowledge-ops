@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/ramblinghermit/Memwyre",
+  "canonical_repository": "ramblinghermit/Memwyre",
+  "canonical_url": "https://github.com/ramblinghermit/Memwyre",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:38.674084Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d90de20af03880d97829be7565433e75c02836cbfee0ab3f1afc881ba79c0072",
+  "sampled_file_digests": {
+    "LICENSE": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "README.md": "0e2fa4e9a1dda95d75b10803371fef0476e97647b6e325c1e955b0cdbde0250e",
+    "docker-compose.yml": "2b26d3c01312588260a61756b62f1d1da58873e22ac12a56db130ce007f42cc9",
+    "server.json": "a44ed6a287110b03ca1bac2ff691533aedf617069bf1534082380b1ec23eaf8f"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/mb-mal/awesome-ai-agents-frameworks",
+  "canonical_repository": "mb-mal/awesome-ai-agents-frameworks",
+  "canonical_url": "https://github.com/mb-mal/awesome-ai-agents-frameworks",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:08:49.163271Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "3a03d7b5f7e2bf687d69389ade7cb56021000316d9c0ed1de50b45a98e63955d",
+  "sampled_file_digests": {
+    "README.md": "c6dc0c91171ef563d03b799f16c9de50f743ec35e9d093341fa272875c1c1221"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

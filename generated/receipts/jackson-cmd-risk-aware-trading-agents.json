@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/jackson-cmd/risk-aware-trading-agents",
+  "canonical_repository": "jackson-cmd/risk-aware-trading-agents",
+  "canonical_url": "https://github.com/jackson-cmd/risk-aware-trading-agents",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-14T06:09:05.379393Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "fb7ba7af12afe00168a62f36fe1a6f2074f8169e632ac133b71e8b2ed4ae4cc5",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "d399a0e8c0e801471e25880c8096ddf17e16a6998292bf28d62663c452439391",
+    "LICENSE": "6a18ea2827c5e5c6b90c40bc1dbff67c09d21a1c4af865119c4be223ee3d8978",
+    "README.md": "85e621c7e331253261299bb743435ba5a86f583507c3c70d13c62481952d6c82",
+    "pyproject.toml": "a8f17fc355d445f382ad561ea6fcfca6e817137e2dbb67de6ba7ac80674d14eb",
+    "server.json": "bd3228cbd562e9d70eba2eff9490e427f55d30df3fd4474992580cb77a664687"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
