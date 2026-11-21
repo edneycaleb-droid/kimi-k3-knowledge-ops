@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/shaftoe/awesome-pi-coding-agent",
+  "canonical_repository": "shaftoe/awesome-pi-coding-agent",
+  "canonical_url": "https://github.com/shaftoe/awesome-pi-coding-agent",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:00.132761Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ecff9b6426df2f1adef230b3dd65c1334d36ad9c21f1dffd0fa7357b13666a87",
+  "sampled_file_digests": {
+    "LICENSE": "1126322e2cc8d165adc4c792eeb195717de2bcc7b39be1ce77959d78e87ef685",
+    "package.json": "a755b2a04b649eb3bbc07e1842b15d1f1cc1ce47f4cf5cee0f72cbc364a911e6"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/escoffier-labs/brigade",
+  "canonical_repository": "escoffier-labs/brigade",
+  "canonical_url": "https://github.com/escoffier-labs/brigade",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:48.135220Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f841ded6e9174ae3a853e903a4fe22973f1222fbacff043db31a30905f799950",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "9c9e139faa52f8c236b4ac3a7299bb7988c0d9d47dab8bd7b00b3298b819c388",
+    "Dockerfile": "02e60d6ca846ebd3ddbf4c5e554e67791c23ca0f38e4f13fd2648af1e1d8cd7d",
+    "LICENSE": "e835c6d82c1283fbffe370821b17ab7bcdf039caae6a01a10e5348129abd552a",
+    "README.md": "9307cbf16be1f06a6f1ef4f61a8dd9d54247cc36c5c5168f97eef305c81fc44a",
+    "pyproject.toml": "3735a030bc6fb2bfac4a5d519acee3df1b150b7ac66e34be9aefde9b769aac1d"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

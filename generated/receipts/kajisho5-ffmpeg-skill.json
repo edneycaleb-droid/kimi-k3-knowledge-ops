@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/kajisho5/ffmpeg-skill",
+  "canonical_repository": "kajisho5/ffmpeg-skill",
+  "canonical_url": "https://github.com/kajisho5/ffmpeg-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:28.258556Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "59bb9201126c7a002acc3a83d2999365dca0eadaf7da182092466f9794179d10",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e3fb9cb5256f9e18b84dee239ccad07dcdfb50ffe9751092b58fa67285fbd31b",
+    "LICENSE": "7522b29e4d6e90f2a8fab15f07d224b1064c70692a872be9996ac1a88cf474e9",
+    "README.md": "c9e52ee90ebaae829a6d8684538f6c3128db956cd30b01fa439f31ee6b6af5a6",
+    "package.json": "80cb2ea0a9f27a0b66b5d9f272423d1881de9dd3efa53c1ee62e398e91a91104",
+    "server.json": "c749498b505afad1c08add5055726ab98750598aae783e2b7e08ae43fa9b6dce"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

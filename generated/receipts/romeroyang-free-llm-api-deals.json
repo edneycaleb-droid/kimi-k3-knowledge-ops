@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/RomeroYang/free-llm-api-deals",
+  "canonical_repository": "RomeroYang/free-llm-api-deals",
+  "canonical_url": "https://github.com/RomeroYang/free-llm-api-deals",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:27.069343Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6bbbf588fbc92b6d30e893705d07ef41d45b57b9262fa7ecfe3a28f5f1d74ecf",
+  "sampled_file_digests": {
+    "LICENSE": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "README.md": "345e11ea6f3355355ec9938e2bb10db033ca92daf1a9a48d6bdcbd515f9eee1c"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

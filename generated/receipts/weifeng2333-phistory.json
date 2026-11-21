@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/WEIFENG2333/phistory",
+  "canonical_repository": "WEIFENG2333/phistory",
+  "canonical_url": "https://github.com/WEIFENG2333/phistory",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:40.602588Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "7675b224cc72eeace13792e34795c4d3ec0dc7834dbbc4ef259dc7c574cecb12",
+  "sampled_file_digests": {
+    "README.md": "059ed0205b27e0d8f9f99890bc08934a3765fcf4229064258dd85b852565c0d9",
+    "pyproject.toml": "e809c88bb18574141d2fe798467382a771a1cfb354c41e7d6605327f62022e18"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

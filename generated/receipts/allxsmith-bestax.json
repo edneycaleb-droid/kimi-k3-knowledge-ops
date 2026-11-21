@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/allxsmith/bestax",
+  "canonical_repository": "allxsmith/bestax",
+  "canonical_url": "https://github.com/allxsmith/bestax",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:16:15.559241Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "484fb70011cc81f437b68d4a5d71c5c47358fa3192fcab5675e1b90ea0593bc3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b7728d351000e67cf2ad8dfba40afd48fee52c6339e776dbcd79d62033f88785",
+    "LICENSE": "6a1e834b3adfe8605b86c802c20687c8bc1b0fb30d79920ccdf71c9b78f61883",
+    "README.md": "afaac8688e29e9fb74d386127c451584726bb0cc56d7d7f039b56d3a86a17b30",
+    "package.json": "40b7cb871a09b3add86d75fdd8bb087d6ee0e8ce3cd8e1c882f0017adbf14370"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

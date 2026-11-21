@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/knownquantity/wrangler",
+  "canonical_repository": "knownquantity/wrangler",
+  "canonical_url": "https://github.com/knownquantity/wrangler",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:07.608800Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "40a3bfa1202eb4a4b12b7a731cc5a91fbb207c3577a0782ca7e53bb57a1ab55d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "bb07ee7c8f5079f5acdbcf742f152c1967230aa71549abbc0c470e26e4fa5b06",
+    "LICENSE": "41e3e6b12f277cc4e29fe926760b7b969143808c716d891ad13a30dd2eb779fc",
+    "README.md": "8437b7f8abea161b0fa6b575c1dd032e2e80e3cd699f9afa680f6954466ae26c",
+    "package.json": "083054b5961542db0eae06d89db93cc7d3e00add20fd1384ed26bc870dc848ba"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

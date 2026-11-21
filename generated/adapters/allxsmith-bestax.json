@@ -1,0 +1,89 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/allxsmith/bestax/badge",
+    "https://badge.socket.dev/npm/package/@allxsmith/bestax-bulma/latest",
+    "https://bestax.io",
+    "https://bestax.io/docs/api/columns",
+    "https://bestax.io/docs/api/components/modal",
+    "https://bestax.io/docs/api/components/toast",
+    "https://bestax.io/docs/api/elements/button",
+    "https://bestax.io/docs/api/form/input",
+    "https://bestax.io/docs/api/grid",
+    "https://bestax.io/docs/api/helpers/config",
+    "https://bestax.io/docs/api/helpers/theme",
+    "https://bestax.io/docs/api/layout/container",
+    "https://bestax.io/docs/guides/features/configuration",
+    "https://bestax.io/docs/guides/features/css-variables",
+    "https://bestax.io/docs/guides/getting-started/installation",
+    "https://bestax.io/docs/guides/getting-started/migration",
+    "https://bestax.io/docs/guides/llms",
+    "https://bestax.io/docs/guides/llms#bestax-plugin",
+    "https://bestax.io/docs/guides/llms#mcp-server",
+    "https://bestax.io/docs/guides/security",
+    "https://bestax.io/docs/skills/intro",
+    "https://bestax.io/llms-full.txt",
+    "https://bestax.io/llms.txt",
+    "https://bestax.io/storybook",
+    "https://bulma.io",
+    "https://coderabbit.ai",
+    "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "https://dev.to/allxsmith",
+    "https://discord.gg/zehJrQGtKu",
+    "https://github.com/allxsmith/bestax",
+    "https://github.com/allxsmith/bestax-skills",
+    "https://github.com/allxsmith/bestax.git",
+    "https://github.com/allxsmith/bestax/blob/main/SECURITY.md",
+    "https://github.com/allxsmith/bestax/blob/main/bulma-ui/vitest.config.ts",
+    "https://github.com/allxsmith/bestax/issues",
+    "https://github.com/jgthms",
+    "https://github.com/jgthms/bulma/blob/main/LICENSE",
+    "https://github.com/sponsors/jgthms",
+    "https://img.shields.io/badge/Bulma-v1.0+-00d1b2.svg",
+    "https://img.shields.io/badge/License-MIT-yellow.svg"
+  ],
+  "environment_variable_names": [
+    "GITHUB_TOKEN",
+    "GIT_CONFIG_KEY_0",
+    "GPG_KEY_ID",
+    "GPG_PRIVATE_KEY",
+    "NPM_TOKEN",
+    "RELEASE_BOT_PRIVATE_KEY",
+    "RESTAMP_TOKEN",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/allxsmith-bestax.json",
+  "schema_version": 1,
+  "source_repository": "allxsmith/bestax",
+  "source_url": "https://github.com/allxsmith/bestax",
+  "status": "disabled_pending_review"
+}

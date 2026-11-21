@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/zebbern/claude-code-guide",
+  "canonical_repository": "zebbern/claude-code-guide",
+  "canonical_url": "https://github.com/zebbern/claude-code-guide",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:16:48.615045Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "ccb36cbc04fc45fc218655a1a0d449e58b6d3dd7da750aded440ba6f8719c768",
+  "sampled_file_digests": {
+    "LICENSE": "e78d4947c2ac989e529647b98c53c9638722609a17c0024b226d578cb65ec57c"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

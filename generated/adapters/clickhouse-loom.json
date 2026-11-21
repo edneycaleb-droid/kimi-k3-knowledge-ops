@@ -1,0 +1,175 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+    "https://api.scorecard.dev/projects/github.com/ClickHouse/loom/badge",
+    "https://apt.llvm.org/llvm-snapshot.gpg.key",
+    "https://clickhouse.github.io/loom/",
+    "https://clickhouse.github.io/loom/getting-started/connect-a-coding-agent/",
+    "https://clickhouse.github.io/loom/llms-full.txt",
+    "https://clickhouse.github.io/loom/llms.txt",
+    "https://codespaces.new/ClickHouse/loom?quickstart=1",
+    "https://cursor.com/deeplink/mcp-install-dark.svg",
+    "https://cursor.com/en/install-mcp?name=loom&config=eyJ1cmwiOiJodHRwOi8vbG9jYWxob3N0Ojc3NzcvbWNwP3Rvb2xzZXQ9Y29kaW5nIn0%3D",
+    "https://get.helm.sh/helm-v3.16.2-linux-amd64.tar.gz",
+    "https://github.com/ClickHouse/loom",
+    "https://github.com/ClickHouse/loom/actions/workflows/ci.yml/badge.svg?branch=main&amp;event=push",
+    "https://github.com/ClickHouse/loom/actions/workflows/ci.yml?query=branch%3Amain+event%3Apush",
+    "https://github.com/ClickHouse/loom/discussions/939",
+    "https://github.com/ClickHouse/loom/releases/latest/download/install.sh",
+    "https://github.com/codespaces/badge.svg",
+    "https://github.com/mvdan/sh/releases/download/v3.10.0/shfmt_v3.10.0_linux_amd64",
+    "https://github.com/sourcegraph/scip-clang/releases/download/$",
+    "https://github.com/yannh/kubeconform/releases/download/v0.6.7/kubeconform-linux-amd64.tar.gz",
+    "https://glama.ai/mcp/servers/ClickHouse/loom",
+    "https://glama.ai/mcp/servers/ClickHouse/loom/badges/score.svg",
+    "https://go.dev/dl/go$",
+    "https://img.shields.io/badge/VS_Code-Add_Loom-0098FF?logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/VS_Code_Insiders-Add_Loom-24bfa5?logo=visualstudiocode&logoColor=white",
+    "https://img.shields.io/badge/license-Apache--2.0-blue",
+    "https://img.shields.io/npm/v/%40clickhouse%2Floom?label=typescript%20sdk",
+    "https://img.shields.io/pypi/v/clickhouse-loom?label=python%20sdk",
+    "https://insiders.vscode.dev/redirect?url=vscode-insiders%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522loom%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522http%253A%252F%252Flocalhost%253A7777%252Fmcp%2522%257D",
+    "https://nodejs.org/dist/v$",
+    "https://pypi.org/project/clickhouse-loom/",
+    "https://raw.githubusercontent.com/ClickHouse/loom/main/integrations/claude-code-plugin/assets/icon.png",
+    "https://raw.githubusercontent.com/datreeio/CRDs-catalog/c86448cbf1a840ca62d119259864863897c8748a/",
+    "https://scorecard.dev/viewer/?uri=github.com/ClickHouse/loom",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://vscode.dev/redirect?url=vscode%3Amcp%2Finstall%3F%257B%2522name%2522%253A%2522loom%2522%252C%2522type%2522%253A%2522http%2522%252C%2522url%2522%253A%2522http%253A%252F%252Flocalhost%253A7777%252Fmcp%2522%257D",
+    "https://www.npmjs.com/package/@clickhouse/loom"
+  ],
+  "environment_variable_names": [
+    "LOOM_ANALYTICS_EXPORT_NAME_KEY",
+    "LOOM_API_KEY",
+    "LOOM_BASE_URL",
+    "LOOM_BIND_HOST",
+    "LOOM_CH_HOST",
+    "LOOM_CH_PORT",
+    "LOOM_DOCUMENT_EXTRACTOR_TOKEN",
+    "LOOM_DOCUMENT_EXTRACTOR_URL",
+    "LOOM_EXTRACTOR_PORT",
+    "LOOM_EXTRACTOR_TOKEN",
+    "LOOM_JWT_SECRET",
+    "LOOM_LISTEN_HOST",
+    "LOOM_MEMORY_WEBHOOK_PRIVATE_HOSTS",
+    "LOOM_PG_HOST_PORT",
+    "LOOM_TEST_END_USER_KEY",
+    "PORT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "mcp.json": {
+      "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+      "mcpServers": {
+        "loom": {
+          "type": "streamable-http",
+          "url": "http://localhost:7777/mcp?toolset=coding"
+        }
+      }
+    },
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "_meta": {
+        "io.modelcontextprotocol.registry/publisher-provided": {
+          "documentation": "https://clickhouse.github.io/loom/getting-started/connect-a-coding-agent/",
+          "keywords": [
+            "agent-memory",
+            "long-term-memory",
+            "ai-agents",
+            "code-intelligence",
+            "code-search",
+            "knowledge-base",
+            "document-search",
+            "mcp-server",
+            "clickhouse",
+            "claude-code",
+            "codex"
+          ]
+        }
+      },
+      "description": "Shared long-term memory, document search and a code index for AI agents, self-hosted on ClickHouse.",
+      "icons": [
+        {
+          "mimeType": "image/png",
+          "sizes": [
+            "1024x1024"
+          ],
+          "src": "https://raw.githubusercontent.com/ClickHouse/loom/main/integrations/claude-code-plugin/assets/icon.png"
+        }
+      ],
+      "name": "io.github.ClickHouse/loom",
+      "remotes": [
+        {
+          "headers": [
+            {
+              "description": "A writer token from the dashboard (Settings, Tokens) or `loom mint-token`; leave the header out when the server signs in through the browser",
+              "isRequired": false,
+              "isSecret": true,
+              "name": "Authorization",
+              "value": "Bearer {token}",
+              "variables": {
+                "token": {
+                  "description": "Loom writer token (JWT)",
+                  "isRequired": true,
+                  "isSecret": true
+                }
+              }
+            }
+          ],
+          "type": "streamable-http",
+          "url": "https://{loom_host}/mcp",
+          "variables": {
+            "loom_host": {
+              "description": "Host name of your Loom server, with :port when it is not 443",
+              "isRequired": true,
+              "placeholder": "loom.example.com"
+            }
+          }
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/ClickHouse/loom"
+      },
+      "title": "ClickHouse Loom",
+      "version": "1.3.0",
+      "websiteUrl": "https://clickhouse.github.io/loom/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/clickhouse-loom.json",
+  "schema_version": 1,
+  "source_repository": "ClickHouse/loom",
+  "source_url": "https://github.com/ClickHouse/loom",
+  "status": "disabled_pending_review"
+}

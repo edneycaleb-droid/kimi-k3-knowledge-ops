@@ -1,0 +1,158 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.scorecard.dev/projects/github.com/vitali87/code-graph-rag/badge",
+    "https://code-graph-rag.com",
+    "https://code-graph-rag.com/enterprise",
+    "https://codecov.io/gh/vitali87/code-graph-rag",
+    "https://codecov.io/gh/vitali87/code-graph-rag/graph/badge.svg",
+    "https://docs.code-graph-rag.com/credits/",
+    "https://github.com/sponsors/vitali87",
+    "https://github.com/vitali87/code-graph-rag",
+    "https://github.com/vitali87/code-graph-rag/actions/workflows/ci.yml",
+    "https://github.com/vitali87/code-graph-rag@main",
+    "https://github.com/vitali87/tree-sitter-c",
+    "https://github.com/vitali87/tree-sitter-cpp",
+    "https://img.shields.io/badge/Enterprise-Support%20%26%20Services-6366f1",
+    "https://img.shields.io/github/actions/workflow/status/vitali87/code-graph-rag/ci.yml?branch=main",
+    "https://img.shields.io/pypi/v/code-graph-rag",
+    "https://modelcontextprotocol.io",
+    "https://pepy.tech/projects/code-graph-rag",
+    "https://pypi.org",
+    "https://pypi.org/project/code-graph-rag/",
+    "https://scorecard.dev/viewer/?uri=github.com/vitali87/code-graph-rag",
+    "https://skillsllm.com/security-check/DHsMGRb1Ysys",
+    "https://skillsllm.com/security-check/badge.svg?owner=vitali87&repo=code-graph-rag",
+    "https://sonarcloud.io/api/issues/search?componentKeys=$PROJECT_KEY&pullRequest=$PR&resolved=false&ps=100",
+    "https://sonarcloud.io/api/project_badges/measure?project=vitali87_code-graph-rag&metric=alert_status",
+    "https://sonarcloud.io/api/project_pull_requests/list?project=$PROJECT_KEY",
+    "https://sonarcloud.io/summary/overall?id=vitali87_code-graph-rag",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://static.pepy.tech/personalized-badge/code-graph-rag?period=total&units=INTERNATIONAL_SYSTEM&left_color=BLACK&right_color=GREEN&left_text=downloads",
+    "https://trendshift.io/api/badge/repositories/99619",
+    "https://trendshift.io/repositories/99619",
+    "https://www.bestpractices.dev/projects/13757",
+    "https://www.bestpractices.dev/projects/13757/badge"
+  ],
+  "environment_variable_names": [
+    "CODECOV_TOKEN",
+    "CYPHER_API_KEY",
+    "GH_TOKEN",
+    "GITHUB_TOKEN",
+    "MEMGRAPH_HOST",
+    "MEMGRAPH_PORT",
+    "ORCHESTRATOR_API_KEY",
+    "PROJECT_KEY"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Knowledge-graph RAG for multi-language codebases: index, query and edit code in natural language.",
+      "name": "io.github.vitali87/code-graph-rag",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "default": "ollama",
+              "description": "LLM provider for the orchestrator agent (openai, anthropic, google, azure, cohere, ollama)",
+              "name": "ORCHESTRATOR_PROVIDER"
+            },
+            {
+              "default": "llama3.2",
+              "description": "Model name for the orchestrator agent",
+              "name": "ORCHESTRATOR_MODEL"
+            },
+            {
+              "description": "API key for the orchestrator LLM provider (not needed for the default local ollama provider)",
+              "isSecret": true,
+              "name": "ORCHESTRATOR_API_KEY"
+            },
+            {
+              "default": "ollama",
+              "description": "LLM provider for Cypher query generation (openai, anthropic, google, azure, cohere, ollama)",
+              "name": "CYPHER_PROVIDER"
+            },
+            {
+              "default": "llama3.2",
+              "description": "Model name for Cypher query generation",
+              "name": "CYPHER_MODEL"
+            },
+            {
+              "description": "API key for the Cypher LLM provider (not needed for the default local ollama provider)",
+              "isSecret": true,
+              "name": "CYPHER_API_KEY"
+            },
+            {
+              "default": "localhost",
+              "description": "Hostname of the Memgraph database",
+              "name": "MEMGRAPH_HOST"
+            },
+            {
+              "default": "7687",
+              "description": "Port of the Memgraph database",
+              "name": "MEMGRAPH_PORT"
+            },
+            {
+              "description": "Path to the repository to analyze (auto-detected from working directory if not set)",
+              "name": "TARGET_REPO_PATH"
+            }
+          ],
+          "identifier": "code-graph-rag",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp-server"
+            }
+          ],
+          "registryBaseUrl": "https://pypi.org",
+          "registryType": "pypi",
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.7.6"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/vitali87/code-graph-rag"
+      },
+      "title": "Code-Graph-RAG",
+      "version": "0.7.6",
+      "websiteUrl": "https://code-graph-rag.com"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/vitali87-code-graph-rag.json",
+  "schema_version": 1,
+  "source_repository": "vitali87/code-graph-rag",
+  "source_url": "https://github.com/vitali87/code-graph-rag",
+  "status": "disabled_pending_review"
+}

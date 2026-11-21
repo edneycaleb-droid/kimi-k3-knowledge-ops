@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/marcusquinn/marcusquinn",
+  "canonical_repository": "marcusquinn/marcusquinn",
+  "canonical_url": "https://github.com/marcusquinn/marcusquinn",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:14.345445Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "500c10793fd73c980320ede1e9cc3a5c3f8e0eac8b6e2c93adb075c85b33c922",
+  "sampled_file_digests": {
+    "README.md": "65ec0da0841a2cedbc25928afc3285104a63a5cdafdd6a36c493a7bc56c3a980"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

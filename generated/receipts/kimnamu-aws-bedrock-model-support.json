@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/kimnamu/aws-bedrock-model-support",
+  "canonical_repository": "kimnamu/aws-bedrock-model-support",
+  "canonical_url": "https://github.com/kimnamu/aws-bedrock-model-support",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:20.624485Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d3418a7f6d55f01c71b58ef9982888ba1a3cb81d0fe9f89cf3394c9e640d49b4",
+  "sampled_file_digests": {
+    "LICENSE": "278a855161e9017fb56972c95f3b7b42c889984dda919ffd8ea32af171a98d77",
+    "README.md": "8a0f3870d376e4072ff8fb0a95e296b83fa0c2b5c575b028678ac1533b4ccab3"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

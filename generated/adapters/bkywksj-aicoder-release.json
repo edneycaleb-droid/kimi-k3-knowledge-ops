@@ -1,0 +1,47 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://docs.anthropic.com/en/docs/claude-code",
+    "https://github.com/bkywksj/aicoder-release/releases",
+    "https://github.com/google-gemini/gemini-cli",
+    "https://github.com/openai/codex",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder-mobile/releases/mobile-v0.9.2/AICoder-mobile-v0.9.2.aab",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder-mobile/releases/mobile-v0.9.2/AICoder-mobile-v0.9.2.apk",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder/releases/v6.6.0/AICoder_6.6.0_aarch64.dmg",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder/releases/v6.6.0/AICoder_6.6.0_amd64.AppImage",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder/releases/v6.6.0/AICoder_6.6.0_amd64.deb",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder/releases/v6.6.0/AICoder_6.6.0_x64-setup.exe",
+    "https://pub-9d9e6c0cb6934fb0a0c505e3c64f39b2.r2.dev/aicoder/releases/v6.6.0/AICoder_6.6.0_x64.dmg"
+  ],
+  "environment_variable_names": [
+    "AICODER_PTY_HOST_ENDPOINT_ID",
+    "ANDROID_KEYSTORE_BASE64",
+    "KNOWN_GHOSTS",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/bkywksj-aicoder-release.json",
+  "schema_version": 1,
+  "source_repository": "bkywksj/aicoder-release",
+  "source_url": "https://github.com/bkywksj/aicoder-release",
+  "status": "disabled_pending_review"
+}

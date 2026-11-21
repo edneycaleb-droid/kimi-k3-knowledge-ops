@@ -1,0 +1,85 @@
+{
+  "categories": [
+    "mcp_server",
+    "memory",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.github.com",
+    "https://brigade.tools/code-intelligence",
+    "https://brigade.tools/compare/local-code-graph-for-ai-coding-agents",
+    "https://brigade.tools/compare/local-evidence-ledger-for-agent-work",
+    "https://brigade.tools/compare/memory-handoffs-across-coding-agents",
+    "https://brigade.tools/compare/portable-skills-across-coding-agents",
+    "https://brigade.tools/compare/sync-mcp-servers-across-coding-agents",
+    "https://brigade.tools/docs",
+    "https://brigade.tools/evidence-memory",
+    "https://brigade.tools/llms.txt",
+    "https://brigadestack.com",
+    "https://brigadestack.com/compare",
+    "https://brigadestack.com/docs",
+    "https://escoffierlabs.dev",
+    "https://escoffierlabs.dev/cookbook/",
+    "https://github.com/escoffier-labs/agentpantry",
+    "https://github.com/escoffier-labs/brigade",
+    "https://github.com/escoffier-labs/brigade/actions/workflows/ci.yml/badge.svg?event=merge_group",
+    "https://github.com/escoffier-labs/brigade/actions/workflows/ci.yml?query=event%3Amerge_group",
+    "https://github.com/escoffier-labs/brigade/blob/main/CHANGELOG.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/CONTRIBUTING.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/LICENSE",
+    "https://github.com/escoffier-labs/brigade/blob/main/QUICKSTART.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/command-inventory.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/duet-connector.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/execution-model.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/first-10-minutes.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/fleet-sync.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/grokbot-dot.md",
+    "https://github.com/escoffier-labs/brigade/blob/main/docs/telemetry.md",
+    "https://github.com/escoffier-labs/brigade/discussions",
+    "https://github.com/escoffier-labs/brigade/issues",
+    "https://github.com/escoffier-labs/content-guard",
+    "https://github.com/escoffier-labs/solos-cookbook",
+    "https://github.com/solomonneas/openclaw",
+    "https://pypi.org/project/brigadestack/",
+    "https://raw.githubusercontent.com/escoffier-labs/brigade/download-metrics/downloads.json",
+    "https://raw.githubusercontent.com/escoffier-labs/brigade/main/docs/assets/brigade-wordmark-dark.svg",
+    "https://raw.githubusercontent.com/escoffier-labs/brigade/main/docs/assets/brigade-wordmark.svg",
+    "https://raw.githubusercontent.com/escoffier-labs/brigade/main/docs/assets/readme-check-record.svg"
+  ],
+  "environment_variable_names": [
+    "BG_AGENT_API_KEY",
+    "BRIGADE_SELF_HOSTED",
+    "CURSOR_API_KEY",
+    "CURSOR_CLOUD_API_KEY",
+    "GH_TOKEN"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/escoffier-labs-brigade.json",
+  "schema_version": 1,
+  "source_repository": "escoffier-labs/brigade",
+  "source_url": "https://github.com/escoffier-labs/brigade",
+  "status": "disabled_pending_review"
+}
