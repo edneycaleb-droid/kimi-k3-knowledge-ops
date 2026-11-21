@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/gamingnews5/awesome-ai-game-dev-tools",
+  "canonical_repository": "gamingnews5/awesome-ai-game-dev-tools",
+  "canonical_url": "https://github.com/gamingnews5/awesome-ai-game-dev-tools",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:20.912178Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "1cb89f7e1fe2ff06535fed34e6fe98a27452334c50c8a43fa81ec2ee79584275",
+  "sampled_file_digests": {
+    "LICENSE": "7179683e8000e6bdc9bbc60d85edf0a4ac8e76f951857f54fcb775d5886f1309",
+    "README.md": "23e67a6a872857d52eb71533325eeb3ac7650978df81a408f86333cf9e1cc19a"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

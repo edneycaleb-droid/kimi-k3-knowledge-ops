@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/svx2027/yt-daily-brief",
+  "canonical_repository": "svx2027/yt-daily-brief",
+  "canonical_url": "https://github.com/svx2027/yt-daily-brief",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:33.652495Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "51f890d200fd9483917e625ff79ae2196f93b24b0dcdc2c06f6df753635c4d2f",
+  "sampled_file_digests": {
+    "README.md": "3e0c94b94d0533fd7bdc68b23ccaf56cfbb7d9c0534d96d7d1643b27ee2d82a4"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

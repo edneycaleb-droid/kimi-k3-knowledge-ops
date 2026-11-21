@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/ClickHouse/loom",
+  "canonical_repository": "ClickHouse/loom",
+  "canonical_url": "https://github.com/ClickHouse/loom",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:35.017136Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "f58805b527859f9303b3ebfec777d0308c9707a3af27687f03f3317bae6c2479",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3bd53babc44f3223ed6b17eb4c2776ee60c6e4b5d3878d6145e6acb0526f1ac5",
+    "Dockerfile": "e1815bfc20426141711b174a8b89280fcc05491d4b27f9aaccc049a71735a122",
+    "LICENSE": "753dc638d90ef5dadba69e56b031039ffbbd9dc2735b95579e9d3f5591577fcf",
+    "README.md": "c26eb2fcd345eaa14ce08b8da57a3e869a5b4fa49265c8ddc629e68a6afee27a",
+    "mcp.json": "0be7f40a3c00e594feac1c1948cb3430640019ba681bcfb9e442297cc8f58b42",
+    "pyproject.toml": "13123d13252f5a089ef3bd002b2a8d5eec6e0e6a1d7bbd15c0ab1bc0bd037d44",
+    "server.json": "7c157071d4fada1b4d1522a6f79b8d7be618d60be6f482bec75f450165f026e0"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

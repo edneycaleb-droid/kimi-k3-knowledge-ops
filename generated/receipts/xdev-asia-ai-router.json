@@ -1,0 +1,18 @@
+{
+  "api_url": "https://api.github.com/repos/xdev-asia/ai-router",
+  "canonical_repository": "xdev-asia/ai-router",
+  "canonical_url": "https://github.com/xdev-asia/ai-router",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:15:07.607378Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "cb4ebc2663dc6f2c3f500e525c1028d03baf23b763b8d605250a9215c8230bc4",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "b271e079c4365559dd36c9d4db44f3c21f0edc2d7af5af88b51193d6ad6826d9",
+    "Dockerfile": "fb905245a8ae5222735aa4db20ea2f8cebb99174012d1c7e9da5be16ddd4d6c3",
+    "README.md": "d920e6007457387a5e6076e9bfea146065601346211f4a9d90f2c6d7f6bbb237",
+    "package.json": "e4b9a21349ba420912d6f391a1146285fad9323e83093f65e0b621073e3a7fb0"
+  },
+  "source_query": "\"model context protocol\" kimi in:name,description,readme"
+}

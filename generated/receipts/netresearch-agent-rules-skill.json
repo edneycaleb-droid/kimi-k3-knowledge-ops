@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/netresearch/agent-rules-skill",
+  "canonical_repository": "netresearch/agent-rules-skill",
+  "canonical_url": "https://github.com/netresearch/agent-rules-skill",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:16:54.990536Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "45455c35aaa794bb0fe6106b138ca6b2089c36caf55ec9143389bf85e7186967",
+  "sampled_file_digests": {
+    "README.md": "7f35368a375c65d6634fdf0fce9c4d7bb28c738880ca410007f69144b3f7f41d",
+    "package.json": "d95bc5784a825bcea0ed28f12f08b132e707b20813a051bd60f4ef72e9654dd9"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

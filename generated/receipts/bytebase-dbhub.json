@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/bytebase/dbhub",
+  "canonical_repository": "bytebase/dbhub",
+  "canonical_url": "https://github.com/bytebase/dbhub",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:16:22.039041Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "53c5526c006bb5caee2f96b212b70515b5006c142fc1747460b4cbc643efa66f",
+  "sampled_file_digests": {
+    "Dockerfile": "26f572c696125f77e585a0431534ab7987389693fc19a29dccdae49461ea78c1",
+    "LICENSE": "4c4b71ccdeaea87bdde160d0fc1d4187e3f7495ca122b9bef78fa0175d9054ba",
+    "README.md": "c9b041074efbc89bc61cba89e4e2414fe9be9feaadfcb8d9bcc687bb285e6a93",
+    "package.json": "ba01833e171de567b9e3ba8ef09d2ccc0603efd2061f61b2377b64bbc6d026f1",
+    "server.json": "9a4132aaabe498f19697256d53b916c902d52a247defdf2f40828c442b6cc0e5"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

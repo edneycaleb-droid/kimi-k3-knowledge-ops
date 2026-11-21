@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/bkywksj/aicoder-release",
+  "canonical_repository": "bkywksj/aicoder-release",
+  "canonical_url": "https://github.com/bkywksj/aicoder-release",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-21T04:14:14.165426Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "dd1a3d65c5908b1bf0f34640f65831aed4b56c902f7d5c1a59168e6c53a146b0",
+  "sampled_file_digests": {
+    "README.md": "cac96af3309513d8decc796a723d50c0034b78219fe16e20dd2acedbb96f53c8"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}
