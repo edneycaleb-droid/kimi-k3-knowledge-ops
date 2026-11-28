@@ -1,0 +1,66 @@
+{
+  "categories": [
+    "agent",
+    "memory",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://fsf.org/",
+    "https://github.com/MouseWurX/Bob/issues",
+    "https://github.com/MouseWurX/Bob/issues/new?template=hardware-report.md",
+    "https://github.com/MouseWurX/Bob/releases/latest",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-android.apk",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-iphone.ipa",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-linux-amd64.deb",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-linux-arm64.AppImage",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-linux-x86_64.AppImage",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-linux-x86_64.flatpak",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-mac-arm64.zip",
+    "https://github.com/MouseWurX/Bob/releases/latest/download/Bob-1.5.255-win-x64.zip",
+    "https://github.com/MouseWurX/Lamplight",
+    "https://github.com/ggml-org/llama.cpp",
+    "https://huggingface.co/MouseWurX/20Bob-Bill",
+    "https://huggingface.co/MouseWurX/28Bob-Riker",
+    "https://huggingface.co/MouseWurX/35Bob-Bobert",
+    "https://huggingface.co/MouseWurX/Bill-77Bob-A6B-Flash-Next-REAP60-GGUF",
+    "https://huggingface.co/MouseWurX/Bobert-101Bob-A6B-Flash-Next-REAP80-GGUF",
+    "https://huggingface.co/MouseWurX/Riker-89Bob-A6B-Flash-Next-REAP70-GGUF",
+    "https://huggingface.co/MouseWurX/gpt-oss-120b-REAP-38B-UNHEALED-GGUF",
+    "https://huggingface.co/Qwen/Qwen3.6-35B-A3B",
+    "https://huggingface.co/Qwen/Qwen3.8-Flash-Next",
+    "https://huggingface.co/datasets/MouseWurX/bob-lessons",
+    "https://huggingface.co/datasets/MouseWurX/bob-studies",
+    "https://mousewurx.github.io/Bob/",
+    "https://signpath.org",
+    "https://tailscale.com",
+    "https://www.gnu.org/licenses/",
+    "https://www.gnu.org/licenses/why-not-lgpl.html"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/mousewurx-bob.json",
+  "schema_version": 1,
+  "source_repository": "MouseWurX/Bob",
+  "source_url": "https://github.com/MouseWurX/Bob",
+  "status": "disabled_pending_review"
+}

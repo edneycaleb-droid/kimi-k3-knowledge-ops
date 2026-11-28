@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/emirmrkaljevic/iotaudit",
+  "canonical_repository": "emirmrkaljevic/iotaudit",
+  "canonical_url": "https://github.com/emirmrkaljevic/iotaudit",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:36:40.597111Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c36619536b0cae2892b3717f2b6d66e541e386f28618f30a20ec36bfd846aef3",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "539c2ee27c41eb7b4d1eb1f42d035aecead66aa82fae8b09481ee091d502fe7d",
+    "Dockerfile": "53e47646fb40007c8a6a21f46255b9d3e482fc92226804833e24f810313925fb",
+    "LICENSE": "8e967d0e6ee54319e82db6344697c27a0c2277e6d53ddcca72b0c26b4868d497",
+    "README.md": "9bf505105f894868ffe2942d47185196055bd713745b5d17cecfa9e39bb714e8",
+    "pyproject.toml": "afbc13d660c7874a64945fe9f91e7e0ecc17c493fa53e51ebd419da213228d8e",
+    "server.json": "a5bb5dda38ae96d738f41a3c7fdce447b1d3aa435d13bd2eac3513792ab4ae08"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

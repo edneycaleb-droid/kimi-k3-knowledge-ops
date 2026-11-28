@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/kagura-ai/memory-cloud",
+  "canonical_repository": "kagura-ai/memory-cloud",
+  "canonical_url": "https://github.com/kagura-ai/memory-cloud",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:36:56.164435Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "6707559da47afd49f6da9aa267d7f56c18d7fbe3c5298547654db393173abd46",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "7ab7cb2aa17fe5ceaaee9bfe69a037feebc211a77c9c49e461cc687f8f10b484",
+    "LICENSE": "2f84257b5c618e040b30d683ff67b43a934e119e5b6de0db96f8bca07c1e794d",
+    "README.md": "ff63b1315699d4e0789fc3c16000e77f7675a83f93cb932365ab8728c895b37f",
+    "docker-compose.yml": "a13bdd77896170bb5258058054a8ea7d6767015d0f79f25fcf836a792a465f8a",
+    "server.json": "f68882fc90fbeae1726d4056790bd2dcc528dfffd9750e7f87ee25d4cc690624"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}

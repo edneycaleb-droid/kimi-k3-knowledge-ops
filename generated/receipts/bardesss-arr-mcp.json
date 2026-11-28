@@ -1,0 +1,20 @@
+{
+  "api_url": "https://api.github.com/repos/bardesss/arr-mcp",
+  "canonical_repository": "bardesss/arr-mcp",
+  "canonical_url": "https://github.com/bardesss/arr-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:02.189050Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "03f09c31aaa60536a52a4d774225a2071477b73598e41709b6c588548cdc965a",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "e3222910233226bd5999d23be6d6ad79a56c58894f346ab13dab26727442e1e3",
+    "Dockerfile": "7dff5e8840e1ca8af34f81b279d18445a62f1f819dcac623c4bcaeb8260a54dc",
+    "LICENSE": "1043f7361f8044f8cb19f7c8cd1b6349628c686bcba6d3e68be5076772d80e9a",
+    "README.md": "07ee49897578425e623a14163db693c36ee657f8d20a06a27fdbbdc31f8b5587",
+    "package.json": "20cf124523e5807668ba07f45287bfe86346025e30b0dc62c0884f7d61887181",
+    "server.json": "33497c711a4a303005cc728e7cce6225552d950f1fb972bc824dfe48962ee524"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

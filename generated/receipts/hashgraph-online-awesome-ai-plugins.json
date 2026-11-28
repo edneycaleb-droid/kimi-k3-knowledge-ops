@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/hashgraph-online/awesome-ai-plugins",
+  "canonical_repository": "hashgraph-online/awesome-ai-plugins",
+  "canonical_url": "https://github.com/hashgraph-online/awesome-ai-plugins",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:56.446458Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "9cdb3057227607dc7fede450f6f1a52662d5e070667af74f97c17f9e242840b7",
+  "sampled_file_digests": {
+    "LICENSE": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

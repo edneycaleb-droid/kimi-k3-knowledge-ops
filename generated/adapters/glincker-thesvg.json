@@ -1,0 +1,81 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "typescript"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://api.star-history.com/svg?repos=glincker/thesvg&type=Date",
+    "https://api.star-history.com/svg?repos=glincker/thesvg&type=Date&theme=dark",
+    "https://aws.amazon.com/architecture/icons/",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/1password/dark.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/1password/light.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/adobe/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/alfred/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/amazon-badge/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/apple/dark.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/apple/light.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/claude/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/cloudflare/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/discord/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/docker/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/figma/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github/dark.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/github/light.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/google-chrome/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/google-cloud/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/google/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/homebrew/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/ibm/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/iconify/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/jetbrains/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/jsdelivr/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/kubernetes/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/levelrail/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/microsoft-azure/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/microsoft/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/mongodb/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/neovim/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/npm/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/postgresql/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/raycast/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/react/default.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/sketch/dark.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/sketch/light.svg",
+    "https://cdn.jsdelivr.net/gh/glincker/thesvg@main/public/icons/slack/default.svg"
+  ],
+  "environment_variable_names": [
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/glincker-thesvg.json",
+  "schema_version": 1,
+  "source_repository": "glincker/thesvg",
+  "source_url": "https://github.com/glincker/thesvg",
+  "status": "disabled_pending_review"
+}

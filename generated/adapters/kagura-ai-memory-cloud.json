@@ -1,0 +1,110 @@
+{
+  "categories": [
+    "agent",
+    "api",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://chatgpt.com/plugins/plugin_asdk_app_6adacc9eaf5481919a85fad2aaa7aade",
+    "https://github.com/kagura-ai/dolphinbench/blob/kagura-memory-cloud-hermes-20261123/docs/submissions/kagura-memory-cloud-hermes-20261123.md",
+    "https://github.com/kagura-ai/dolphinbench/releases/tag/kagura-memory-cloud-hermes-20261123",
+    "https://github.com/kagura-ai/kagura-memory-python-sdk",
+    "https://github.com/kagura-ai/memory-cloud",
+    "https://github.com/kagura-ai/memory-cloud.git",
+    "https://github.com/kagura-ai/memory-cloud/actions/workflows/ci.yml",
+    "https://github.com/kagura-ai/memory-cloud/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/kagura-ai/memory-cloud/releases",
+    "https://github.com/mem0ai/dolphinbench",
+    "https://github.com/mem0ai/dolphinbench/pull/16",
+    "https://img.shields.io/badge/License-Apache_2.0-blue.svg",
+    "https://img.shields.io/badge/MCP-Streamable_HTTP-purple.svg",
+    "https://img.shields.io/github/v/release/kagura-ai/memory-cloud",
+    "https://memory.kagura-ai.com",
+    "https://memory.kagura-ai.com/mcp",
+    "https://modelcontextprotocol.io/",
+    "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+    "https://www.kagura-ai.com/",
+    "https://www.kagura-ai.com/benchmarks/",
+    "https://www.kagura-ai.com/demo/terminal-en-cli-2x.mp4",
+    "https://www.kagura-ai.com/help/connect/",
+    "https://www.kagura-ai.com/ja/benchmarks/",
+    "https://www.kagura-ai.com/waitlist/"
+  ],
+  "environment_variable_names": [
+    "API_HOST",
+    "API_KEY_SECRET",
+    "API_PORT",
+    "AUDIT_HMAC_KEY",
+    "CLAMD_HOST",
+    "COMPOSE_BIND_HOST",
+    "DATABASE_URL",
+    "E2E_API_URL",
+    "FRONTEND_URL",
+    "GITHUB_CLIENT_SECRET",
+    "GOOGLE_CLIENT_SECRET",
+    "MINIO_TEST_ACCESS_KEY",
+    "MINIO_TEST_SECRET_KEY",
+    "NEXT_PUBLIC_API_URL",
+    "NEXT_PUBLIC_APP_URL",
+    "OAUTH_GITHUB_AUTH_URL",
+    "OAUTH_GITHUB_EMAILS_URL",
+    "OAUTH_GITHUB_TOKEN_URL",
+    "OAUTH_GITHUB_USER_URL",
+    "QDRANT_URL",
+    "REDIS_URL",
+    "SECRET",
+    "STORAGE_ACCESS_KEY_ID",
+    "STORAGE_ENDPOINT_URL",
+    "TEST_DATABASE_URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "Persistent memory for AI assistants: store, search, and connect knowledge across conversations.",
+      "name": "io.github.kagura-ai/memory-cloud",
+      "remotes": [
+        {
+          "type": "streamable-http",
+          "url": "https://memory.kagura-ai.com/mcp"
+        }
+      ],
+      "repository": {
+        "id": "1194728455",
+        "source": "github",
+        "url": "https://github.com/kagura-ai/memory-cloud"
+      },
+      "title": "Kagura Memory Cloud",
+      "version": "0.186.0",
+      "websiteUrl": "https://memory.kagura-ai.com"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/kagura-ai-memory-cloud.json",
+  "schema_version": 1,
+  "source_repository": "kagura-ai/memory-cloud",
+  "source_url": "https://github.com/kagura-ai/memory-cloud",
+  "status": "disabled_pending_review"
+}

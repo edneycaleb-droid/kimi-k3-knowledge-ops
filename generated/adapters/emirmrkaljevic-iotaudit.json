@@ -1,0 +1,93 @@
+{
+  "categories": [
+    "mcp_server",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://db-ip.com",
+    "https://emirmrkaljevic.github.io/iotaudit/",
+    "https://emirmrkaljevic.github.io/iotaudit/guide.html",
+    "https://github.com/emirmrkaljevic/iotaudit",
+    "https://github.com/emirmrkaljevic/iotaudit/actions/workflows/ci.yml",
+    "https://github.com/emirmrkaljevic/iotaudit/actions/workflows/ci.yml/badge.svg",
+    "https://github.com/emirmrkaljevic/iotaudit/issues",
+    "https://glama.ai/mcp/servers/emirmrkaljevic/iotaudit",
+    "https://glama.ai/mcp/servers/emirmrkaljevic/iotaudit/badges/score.svg",
+    "https://img.shields.io/badge/License-MIT-green.svg",
+    "https://img.shields.io/badge/python-3.10%2B-blue.svg",
+    "https://img.shields.io/pypi/v/iotaudit.svg",
+    "https://mcpservers.org/servers/emirmrkaljevic/iotaudit",
+    "https://pypi.org/project/iotaudit/",
+    "https://skintoscan.com/#packages",
+    "https://skintoscan.com/checkout/?add-to-cart=138",
+    "https://skintoscan.com/checkout/?add-to-cart=139",
+    "https://skintoscan.com/checkout/?add-to-cart=140",
+    "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+    "https://www.python.org/"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+      "description": "Audit your own smart-home devices: destinations, encryption, open ports, A-F grade.",
+      "name": "io.github.emirmrkaljevic/iotaudit",
+      "packages": [
+        {
+          "identifier": "iotaudit",
+          "packageArguments": [
+            {
+              "type": "positional",
+              "value": "mcp"
+            }
+          ],
+          "registryType": "pypi",
+          "runtimeArguments": [
+            {
+              "name": "--with",
+              "type": "named",
+              "value": "mcp>=1.2"
+            }
+          ],
+          "runtimeHint": "uvx",
+          "transport": {
+            "type": "stdio"
+          },
+          "version": "0.1.27"
+        }
+      ],
+      "repository": {
+        "source": "github",
+        "url": "https://github.com/emirmrkaljevic/iotaudit"
+      },
+      "version": "0.1.27",
+      "websiteUrl": "https://emirmrkaljevic.github.io/iotaudit/"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/emirmrkaljevic-iotaudit.json",
+  "schema_version": 1,
+  "source_repository": "emirmrkaljevic/iotaudit",
+  "source_url": "https://github.com/emirmrkaljevic/iotaudit",
+  "status": "disabled_pending_review"
+}

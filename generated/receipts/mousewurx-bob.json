@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/MouseWurX/Bob",
+  "canonical_repository": "MouseWurX/Bob",
+  "canonical_url": "https://github.com/MouseWurX/Bob",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:39.772707Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "259d4a7619212db104238103df705575f42d22e0c1eef1f9d6ef4c3b9f685012",
+  "sampled_file_digests": {
+    "LICENSE": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986",
+    "README.md": "94fbf57be6274e79062feb82b7debba437251cc276cc0f02c2c9f4ab870ad3b1"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

@@ -1,0 +1,77 @@
+{
+  "categories": [
+    "api",
+    "mcp_server",
+    "plugin",
+    "skill",
+    "tool"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://github.com/dsphper/lanhu-mcp",
+    "https://github.com/dsphper/lanhu-mcp#readme",
+    "https://github.com/dsphper/lanhu-mcp.git",
+    "https://github.com/dsphper/lanhu-mcp/blob/main/CHANGELOG.md",
+    "https://github.com/dsphper/lanhu-mcp/issues",
+    "https://github.com/dsphper/lanhu-mcp/releases",
+    "https://github.com/dsphper/lanhu-mcp/stargazers",
+    "https://github.com/jlowin/fastmcp",
+    "https://github.com/user-attachments/assets/1c9a3661-80a4-4fba-a30f-f469898b0aec",
+    "https://img.shields.io/badge/Contributor%20Covenant-2.0-4baaaa.svg",
+    "https://img.shields.io/badge/FastMCP-Powered-orange.svg",
+    "https://img.shields.io/badge/License-MIT-yellow.svg",
+    "https://img.shields.io/badge/MCP-Compatible-green.svg",
+    "https://img.shields.io/badge/PRs-welcome-brightgreen.svg",
+    "https://img.shields.io/badge/python-3.10+-blue.svg",
+    "https://img.shields.io/github/issues/dsphper/lanhu-mcp",
+    "https://img.shields.io/github/stars/dsphper/lanhu-mcp?style=social",
+    "https://img.shields.io/github/v/release/dsphper/lanhu-mcp",
+    "https://lanhuapp.com/",
+    "https://lanhuapp.com/web/#/item/project/product?tid=xxx&pid=xxx&docId=xxx",
+    "https://lanhuapp.com/web/#/item/project/stage?tid=xxx&pid=xxx",
+    "https://modelcontextprotocol.io/",
+    "https://open.feishu.cn/open-apis/bot/v2/hook/your-webhook-url",
+    "https://opensource.org/licenses/MIT",
+    "https://playwright.dev/",
+    "https://star-history.dera.page/#dsphper/lanhu-mcp&type=date&legend=top-left",
+    "https://star-history.dera.page/svg?repos=dsphper/lanhu-mcp&type=date&legend=top-left",
+    "https://www.crummy.com/software/BeautifulSoup/",
+    "https://www.feishu.cn/",
+    "https://www.python-httpx.org/",
+    "https://www.python.org/downloads/"
+  ],
+  "environment_variable_names": [
+    "FEISHU_WEBHOOK_URL",
+    "SERVER_HOST",
+    "SERVER_PORT",
+    "URL",
+    "VIEWPORT_HEIGHT",
+    "VIEWPORT_WIDTH"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/hewiek-lanhu-mcp.json",
+  "schema_version": 1,
+  "source_repository": "Hewiek/lanhu-mcp",
+  "source_url": "https://github.com/Hewiek/lanhu-mcp",
+  "status": "disabled_pending_review"
+}

@@ -1,0 +1,46 @@
+{
+  "categories": [
+    "memory"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "python"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse"
+    ],
+    "targets_matched": [
+      "kimi-k3",
+      "python"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://assets.ibm.com/adobe/assets/urn:aaid:aem:21111142-1251-4369-86fb-57b82f5bb108/original/as/Cost%20of%20a%20Data%20Breach%20Report%202026.pdf",
+    "https://attack.mitre.org/resources/versions/",
+    "https://csrc.nist.gov/pubs/sp/800/61/r3/final",
+    "https://csrc.nist.gov/pubs/sp/800/82/r3/final",
+    "https://d3fend.mitre.org/ontologies/d3fend.csv",
+    "https://kubernetes-top10.owasp.org/2025/en/src/K01-Insecure-Workload-Configurations",
+    "https://owasp.org/API-Security/editions/2023/en/0x11-t10/",
+    "https://owasp.org/projects/top-10-cicd-security-risks",
+    "https://owasp.org/projects/top-ten",
+    "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "https://www.enisa.europa.eu/sites/default/files/2026-09/ENISA%20Threat%20Landscape%202026_Final.pdf",
+    "https://www.verizon.com/business/resources/reports/dbir/2025-dbir-executive-summary.pdf"
+  ],
+  "environment_variable_names": [],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {},
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/ai4collaboration-swarmcyber.json",
+  "schema_version": 1,
+  "source_repository": "AI4Collaboration/SwarmCyber",
+  "source_url": "https://github.com/AI4Collaboration/SwarmCyber",
+  "status": "disabled_pending_review"
+}

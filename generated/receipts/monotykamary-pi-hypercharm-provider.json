@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/monotykamary/pi-hypercharm-provider",
+  "canonical_repository": "monotykamary/pi-hypercharm-provider",
+  "canonical_url": "https://github.com/monotykamary/pi-hypercharm-provider",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:45.081193Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5f3a4d320cff3953789eb6b6531418688ab7fbc2c4fb27baa971ea63b73ddf8d",
+  "sampled_file_digests": {
+    "LICENSE": "06dcddbb6908a0c6dd4a9e8ec822eea41d5a460a53089fecccc8a68049e99241",
+    "README.md": "20a6bc730c3eb9aeb3ce2955840e6539429db398c34ffb7b11ba353c96f58f62",
+    "package.json": "f50d18d496678bf0e13656e99580f842f1fd43d8f42664f5623a7ef35aa0fd58"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

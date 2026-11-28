@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/upstash/context7",
+  "canonical_repository": "upstash/context7",
+  "canonical_url": "https://github.com/upstash/context7",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "master",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:18.233878Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "a9d4a7f2f747939d6249a7b5e2725df1688deae635341aab40d0600db01bae46",
+  "sampled_file_digests": {
+    ".github/workflows/test.yml": "e1a6c2b0840831b9ab2ddc5a48b3c92f73dfde28cd2dfd6587ea60d941564d1e",
+    "LICENSE": "85cfb556dc2b22b55d2565674fcdaac82f3f2f6b7a928d27003132721bb6736c",
+    "README.md": "a23306f5d9a04eb8588b619071a418d901f27549ace077ecbb28f21161a46912",
+    "package.json": "b5d6868c5870982f6c31ad2acb737a610b796ed08645dc59c9b9348e2864a491",
+    "server.json": "5e23e488eb38edf143312e85ad7f64426c9d13ef856e126a7fabc1df09ed59b8"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}
