@@ -1,7 +1,6 @@
 {
   "categories": [
     "mcp_server",
-    "plugin",
     "skill",
     "workflow"
   ],
@@ -12,7 +11,8 @@
       "sse"
     ],
     "targets_matched": [
-      "mcp"
+      "mcp",
+      "python"
     ]
   },
   "documented_https_endpoints": [

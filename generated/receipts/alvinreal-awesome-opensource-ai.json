@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/alvinreal/awesome-opensource-ai",
+  "canonical_repository": "alvinreal/awesome-opensource-ai",
+  "canonical_url": "https://github.com/alvinreal/awesome-opensource-ai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:34.421542Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d589e221785c3185864a9cb27df553b850565b54627290c8773b4bfab180af2e",
+  "sampled_file_digests": {
+    "LICENSE": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

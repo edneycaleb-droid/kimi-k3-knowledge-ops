@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/HelloTomBruce/ginkgo",
+  "canonical_repository": "HelloTomBruce/ginkgo",
+  "canonical_url": "https://github.com/HelloTomBruce/ginkgo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:36:07.556072Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "5f81d352514f6e030f96846c79a364a6a0d774f4107f3d9d8807e45b7dd893d8",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "083a8dc0f257051a9f8a6cf473d21319e5a69fea0aeada54257921243e4e44db",
+    "LICENSE": "084afe9dbfbaf5b6abfa37f9574260001373207c446d499426a20b94a7b771f9",
+    "README.md": "eadcddda745cd65fd78b5fe32b4973d8eb4998727795b2f80c8d56e2584588f8",
+    "docker-compose.yml": "46c82de062072b2623e85292d7ddd616424b261615dd180663aeedf6c68adb76",
+    "package.json": "f69062a8667320b4b19248f72dea5108be1a4e76bc1e0433f010e804794c7c9d"
+  },
+  "source_query": "\"Kimi Code\" in:name,description,readme"
+}

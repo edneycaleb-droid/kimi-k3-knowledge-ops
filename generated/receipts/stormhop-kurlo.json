@@ -1,0 +1,19 @@
+{
+  "api_url": "https://api.github.com/repos/stormhop/kurlo",
+  "canonical_repository": "stormhop/kurlo",
+  "canonical_url": "https://github.com/stormhop/kurlo",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:12.716873Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c179b92fb92a5372e44fec33a89d6f177efedd72d0e19ab510a730c5c2211980",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "3cd0a5febde20f953933d7767a9367319d0955d4eb7eccf817d37448edde1d00",
+    "LICENSE": "8c28954b0f8835d0c09a22ba8c946e37cab3baafe4716ea235b3397fc6971d98",
+    "README.md": "a4052aeb5a1fe5dc8e0a408fefffb5832105d7426df5cdab83f32b57b93e95ec",
+    "package.json": "07476d107384eb4fc1a9a37803c98b0f859bf41772e22b6b10980ddbbf4ae581",
+    "server.json": "975ae975ccf89e4f9e8fcaf3a2610f7c028efb2ca4375ad25b1834d47e993fe1"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

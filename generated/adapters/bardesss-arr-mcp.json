@@ -1,0 +1,171 @@
+{
+  "categories": [
+    "agent",
+    "mcp_server",
+    "memory",
+    "plugin",
+    "tool",
+    "workflow"
+  ],
+  "compatibility": {
+    "candidate_runtimes": [
+      "node"
+    ],
+    "integration_mode": "metadata_adapter_only",
+    "mcp_transports": [
+      "sse",
+      "stdio"
+    ],
+    "targets_matched": [
+      "mcp"
+    ]
+  },
+  "documented_https_endpoints": [
+    "https://contrib.rocks/image?repo=Bardesss/arr-mcp",
+    "https://deluge-torrent.org",
+    "https://eemeli.org/yaml/",
+    "https://emby.media",
+    "https://getpino.io",
+    "https://github.com/Bardesss/arr-mcp/graphs/contributors",
+    "https://github.com/Cleanuparr/Cleanuparr",
+    "https://github.com/Dictionarry-Hub/profilarr",
+    "https://github.com/Dispatcharr/Dispatcharr",
+    "https://github.com/Svnow132",
+    "https://github.com/Whisparr/Whisparr",
+    "https://github.com/bardesss/arr-mcp",
+    "https://github.com/bardesss/arr-mcp.git",
+    "https://github.com/bardesss/arr-mcp/actions",
+    "https://github.com/bardesss/arr-mcp/issues/new/choose",
+    "https://github.com/bardesss/arr-mcp/pkgs/container/arr-mcp",
+    "https://github.com/bardesss/arr-mcp/releases",
+    "https://github.com/calibrain/shelfmark",
+    "https://github.com/davidgibbons",
+    "https://github.com/grimmory-tools/grimmory",
+    "https://github.com/itapai",
+    "https://github.com/jessielw/Reclaimerr",
+    "https://github.com/modelcontextprotocol/ext-apps",
+    "https://github.com/modelcontextprotocol/typescript-sdk",
+    "https://github.com/seerr-team/seerr",
+    "https://glama.ai/mcp/servers/bardesss/arr-mcp",
+    "https://glama.ai/mcp/servers/bardesss/arr-mcp/badges/card.svg",
+    "https://hono.dev",
+    "https://img.shields.io/badge/ghcr.io-arr--mcp-2496ed?style=flat-square&logo=docker&logoColor=white",
+    "https://img.shields.io/badge/licence-MIT-green?style=flat-square",
+    "https://img.shields.io/badge/platforms-amd64%20%C2%B7%20arm64-555?style=flat-square",
+    "https://img.shields.io/github/actions/workflow/status/bardesss/arr-mcp/release.yml?branch=main&label=build&style=flat-square",
+    "https://img.shields.io/github/v/release/bardesss/arr-mcp?style=flat-square&color=6f42c1",
+    "https://jellyfin.org",
+    "https://lidarr.audio",
+    "https://nzbget.com",
+    "https://prowlarr.com",
+    "https://radarr.video",
+    "https://raw.githubusercontent.com/bardesss/arr-mcp/main/assets/logo.svg",
+    "https://raw.githubusercontent.com/bardesss/arr-mcp/main/proxmox/ct/arr-mcp.sh"
+  ],
+  "environment_variable_names": [
+    "ARR_MCP_PORT",
+    "IMPORTANT",
+    "URL"
+  ],
+  "execution": {
+    "activation_requires_human_approval": true,
+    "auto_execute": false,
+    "auto_install": false,
+    "enabled": false
+  },
+  "mcp_manifests": {
+    "server.json": {
+      "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+      "description": "One server, 44 tools, the whole media stack: *arrs, Jellyfin, Plex, Seerr, Cleanuparr, downloaders",
+      "icons": [
+        {
+          "mimeType": "image/svg+xml",
+          "sizes": [
+            "any"
+          ],
+          "src": "https://raw.githubusercontent.com/bardesss/arr-mcp/main/assets/logo.svg"
+        }
+      ],
+      "name": "io.github.bardesss/arr-mcp",
+      "packages": [
+        {
+          "environmentVariables": [
+            {
+              "default": "1000",
+              "description": "User id owning the files in /config",
+              "name": "PUID"
+            },
+            {
+              "default": "1000",
+              "description": "Group id owning the files in /config",
+              "name": "PGID"
+            },
+            {
+              "description": "Timezone used for timestamps, e.g. Europe/Amsterdam",
+              "name": "TZ"
+            }
+          ],
+          "identifier": "ghcr.io/bardesss/arr-mcp:latest",
+          "registryType": "oci",
+          "runtimeArguments": [
+            {
+              "description": "Publish the MCP and config-UI port",
+              "name": "-p",
+              "type": "named",
+              "value": "6060:6060"
+            },
+            {
+              "description": "Host directory holding config.yaml, the write audit and the log ring buffer",
+              "isRequired": true,
+              "name": "-v",
+              "type": "named",
+              "value": "{config_dir}:/config",
+              "variables": {
+                "config_dir": {
+                  "description": "Directory on the host to keep arr-mcp's configuration in",
+                  "format": "filepath",
+                  "isRequired": true
+                }
+              }
+            }
+          ],
+          "runtimeHint": "docker",
+          "transport": {
+            "headers": [
+              {
+                "description": "An MCP token, created on the arr-mcp config page (shown once)",
+                "isRequired": true,
+                "isSecret": true,
+                "name": "Authorization",
+                "value": "Bearer {token}",
+                "variables": {
+                  "token": {
+                    "description": "An MCP token, created on the arr-mcp config page at http://<host>:6060 (shown once)",
+                    "isRequired": true,
+                    "isSecret": true
+                  }
+                }
+              }
+            ],
+            "type": "streamable-http",
+            "url": "http://localhost:6060/mcp"
+          }
+        }
+      ],
+      "repository": {
+        "id": "1322956288",
+        "source": "github",
+        "url": "https://github.com/bardesss/arr-mcp"
+      },
+      "title": "arr-mcp",
+      "version": "2.4.0",
+      "websiteUrl": "https://github.com/bardesss/arr-mcp"
+    }
+  },
+  "project": "kimi-k3",
+  "provenance_receipt": "generated/receipts/bardesss-arr-mcp.json",
+  "schema_version": 1,
+  "source_repository": "bardesss/arr-mcp",
+  "source_url": "https://github.com/bardesss/arr-mcp",
+  "status": "disabled_pending_review"
+}

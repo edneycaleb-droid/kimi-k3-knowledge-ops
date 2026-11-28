@@ -1,0 +1,15 @@
+{
+  "api_url": "https://api.github.com/repos/AI4Collaboration/SwarmCyber",
+  "canonical_repository": "AI4Collaboration/SwarmCyber",
+  "canonical_url": "https://github.com/AI4Collaboration/SwarmCyber",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:29.289313Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0c939f74b4987de6b44bd38890c33507db10dbdadeead84ac220415a0274cb3c",
+  "sampled_file_digests": {
+    "README.md": "91f0442fe496a88fab3aecd00d37016c3161ec9b742bdf84ed99d95b6ed0e581"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

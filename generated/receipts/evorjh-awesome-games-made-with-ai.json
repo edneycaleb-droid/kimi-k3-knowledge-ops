@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/evorjh/awesome-games-made-with-ai",
+  "canonical_repository": "evorjh/awesome-games-made-with-ai",
+  "canonical_url": "https://github.com/evorjh/awesome-games-made-with-ai",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:35:50.569257Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "d5c7d6dfe7a07e138fab552453991dbb6b4020ae5d27ec3d403af7a3df7f6856",
+  "sampled_file_digests": {
+    "LICENSE": "395ae7594f9f69ef407ec95136056c6eb4928ab79a3f2e0bfdbfb52be252bf33",
+    "README.md": "c093131e3e1a450716b83b667bc4d420e4e608ad7b2ad41bcb13df26137d8f9a"
+  },
+  "source_query": "\"Kimi K3\" in:name,description,readme"
+}

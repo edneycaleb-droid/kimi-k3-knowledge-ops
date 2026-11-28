@@ -1,0 +1,17 @@
+{
+  "api_url": "https://api.github.com/repos/glincker/thesvg",
+  "canonical_repository": "glincker/thesvg",
+  "canonical_url": "https://github.com/glincker/thesvg",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:07.435160Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "c61d94fc9db99bb881ae5c0d8a7a9adc0134e8bf628408f0e046bef43c8aed9f",
+  "sampled_file_digests": {
+    "LICENSE": "7a679e60d78db32455aea3b4613d2d3f3bec929edf8cbb608ccc40b37c663aed",
+    "README.md": "ee20599e10ae20fbbd31098daae2d9d4ea4febcd35093daa77663c0a3e2eb266",
+    "package.json": "aadf8db8bb6051fd91d2b52d05a62ca873e35b858e35fbf001916b022bb17c8b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

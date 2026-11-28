@@ -1,0 +1,16 @@
+{
+  "api_url": "https://api.github.com/repos/AKzar1el/god-prompt",
+  "canonical_repository": "AKzar1el/god-prompt",
+  "canonical_url": "https://github.com/AKzar1el/god-prompt",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:39.330269Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "2270493d77c13c4e1cea827902ff1332aac695f7369ddbd0c883e99696793d8b",
+  "sampled_file_digests": {
+    "LICENSE": "71a13dc369709f6a45034910f1cd59cc26eef7cb6e42e4c3e0d5eb4a77866d6e",
+    "README.md": "9eddc8a71a72b3002a8d49e962537e193e3d8c80a11028efbe4377379d585c02"
+  },
+  "source_query": "\"agent skill\" topic:ai-agent stars:>10"
+}

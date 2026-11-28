@@ -1,0 +1,21 @@
+{
+  "api_url": "https://api.github.com/repos/roomi-fields/gemini-notebook-mcp",
+  "canonical_repository": "roomi-fields/gemini-notebook-mcp",
+  "canonical_url": "https://github.com/roomi-fields/gemini-notebook-mcp",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:37:23.439345Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "8653a55f8c2376ff36422ac111422fd4cf6a6a1cd3b6aabc163905fb38e8bb7f",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "4d4e92f9163e7f06b258ab47bddc470e71f2a24ddcca4209f332ecfc2b0b0ba3",
+    "Dockerfile": "d691054393239dff12d8c2154e349cb637b30f509f823e8203c658fe10338cb0",
+    "LICENSE": "84320e00413004e80f87f9aa6ac5b78ed536b1895082533154a02c7bcf6e0e93",
+    "README.md": "ca1fef824dca0fed61db94f234c220ab0ae4507ec0a2dcca6b1cfd7c00532ae3",
+    "docker-compose.yml": "0e1cb99d8c14b21c068707dcd3a74a98d6cd5e8a20fa1d7310f059ce346a2a1f",
+    "package.json": "f868406590bc201c44117178c0adf85989ec204c2d591bbc79705c5961c34cc8",
+    "server.json": "47f4d0d108be54cb6fb17c7578ad64d95cf84fdfce5142cdb2b6f83a986bc80b"
+  },
+  "source_query": "topic:mcp-server language:typescript stars:>10"
+}

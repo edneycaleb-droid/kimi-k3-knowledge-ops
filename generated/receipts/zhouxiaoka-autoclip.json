@@ -1,0 +1,22 @@
+{
+  "api_url": "https://api.github.com/repos/zhouxiaoka/autoclip",
+  "canonical_repository": "zhouxiaoka/autoclip",
+  "canonical_url": "https://github.com/zhouxiaoka/autoclip",
+  "collection_method": "GitHub REST API GET only",
+  "default_branch": "main",
+  "executed_upstream_code": false,
+  "fetched_at": "2026-11-28T07:36:45.798516Z",
+  "installed_upstream_dependencies": false,
+  "metadata_digest": "0a1d6c0e4a3066b63b0dbff534269b7e2e3c57f66cf85ced5c3e84ef9e46e48d",
+  "sampled_file_digests": {
+    ".github/workflows/ci.yml": "506d478ed389815aa93c377ef40a786c285a41bb58868dc194669b194a582b61",
+    "Dockerfile": "1a8cf4f7f1f6bac62ed23cb829bb175850bac036afdeea6f0cb8c9fecf3ccddf",
+    "LICENSE": "dac7c1396ebc3de77b3d2d9dafe396f6b6d03752ea9b74a270cb81ceea911ade",
+    "README.md": "517be84eb02ffbaf78a9679c678fbdb1edd3c57c53978da8330e06f3ba15a519",
+    "docker-compose.yml": "bc43e20559ed94f5b215bfa61a27485cbc3982d433f883c16660351c1d44639a",
+    "pyproject.toml": "e73e01502699830bd9dbfda10508745ae0bd03afcfe5a50bf1acf0acf233a4e3",
+    "requirements.txt": "d4aeec3a28b246df2576956fac90bd78da2da7970719780fdf7d9b2bc7f79112",
+    "server.json": "117f69f66425ddbd266d7659ab16a98ff6e98a510b0a45bda71466f6667c2a17"
+  },
+  "source_query": "topic:mcp-server language:python stars:>10"
+}
